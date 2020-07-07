@@ -53,7 +53,7 @@ The five sections it covers are:
         * `func accessibilityIncrement()`
     + **[Decrement][7]**: A one-finger swipe down that decrements a value in an element.
         * `func accessibilityDecrement()`
-- [Voice Control][1] is also supported, and apprpriate [`accessibilityUderInputLabels`][30] are set if needed.
+- [Voice Control][1] is also supported, and apprpriate [`accessibilityUserInputLabels`][30] are set if needed.
 - Your app respects the following settings:
     + Including Bold Text.
     + High Contrast Cursors.
