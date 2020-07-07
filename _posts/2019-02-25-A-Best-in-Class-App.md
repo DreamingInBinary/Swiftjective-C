@@ -260,7 +260,7 @@ The five sections it covers are:
 - You aspire to ship on all of Apple's platforms (iOS iPhone + iPad, watchOS, tvOS and macOS).
 - Animations are tasteful and reinforce, or introduce, actions. They aren't confusing and likely mimic real physical laws.
 - In general, you reduce modality where possible to keep the focus on the content.
-- You supply all high-resolution assets for imags (@1/2/3x).
+- You supply all high-resolution assets for images (@1/2/3x).
 - You use the right asset format for a given scenario:
     + PNG for icons and bitmap/raster artwork.
     + JPEG for photos.
