@@ -42,7 +42,7 @@ The five sections it covers are:
 
 ### Accessibility is First Class
 - Voice Over is fully supported and the [rotor][29] control is implemented by including the relevant headings. Using Screen Curtain yields an experience that's not only usable, but up to par with the regular app using only Voice Over.
-- [Voice Over gestures][2] are overriden where necessary:
+- [Voice Over gestures][2] are overridden where necessary:
     + **[Escape][3]**: A two-finger Z-shaped gesture that dismisses a modal dialog, or goes back one level in a navigation hierarchy.
         * `func accessibilityPerformEscape() -> Bool`
     + **[Magic Tap][4]**: A two-finger double-tap that performs the most-intended action.
@@ -53,7 +53,7 @@ The five sections it covers are:
         * `func accessibilityIncrement()`
     + **[Decrement][7]**: A one-finger swipe down that decrements a value in an element.
         * `func accessibilityDecrement()`
-- [Voice Control][1] is also supported, and apprpriate [`accessibilityUderInputLabels`][30] are set if needed.
+- [Voice Control][1] is also supported, and appropriate [`accessibilityUderInputLabels`][30] are set if needed.
 - Your app respects the following settings:
     + Including Bold Text.
     + High Contrast Cursors.
@@ -128,7 +128,7 @@ The five sections it covers are:
 - You opt for pull down style menus over action sheets, and use them to reduce modality throughout your app to keep the focus squarely on the content.
     + Action sheets are still used to confirm a destructive action. It provides enough friction to ensure the user really wants to perform the deletion.
     + You also don't include a cancel menu item. Canceling is an implicit action the system provides by tapping outside of the menu bounds.
-    + You use menus for disambigution, navigation, selection or showing more options
+    + You use menus for disambiguation, navigation, selection or showing more options
     + You offer a menu to present more "power user" functionality when long pressing on bar buttons if necessary, in addition to providing the standard action for tapping them.
 - It fully supports dark mode.
 - Multiple spaces and scene support for iPadOS.
@@ -139,7 +139,7 @@ The five sections it covers are:
     + If you don't, offer [password autofill][22].
 - Spotlight search and indexing support.
 - You have custom `UIPointerInteraction` support if your app needs it, and your interface supports cursor support correctly.
-    + You don't force any interaction paradigmn over another (i.e. touch is as viable as pointer or keyboard, and vice-versa).
+    + You don't force any interaction paradigm over another (i.e. touch is as viable as pointer or keyboard, and vice-versa).
     + You use the correct content effects consistently (highlight, lift and hover).
 - Effective energy management (i.e. supports low power mode and reacts to it)
 - Keyboard shortcuts have been added. The app could be used almost, or completely, with solely the use of a keyboard.
