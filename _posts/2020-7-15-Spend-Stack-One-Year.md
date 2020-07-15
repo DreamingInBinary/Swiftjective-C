@@ -10,7 +10,7 @@ image: /assets/images/logo.png
 
 Spend Stack's first year on the App Store hits on the 18th! It's been a rewarding year, and I'm very proud of the app. Though, as most reading this will no doubt know, iOS 14 is around the corner too. I'm in it deep at the moment, getting Spend Stack all ready to go.
 
-So, instead of a large tell-all post, I'm going to do a rapid fire style post that encompasses all my thoughts up to this point. Let's roll!
+So, instead of a large tell-all post, I'm going to do a rapid fire format that encompasses all my thoughts up to this point. Let's roll!
 
 
 ### Numbers
