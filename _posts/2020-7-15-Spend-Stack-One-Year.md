@@ -121,7 +121,7 @@ And my kiddos today:
 
 Spend Stack has brought me many memorable moments this year! I can only hope the same remains true a year from now. More than anything, building something and being able to put your name on it - you can't beat it. Then, add in the fulfillment you get from people who use it and like it, it's a fun cycle to be a part of.
 
-Perhaps what I should be most proud of is Spend Stack has been exactly what I set out for it to be a year from now: Something I can ship and put my name that people will pay money for. A manageable side hustle. A playground to create me best in class app. By all measures, I'm happy how things have turned out.
+Perhaps what I should be most proud of is Spend Stack has been exactly what I set out for it to be a year ago: Something I can ship and put my name on that people will pay money for. A manageable side hustle. A playground to create me best in class app. By all measures, I'm happy how things have turned out.
 
 If there's anything else you wanna know about it, feel free to ping me on Twitter and I'll do my best to answer!
 
