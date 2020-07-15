@@ -20,7 +20,7 @@ So, years ago, I set out to create a list that succinctly answers only one quest
 
 **What things can I quantify that help make an app great?**
 
-I believe I've created such a list that helps answer that question. Yours might look different, but this one is mine. It attempts to takes all of the emotion and (mostly) opinions out of it. I want to capture what Apple says is great, not what other people may define it as. Though those opinions can assuredly be of value, they don't give out A.D.A.s - only Apple does.
+I believe I've created such a list that helps answer that question. Yours might look different, but this one is mine. It attempts to take all of the emotion and (mostly) opinions out of it. I want to capture what Apple says is great, not what other people may define it as. Though those opinions can assuredly be of value, they don't give out A.D.A.s - only Apple does.
 
 Here's a quick brief on my methodology behind how I created it:
 
