@@ -1,4 +1,4 @@
-{% assign post = site.posts | where: "title", "A Best in Class iOS App" | first %}
+{% assign post = site.posts | first %}
 <div id="articleWellLatest">
     <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
     {% include articleTag.html %}

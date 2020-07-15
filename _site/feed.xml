@@ -1,5 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-07T08:48:07-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swiftjective-C</title><subtitle>Swiftjective-C is a periodical over modern iOS software engineering. It houses tactful discussions over Swift, Objective-C and developing high quality apps while peering into various frameworks to see what makes them tick.
-</subtitle><author><name>Jordan Morgan</name></author><entry><title type="html">iOS 14: Notable UIKit Additions</title><link href="http://localhost:4000/iOS-14-Notable-UIKit-Additions/" rel="alternate" type="text/html" title="iOS 14: Notable UIKit Additions" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>http://localhost:4000/iOS-14-Notable-UIKit-Additions</id><content type="html" xml:base="http://localhost:4000/iOS-14-Notable-UIKit-Additions/">&lt;p&gt;During what was likely a WWDC to be remembered for years to come for several reasons, we got our look at what’s next in Apple’s world. iOS 14 is upon us, so let’s dive back into our favorite(?) user interface framework, UIKit.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-15T14:44:03-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swiftjective-C</title><subtitle>Swiftjective-C is a periodical over modern iOS software engineering. It houses tactful discussions over Swift, Objective-C and developing high quality apps while peering into various frameworks to see what makes them tick.
+</subtitle><author><name>Jordan Morgan</name></author><entry><title type="html">Spend Stack: Year One</title><link href="http://localhost:4000/Spend-Stack-One-Year/" rel="alternate" type="text/html" title="Spend Stack: Year One" /><published>2020-07-15T00:00:00-05:00</published><updated>2020-07-15T00:00:00-05:00</updated><id>http://localhost:4000/Spend-Stack-One-Year</id><content type="html" xml:base="http://localhost:4000/Spend-Stack-One-Year/">&lt;p&gt;Spend Stack’s first year on the App Store hits on the 18th! It’s been a rewarding year, and I’m very proud of the app. Though, as most reading this will no doubt know, iOS 14 is around the corner too. I’m in it deep at the moment, getting Spend Stack all ready to go.&lt;/p&gt;
+
+&lt;p&gt;So, instead of a large tell-all post, I’m going to do a rapid fire style post that encompasses all my thoughts up to this point. Let’s roll!&lt;/p&gt;
+
+&lt;h3 id=&quot;numbers&quot;&gt;Numbers&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Downloads:&lt;/strong&gt; 4.3 thousand&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Earnings:&lt;/strong&gt; $15.1 thousand&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Price:&lt;/strong&gt; Currently $3.99. Ranged from $9.99 to $1.99 throughout the year.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Largest Territory:&lt;/strong&gt; United States, about ~60% of my sales.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Devices:&lt;/strong&gt; 70% iPhone and 30% iPad. Also, there is &lt;em&gt;one&lt;/em&gt; iPod Touch User 😆.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cool-stuff-that-happened&quot;&gt;Cool Stuff That Happened&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Multiple App Store features.&lt;/li&gt;
+  &lt;li&gt;Sweating &lt;em&gt;all year&lt;/em&gt; over whether or not my header art would ever be used, and it finally happening nearly a year later:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Nearly a year later, they used the promo art 🤣🎉! Woohoo, so glad to see it finally out there! &lt;a href=&quot;https://t.co/LqJVH2EDPb&quot;&gt;pic.twitter.com/LqJVH2EDPb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jordan Morgan (@JordanMorgan10) &lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1266114101547347968?ref_src=twsrc%5Etfw&quot;&gt;May 28, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hitting #1 in Finance for multiple territories (where a lot of my revenue came from).&lt;/li&gt;
+  &lt;li&gt;Being selected to participate in Apple’s &lt;a href=&quot;http://localhost:4000/Creating-A-Retail-Demo&quot;&gt;retail demo program&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Getting to share Spend Stack’s &lt;a href=&quot;http://localhost:4000/Introducing-Spend-Stack&quot;&gt;origin story&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Shipping a &lt;a href=&quot;http://localhost:4000/The-Big-Update&quot;&gt;large, feature-rich update&lt;/a&gt;. And learning the relationship between it, and paid up front apps.&lt;/li&gt;
+  &lt;li&gt;It was covered by MacStories, 9to5 Mac, MacRumors, MacObserver and more.&lt;/li&gt;
+  &lt;li&gt;Craig Federighi responding to my email about it:
+&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/hfo.jpg&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/hfo.jpg&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;challenging-parts&quot;&gt;Challenging Parts&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Managing my own expectations. As an indie, some days you are your best advocate and another, your worst enemy.&lt;/li&gt;
+  &lt;li&gt;Ensuring all of the feedback and product knowledge I get doesn’t get lost in translation.&lt;/li&gt;
+  &lt;li&gt;Having the urge to make other apps, but not knowing if I could manage it alongside Spend Stack.&lt;/li&gt;
+  &lt;li&gt;Knowing I will likely have to shift the product in another direction price wise.&lt;/li&gt;
+  &lt;li&gt;Spend Stack has filled a lot of time I had to write on this very site before, and I do miss it.&lt;/li&gt;
+  &lt;li&gt;Keeping the app simple and easy to understand, while adding new features. Those two notions feel at odds with each other, it’s certainly an art.&lt;/li&gt;
+  &lt;li&gt;Finding the right tooling to manage everything. As you might’ve seen, I’m building my own:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hmmmmm it&amp;#39;s almost like &lt;a href=&quot;https://twitter.com/SpendStackApp?ref_src=twsrc%5Etfw&quot;&gt;@SpendStackApp&lt;/a&gt; users are trying to tell me something 🤔?? &lt;a href=&quot;https://twitter.com/hashtag/OkayIWillAddDateSupport?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#OkayIWillAddDateSupport&lt;/a&gt; &lt;a href=&quot;https://t.co/iZ1b3LbfxX&quot;&gt;pic.twitter.com/iZ1b3LbfxX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jordan Morgan (@JordanMorgan10) &lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1266372003084161027?ref_src=twsrc%5Etfw&quot;&gt;May 29, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;rewarding-parts&quot;&gt;Rewarding Parts&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Integrating Spend Stack into my life, and making just &lt;em&gt;enough&lt;/em&gt; time for it.&lt;/li&gt;
+  &lt;li&gt;Retention is very high. Those that use it, tend to really like it and not “tolerate” it.&lt;/li&gt;
+  &lt;li&gt;Inspiring others to go for it, and ship their own app.&lt;/li&gt;
+  &lt;li&gt;Being able to personally respond to every user email, and building a personal connection with them. Many of us are on a first name basis now, which is wonderful.&lt;/li&gt;
+  &lt;li&gt;Several users asking how they can give me &lt;em&gt;more&lt;/em&gt; money for the app.&lt;/li&gt;
+  &lt;li&gt;Seeing it consistently chart.&lt;/li&gt;
+  &lt;li&gt;I’m still having a blast a year later. Usually, I feel like this is the point where many fizzle out and lose interest. I’m still pumped!&lt;/li&gt;
+  &lt;li&gt;The iOS community around indie development. Everyone wants everyone else to succeed, there are hardly any egos.&lt;/li&gt;
+  &lt;li&gt;Many people really enjoy the design, which is something I worked (and continue to work) very hard on.&lt;/li&gt;
+  &lt;li&gt;Getting the “human” stories. Here are a few:
+    &lt;ul&gt;
+      &lt;li&gt;A daughter sharing a list with her mom to do chores with a price reward attached to each to save for a hamster.&lt;/li&gt;
+      &lt;li&gt;A couple planning their wedding budget all in Spend Stack.&lt;/li&gt;
+      &lt;li&gt;A construction worker planning his house.&lt;/li&gt;
+      &lt;li&gt;And one of my own; Jansyn and I sharing our Christmas list for the kids.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;biggest-fails-&quot;&gt;Biggest Fail(s 😅)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I had a buggy iOS 13 release, nearly all around notification center and multiple windows.&lt;/li&gt;
+  &lt;li&gt;…which lead to a few one star reviews, where they still remain today 😖.&lt;/li&gt;
+  &lt;li&gt;Shipping a release without pushing my CloudKit schema changes.&lt;/li&gt;
+  &lt;li&gt;Totally botching my press time line during my initial launch.&lt;/li&gt;
+  &lt;li&gt;I’m having a hard time with ratings, but I’ve loosened my code up a bit to ask for it quicker which has helped.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;biggest-learnings&quot;&gt;Biggest Learnings&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I love Objective-C, but Swift is so clearly the future. I think this is the point in my career where I really have drawn a line in the sand, and can’t so much as justify starting new things in Objcetive-C, as much as I love it. You’ve got ABI stability, SwiftUI, Combine…this list is only going to grow.&lt;/li&gt;
+  &lt;li&gt;You have no idea how your app might look a year from now. It’s shifted from a grocery shopping app, to a running total list, to tracking expenses and now over to full-on budgeting alongside the expensing functions.&lt;/li&gt;
+  &lt;li&gt;Being a bit naive about releasing something primarily for my own enjoyment, without realizing how it could potentially play an important role in someone else’s life. I think it’s mainly due to it being a finance app, and finances are an inherently sensitive, personal and important components to your life.&lt;/li&gt;
+  &lt;li&gt;I have a fairly clear path and signals to explore to make Spend Stack go from a hobby, to a business. I’m unsure if I’ll ever explore them in earnest. Of course, there’s zero guarantees any of them would work, but it’s good to be in a position where I see “Oh, okay. I could do X and Y to make it grow” instead of “Well, I guess that’s it.”&lt;/li&gt;
+  &lt;li&gt;Building things is so dang fun, nothing beats it.&lt;/li&gt;
+  &lt;li&gt;You need to build relationships with the press.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;random-stuff&quot;&gt;Random Stuff:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Things people liked the most:&lt;/strong&gt; Tracking subscriptions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Things I think people don’t know about, but wish they did:&lt;/strong&gt; All of the drag and drop functionality.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Midnight Addition:&lt;/strong&gt; Apple Card import, which ended up being a great driver for sales.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sharing is Caring:&lt;/strong&gt; I love opening up about indie development - the good parts, the crap parts, the big sales days, the no sales days, the money making launches, the “what am I doing this thing sucks” launches. I hope it encourages any other developer to know they can do this too, to an even greater degree of success.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Indie Dev is Alive:&lt;/strong&gt; Many assume it can’t be done anymore. That’s not true. I personally know other developers making a lot more than Spend Stack, and others who are making a lot less. And in almost each case, they’ve geared their apps for that particular scenario (hobby versus a business).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time Wins:&lt;/strong&gt; Along those lines, almost none of them won out of the gate. In fact, most have been at it for years until things clicked.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hits me in the feels:&lt;/strong&gt; As some of you may know, the very first version of Spend Stack released in 2013 and quickly fizzled out:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Here&amp;#39;s an important thing to remember if you&amp;#39;re just following along: This thing was the 1st version of Spend Stack, &amp;amp; it was downloaded *18* times. It was a complete failure.&lt;br /&gt;&lt;br /&gt;I&amp;#39;m proud that I&amp;#39;ve hit #1 paid for Finance, but it didn&amp;#39;t start that way at all. Just kept iterating! &lt;a href=&quot;https://t.co/w0UYD88Ppg&quot;&gt;pic.twitter.com/w0UYD88Ppg&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jordan Morgan (@JordanMorgan10) &lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1265663472425205762?ref_src=twsrc%5Etfw&quot;&gt;May 27, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;My wife wrote me a “atta boy!” card 8 years ago when it first launched, which I’ve always kept in my glove box:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/feels.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/feels.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;She always always been such a big supporter of me wanting to make something I’m truly proud of, and has always been there to encourage me when things suck, congratulate me when they are good and everything else in between.&lt;/p&gt;
+
+&lt;p&gt;ILY Jan 😘.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-master-plan&quot;&gt;My Master plan&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My main motivation for Spend Stack remains the same; I want it to fulfill my entire &lt;a href=&quot;http://localhost:4000/A-Best-in-Class-App&quot;&gt;Best in Class&lt;/a&gt; checklist with it.&lt;/li&gt;
+  &lt;li&gt;Then, and only then, I’ll explore making it into something more.&lt;/li&gt;
+  &lt;li&gt;Feature wise: lean into pure budgeting features for the next year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;just-for-fun&quot;&gt;Just for Fun:&lt;/h3&gt;
+
+&lt;p&gt;My kiddos on the launch day a year ago:
+&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/before2019.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/before2019.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And my kiddos today:
+&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/after2020.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/after2020.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Spend Stack has brought me many memorable moments this year! I can only hope the same remains true a year from now. More than anything, building something and being able to put your name on it - you can’t beat it. Then, add in the fulfillment you get from people who use it and like it, it’s a fun cycle to be a part of.&lt;/p&gt;
+
+&lt;p&gt;If there’s anything else you wanna know about it, feel free to ping me on Twitter and I’ll do my best to answer!&lt;/p&gt;
+
+&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="The Indie Dev Diaries" /><summary type="html">Spend Stack’s first year on the App Store hits on the 18th! It’s been a rewarding year, and I’m very proud of the app. Though, as most reading this will no doubt know, iOS 14 is around the corner too. I’m in it deep at the moment, getting Spend Stack all ready to go.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">iOS 14: Notable UIKit Additions</title><link href="http://localhost:4000/iOS-14-Notable-UIKit-Additions/" rel="alternate" type="text/html" title="iOS 14: Notable UIKit Additions" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>http://localhost:4000/iOS-14-Notable-UIKit-Additions</id><content type="html" xml:base="http://localhost:4000/iOS-14-Notable-UIKit-Additions/">&lt;p&gt;During what was likely a WWDC to be remembered for years to come for several reasons, we got our look at what’s next in Apple’s world. iOS 14 is upon us, so let’s dive back into our favorite(?) user interface framework, UIKit.&lt;/p&gt;
 
 &lt;p&gt;If you thought things were slowing down for UIKit in lieu of SwiftUI, well - that’s clearly not happening. There’s a lot to cover this year!&lt;/p&gt;
 
@@ -1290,186 +1429,4 @@ Them: &amp;lt; They cut me off, looked at me weird and walked away confused befo
 
 &lt;p&gt;We’ll see what happens, and of course - I’ll have the final product in the next version of Spend Stack, version 1.2.&lt;/p&gt;
 
-&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Tech Notes" /><summary type="html">One of my goals for the next update for Spend Stack was to tighten up the design of master detail scenarios, which are prevalent on macOS and iPadOS:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CollectionDifference</title><link href="http://localhost:4000/CollectionDifference/" rel="alternate" type="text/html" title="CollectionDifference" /><published>2020-01-29T00:00:00-06:00</published><updated>2020-01-29T00:00:00-06:00</updated><id>http://localhost:4000/CollectionDifference</id><content type="html" xml:base="http://localhost:4000/CollectionDifference/">&lt;p&gt;In the not so distant past, it was a foregone conclusion that developers would eventually fall back to the jackhammer when it came to table or collection views: &lt;code class=&quot;highlighter-rouge&quot;&gt;reloadData&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The reasons why were simple:&lt;/p&gt;
-
-&lt;p&gt;1) Getting a diff of what’s changed in your data was hard, and &lt;br /&gt;
-2) Mapping that with the right index paths was even harder.&lt;/p&gt;
-
-&lt;p&gt;But the payoff was always worth it, a buttery smooth batch reload in your interface. And hey - you can’t make an omelet without crackin’ a few eggs.&lt;/p&gt;
-
-&lt;p&gt;Fast forward to today, and we can thankfully say that WWDC 2019 mercifully addressed both pain points. Today, let’s take a look at &lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt;, a lightweight way to calculate the once elusive diff mentioned in reason #1 above.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-little-struct-that-could&quot;&gt;The Little Struct That Could&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt; arrived in Swift 5.1 by way of &lt;a href=&quot;https://github.com/apple/swift-evolution/blob/master/proposals/0240-ordered-collection-diffing.md&quot;&gt;SE-0240&lt;/a&gt;. Authors Scott Perry and Kyle Macomber wanted a way to “provide an interchange format for diffs as well as diffing/patching functionality for appropriate collection types.”&lt;/p&gt;
-
-&lt;p&gt;Perhaps the most telling part of their proposal, though, is where they state the following:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Representing, manufacturing, and applying transactions between states today requires writing a lot of error-prone code.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You don’t say.&lt;/p&gt;
-
-&lt;p&gt;Thankfully, they took the problem to task and what we arrive at is &lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt; - a struct that houses insertions and removals that describe the delta between two ordered collections:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CollectionDifference&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;ChangeElement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Perhaps the highest compliment I can extend it is that the API is easy on the eyes (uncommon for diffing libraries). As we’ll see, it’s typically a one or two line affair to get a diff and apply it, context depending.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Keep in mind this diffing capability is for &lt;em&gt;ordered&lt;/em&gt; collections only. In Swift, this is any collection conforming &lt;a href=&quot;https://developer.apple.com/documentation/swift/bidirectionalcollection&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BidirectionalCollection&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Performance-wise, the worst you can expect is O(n * m) - where &lt;em&gt;n&lt;/em&gt; represents the count of the first collection, and &lt;em&gt;m&lt;/em&gt; the other. You do have some influence here. If your elements conform to &lt;code class=&quot;highlighter-rouge&quot;&gt;Hashable&lt;/code&gt; (and why the heck wouldn’t they - we got diffable data source this year which requires it) or the collection share many common elements, expect the diff to perform better.&lt;/p&gt;
-
-&lt;p&gt;Either way, since Swift is an ever-mutating project, the diffing performance has &lt;a href=&quot;https://github.com/apple/swift/pull/25808&quot;&gt;already been improved&lt;/a&gt; from its first incarnation by utilizing the &lt;a href=&quot;http://www.xmailserver.org/diff2.pdf&quot;&gt;Myers algorithm&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;diffin&quot;&gt;Diffin’&lt;/h3&gt;
-&lt;p&gt;As an API consumer, if one simply needs to diff something and move about their day, then there are two essential functions to know about which are invoked from the collections themselves:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;difference(from:)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;and&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;applying(_)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;One to generate a diff (giving us a &lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt;) and one to get the result of the diff by passing it in as a parameter:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;firstDraft&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;It was the best of times...&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;secondDraft&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;It was the worst of times...&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;diff&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondDraft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;difference&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;firstDraft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;finalDraft&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firstDraft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applying&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &quot;It was the worst of times...&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Or, reverse that&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;diff&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firstDraft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;difference&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;secondDraft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;finalDraft&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondDraft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applying&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &quot;It was the best of times...&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Also note that if you need to finely tune the diff, you can also supply a closure to return a boolean based on your own equality standards:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;diff&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;difference&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oldNum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newNum&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oldNum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newNum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The flow is identifying what you want to compare, and then getting the results of the diff into a data structure to operate on. If that’s all you need from &lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt;, then you can hang it up and call it a day. For the curious among us, let’s look a little deeper.&lt;/p&gt;
-
-&lt;h3 id=&quot;change-enum&quot;&gt;Change Enum&lt;/h3&gt;
-&lt;p&gt;A &lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt; houses changes as represented by the &lt;code class=&quot;highlighter-rouge&quot;&gt;Change&lt;/code&gt; enum. And, since Swift’s enums are drunk with power, they house three important parts of the diff:&lt;/p&gt;
-
-&lt;p&gt;1) An &lt;code class=&quot;highlighter-rouge&quot;&gt;offset&lt;/code&gt; Int. &lt;br /&gt;
-2) The &lt;code class=&quot;highlighter-rouge&quot;&gt;element&lt;/code&gt; itself. &lt;br /&gt;
-3) An optional Int, &lt;code class=&quot;highlighter-rouge&quot;&gt;associatedWith&lt;/code&gt;, that helps you track moves.&lt;/p&gt;
-
-&lt;p&gt;The last one is both interesting and important. In the diff, if it moved an existing element - that’s actually a two-step dance. It’s first a removal, and then an insertion. What &lt;code class=&quot;highlighter-rouge&quot;&gt;associatedWith&lt;/code&gt; does it track the relationship between the two. This opens up some very nice UIKit-y scenarios.&lt;/p&gt;
-
-&lt;p&gt;This, however, requires a bit more work from a performance standpoint - thus the optional Int. We don’t get very many free lunches in programming, and doubly so when it comes to diffing. So, if we want the associations, we ask for them by invoking &lt;code class=&quot;highlighter-rouge&quot;&gt;inferringMoves&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;For example, notice the association (represented by &lt;code class=&quot;highlighter-rouge&quot;&gt;move&lt;/code&gt;) is nil in the following print statements:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;B&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;D&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;B&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;D&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;diff&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;difference&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;letter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Removed &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; at idx &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; and moved to &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;describing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;letter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Inserted &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; at idx &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; from &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;describing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;cm&quot;&gt;/* Prints
-Removed A at idx 0 and moved to nil
-Inserted A at idx 1 from nil
-*/&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;baz&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applying&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// [&quot;Z&quot;, &quot;A&quot;, &quot;C&quot;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The diff simply tells us that “A” at index 0 was removed, and “A” was inserted at index 1. But it doesn’t tell us about any potential moves, just the end result. This makes sense because we’re left with the true, and accurate, diff - so from an API perspective we shouldn’t opt in to that extra work if it’s not needed.&lt;/p&gt;
-
-&lt;p&gt;If we do need it, notice how we get the associations by way of &lt;code class=&quot;highlighter-rouge&quot;&gt;inferringMoves&lt;/code&gt;. Consider the exact code above, just with one changes in the for-loop:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inferringMoves&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* code */&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;cm&quot;&gt;/* Now prints
-Removed A at idx 0 and moved to 1
-Inserted A at idx 1 from 0
-*/&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Now, we can safely program against the moves.&lt;/p&gt;
-
-&lt;h3 id=&quot;applications&quot;&gt;Applications&lt;/h3&gt;
-&lt;p&gt;While playing around with diffing, I toyed with a few applications for UIKit.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Batch Updates&lt;/strong&gt;&lt;br /&gt;
-If you’re unable to move to &lt;a href=&quot;http://localhost:4000/Diffable-Datasource-Empty-View&quot;&gt;diffable data source&lt;/a&gt;, or you’re just a complete glutton for pain - you can reasonably backport a diffing function with a little legwork for table and collection views. Since we know a non-nil association represents a move, we can map these over to index paths.&lt;/p&gt;
-
-&lt;p&gt;For a single section table view, something like this works to produce a batch update:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;deletes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;inserts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;moves&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;inferringMoves&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;moves&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;deletes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// If there's no move, it's a true insertion and not the result of a move.&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;inserts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;performBatchUpdates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applying&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;??&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deleteRows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;deletes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;insertRows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inserts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    
-    &lt;span class=&quot;n&quot;&gt;moves&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forEach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;moveRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    
-&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Trying that out on a little demo app, sure enough - I was treated to batch reloads. This process was painless compared to the hoops you had to ceremoniously jump through before, and then crash on edges cases while devolving back into our burn-it-all-down ways of &lt;code class=&quot;highlighter-rouge&quot;&gt;reloadData&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/batch.gif&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/batch.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Fresh Interfaces&lt;/strong&gt;&lt;br /&gt;
-Another way to give your interface a dash of that &lt;em&gt;je ne sais quoi&lt;/em&gt; is to accurately represent the changes occuring with interface data. Think of an inbox type scenario where the user has seen X items, but Y items just came in from a network hit:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;currentItems&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;newItems&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;diff&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newItems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;difference&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentItems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;newCount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diff&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;
-
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newCount&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; new items.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 3 new items&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newCount&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; new items to view.&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;
-&lt;p&gt;Swift continues to benefit from a lot of talented engineers lending their handy work to the language. There is no denying that Cupertino &amp;amp; Friends’© open-source initiative has led to brilliant work from engineers outside their walls to be enjoyed by the masses. &lt;code class=&quot;highlighter-rouge&quot;&gt;CollectionDifference&lt;/code&gt; is a textbook example.&lt;/p&gt;
-
-&lt;p&gt;Now, go forth and serve up diffs with a newfound level of equanimity as you do so.&lt;/p&gt;
-
-&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Swift" /><summary type="html">In the not so distant past, it was a foregone conclusion that developers would eventually fall back to the jackhammer when it came to table or collection views: reloadData.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Tech Notes" /><summary type="html">One of my goals for the next update for Spend Stack was to tighten up the design of master detail scenarios, which are prevalent on macOS and iPadOS:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
