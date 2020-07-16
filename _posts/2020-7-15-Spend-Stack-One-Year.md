@@ -75,7 +75,7 @@ So, instead of a large tell-all post, I'm going to do a rapid fire format that e
 
 ### Biggest Learnings
 
-- I love Objective-C, but Swift is so clearly the future. I think this is the point in my career where I really have drawn a line in the sand, and can't so much as justify starting new things in Objcetive-C, as much as I love it. You've got ABI stability, SwiftUI, Combine...this list is only going to grow.
+- I love Objective-C, but Swift is so clearly the future. I think this is the point in my career where I really have drawn a line in the sand, and can't so much as justify starting new things in Objective-C, as much as I love it. You've got ABI stability, SwiftUI, Combine...this list is only going to grow.
 - You have no idea how your app might look a year from now. It's shifted from a grocery shopping app, to a running total list, to tracking expenses and now over to full-on budgeting alongside the expensing functions.
 - Being a bit naive about releasing something primarily for my own enjoyment, without realizing how it could potentially play an important role in someone else's life. I think it's mainly due to it being a finance app, and finances are an inherently sensitive, personal and important components to your life.
 - I have a fairly clear path and signals to explore to make Spend Stack go from a hobby, to a business. I'm unsure if I'll ever explore them in earnest. Of course, there's zero guarantees any of them would work, but it's good to be in a position where I see "Oh, okay. I could do X and Y to make it grow" instead of "Well, I guess that's it."
@@ -121,7 +121,7 @@ And my kiddos today:
 
 Spend Stack has brought me many memorable moments this year! I can only hope the same remains true a year from now. More than anything, building something and being able to put your name on it - you can't beat it. Then, add in the fulfillment you get from people who use it and like it, it's a fun cycle to be a part of.
 
-Perhaps what I should be most proud of is Spend Stack has been exactly what I set out for it to be a year ago: Something I can ship and put my name on that people will pay money for. A manageable side hustle. A playground to create me best in class app. By all measures, I'm happy how things have turned out.
+Perhaps what I should be most proud of is Spend Stack has been exactly what I set out for it to be a year ago: Something I can ship and put my name on that people will pay money for. A manageable side hustle. A playground to create my best in class app. By all measures, I'm happy how things have turned out.
 
 If there's anything else you wanna know about it, feel free to ping me on Twitter and I'll do my best to answer!
 
