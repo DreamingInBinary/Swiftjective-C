@@ -53,7 +53,7 @@ Or, maybe your "happy when" is financial. Once that situation improves, or our n
 
 The issue with this thinking is that we never arrive anywhere.
 
-We so often look to just beyond _where we are_ as the cure-all destination, where we can finally give ourselves permission to be happy. This is doubly true as indie developers, where we are in a perenninial state of working towards that next milestone - in a constant state of overcoming obstacles.
+We so often look to just beyond _where we are_ as the cure-all destination, where we can finally give ourselves permission to be happy. This is doubly true as indie developers, where we are in a perennial state of working towards that next milestone - in a constant state of overcoming obstacles.
 
 **But the truth is, there is no better time to be happy other than right now.**
 
@@ -73,7 +73,7 @@ Good, I could use more balance with how I spend my time.
 You get the idea. But, I don't want to conflate my message here, either. Hard work and success are both wonderful things, and I hope you encounter both. But, let those things be contributors to your happiness, not a source. It helps to frame your thinking the right way - instead of thinking "I'll be happy when I top the charts!", maybe try "I'll be proud when I achieve that!".
 
 ### Final Thoughts
-Whether you are king of the mountain, just beginning to climb it or perhaps you've been stuck halfway for years - enjoy each moment. All of these events aren't obstacles leading to next thing, or a segue to your spout of happiness you deserve. All of these obstacles are your life, and it would be a shame to not be happy while experiencing each of them.
+Whether you are king of the mountain, just beginning to climb it or perhaps you've been stuck halfway for years - enjoy each moment. All of these events aren't obstacles leading to the next thing, or a segue to your spout of happiness you deserve. All of these obstacles are your life, and it would be a shame to not be happy while experiencing each of them.
 
 I truly believe that if you give yourself a second to take a step back and survey things, you may realize that the best time to happy and excited about the things you've got going on - is now.
 
