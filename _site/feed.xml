@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-11T10:57:33-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swiftjective-C</title><subtitle>Swiftjective-C is a periodical over modern iOS software engineering. It houses tactful discussions over Swift, Objective-C and developing high quality apps while peering into various frameworks to see what makes them tick.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-11T11:13:32-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swiftjective-C</title><subtitle>Swiftjective-C is a periodical over modern iOS software engineering. It houses tactful discussions over Swift, Objective-C and developing high quality apps while peering into various frameworks to see what makes them tick.
 </subtitle><author><name>Jordan Morgan</name></author><entry><title type="html">Happy When?</title><link href="http://localhost:4000/Happy-When/" rel="alternate" type="text/html" title="Happy When?" /><published>2020-09-11T00:00:00-05:00</published><updated>2020-09-11T00:00:00-05:00</updated><id>http://localhost:4000/Happy-When</id><content type="html" xml:base="http://localhost:4000/Happy-When/">&lt;p&gt;Early this year, my youngest daughter was bed-ridden in the hospital. As her (already tiny) body tried to fight off some mysterious infection that nobody could quite peg, I just sat around anxiously feeling powerless. If you’re a parent, you know nothing comes close to your children being sick. It brings waves of emotions, worry and reflection.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/baytown.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/baytown.png&quot; /&gt;&lt;/p&gt;
@@ -258,7 +258,7 @@ image: /assets/images/logo.png
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/iOS14_juicedUpPicker.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/iOS14_juicedUpPicker.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For the most part, you just leave &lt;code class=&quot;highlighter-rouge&quot;&gt;UIDatePicker&lt;/code&gt; alone and let it use the default style choice, &lt;code class=&quot;highlighter-rouge&quot;&gt;.automatic&lt;/code&gt;. Though, I do see value in checking out the trait collection to swap between that and the new &lt;code class=&quot;highlighter-rouge&quot;&gt;.inline&lt;/code&gt; style:&lt;/p&gt;
+&lt;p&gt;For the most part, you just leave &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIDatePicker&lt;/code&gt; alone and let it use the default style choice, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.automatic&lt;/code&gt;. Though, I do see value in checking out the trait collection to swap between that and the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.inline&lt;/code&gt; style:&lt;/p&gt;
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;traitCollectionDidChange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;previousTraitCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UITraitCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;traitCollectionDidChange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;previousTraitCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -267,7 +267,7 @@ image: /assets/images/logo.png
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Regardless, if you’ve got the &lt;code class=&quot;highlighter-rouge&quot;&gt;.inline&lt;/code&gt; display, the picker will still do this context-y menuish transition to the full style as seen here:&lt;/p&gt;
+&lt;p&gt;Regardless, if you’ve got the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.inline&lt;/code&gt; display, the picker will still do this context-y menuish transition to the full style as seen here:&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/iOS14_toggleDatePicker.gif&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/iOS14_toggleDatePicker.gif&quot; /&gt;&lt;/p&gt;
 
@@ -299,7 +299,7 @@ image: /assets/images/logo.png
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/iOS14_colorPicker.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/iOS14_colorPicker.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;But hey - the selected color is also &lt;code class=&quot;highlighter-rouge&quot;&gt;.KVO&lt;/code&gt; compliant, so why not mesh the old with the new and Combine it instead of using a lame delegate, amirite?&lt;/p&gt;
+&lt;p&gt;But hey - the selected color is also &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.KVO&lt;/code&gt; compliant, so why not mesh the old with the new and Combine it instead of using a lame delegate, amirite?&lt;/p&gt;
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cancellable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;colorPicker&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;publisher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selectedColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;weak&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
@@ -308,7 +308,7 @@ image: /assets/images/logo.png
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;the-uiaction-revolution&quot;&gt;The UIAction Revolution&lt;/h3&gt;
-&lt;p&gt;It seems Apple’s love affair with &lt;code class=&quot;highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; has a pointed purpose - it’s simply used all over the joint now.&lt;/p&gt;
+&lt;p&gt;It seems Apple’s love affair with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; has a pointed purpose - it’s simply used all over the joint now.&lt;/p&gt;
 
 &lt;p&gt;Which is great, because you know what feels incredibly tedious to do in 2020? The target-action pattern.&lt;/p&gt;
 
@@ -340,7 +340,7 @@ image: /assets/images/logo.png
 
 &lt;p&gt;It’s hard for me to overstate how much better this approach feels. In some ways, it reminds of when the alert controller started supporting its block based approach as well. It’s chef’s kiss.&lt;/p&gt;
 
-&lt;p&gt;Anyways, you don’t need to look far for UIKit controls that take &lt;code class=&quot;highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; in its initializers (pull down menus, contextual menus, bar button items, switches, etc).&lt;/p&gt;
+&lt;p&gt;Anyways, you don’t need to look far for UIKit controls that take &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; in its initializers (pull down menus, contextual menus, bar button items, switches, etc).&lt;/p&gt;
 
 &lt;p&gt;Speaking of bar button items - they now accept menus as well:&lt;/p&gt;
 
@@ -352,7 +352,7 @@ image: /assets/images/logo.png
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/iOS14_toolbar.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/iOS14_toolbar.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Which is a good thing, because that type of thing seems to be pushed in favor of action sheets. In fact, you can pretty much toss a &lt;code class=&quot;highlighter-rouge&quot;&gt;UIMenu&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; in just about anything in UIKit such as buttons:&lt;/p&gt;
+&lt;p&gt;Which is a good thing, because that type of thing seems to be pushed in favor of action sheets. In fact, you can pretty much toss a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIMenu&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; in just about anything in UIKit such as buttons:&lt;/p&gt;
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;menu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIMenu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Trash It&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Sup&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)}])&lt;/span&gt;
  
@@ -392,14 +392,14 @@ image: /assets/images/logo.png
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/iOS14_contentList.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/iOS14_contentList.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;There’s a new &lt;code class=&quot;highlighter-rouge&quot;&gt;UIViewConfigurationState&lt;/code&gt; which, in turn, a &lt;code class=&quot;highlighter-rouge&quot;&gt;UICellConfigurationState&lt;/code&gt; inherits from. These all play a part in the updates to how you can setup cells in both collection and table views, which I suspect will be the main topic in “&lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2020/10027/&quot;&gt;Modern Cell Configuration&lt;/a&gt;”&lt;/p&gt;
+&lt;p&gt;There’s a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIViewConfigurationState&lt;/code&gt; which, in turn, a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UICellConfigurationState&lt;/code&gt; inherits from. These all play a part in the updates to how you can setup cells in both collection and table views, which I suspect will be the main topic in “&lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2020/10027/&quot;&gt;Modern Cell Configuration&lt;/a&gt;”&lt;/p&gt;
 
 &lt;h3 id=&quot;sidebars&quot;&gt;Sidebars&lt;/h3&gt;
-&lt;p&gt;Look, &lt;code class=&quot;highlighter-rouge&quot;&gt;UISplitViewController&lt;/code&gt; went absolutely nuts in this release. Just look at the diff:&lt;/p&gt;
+&lt;p&gt;Look, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UISplitViewController&lt;/code&gt; went absolutely nuts in this release. Just look at the diff:&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/iOS14_diffSplit.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/iOS14_diffSplit.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;One reason why? Due to the new &lt;code class=&quot;highlighter-rouge&quot;&gt;.sidebar&lt;/code&gt; stuff which allows for a three column layout. You see this all over in iOS 14 - for example Mail and Notes. And now, we’ve also got the whole new list thing going on in collection view. That’s used heavily in the sidebar world.&lt;/p&gt;
+&lt;p&gt;One reason why? Due to the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.sidebar&lt;/code&gt; stuff which allows for a three column layout. You see this all over in iOS 14 - for example Mail and Notes. And now, we’ve also got the whole new list thing going on in collection view. That’s used heavily in the sidebar world.&lt;/p&gt;
 
 &lt;p&gt;But how do we handle all of that collapsing tomfoolery? Won’t &lt;em&gt;that&lt;/em&gt; be a nightmare, even with diffable datasource?&lt;/p&gt;
 
@@ -429,11 +429,11 @@ image: /assets/images/logo.png
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;It’s great to see Apple leverage similar API across the board now with these interaction delegates and &lt;code class=&quot;highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; being used across the board. If you figure out how one works, discovering the rest is easy.&lt;/p&gt;
+&lt;p&gt;It’s great to see Apple leverage similar API across the board now with these interaction delegates and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIAction&lt;/code&gt; being used across the board. If you figure out how one works, discovering the rest is easy.&lt;/p&gt;
 
 &lt;h3 id=&quot;bonus-round&quot;&gt;Bonus Round&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Nice little user interface idiom off of &lt;code class=&quot;highlighter-rouge&quot;&gt;UIDevice&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;.mac&lt;/code&gt;. Though I will say the header is worded very specifically:
+  &lt;li&gt;Nice little user interface idiom off of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIDevice&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.mac&lt;/code&gt;. Though I will say the header is worded very specifically:
     &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;kd&quot;&gt;@available&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iOS&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;14.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mac&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Optimized for Mac UI&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
@@ -443,14 +443,14 @@ image: /assets/images/logo.png
 &lt;p&gt;Optimized &lt;em&gt;for&lt;/em&gt; mac? That doesn’t outright say it &lt;em&gt;is&lt;/em&gt; a mac app. As more releases follow, I suspect the lines will only get more blurred as to what a mac app is anymore.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The added &lt;code class=&quot;highlighter-rouge&quot;&gt;.automatic&lt;/code&gt; style for a lot of controls. Basically, it allows for Catalyst apps to be macOS-y when they are on macOS, and iOS-y when they aren’t.&lt;/li&gt;
-  &lt;li&gt;Pointer lock states are here, and are yet another thing to manage on a controller instance. You override &lt;code class=&quot;highlighter-rouge&quot;&gt;prefersPointerLocked&lt;/code&gt; to return what you prefer, but like with the home indicator there’s a chance it may not be honored. Also like the home indicator, status bar and other similar view controller things - you can request an update for this value:&lt;/li&gt;
+  &lt;li&gt;The added &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.automatic&lt;/code&gt; style for a lot of controls. Basically, it allows for Catalyst apps to be macOS-y when they are on macOS, and iOS-y when they aren’t.&lt;/li&gt;
+  &lt;li&gt;Pointer lock states are here, and are yet another thing to manage on a controller instance. You override &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefersPointerLocked&lt;/code&gt; to return what you prefer, but like with the home indicator there’s a chance it may not be honored. Also like the home indicator, status bar and other similar view controller things - you can request an update for this value:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;setNeedsUpdateOfPrefersPointerLocked&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;There’s a &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; property on &lt;code class=&quot;highlighter-rouge&quot;&gt;UISwitch&lt;/code&gt; but I couldn’t get it do anything on iOS. I assume this is respected only on macOS.&lt;/li&gt;
+  &lt;li&gt;There’s a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; property on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UISwitch&lt;/code&gt; but I couldn’t get it do anything on iOS. I assume this is respected only on macOS.&lt;/li&gt;
   &lt;li&gt;There’s a list layout for collection view now!&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -503,12 +503,12 @@ Swift Playgrounds was initially launched integrated into Xcode, but later took o
 &lt;h3 id=&quot;round-2swiftui-stumpers&quot;&gt;Round 2 — SwiftUI Stumpers&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Question 1:&lt;/strong&gt;&lt;br /&gt;
-One of SwiftUI’s main draws is the live previewing canvas, ever updating as we type. As we make edits, Xcode compiles the SwiftUI &lt;code class=&quot;highlighter-rouge&quot;&gt;View&lt;/code&gt; exclusively from the rest of the project.&lt;/p&gt;
+One of SwiftUI’s main draws is the live previewing canvas, ever updating as we type. As we make edits, Xcode compiles the SwiftUI &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;View&lt;/code&gt; exclusively from the rest of the project.&lt;/p&gt;
 
 &lt;p&gt;When it does, it injects the new implementation back into the running application using what Swift language feature?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Question 2:&lt;/strong&gt;&lt;br /&gt;
-At first glance, one might assume SwiftUI’s &lt;code class=&quot;highlighter-rouge&quot;&gt;View&lt;/code&gt; type accepts variadic generics within its &lt;code class=&quot;highlighter-rouge&quot;&gt;Viewuilder&lt;/code&gt; implementation:&lt;/p&gt;
+At first glance, one might assume SwiftUI’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;View&lt;/code&gt; type accepts variadic generics within its &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Viewuilder&lt;/code&gt; implementation:&lt;/p&gt;
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;kt&quot;&gt;HStack&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -526,7 +526,7 @@ At first glance, one might assume SwiftUI’s &lt;code class=&quot;highlighter-r
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;But it’s actually powered via extensions, with how many different &lt;code class=&quot;highlighter-rouge&quot;&gt;buildBlock&lt;/code&gt; implementations allowing up to X views to be included?&lt;/p&gt;
+&lt;p&gt;But it’s actually powered via extensions, with how many different &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buildBlock&lt;/code&gt; implementations allowing up to X views to be included?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Question 3:&lt;/strong&gt;&lt;br /&gt;
 SwiftUI was said to be called Amber internally at Apple, but to obfuscate it within the O.S. they put it under a framework named what?&lt;/p&gt;
@@ -903,7 +903,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 &lt;p&gt;For custom icons, here was my list:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;reloadData&lt;/code&gt; on the icon table view, batch reload it.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reloadData&lt;/code&gt; on the icon table view, batch reload it.&lt;/li&gt;
   &lt;li&gt;Use a slide out animation for the notice table row, but a fade animation for batch reloads (the slides were much too busy looking).&lt;/li&gt;
   &lt;li&gt;iPadOS Cursor Support.&lt;/li&gt;
   &lt;li&gt;Full accessibility and voice over support.&lt;/li&gt;
@@ -931,7 +931,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 
 &lt;ul&gt;
   &lt;li&gt;Full keyboard support (I’m currently rewriting all of this logic, so it made sense to wait).&lt;/li&gt;
-  &lt;li&gt;Some fun drag and drop options (i.e. drag an icon as an &lt;code class=&quot;highlighter-rouge&quot;&gt;UIImage&lt;/code&gt; payload).&lt;/li&gt;
+  &lt;li&gt;Some fun drag and drop options (i.e. drag an icon as an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIImage&lt;/code&gt; payload).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;At this point, custom icons was finished and ready to be tested on the beta. The response was great, and I was happy to get it out. To recap, when I make a feature I tend to follow this flow:&lt;/p&gt;
@@ -957,7 +957,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 
 &lt;p&gt;For example, I want to ship every single feature with my ideal flow as I was able to this time: get the MVP done, add in “the sauce” and make sure you’ve considered any best in class additions. But it doesn’t always work that way, and what doesn’t ship today can always ship tomorrow. Thus, my unofficial tour of how Spend Stack becomes the proud parent of a new feature concludes!&lt;/p&gt;
 
-&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="The Indie Dev Diaries" /><summary type="html">Ah yes, the feature.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Exploring Futures over Closures</title><link href="http://localhost:4000/Exploring-Closures-With-Futures/" rel="alternate" type="text/html" title="Exploring Futures over Closures" /><published>2020-04-17T00:00:00-05:00</published><updated>2020-04-17T00:00:00-05:00</updated><id>http://localhost:4000/Exploring-Closures-With-Futures</id><content type="html" xml:base="http://localhost:4000/Exploring-Closures-With-Futures/">&lt;p&gt;One of the challenges I have faced with Combine is simply not knowing what all the framework can do, and when it should be doing it. The nascent vocabulary of its pieces combined (sorry) with my few dalliances with reactive programming has led to a steep learning curve. Even so, I’ve replaced &lt;code class=&quot;highlighter-rouge&quot;&gt;NotificationCenter&lt;/code&gt; code with its built in Combine publisher, and I’ve enjoyed the experience quite a lot. Operators are more concise, and clarity at the point of definition is a good way to foster a readable codebase.&lt;/p&gt;
+&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="The Indie Dev Diaries" /><summary type="html">Ah yes, the feature.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Exploring Futures over Closures</title><link href="http://localhost:4000/Exploring-Closures-With-Futures/" rel="alternate" type="text/html" title="Exploring Futures over Closures" /><published>2020-04-17T00:00:00-05:00</published><updated>2020-04-17T00:00:00-05:00</updated><id>http://localhost:4000/Exploring-Closures-With-Futures</id><content type="html" xml:base="http://localhost:4000/Exploring-Closures-With-Futures/">&lt;p&gt;One of the challenges I have faced with Combine is simply not knowing what all the framework can do, and when it should be doing it. The nascent vocabulary of its pieces combined (sorry) with my few dalliances with reactive programming has led to a steep learning curve. Even so, I’ve replaced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NotificationCenter&lt;/code&gt; code with its built in Combine publisher, and I’ve enjoyed the experience quite a lot. Operators are more concise, and clarity at the point of definition is a good way to foster a readable codebase.&lt;/p&gt;
 
 &lt;p&gt;And yet.&lt;/p&gt;
 
@@ -1043,7 +1043,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;A few things were reconsidered, namely that I might want all Apple Card items in the future so I removed the payment versus purchase filtering. I also opted for a less strict importing function, and it does much less.&lt;/p&gt;
 
-&lt;p&gt;Another implementation point I waffled on was how many operators to utilize. For example, the &lt;code class=&quot;highlighter-rouge&quot;&gt;sink&lt;/code&gt; above could do nothing more than apply things to a table view, allowing for the &lt;code class=&quot;highlighter-rouge&quot;&gt;map&lt;/code&gt; operator to do more of the heavy lifting. I’m not sure which I’d prefer. With Combine, there seems to be a natural tension between how much work a publisher should abstract away and then emit, versus how much of that work the subscriber should shoulder when receiving it. In a way, it speaks to the framework’s utility that engineers even have the choice to begin with.&lt;/p&gt;
+&lt;p&gt;Another implementation point I waffled on was how many operators to utilize. For example, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sink&lt;/code&gt; above could do nothing more than apply things to a table view, allowing for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map&lt;/code&gt; operator to do more of the heavy lifting. I’m not sure which I’d prefer. With Combine, there seems to be a natural tension between how much work a publisher should abstract away and then emit, versus how much of that work the subscriber should shoulder when receiving it. In a way, it speaks to the framework’s utility that engineers even have the choice to begin with.&lt;/p&gt;
 
 &lt;p&gt;More than anything, this was a learning exercise. I’m not quite sure how I feel about supplying the publisher via a function call, which is then chained off of. Maybe it’s my old Objective-C “get off my lawn” ways, I’m just not sure if that’s widely accepted or not. Patterns will emerge, though, and I’m apt to take Apple at their word and sample code.&lt;/p&gt;
 
@@ -1056,7 +1056,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
   &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/combine/performing_key-value_observing_with_combine&quot;&gt;Performing Key-Value Observing with Combine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Tech Notes" /><summary type="html">One of the challenges I have faced with Combine is simply not knowing what all the framework can do, and when it should be doing it. The nascent vocabulary of its pieces combined (sorry) with my few dalliances with reactive programming has led to a steep learning curve. Even so, I’ve replaced NotificationCenter code with its built in Combine publisher, and I’ve enjoyed the experience quite a lot. Operators are more concise, and clarity at the point of definition is a good way to foster a readable codebase.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">It’s Okay to Do Nothing</title><link href="http://localhost:4000/Its-Okay-To-Do-Nothing/" rel="alternate" type="text/html" title="It's Okay to Do Nothing" /><published>2020-04-10T00:00:00-05:00</published><updated>2020-04-10T00:00:00-05:00</updated><id>http://localhost:4000/Its-Okay-To-Do-Nothing</id><content type="html" xml:base="http://localhost:4000/Its-Okay-To-Do-Nothing/">&lt;p&gt;If there is one thing I don’t like doing - it’s nothing.&lt;/p&gt;
+&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Tech Notes" /><summary type="html">One of the challenges I have faced with Combine is simply not knowing what all the framework can do, and when it should be doing it. The nascent vocabulary of its pieces combined (sorry) with my few dalliances with reactive programming has led to a steep learning curve. Even so, I’ve replaced NotificationCenter code with its built in Combine publisher, and I’ve enjoyed the experience quite a lot. Operators are more concise, and clarity at the point of definition is a good way to foster a readable codebase.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">It’s Okay to Do Nothing</title><link href="http://localhost:4000/Its-Okay-To-Do-Nothing/" rel="alternate" type="text/html" title="It’s Okay to Do Nothing" /><published>2020-04-10T00:00:00-05:00</published><updated>2020-04-10T00:00:00-05:00</updated><id>http://localhost:4000/Its-Okay-To-Do-Nothing</id><content type="html" xml:base="http://localhost:4000/Its-Okay-To-Do-Nothing/">&lt;p&gt;If there is one thing I don’t like doing - it’s nothing.&lt;/p&gt;
 
 &lt;p&gt;I’ve never been good at it. While I’m miles away from the “hustle porn” ways that are unfortunately pervasive within the tech industry, I’ve always had a natural work ethic and a desire to do more. My near-anathema towards inaction, no goals being set forth or something to solve has served me well in my career.&lt;/p&gt;
 
@@ -1093,7 +1093,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 
 &lt;p&gt;Spend Stack’s minimum build target is iOS 13.&lt;/p&gt;
 
-&lt;p&gt;Which means my cup runneth over with Combine. So, today I’m sharing a little utility I wrote which brings the convenience of Combine into the world of &lt;code class=&quot;highlighter-rouge&quot;&gt;UIKeyboard&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Which means my cup runneth over with Combine. So, today I’m sharing a little utility I wrote which brings the convenience of Combine into the world of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIKeyboard&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Normally, the flow to handle the keyboard looks a little like this, give or take:&lt;/p&gt;
 
@@ -1118,7 +1118,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 &lt;p&gt;The two things I wanted to clean up were that:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1)&lt;/strong&gt; That’s a lot of code to just know when the keyboard is doing stuff and &lt;br /&gt;
-&lt;strong&gt;2)&lt;/strong&gt; It would be nice to centralize getting all of the information about what’s going on out of the &lt;code class=&quot;highlighter-rouge&quot;&gt;userInfo&lt;/code&gt; dictionary into something tidier.&lt;/p&gt;
+&lt;strong&gt;2)&lt;/strong&gt; It would be nice to centralize getting all of the information about what’s going on out of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;userInfo&lt;/code&gt; dictionary into something tidier.&lt;/p&gt;
 
 &lt;h3 id=&quot;unify-keyboard-information&quot;&gt;Unify Keyboard Information&lt;/h3&gt;
 &lt;p&gt;The latter part is easy enough. A little struct can go a long ways here:&lt;/p&gt;
@@ -1232,7 +1232,7 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 &lt;p&gt;There’s likely a prettier path to merging all of the notifications, but I accepted my Combine naïveté and moved on. Further, one might not need all of em’ either.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Update: Thanks to &lt;a href=&quot;https://www.twitter.com/jasdev&quot;&gt;Jasdev Singh&lt;/a&gt; for suggesting &lt;code class=&quot;highlighter-rouge&quot;&gt;mergeMany&lt;/code&gt;.&lt;/p&gt;
+  &lt;p&gt;Update: Thanks to &lt;a href=&quot;https://www.twitter.com/jasdev&quot;&gt;Jasdev Singh&lt;/a&gt; for suggesting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mergeMany&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;in-practice&quot;&gt;In Practice&lt;/h3&gt;
@@ -1386,7 +1386,7 @@ Them: &amp;lt; They cut me off, looked at me weird and walked away confused befo
   &lt;li&gt;If it’s not already obvious from the article, you don’t apply for the retail demo - Apple proactively reaches out to you.&lt;/li&gt;
   &lt;li&gt;Sales wise it’s been a huge help, as Spend Stack tends to consistently chart since its retail demo release. Before, it tends to dip in and out throughout the month.&lt;/li&gt;
   &lt;li&gt;I go fairly in-depth on all of this, and talk about how my &lt;a href=&quot;http://localhost:4000/A-Best-in-Class-App&quot;&gt;Best in Class&lt;/a&gt; ideals may have helped Spend Stack get selected on an episode of &lt;a href=&quot;https://podcasts.apple.com/us/podcast/launched/id1491582246#episodeGuid=47cc2b57-c99a-4ced-8609-74270d651bb9&quot;&gt;Launched.fm&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Lastly, here’s a &lt;a href=&quot;https://www.reddit.com/r/apple/comments/f7ugww/apple_selected_my_app_spend_stack_to_be_in_its/?utm_source=share&amp;amp;utm_medium=i&quot;&gt;Reddit&lt;/a&gt; post on &lt;code class=&quot;highlighter-rouge&quot;&gt;r/Apple&lt;/code&gt; where I chat about it some more while answering some questions others had.&lt;/li&gt;
+  &lt;li&gt;Lastly, here’s a &lt;a href=&quot;https://www.reddit.com/r/apple/comments/f7ugww/apple_selected_my_app_spend_stack_to_be_in_its/?utm_source=share&amp;amp;utm_medium=i&quot;&gt;Reddit&lt;/a&gt; post on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;r/Apple&lt;/code&gt; where I chat about it some more while answering some questions others had.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;

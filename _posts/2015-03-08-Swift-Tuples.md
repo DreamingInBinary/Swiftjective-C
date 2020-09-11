@@ -14,7 +14,7 @@ One such feature to keep around for a rainy day is the diverse and friendly tupl
 
 ### Tuple /ˈtjʊpəl; ˈtʌpəl/
 noun (TUH-pul)  
-1\. In programming languages, such as [Lisp][1], [Python][2], Linda, and others, a tuple is an ordered set of values.
+1. In programming languages, such as [Lisp][1], [Python][2], Linda, and others, a tuple is an ordered set of values.
 
 At their core, tuples group multiple values into a single compound return type. They are intrinsically flexible, allowing any type (reference or value) to be contained within them. They tend to shine in scenarios where one needs to be intentional about a return type, yet the situation is too small or "one off" to create a wrapper class to do so.
 
