@@ -59,7 +59,7 @@ We so often look to just beyond _where we are_ as the cure-all destination, wher
 
 That week in the hospital reminded me that I needed to adopt a new perspective on happiness. Happiness is a choice, and it's the only way forward. Celebrate your success, but don't let your success (or lack thereof) dictate much on your quality of life. 
 
-Far better to enjoy life and it's journey than struggle through it hoping that the next stage is better. These days, I do my best to keep that mindset.
+Far better to enjoy life and its journey than struggle through it hoping that the next stage is better. These days, I do my best to keep that mindset.
 
 **My kids are crazy and wake me up all night?**<br />
 I'll look back at it fondly, because they'll be grown up before I know it.
