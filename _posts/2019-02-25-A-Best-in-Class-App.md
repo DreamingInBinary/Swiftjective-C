@@ -133,6 +133,7 @@ The five sections it covers are:
 - It fully supports dark mode.
 - Multiple spaces and scene support for iPadOS.
     + You leverage the idea of a primary window versus an auxiliary window. One provides access to your full feature set, while the other helps users complete a focused, singular task and is usually closed afterwards.
+    + To handle notification routing to the right scene, you set a target content indentifier on either `UNNotificationContent`, `UIApplicationShortcutItem` or `NSUserActivity`.
 - Full multitasking support.
 - Home screen quick action support.
 - If you offer a sign in, Sign in with Apple is included.
@@ -147,6 +148,7 @@ The five sections it covers are:
 - It supports handoff on Mac (if applicable).
 - Meaningful extensions are included with the app, whether it's via a share extension, action extension, file providers, sticker pack, custom keyboard, etc.
     + Those extensions are carefully thought out. For example, a widget isn't a mini app but strives to provide glanceable, actionable information.
+    + Widgets: Small sizes only contain a max of up to four pieces on information.
 - For table and collection view cells that make sense to focus, [`selectionFollowsFocus`][32] is set.
 - Callback urls are supplied and documented so other apps may integrate with it (x-callback-url)/.
 - `UIMenuController` support if necessary via overriding `UIResponderStandardEditActions`.
@@ -228,6 +230,7 @@ The five sections it covers are:
     + Additionally, ensure the system-wide double tap gesture doesn't modify any content if it's been customized by your app.
 - Navigation is clear and foolproof. You use either flat, hierarchical or content/UX driven navigation.
     + You use a sidebar to flatten your information hierarchy if it makes sense. For example, if you app has several folders, playlists or similar collections.
+    + Using `UIPencilInteraction`, handle double tap actions.
     + If you use a tab bar, aim for 3-5 items. If you need the "More" tab, you're likely going in the wrong direction.
 - Modality is used sparingly, and clearly brings them back to where they were when dismissed.
 - Your design also considers text and your app's voice or messaging as part of the design and experience, and it stays consistent.
