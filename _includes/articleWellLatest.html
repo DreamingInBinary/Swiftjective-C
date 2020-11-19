@@ -1,7 +1,0 @@
-{% assign post = site.posts | first %}
-<div id="articleWellLatest">
-    <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-    {% include articleTag.html %}
-    <p>{{ post.description }}</p>
-    <a href="{{ post.url | prepend: site.baseurl }}"><code>continue.reading(with: {{ post.title }})</code></a>
-</div>
