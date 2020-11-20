@@ -11,7 +11,7 @@ var removeConfetti; //call to stop the confetti animation and remove all confett
 var isConfettiPaused; //call and returns true or false depending on whether the confetti animation is paused
 var isConfettiRunning; //call and returns true or false depending on whether the animation is running
 
-(function() {
+(function () {
   startConfetti = startConfettiInner;
   stopConfetti = stopConfettiInner;
   toggleConfetti = toggleConfettiInner;
@@ -21,8 +21,26 @@ var isConfettiRunning; //call and returns true or false depending on whether the
   isConfettiPaused = isConfettiPausedInner;
   removeConfetti = removeConfettiInner;
   isConfettiRunning = isConfettiRunningInner;
-  var supportsAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame;
-  var colors = ["DodgerBlue", "OliveDrab", "Gold", "Pink", "SlateBlue", "LightBlue", "Violet", "PaleGreen", "SteelBlue", "SandyBrown", "Chocolate", "Crimson"]
+  var supportsAnimationFrame =
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    window.msRequestAnimationFrame;
+  var colors = [
+    "DodgerBlue",
+    "OliveDrab",
+    "Gold",
+    "Pink",
+    "SlateBlue",
+    "LightBlue",
+    "Violet",
+    "PaleGreen",
+    "SteelBlue",
+    "SandyBrown",
+    "Chocolate",
+    "Crimson",
+  ];
   var streamingConfetti = false;
   var animationTimer = null;
   var pause = false;
@@ -30,7 +48,7 @@ var isConfettiRunning; //call and returns true or false depending on whether the
   var particles = [];
   var waveAngle = 0;
   var context = null;
-  
+
   function resetParticle(particle, width, height) {
     particle.color = colors[(Math.random() * colors.length) | 0];
     particle.x = Math.random() * width;
@@ -43,10 +61,8 @@ var isConfettiRunning; //call and returns true or false depending on whether the
   }
 
   function toggleConfettiPauseInner() {
-    if (pause)
-      resumeConfettiInner();
-    else
-      pauseConfettiInner();
+    if (pause) resumeConfettiInner();
+    else pauseConfettiInner();
   }
 
   function isConfettiPausedInner() {
@@ -63,8 +79,7 @@ var isConfettiRunning; //call and returns true or false depending on whether the
   }
 
   function runAnimation() {
-    if (pause)
-      return;
+    if (pause) return;
     if (particles.length === 0) {
       context.clearRect(0, 0, window.innerWidth, window.innerHeight);
       animationTimer = null;
@@ -84,28 +99,37 @@ var isConfettiRunning; //call and returns true or false depending on whether the
   function startConfettiInner() {
     var width = window.innerWidth;
     var height = window.innerHeight;
-    window.requestAnimationFrame = (function() {
-      return window.requestAnimationFrame ||
+    window.requestAnimationFrame = (function () {
+      return (
+        window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
         window.mozRequestAnimationFrame ||
         window.oRequestAnimationFrame ||
         window.msRequestAnimationFrame ||
         function (callback) {
           return window.setTimeout(callback, confettiFrameInterval);
-        };
+        }
+      );
     })();
     var canvas = document.getElementById("confetti-canvas");
     if (canvas === null) {
       canvas = document.createElement("canvas");
       canvas.setAttribute("id", "confetti-canvas");
-      canvas.setAttribute("style", "position:fixed;top:0;left:0;z-index:-1;pointer-events:none");
+      canvas.setAttribute(
+        "style",
+        "position:fixed;top:0;left:0;z-index:-1;pointer-events:none"
+      );
       document.body.appendChild(canvas);
       canvas.width = width;
       canvas.height = height;
-      window.addEventListener("resize", function() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-      }, true);
+      window.addEventListener(
+        "resize",
+        function () {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        },
+        true
+      );
       context = canvas.getContext("2d");
     }
     while (particles.length < maxParticleCount)
@@ -126,12 +150,10 @@ var isConfettiRunning; //call and returns true or false depending on whether the
   }
 
   function toggleConfettiInner() {
-    if (streamingConfetti)
-      stopConfettiInner();
-    else
-      startConfettiInner();
+    if (streamingConfetti) stopConfettiInner();
+    else startConfettiInner();
   }
-  
+
   function isConfettiRunningInner() {
     return streamingConfetti;
   }
@@ -158,12 +180,12 @@ var isConfettiRunning; //call and returns true or false depending on whether the
     waveAngle += 0.01;
     for (var i = 0; i < particles.length; i++) {
       particle = particles[i];
-      if (!streamingConfetti && particle.y < -15)
-        particle.y = height + 100;
+      if (!streamingConfetti && particle.y < -15) particle.y = height + 100;
       else {
         particle.tiltAngle += particle.tiltAngleIncrement;
         particle.x += Math.sin(waveAngle);
-        particle.y += (Math.cos(waveAngle) + particle.diameter + particleSpeed) * 0.5;
+        particle.y +=
+          (Math.cos(waveAngle) + particle.diameter + particleSpeed) * 0.5;
         particle.tilt = Math.sin(particle.tiltAngle) * 15;
       }
       if (particle.x > width + 20 || particle.x < -20 || particle.y > height) {

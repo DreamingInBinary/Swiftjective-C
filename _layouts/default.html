@@ -2,70 +2,9 @@
 title: default
 permalink: /
 ---
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en-US">
-{% include head.html %}
-
-<body>
-    <div id="gridContainer">
-        {% include bigHeader.html %}
-        <main id="gridMiddle">
-            <div class="articleSection">
-                <em>Introducing tonight's special...</em>
-                {% include articleWellLatest.html %}
-            </div>
-            <hr />
-            <div class="articleSection">
-                {% assign sorted = site.posts | sort: "date" | reverse %}
-                <em>Recent Posts</em>
-                {% assign popular = sorted | slice:1,2 %}
-                <div class="houseSpecial">
-                    {% for firstTwo in popular %}
-                    {% include articleWell.html post=firstTwo %}
-                    {% endfor %}
-                </div>
-                {% assign popularTwo = sorted | slice:3,2 %}
-                <div class="houseSpecial">
-                    {% for lastTwo in popularTwo %}
-                    {% include articleWell.html post=lastTwo %}
-                    {% endfor %}
-                </div>
-            </div>
-            <a href="/allPosts.html"><small>View all posts by date</small></a>
-            <hr />
-            <div class="articleSection">
-                <em>Classic House Favorites</em>
-                {% assign popular = site.posts | where: "special", "true" | slice:0,2 %}
-                <div class="houseSpecial">
-                    {% for firstTwo in popular %}
-                    {% include articleWell.html post=firstTwo %}
-                    {% endfor %}
-                </div>
-                {% assign popularTwo = site.posts | where: "special", "true" | slice:2,2 %}
-                <div class="houseSpecial">
-                    {% for lastTwo in popularTwo %}
-                    {% include articleWell.html post=lastTwo %}
-                    {% endfor %}
-                </div>
-            </div>
-            <hr />
-            <div class="articleSection">
-                <em>Hors d'oeuvres</em>
-                {% for tag in site.tags %}
-                <h3 class="tagHeader">{{ tag[0] }}</h3>
-                <ul>
-                    {% assign alphaPosts = tag[1] | sort_natural: "title" %}
-                    {% for post in alphaPosts %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endfor %}
-            </div>
-        </main>
-        <footer id="gridFooter">
-            {% include footer.html %}
-        </footer>
-    </div>
-</body>
-
+  {% include head.html %}
+  <body></body>
 </html>

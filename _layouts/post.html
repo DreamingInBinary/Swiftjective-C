@@ -1,50 +1,10 @@
 ---
 title: post
 ---
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en-US">
-{% include head.html %}
-{% assign githubURL='https://github.com/DreamingInBinary/Swiftjective-C/' %}
-<body>
-    <div id="gridContainer">
-        {% include smallHeader.html %}
-        <main id="gridMiddle">
-            <article itemscope itemtype="http://schema.org/BlogPosting">
-                <section id="articleHeaderSection">
-                    {% if page.tags[0] == "The Indie Dev Diaries" %}
-                        <i>The Indie Dev Diaries Presents...</i>
-                    {% elsif page.tags[0] == "Tech Notes" %}
-                        <i>Today in Tech Notes...</i>
-                    {% else %}
-                        <i>Now serving...</i>
-                    {% endif %}
-                    <h1 id="postHeader">{{ page.title }}</h1>
-                    <small id="miniphon">Written by <a href={{ page.writtenByTwitter }} target="_blank">{{ page.writtenBy }}</a> &#8226; {{ page.date | date_to_string: "ordinal", "US" }}</small>
-                    {% if page.updated != NULL %}
-                        <small id="miniphon">Updated {{ page.updated | date_to_string: "ordinal", "US" }}</small>
-                    {% endif %}
-                </section>
-                {{ content }}
-            </article>
-            <p id="pullsWelcome">Spot any corrections or have anything to add?<br />Feel free to open an <a href="{{ githubURL | append:'issues' }}" target="_blank">issue</a> or create a <a href="{{ githubURL | append: 'tree/master/_posts/'}}{{ page.path | remove_first:'_posts/' }}" target="_blank">pull request</a> for this article.</p>
-            {% assign next_post = page.next %}
-            {% if next_post == null %}
-            {% assign next_post = site.posts | slice:1, 2 | first  %}
-            {% endif %}
-            <div id="next">
-                <hr />
-                <h4>Next up...</h4>
-                <a href="{{ next_post.url }}"><h1>{{ next_post.title }}</h1></a>
-                {{ next_post.description | markdownify }}
-                <hr />
-            </div>
-            <div>
-                {% include mailingList.html %}
-            </div>
-        </main>
-        <footer id="gridFooter">
-            {% include footer.html %}
-        </footer>
-    </div>
-</body>
+  {% include head.html %} {% assign
+  githubURL='https://github.com/DreamingInBinary/Swiftjective-C/' %}
+  <body></body>
 </html>
