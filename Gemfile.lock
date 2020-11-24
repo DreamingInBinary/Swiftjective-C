@@ -31,6 +31,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-json-feed (1.0.0)
       jekyll (~> 3.3)
+    jekyll-postcss (0.4.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.7.1)
@@ -71,10 +72,11 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-json-feed
+  jekyll-postcss
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-twitter-plugin
   kramdown-parser-gfm
 
 BUNDLED WITH
-   2.0.2
+   2.1.4

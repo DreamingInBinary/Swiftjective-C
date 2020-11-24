@@ -1,4 +1,3 @@
-
 title: Swiftjective-C
 email: jordan@dreaminginbinary.co
 description: >
@@ -8,8 +7,8 @@ description: >
   them tick.
 url: "https://swiftjectivec.com"
 site: https://swiftjectivec.com
-permalink: /:title/ 
-author: 
+permalink: /:title/
+author:
   name: Jordan Morgan
   avatar: /assets/images/about/headshot.jpeg
   url: https://wwww.twitter.com/jordanmorgan10
@@ -27,6 +26,14 @@ facebook:
 logo: /assets/images/logo.png
 plugins:
   - jekyll-feed
+  - jekyll-postcss
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-json-feed
+  - jekyll-twitter-plugin
+  - jekyll-postcss
+  - kramdown-parser-gfm
 social:
   name: Jordan Morgan
   links:
