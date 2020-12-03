@@ -1,5 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-11T11:13:32-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swiftjective-C</title><subtitle>Swiftjective-C is a periodical over modern iOS software engineering. It houses tactful discussions over Swift, Objective-C and developing high quality apps while peering into various frameworks to see what makes them tick.
-</subtitle><author><name>Jordan Morgan</name></author><entry><title type="html">Happy When?</title><link href="http://localhost:4000/Happy-When/" rel="alternate" type="text/html" title="Happy When?" /><published>2020-09-11T00:00:00-05:00</published><updated>2020-09-11T00:00:00-05:00</updated><id>http://localhost:4000/Happy-When</id><content type="html" xml:base="http://localhost:4000/Happy-When/">&lt;p&gt;Early this year, my youngest daughter was bed-ridden in the hospital. As her (already tiny) body tried to fight off some mysterious infection that nobody could quite peg, I just sat around anxiously feeling powerless. If you’re a parent, you know nothing comes close to your children being sick. It brings waves of emotions, worry and reflection.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-02T10:01:21-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swiftjective-C</title><subtitle>Swiftjective-C is a periodical over modern iOS software engineering. It houses tactful discussions over Swift, Objective-C and developing high quality apps while peering into various frameworks to see what makes them tick.
+</subtitle><author><name>Jordan Morgan</name></author><entry><title type="html">A New Home for Spend Stack</title><link href="http://localhost:4000/A-New-Home-For-Spend-Stack/" rel="alternate" type="text/html" title="A New Home for Spend Stack" /><published>2020-11-29T00:00:00-06:00</published><updated>2020-11-29T00:00:00-06:00</updated><id>http://localhost:4000/A-New-Home-For-Spend-Stack</id><content type="html" xml:base="http://localhost:4000/A-New-Home-For-Spend-Stack/">&lt;p&gt;CHANGE DATE&lt;/p&gt;
+
+&lt;p&gt;TWEET COPY
+&lt;em&gt;Deep breath&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s with a wide range of emotions, but the biggest one being excitement, that I’ve got some personal news to share:&lt;/p&gt;
+
+&lt;p&gt;Spend Stack has been acquired.
+END TWEET COPY&lt;/p&gt;
+
+&lt;p&gt;So, where do I even start with this one?&lt;/p&gt;
+
+&lt;p&gt;Spend Stack, and my LLC which sells it (Dreaming In Binary LLC), has been acquired, effective today.&lt;/p&gt;
+
+&lt;p&gt;First things first. If you’re a Spend Stack user, this is a very, very good thing. Spend Stack now has an &lt;em&gt;entire&lt;/em&gt; team dedicated to it. I’ve spent hours sharing my vision, feature roadmap, where it is now, where it needs to go and more with the people who will now be working on it and they’re pumped to get started.&lt;/p&gt;
+
+&lt;p&gt;I’ll get to how we got here in a second, but know this: Spend Stack finally has a group of talent to foster it which it so rightfully deserves. Engineers, a product manager, designers and more. I’m very excited for its future.&lt;/p&gt;
+
+&lt;p&gt;Further, now that the app is no longer mine I feel like I can be more blunt without sounding super self serving by saying this: &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The app is great!&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is! It’s in a position to take that next leap. It’s well-built, easy to use and makes itself home on iOS. But none of that was ever the issue. It’s biggest issue was, admittedly, well…&lt;em&gt;me&lt;/em&gt; 😅.&lt;/p&gt;
+
+&lt;p&gt;I don’t think like a product owner most of the time with Spend Stack, by my own admittance. One of the core reasons I made it was to see if I could make something that would completely fulfill my &lt;a href=&quot;http://localhost:4000/A-Best-In-Class-App&quot;&gt;Best in Class&lt;/a&gt; list. But it’s a product now, and it needs to be treated like one.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-why&quot;&gt;The Why&lt;/h3&gt;
+&lt;p&gt;That said, for the past year Spend Stack has done something pesky on me; grown! Thousands use it daily to get things done in their financial life. I’d wager that it’s done, by any measure, what a lot of us want our side projects to do: Be used, liked by those use it all while increasing its user base.&lt;/p&gt;
+
+&lt;p&gt;Facing the music made me realize that in some ways, I was oddly being selfish. I released my toy pet project without much thought to the responsibility you have when you make something. It’s a wonderful arrangement, to give people something they find useful and then they pay you for that thing - but you need to meet your end of the bargain.&lt;/p&gt;
+
+&lt;p&gt;I want to honor that. So four months ago, I sat down and answered some questions like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What does Spend Stack need to do to make more money to justify more work on it?&lt;/li&gt;
+  &lt;li&gt;What features is it missing to compete on a larger scale? Of those, which make sense to do and further its mission statement?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Answering those was illuminating. I realized that making the “perfect” app, while a worthwhile mission that I still want to pursue, had to take a bit less of my time than making the app go towards its user’s needs more.&lt;/p&gt;
+
+&lt;p&gt;The long and short of it is - there is a mountain of work ahead of me. Worthwhile, good work - but a lot of it. Not a small feature. Not just a design tweak. More than that. Essentially, I’ve built a solid base of a product. Now, it needs to put on its grown up pants.&lt;/p&gt;
+
+&lt;p&gt;I accepted this and made up my mind to start breaking down these tasks to get on it. And then, life stuff happened:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We sold our house&lt;/li&gt;
+  &lt;li&gt;We started building another one&lt;/li&gt;
+  &lt;li&gt;COVID-19 happened, and complicated both of those things financially and logistically&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…and through it all the unthinkable happened: my passion to keep this Spend Stack train chuggin’ started waning 🚃.&lt;/p&gt;
+
+&lt;p&gt;And I hated that. So much 😔. I wanted to &lt;em&gt;want&lt;/em&gt; to complete that work I set out for myself, knowing the pay off would be worth it. But other competing thoughts came up when weighing the time investment. I can sum it up into two, distinct points:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I miss writing on this blog about not only indie stuff, but Apple APIs, Swift, etc.&lt;/li&gt;
+  &lt;li&gt;I keep thinking about the apps I’m &lt;em&gt;not&lt;/em&gt; making more than the one I was making.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ah, but the App gods realized this too! Around this same time, a mutual connection introduced me to Spend Stack’s eventual acquirer.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-how&quot;&gt;The How&lt;/h3&gt;
+&lt;p&gt;This is where things started to go off the rails a bit. I’ve never sold an app, let alone an entire LLC. After an introductory chat that was supposed to last 30 minutes go on for hours, I realized that Spend Stack had found a better place to grow - and it was no longer with me.&lt;/p&gt;
+
+&lt;p&gt;I adore this app, though. I would never, ever give it away. My name is on it, and I think that really means something. So I did my due diligence beforehand. I talked with close friends who had been through this, I found out what Spend Stack’s fair market value was and reached out to a few folks to get an idea of what I was in for.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sidebar. So I talk about being a best in class app quite a bit. And from a monetization standpoint, that literally paid off. Spend Stack was worth more than other apps with similar numbers due to its quality, and I was really proud of that. That’s not me talking either, that’s from a valuation from a third party and from getting the same feedback from suitors. So, work towards that mark! I know I always will with whatever I make.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After a few weeks of this, I ended up with some clarity. I felt great, but only about one option. I don’t know if this is how things always work, but once I put a few feelers out some offers started cropping up. The dealings weren’t ever made public and the whole thing was behind closed doors.&lt;/p&gt;
+
+&lt;p&gt;From that, there were a few interesting roads to consider, but I never made an off the cuff decision. I slept on it. I declined to take on any sort of funding or acquihire opportunities. All of those were on the table, but in the end I didn’t think they were right for me. I’m 32, and while I feel all nice and young - I’m definitely not in my early 20s. Grinding it out on a start up does not sound as appealing to me as it once did. I love my &lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1333480583490625537?s=20&quot;&gt;day job at Buffer&lt;/a&gt;, and the people I work with. I’d much prefer lower risk, lower reward at this point in my life and more importantly when it comes to taking care of my family.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, I found someone who thinks as much of Spend Stack as I do. So, if you’re looking for a post about how I sold my app for a gazillion dollars to a silicon valley titan, well - this is not that. This is about a well intentioned company taking over an app that’s simply outgrown its original developer.&lt;/p&gt;
+
+&lt;p&gt;And I am, in fact, putting my money where my mouth is quite literally. There were at least two other companies who wanted to acquire Spend Stack for &lt;em&gt;more&lt;/em&gt; than what I sold it for, but the fit was best here. The future and nourishment of Spend Stack means more to me than making a lot of money - and I can’t prove it anymore than through the actions I’ve taken.&lt;/p&gt;
+
+&lt;h3 id=&quot;and-spend-stack-today&quot;&gt;And Spend Stack Today&lt;/h3&gt;
+&lt;p&gt;To most of you, Spend Stack is quite young - &lt;a href=&quot;http://localhost:4000/Introducing-Spend-Stack&quot;&gt;only releasing last July&lt;/a&gt;. For me, it’s much different. Spend Stack has been a big part of my life longer than my oldest child, who is about to turn 7!&lt;/p&gt;
+
+&lt;p&gt;I started on Spend Stack right out of college in 2013, and the first version (&lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1265663472425205762?s=20&quot;&gt;which was not a success&lt;/a&gt;) shipped that year. After I pulled it off the App Store, I started work and design on the version you see today - around 2015.&lt;/p&gt;
+
+&lt;p&gt;Put simply - Spend Stack has been what I’ve done for a long time. So, I don’t take any decision to part with it lightly. But I do want it to expand and grow. It feels good knowing it has the best chance to do that now.&lt;/p&gt;
+
+&lt;p&gt;And I do too, but just in new ways and different directions.&lt;/p&gt;
+
+&lt;h3 id=&quot;quick-questions&quot;&gt;Quick Questions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;What if they make a million dollars from it!?&lt;/strong&gt;&lt;br /&gt;
+This is one of the first things my sister said when I broke the news to her. My response?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I hope they do!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope Spend Stack becomes their (Prometheus Interactive) largest property and it takes over the entire world, nothing would make me happier.&lt;/p&gt;
+
+&lt;p&gt;Why?&lt;/p&gt;
+
+&lt;p&gt;Because I arrived at a genuine place where I gave Spend Stack all I had to give it. I feel accomplished, at peace with it - I did all I could for it.&lt;/p&gt;
+
+&lt;p&gt;It charts all the time, has hit and stayed at #1 several times, was part of the Apple Retail Demo program, had multiple banner features (and &lt;em&gt;just&lt;/em&gt; got pinged from another huge one that I will unfortunately miss), written about and more. It’s kinda like if you lost a championship game, but knew you gave it all you had. Except, in this scenario - nobody is losing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wait, your entire LLC was sold? Why?&lt;/strong&gt;&lt;br /&gt;
+Ah, iCloud. You slick willy.&lt;/p&gt;
+
+&lt;p&gt;The fact that I use CloudKit to sync data in Spend Stack is the only reason why this happened. Spend Stack is glued to Dreaming In Binary LLC, and I can’t simply transfer the app to a new owner. So, the entire LLC was absorbed. It made the acquisition a bit trickier than it should’ve been, but we navigated it. It extended the process much longer than usual, and I so, so dearly hope Apple addresses this in the future.&lt;/p&gt;
+
+&lt;p&gt;Aside from the logistical hurdles - who doesn’t want to provide a good sync experience on Apple platforms? We all do. Their API is there to get it done. But we’re left with having to make an LLC per app if we do, which isn’t great. Further, indies (like myself) want to use the money we make from our apps getting acquired to invest back into the ecosystem with new apps, while the acquired ones get even more attention. It’s a win-win to fix, so here’s hoping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Are you still going to make stuff?&lt;/strong&gt;&lt;br /&gt;
+1,000%, absolutely, without a doubt. As my wife Jansyn put it, “I think a piece of you would die inside if you weren’t making something” and she is absolutely right.&lt;/p&gt;
+
+&lt;p&gt;For now, I’m going to enjoy a nice break. I plan on taking a few months off from side projects of any kind to just relax a little bit. Then, I want to dust off some stuff I haven’t been able to do since I’ve always been working on Spend Stack. Here are some ideas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Revamp my website design. Add in some tool tips.&lt;/li&gt;
+  &lt;li&gt;Write more technical blog posts, as I used to before Spend Stack shipped.&lt;/li&gt;
+  &lt;li&gt;Maybe do a book over Indie Development I’ve worked on off and on for the last few months.&lt;/li&gt;
+  &lt;li&gt;Release a fully in-depth .pdf guide of my best in class post with code samples.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But hey, I was put on this earth to eat pizza, slam back espresso and write software. So when I do get back to apps, smaller utility based ones excite me. Spend Stack is simple on the surface, but the world of finances and the way people use software geared towards it are incredibly complex and require a lot of care. Doing something a bit “simpler” sounds like a lot of fun, and I want to ship more apps this time around too, whenever I get to that point.&lt;/p&gt;
+
+&lt;p&gt;That said, there are several “bigger” app ideas that I’m really excited to explore. What I’m finding is that I simply adore the Apple platforms indie space (no surprise if you follow me on Twitter or read this blog) and I want to do stuff for &lt;em&gt;them&lt;/em&gt;. Be it writing, &lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1266372003084161027?s=20&quot;&gt;making software&lt;/a&gt; or something else.&lt;/p&gt;
+
+&lt;p&gt;In short, this is a new, exciting chapter for me. But in practice today, I’m just taking a breather for now and playing a lot of Call of Duty currently (MP5 still needs a nerf).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How much did it get acquired for?&lt;/strong&gt;&lt;br /&gt;
+That’s NDA’d 🤐. But, I’m very happy too 😄. My new house went from being a bit stressful to, well, not being stressful and I’m very thankful for that.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-last-spend-stack-thoughts&quot;&gt;My Last Spend Stack Thoughts&lt;/h3&gt;
+&lt;p&gt;This feels like a good time to close a chapter. It wasn’t easy to do, as many who go through this kind of thing typically say. You have some doubts and similar hesitations:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What if I just stick it out a bit and do what I need to do to monetize more?&lt;/li&gt;
+  &lt;li&gt;What if I don’t make anything this good again?&lt;/li&gt;
+  &lt;li&gt;What if I don’t find the time for another app?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can what-if yourself to death or until Xcode finishes indexing your project, whichever comes first. The thing is, I’m happy. Really, the only thing I didn’t accomplish was winning and Apple Design Award and finishing out my Best in Class list. But there’s always tomorrow for that.&lt;/p&gt;
+
+&lt;p&gt;So now, I look back at it as a job well done. For a long time, it was a huge passion of mine. I couldn’t wait to wake up and work on it. Each new part that I finally got right after tweaking it over and over would make my heart sing.&lt;/p&gt;
+
+&lt;p&gt;People like to say that programming is very utilitarian- and in some ways, that’s true. But we forget the poetry in it too. It’s definitely there, if you look hard enough. We often tout artistic works and awe at their beauty when it comes to things like paintings or sculptures - why don’t we do the same with software?&lt;/p&gt;
+
+&lt;p&gt;That was Spend Stack for me. Each part I poured into to make happen, it all brought true joy to me. Because if we aren’t spending our days working on things that truly make us proud and reflect a little bit of who we are into the world, then really - what are we even doing?&lt;/p&gt;
+
+&lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;
+&lt;p&gt;It’s absolutely surreal to think that these very words are some of the last I’ll ever type about Spend Stack on this blog. I think it’s enough now. On to the next!&lt;/p&gt;
+
+&lt;p&gt;For everyone who followed along, from the bottom of my heart - thank you ❤️. It’s so stereotypical to say it, but this is also the start of a lot of new things from me too, so be on the lookout.&lt;/p&gt;
+
+&lt;p&gt;Oh, and here’s a picture we snapped of our new home. We’re excited:
+&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/houseHouse.jpg&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/houseHouse.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="The Indie Dev Diaries" /><summary type="html">CHANGE DATE</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Happy When?</title><link href="http://localhost:4000/Happy-When/" rel="alternate" type="text/html" title="Happy When?" /><published>2020-09-11T00:00:00-05:00</published><updated>2020-09-11T00:00:00-05:00</updated><id>http://localhost:4000/Happy-When</id><content type="html" xml:base="http://localhost:4000/Happy-When/">&lt;p&gt;Early this year, my youngest daughter was bed-ridden in the hospital. As her (already tiny) body tried to fight off some mysterious infection that nobody could quite peg, I just sat around anxiously feeling powerless. If you’re a parent, you know nothing comes close to your children being sick. It brings waves of emotions, worry and reflection.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/baytown.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/baytown.png&quot; /&gt;&lt;/p&gt;
 
@@ -45,13 +200,13 @@ I’ll be &lt;em&gt;happy when&lt;/em&gt; my app is featured.&lt;br /&gt;&lt;/p&
 
 &lt;p&gt;The issue with this thinking is that we never arrive anywhere.&lt;/p&gt;
 
-&lt;p&gt;We so often look to just beyond &lt;em&gt;where we are&lt;/em&gt; as the cure-all destination, where we can finally give ourselves permission to be happy. This is doubly true as indie developers, where we are in a perenninial state of working towards that next milestone - in a constant state of overcoming obstacles.&lt;/p&gt;
+&lt;p&gt;We so often look to just beyond &lt;em&gt;where we are&lt;/em&gt; as the cure-all destination, where we can finally give ourselves permission to be happy. This is doubly true as indie developers, where we are in a perennial state of working towards that next milestone - in a constant state of overcoming obstacles.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;But the truth is, there is no better time to be happy other than right now.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;That week in the hospital reminded me that I needed to adopt a new perspective on happiness. Happiness is a choice, and it’s the only way forward. Celebrate your success, but don’t let your success (or lack thereof) dictate much on your quality of life.&lt;/p&gt;
 
-&lt;p&gt;Far better to enjoy life and it’s journey than struggle through it hoping that the next stage is better. These days, I do my best to keep that mindset.&lt;/p&gt;
+&lt;p&gt;Far better to enjoy life and its journey than struggle through it hoping that the next stage is better. These days, I do my best to keep that mindset.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;My kids are crazy and wake me up all night?&lt;/strong&gt;&lt;br /&gt;
 I’ll look back at it fondly, because they’ll be grown up before I know it.&lt;/p&gt;
@@ -65,7 +220,7 @@ Good, I could use more balance with how I spend my time.&lt;/p&gt;
 &lt;p&gt;You get the idea. But, I don’t want to conflate my message here, either. Hard work and success are both wonderful things, and I hope you encounter both. But, let those things be contributors to your happiness, not a source. It helps to frame your thinking the right way - instead of thinking “I’ll be happy when I top the charts!”, maybe try “I’ll be proud when I achieve that!”.&lt;/p&gt;
 
 &lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;
-&lt;p&gt;Whether you are king of the mountain, just beginning to climb it or perhaps you’ve been stuck halfway for years - enjoy each moment. All of these events aren’t obstacles leading to next thing, or a segue to your spout of happiness you deserve. All of these obstacles are your life, and it would be a shame to not be happy while experiencing each of them.&lt;/p&gt;
+&lt;p&gt;Whether you are king of the mountain, just beginning to climb it or perhaps you’ve been stuck halfway for years - enjoy each moment. All of these events aren’t obstacles leading to the next thing, or a segue to your spout of happiness you deserve. All of these obstacles are your life, and it would be a shame to not be happy while experiencing each of them.&lt;/p&gt;
 
 &lt;p&gt;I truly believe that if you give yourself a second to take a step back and survey things, you may realize that the best time to happy and excited about the things you’ve got going on - is now.&lt;/p&gt;
 
@@ -1253,154 +1408,4 @@ Maybe it’s just me, but if I stick on a feature too long I begin to convince m
 
 &lt;p&gt;But, it’s just another example of how new API can make you look at age old problems in a new light. A problem well stated is a problem half solved I suppose.&lt;/p&gt;
 
-&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Tech Notes" /><summary type="html">While toiling about with some keyboard handling code in Spend Stack, I started to remember one import choice I made several months ago:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Creating a Retail Demo for Apple</title><link href="http://localhost:4000/Creating-A-Retail-Demo/" rel="alternate" type="text/html" title="Creating a Retail Demo for Apple" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>http://localhost:4000/Creating-A-Retail-Demo</id><content type="html" xml:base="http://localhost:4000/Creating-A-Retail-Demo/">&lt;p&gt;Through luck, determination and whatever other stereotypical noble quality you can conjure up, Apple selected &lt;a href=&quot;https://www.spendstack.com&quot;&gt;Spend Stack&lt;/a&gt; to take part in their retail demo program.&lt;/p&gt;
-
-&lt;p&gt;Yay! Right!? Just look at it!&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/demoStore.jpeg&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/demoStore.jpeg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Well, yes. Of course yes!&lt;/p&gt;
-
-&lt;p&gt;But, if you hit the Googles for past experiences with this, you’ll find quite a lot of tumbleweeds. This makes sense, because if you happen to scan the apps that are on retail iPhones and iPads at your local Best Buy, Apple Store, etc. - they tend to be apps that hail from Big Corp©. And rightfully so, they all are quality, well made apps with the team and budget to match.&lt;/p&gt;
-
-&lt;p&gt;Though, the everyman doesn’t often appear there. And if they do, it typically tends to be in the form of a game. So today, I figured I’d spend this indie dev diary chronicling my experience with getting Spend Stack on iPhones and iPads across America 🇺🇸. Think of it as Spend Stack’s official road tour 🚌.&lt;/p&gt;
-
-&lt;p&gt;Or, maybe more than America. I’m not really sure? I’ll get into that later, as we’ll see.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-reach-out&quot;&gt;The Reach Out&lt;/h3&gt;
-&lt;p&gt;During some Saturday in December when I was hacking away at Spend Stack at local coffee shop, I noticed an email that stuck out. Its subject line spoke about an incredible marketing opportunity.&lt;/p&gt;
-
-&lt;p&gt;I thought it was spam 😅!&lt;/p&gt;
-
-&lt;p&gt;Thankfully, I took a closer look and saw the sender had a bonafide Apple domain. The message was simple enough. Someone from developer relations introduced themselves and laid out how the process works.&lt;/p&gt;
-
-&lt;p&gt;From there, you just dive into the ~15 page .pdf file they give you to point out the finer details. I will say, this guide was incredibly helpful. It had step-by-step pictures with call out glyphs to ensure you were getting logistical things done correctly (especially helpful when you get into the upload part of the process).&lt;/p&gt;
-
-&lt;h3 id=&quot;the-prep&quot;&gt;The Prep&lt;/h3&gt;
-&lt;p&gt;With my requirements in hand, I got to work! Luckily, this occurred over my Christmas break, where I am fortunate enough to take about three weeks off each year. I had quite a large update to Spend Stack planned for this time (which I’m in the middle of now) but the opportunity cost was worth the trade.&lt;/p&gt;
-
-&lt;p&gt;If you’ve spent any number of minutes with these demo apps at stores, you kind of know what to expect. A splash screen saying that’s it a demo, pre-populated data and some features that are either taken out or gated by an alert controller saying it’s unavailable.&lt;/p&gt;
-
-&lt;p&gt;In Spend Stack, all of this was easy enough. Instead of going through my designs and taking things out, I opted to keep them in so users would be aware they existed. I’d rather they hit a “You can’t do this in the demo” alert than be none-the-wiser to some pretty great features that are core to Spend Stack (i.e. iCloud sharing and collaborating for lists).&lt;/p&gt;
-
-&lt;p&gt;The splash screen was quick to whip up - I originally was using the one I have shipped now, but it was easier to rip it out to make a more “to the point” variation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/compareSplash.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/compareSplash.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If anything, I probably would’ve taken out the “Continue” button, as I noticed quite a few apps don’t even use one.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-problems&quot;&gt;The Problems&lt;/h3&gt;
-&lt;p&gt;I hit some issues along the way, though. The first and most challenging was around how I chose to tackle demo data. I need quite a bit of it. I wrote a list of lists (meta!) that I wanted to include to best showcase all of the things you can do with Spend Stack. I ended up with a solid line up, and each one was filled with relevant items, images, notes and more:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/listLists.png&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/listLists.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The issue was, I created these all in code for my first go around. And, well - it took about 5 seconds to create the database, drop existing data and populate these on the fly. That’s a non-starter, obviously, as nobody except my Mom and (maybe) my wife would wait around for that. And even then, it would only be out of love 😅.&lt;/p&gt;
-
-&lt;p&gt;I tried to turn some tricks with concurrency, but as is so often the case with programming - I stepped away from it and arrived at an answer. The epiphany came, and the solution was dead simple: simply ship the retail demo with a database. Spend Stack uses raw SQLite for data, and once I used the app and had a good set of dummy lists to work with - I simply found it within the file system on my mac and included it as part of the Xcode project.&lt;/p&gt;
-
-&lt;p&gt;It booted lightning fast - done and done:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseFilePath&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;NSFileManager&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileManager&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;NSFileManager&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defaultManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directories&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileManager&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;URLsForDirectory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;NSDocumentDirectory&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;inDomains&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;NSUserDomainMask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;documentPath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directories&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;firstObject&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;URLByAppendingPathComponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&quot;spendStack.db&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;documentPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The other hiccup has to do with multiple spaces on iPadOS. When you ship these retail apps, you’ve got to wipe any data entered on them when the user is “done” with them. Done is quite ambiguous, and there’s no concrete “when” defined. So, when a user backgrounds Spend Stack I reset everything:&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sceneDidEnterBackground&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIScene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;initateSelfDestructSequence&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The only fun thing is that when you open a new window, iOS also calls the same delegate method while the window is being setup. You can see this quite easily, and it makes sense I guess - iOS puts up that blurry view while another window slides in. So, I’ve got some jank there that I won’t share publicly to help avoid any deleterious state bugs 😅 (spoiler, it’s &lt;em&gt;totally&lt;/em&gt; not a simple GCD delay, no way).&lt;/p&gt;
-
-&lt;p&gt;Aside from that - uploading it App Store Connect gave me some fits. Try to hide your surprise 😜. It’s a bit of a different flow, but again - the .pdf guide they give you really helped out here.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-uncertainty&quot;&gt;The Uncertainty&lt;/h3&gt;
-&lt;p&gt;Once it was uploaded, all that was left to do was wait. I didn’t really get much information on when and where it would be. Was this like App Store promo art, where you supply it and it might be lost to the dark ether of the App Store editorial team (still waiting for mine to be used 🤞😭🙃) or show up next week? I had no idea, so I figured I’d just point blank ask them.&lt;/p&gt;
-
-&lt;p&gt;The response?&lt;/p&gt;
-
-&lt;p&gt;An email telling me to gate one more feature with an alert 🤣. But, I guess that did mean they were going to use it! Shoot your shot, right?&lt;/p&gt;
-
-&lt;p&gt;Getting responses was a little difficult to be honest, and in some ways frustrating, because to smaller indies like me - this is a &lt;strong&gt;big&lt;/strong&gt; deal! This is getting Apple’s stamp of approval for your app! It’s marketing! Validation! The list goes on. I wanted to know I was doing everything they needed.&lt;/p&gt;
-
-&lt;p&gt;Look, there could be a million reasons for why things work the way they do on the App Store and these kind of things. It could be out of certain individual’s control. It’s always easy to bemoan X or Y on the outside.&lt;/p&gt;
-
-&lt;p&gt;I do know this - the rep I worked with was always kind when I chatted with them, and we cracked a few jokes back and forth. Plus, each person I’ve meet at W.W.D.C. on the App Store team was delightful, and the labs with them were a highlight. It feels like the key here is like anything else, you just need to build relationships to get things moving and I’m still working on that with the App Store folks.&lt;/p&gt;
-
-&lt;p&gt;All that to say - the reason for this tweet was half because I wanted to share the news with my fellows devs, and half because I wanted to get the word out:&lt;/p&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🤩&lt;br /&gt;&lt;br /&gt;About that Spend Stack news...&lt;br /&gt;&lt;br /&gt;I’ve always said that my main goal was to make an app I’m truly proud of. While I’ve got a lot left to do, having Apple want &lt;a href=&quot;https://twitter.com/SpendStackApp?ref_src=twsrc%5Etfw&quot;&gt;@SpendStackApp&lt;/a&gt; on iPhones to demo their product is a huge honor for me and validation that I’m on the right track. &lt;a href=&quot;https://t.co/uSGhEbv8YL&quot;&gt;pic.twitter.com/uSGhEbv8YL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jordan Morgan (@JordanMorgan10) &lt;a href=&quot;https://twitter.com/JordanMorgan10/status/1224478409423716353?ref_src=twsrc%5Etfw&quot;&gt;February 3, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If someone saw Spend Stack at the stores, maybe they would tell me and that would be how I found out it released. Thankfully, that wasn’t necessary.&lt;/p&gt;
-
-&lt;p&gt;Why? Because I straight up walked into Best Buy a few times a week to check (there’s no Apple Store by me, unfortunately). And, well - one day it was there!&lt;/p&gt;
-
-&lt;h3 id=&quot;the-payoff&quot;&gt;The Payoff&lt;/h3&gt;
-&lt;p&gt;There is nothing quite like walking into a brick and mortar store and seeing your own app sitting there on an iPhone. It really is one of those career moments that I’ll never forget. As someone who tends to be extremely critical of their work and a slight perfectionist, I find that being “proud” or feeling “finished” is always &lt;em&gt;just&lt;/em&gt; another milestone away.&lt;/p&gt;
-
-&lt;p&gt;But as my wife noted, when I walked in there and saw it - I was unmistakably proud and fulfilled. She said my face lit up, and she caught some convert, candid pics to prove it:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/proud.jpg&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/proud.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It was a lot of fun chatting it up with the Best Buy employees too:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Best Buy Person: Hey! Any questions about that iPhone?&lt;br /&gt;
- Me: No, but dude - my app is on here!&lt;br /&gt;
- Best Buy Person: Wait, what? Which one?&lt;br /&gt;
- Me: This one!&lt;br /&gt;
- Best Buy Person: No way! How? When? So many questions!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;They all were genuinely interested, and who knows - maybe I inadvertently created the first Spend Stack sales team 😎. On our way out, my wife and I decided to take a picture to commemorate the occasion. A kind gentleman walking by offered to take it for us:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lozad rounded center-img&quot; data-src=&quot;../assets/images/wifeyCakes.jpg&quot; role=&quot;presentation&quot; srcset=&quot;../assets/images/wifeyCakes.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Why is that funny? Well, we’re obviously very happy in that picture. So another couple walking by asked, with a beaming expression:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Them: Oh my goodness, did you all just get engaged!?&lt;br /&gt;
-Me: No, but Spend Stack got selected as a retail demo on the iPhones…&lt;br /&gt;
-Them: &amp;lt; They cut me off, looked at me weird and walked away confused before I could finish &amp;gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We still laugh about that 😜.&lt;/p&gt;
-
-&lt;h3 id=&quot;other-random-insights&quot;&gt;Other Random Insights&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I’ve noticed that there are about 3-4 different retail demo “line ups”.&lt;/li&gt;
-  &lt;li&gt;…though some are very similar. For example, Spend Stack and Lifesum are mutually exclusive. They show up in the same spot (3rd page, 3rd row, 1st item I think) and if one is there, the other won’t be.&lt;/li&gt;
-  &lt;li&gt;Most employees didn’t recall when their retail demo line up refreshed. It appears to be an over the air thing, which makes sense.&lt;/li&gt;
-  &lt;li&gt;The timeline from start to finish was about two and a half months.&lt;/li&gt;
-  &lt;li&gt;If it’s not already obvious from the article, you don’t apply for the retail demo - Apple proactively reaches out to you.&lt;/li&gt;
-  &lt;li&gt;Sales wise it’s been a huge help, as Spend Stack tends to consistently chart since its retail demo release. Before, it tends to dip in and out throughout the month.&lt;/li&gt;
-  &lt;li&gt;I go fairly in-depth on all of this, and talk about how my &lt;a href=&quot;http://localhost:4000/A-Best-in-Class-App&quot;&gt;Best in Class&lt;/a&gt; ideals may have helped Spend Stack get selected on an episode of &lt;a href=&quot;https://podcasts.apple.com/us/podcast/launched/id1491582246#episodeGuid=47cc2b57-c99a-4ced-8609-74270d651bb9&quot;&gt;Launched.fm&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Lastly, here’s a &lt;a href=&quot;https://www.reddit.com/r/apple/comments/f7ugww/apple_selected_my_app_spend_stack_to_be_in_its/?utm_source=share&amp;amp;utm_medium=i&quot;&gt;Reddit&lt;/a&gt; post on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;r/Apple&lt;/code&gt; where I chat about it some more while answering some questions others had.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;
-&lt;p&gt;You never know where our little creations will end up. While you toil away night after late night, it’s too easy to end up in that phase of doubt:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Will this even matter at all?”&lt;/li&gt;
-  &lt;li&gt;“Will it get a few downloads on launch and meekly wither away?”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’m telling you, I’ve been there. And I have a season pass too, apparently. I revisit that space probably a little too often. You start to look at other apps and their success thinking that your own are always just a day late and a dollar short.&lt;/p&gt;
-
-&lt;p&gt;But hey! &lt;strong&gt;Sometimes you get the win!&lt;/strong&gt; And when you do, be sure to stop and enjoy it. You never what’s around the corner, who’s paying attention to your app or when you’ll get a random email in December from Apple asking you to put your creation on thousands of iPhones with other carefully curated apps hand picked by them.&lt;/p&gt;
-
-&lt;p&gt;So keep on truckin’ on that next great app 💪!&lt;/p&gt;
-
-&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="The Indie Dev Diaries" /><summary type="html">Through luck, determination and whatever other stereotypical noble quality you can conjure up, Apple selected Spend Stack to take part in their retail demo program.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Until next time ✌️.&lt;/p&gt;</content><author><name>Jordan Morgan</name></author><category term="Tech Notes" /><summary type="html">While toiling about with some keyboard handling code in Spend Stack, I started to remember one import choice I made several months ago:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
