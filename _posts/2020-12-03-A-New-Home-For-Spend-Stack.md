@@ -5,19 +5,8 @@ title: "A New Home for Spend Stack"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "A chapter of my professional life comes to an end. Spend Stack has been acquired and will get the full team it deserves!"
-image: /assets/images/logo.png
+image: /assets/images/newHome.png
 ---
-
-CHANGE DATE
-
-TWEET COPY
-*Deep breath*
-
-It's with a wide range of emotions, but the biggest one being excitement, that I've got some personal news to share:
-
-Spend Stack has been acquired.
-END TWEET COPY
-
 So, where do I even start with this one?
 
 Spend Stack, and my LLC which sells it (Dreaming In Binary LLC), has been acquired, effective today.
