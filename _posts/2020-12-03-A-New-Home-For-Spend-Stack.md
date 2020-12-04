@@ -19,7 +19,7 @@ Further, now that the app is no longer mine I feel like I can be more blunt with
 
 **The app is great!** <br />
 
-It is! It’s in a position to take that next leap. It’s well-built, easy to use and makes itself home on iOS. But none of that was ever the issue. It’s biggest issue was, admittedly, well..._me_ 😅. 
+It is! It’s in a position to take that next leap. It’s well-built, easy to use and makes itself home on iOS. But none of that was ever the issue. Its biggest issue was, admittedly, well..._me_ 😅. 
 
 I don’t think like a product owner most of the time with Spend Stack, by my own admittance. One of the core reasons I made it was to see if I could make something that would completely fulfill my [Best in Class][1] list. But it’s a product now, and it needs to be treated like one.
 
