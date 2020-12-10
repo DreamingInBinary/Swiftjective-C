@@ -12,18 +12,23 @@ permalink: /
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       {% include navigation.html %}
       <div class="flex flex-row">
-        <div class="w-2/6">
+        <div class="w-3/12">
           <div>
             <p>Indie Add</p>
             <small>Show off your indie app!</small>
           </div>
           {% include coffeeTime.html %}
         </div>
-        <div class="w-4/6">
-          <p>{{ post.description }}</p>
+        <div class="w-9/12">
+          <div class="prose prose-blue prose-xl">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.description }}</p>
+            {{ post.content }}
+          </div>
         </div>
       </div>
     </div>
   </div>
-</body>
+  </body>
+
 </html>
