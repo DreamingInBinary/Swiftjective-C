@@ -162,6 +162,7 @@ The five sections it covers are:
     + Also include intent phrases to help coach users.
     + Alternate app names are included when appropriate.
     + Watchface support.
+    + Localized via `NSString.deferredLocalizedIntentsString`.
 - If it makes sense, document sharing is supported via the file provider.
 - Drag and drop has first class support:
     - A fully fleshed out `NSItemProvider` exists for custom objects.
