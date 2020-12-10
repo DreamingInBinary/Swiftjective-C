@@ -5,19 +5,25 @@ permalink: /
 <!DOCTYPE html>
 <html lang="en-US">
 {% include head.html %}
+{% assign sorted = site.posts | sort: "date" | reverse %}
+{% assign post = site.posts | first %}
 <body">
-<header class="text-gray-700 body-font">
-  <div class="container my-8 mx-auto flex flex-wrap">
-    <a class="flex justify-center title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <div class="flex flex-col justify-center">
-      	 <span class="ml-3 text-xl">Swiftjective-C</span>
-      	  <span class="ml-3 text-sm">A place for Apple indies. And iOS and Swift guides. And tech...mostly.</span>
+  <div class="relative bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      {% include navigation.html %}
+      <div class="flex flex-row">
+        <div class="w-2/6">
+          <div>
+            <p>Indie Add</p>
+            <small>Show off your indie app!</small>
+          </div>
+          {% include coffeeTime.html %}
+        </div>
+        <div class="w-4/6">
+          <p>{{ post.description }}</p>
+        </div>
       </div>
-    </a>
+    </div>
   </div>
-</header>
 </body>
 </html>
