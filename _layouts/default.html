@@ -13,32 +13,168 @@ permalink: /
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       {% include navigation.html %}
       <div class="flex flex-row">
-        <div class="w-3/12 mt-10">
-          <div>
-            <p>Indie Add</p>
-            <small>Show off your indie app!</small>
+        <!-- Sidebar -->
+        <div class="w-3/12 mt-10 space-y-2">
+          <!-- Search -->
+          <div class="flex w-9/12 mt-3">
+            <label for="search" class="sr-only">Search</label>
+            <div class="relative">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                  fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd" />
+                </svg>
+              </div>
+              <input id="search" name="search"
+                class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                placeholder="Search" type="search">
+            </div>
           </div>
-          <p>Greatest Hits</p>
-          <div class="flex flex-row">
-            <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-            </svg>
-            <a>A Best in Class App</a>
+          <!-- Greatest Hits -->
+          <div class="pt-4">
+            <span class="font-semibold pt-10">Greatest Hits</span>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>A Best in Class App</a>
+            </div>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>Swift Keywords</a>
+            </div>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>Optimizing Images</a>
+            </div>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>Spend Stack Acquired</a>
+            </div>
           </div>
-          {% include coffeeTime.html %}
+          <!-- Reach Out -->
+          <div class="pt-4">
+            <span class="font-semibold pt-10">Comms</span>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>RSS</a>
+            </div>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>Contact</a>
+            </div>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a>Mailing List</a>
+            </div>
+          </div>
+          <!-- Coffee -->
+          <div class="pt-4">
+            <button class="inline-flex items-center px-3 py-2 rounded-full text-xs font-semibold bg-yellow-100 text-gray-800">
+              {% include coffeeTimeSmall.html %} <span class="pl-2">Buy me a coffee</span>
+            </button>
+          </div>
         </div>
-        <div class="w-9/12 mt-10">
-          <div class="prose prose-blue prose-xl dark:text-gray-200">
+        <!-- Content -->
+        <div class="w-9/12 mt-10 prose prose-blue prose-xl dark:text-gray-200">
+          <div>
             <h1>
               <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{ post.title }}</span>
+                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
+                post.title }}</span>
             </h1>
             <div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-              <div class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full">
-                <svg class="stroke-current stroke-1 text-red-600" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+              <button class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full">
+                <svg class="pb-0.5 stroke-current stroke-1 text-red-600" width="16" height="16"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                    clip-rule="evenodd" />
                 </svg>
-                {{ post.tags[0] }}
+                <span class="pl-1.5">{{ post.tags[0] }}</span>
+              </button>
+              <div class="-mt-8 flex items-center text-sm text-gray-500">
+                {{ post.date | date_to_string: "ordinal", "US" }}
+              </div>
+            </div>
+            <article class="mb-36">
+              {{ post.content }}
+            </article>
+          </div>
+          <div>
+            <h1>
+              <span
+                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
+                post.title }}</span>
+            </h1>
+            <div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
+              <div
+                class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full cursor-pointer">
+                <svg class="pb-0.5 stroke-current stroke-1 text-red-600" width="16" height="16"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span class="pl-1.5">{{ post.tags[0] }}</span>
+              </div>
+              <div class="-mt-8 flex items-center text-sm text-gray-500">
+                {{ post.date | date_to_string: "ordinal", "US" }}
+              </div>
+            </div>
+            {{ post.content }}
+          </div>
+          <div>
+            <h1>
+              <span
+                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
+                post.title }}</span>
+            </h1>
+            <div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
+              <div
+                class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full cursor-pointer">
+                <svg class="pb-0.5 stroke-current stroke-1 text-red-600" width="16" height="16"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span class="pl-1.5">{{ post.tags[0] }}</span>
               </div>
               <div class="-mt-8 flex items-center text-sm text-gray-500">
                 {{ post.date | date_to_string: "ordinal", "US" }}
