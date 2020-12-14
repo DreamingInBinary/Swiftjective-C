@@ -7,11 +7,12 @@ permalink: /
 {% include head.html %}
 {% assign sorted = site.posts | sort: "date" | reverse %}
 {% assign post = site.posts | first %}
+{% assign postCount = site.posts | size %}
 
 <body class="bg-white dark:bg-gray-700">
   <div class="relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      {% include navigation.html %}
+      {% include navigation.html count=postCount %}
       <div class="flex flex-row">
         <!-- Sidebar -->
         <div class="w-3/12 mt-10 space-y-2">
