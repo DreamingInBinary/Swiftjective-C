@@ -112,78 +112,7 @@ permalink: /
           </div>
         </div>
         <!-- Content -->
-        <div class="w-9/12 mt-10 prose prose-blue prose-xl dark:text-gray-200">
-          <div>
-            <h1>
-              <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
-                post.title }}</span>
-            </h1>
-            <div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-              <button class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full">
-                <svg class="pb-0.5 stroke-current stroke-1 text-red-600" width="16" height="16"
-                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd"
-                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                    clip-rule="evenodd" />
-                </svg>
-                <span class="pl-1.5">{{ post.tags[0] }}</span>
-              </button>
-              <div class="-mt-8 flex items-center text-sm text-gray-500">
-                {{ post.date | date_to_string: "ordinal", "US" }}
-              </div>
-            </div>
-            <article class="mb-36">
-              {{ post.content }}
-            </article>
-          </div>
-          <div>
-            <h1>
-              <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
-                post.title }}</span>
-            </h1>
-            <div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-              <div
-                class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full cursor-pointer">
-                <svg class="pb-0.5 stroke-current stroke-1 text-red-600" width="16" height="16"
-                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd"
-                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                    clip-rule="evenodd" />
-                </svg>
-                <span class="pl-1.5">{{ post.tags[0] }}</span>
-              </div>
-              <div class="-mt-8 flex items-center text-sm text-gray-500">
-                {{ post.date | date_to_string: "ordinal", "US" }}
-              </div>
-            </div>
-            {{ post.content }}
-          </div>
-          <div>
-            <h1>
-              <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
-                post.title }}</span>
-            </h1>
-            <div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-              <div
-                class="-mt-8 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full cursor-pointer">
-                <svg class="pb-0.5 stroke-current stroke-1 text-red-600" width="16" height="16"
-                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd"
-                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                    clip-rule="evenodd" />
-                </svg>
-                <span class="pl-1.5">{{ post.tags[0] }}</span>
-              </div>
-              <div class="-mt-8 flex items-center text-sm text-gray-500">
-                {{ post.date | date_to_string: "ordinal", "US" }}
-              </div>
-            </div>
-            {{ post.content }}
-          </div>
-        </div>
+        {{ content }}
       </div>
       {% include footer.html %}
     </div>
