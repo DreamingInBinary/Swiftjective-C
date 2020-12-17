@@ -23,7 +23,7 @@ I have acquired a large chunk of my revenue from this update alone. It's like a 
 
 {% include lazyLoadImage.html image="../assets/images/chartIpad.png" %}
 
-> Also recall that charting on the iPad and iPhone are different. It also charted #1 on the iPhone in several countries (U.S. included) but the landscape screenshot of the iPad looked nicer ✨.
+{% include prettyBlockquote.html text="Also recall that charting on the iPad and iPhone are different. It also charted #1 on the iPhone in several countries (U.S. included) but the landscape screenshot of the iPad looked nicer ✨." %}
 
 I've long wondered what kind of numbers I'd need to chart #1 in Finance, and I seemingly got my answer around mid-afternoon on May 25th. It was just a bit short of a 1,000 downloads. Though, the next day I saw almost half of those numbers at 500 and change and still remained atop the list. By the third day I bumped down, oscillating between #3-#7 at 300ish downloads.
 
@@ -79,9 +79,7 @@ That last point about experimenting with paid advertising is another blog post, 
 - Twitter: Setting up a real campaign had a good R.O.I.
 - Reddit: Extremely hit and miss.
 
-But this all firms up what I've always known: If you want the numbers, you need the press. The man at the top of the mountain didn't fall there, he had press that rocket launched him to the top.
-
-> The other sales bump I had this year was when Andy made Spend Stack his Pick of the Week on [Macbreak][8]. 
+But this all firms up what I've always known: If you want the numbers, you need the press. The man at the top of the mountain didn't fall there, he had press that rocket launched him to the top[^1].
 
 You might think this bit of the post is entirely frustrating. I get it, of course press helps. You don't need an MBA to figure that out.
 
@@ -158,6 +156,8 @@ I've been lucky to have some exciting releases and features with Spend Stack so 
 No matter - I hope more than anything this just demonstrates that getting downloads on the App Store is factor of a few core things that you absolutely can work towards as mentioned above. You truly get to make your own luck. One day you make enough to cover a latte, the next week you make enough to buy everyone a steak dinner. Woot woot!
 
 Until next time ✌️.
+
+[^1]:The other sales bump I had this year was when Andy made Spend Stack his Pick of the Week on [Macbreak][8].
 
 [1]: {{ site.url | append:"/On-Launching-Your-Indie-App"}}
 [2]: https://9to5mac.com/2020/05/25/spend-stack-apple-card-more/

@@ -79,11 +79,9 @@ A good design connotes simplicity - nearly 100% of the time. Over the years I've
 ### Creating the Base MVP
 This is one of my favorite parts, because for me - I just feel like I can freakin' build anything, you know? And I bet you can too! Most of the indie developers I interact with (as I alluded to above) are programmers by trade. So, once we've done the part that comes _least_ naturally to us, it's time to do the part that comes _most_ naturally to us: the coding!
 
-> Sidebar: Reading this post back, I could see how this ordering might seem counterintuitive. You need to know a set of requirements before you can design anything. So, here I'm assuming you've done that - this section speaks to defining a "shippable MVP" that you're ready to develop. A set of requirements has to be laid down already before you'd even know what to design.
+{% include prettyBlockquote.html text="Reading this post back, I could see how this ordering might seem counterintuitive. You need to know a set of requirements before you can design anything. So, here I'm assuming you've done that - this section speaks to defining a \"shippable MVP\" that you're ready to develop. A set of requirements has to be laid down already before you'd even know what to design." %}
 
-Before we do, though - let's lay down what an MVP for this looks like. This is a permutation of the feature that maybe doesn't have all that you wanted or envisioned, but it could ship if it had to.
-
->  For Spend Stack, this was Siri Shortcuts. It hurt not to launch with them, it hurts more they still aren't there. But these are the choices we have to make as indies (for the record, hell or high water, shortcuts are coming).
+Before we do, though - let's lay down what an MVP for this looks like. This is a permutation of the feature that maybe doesn't have all that you wanted or envisioned, but it could ship if it had to[^1].
 
 For this feature, my MVP looked like this:
 
@@ -168,6 +166,8 @@ And that's how it happens! When creating a feature for your own app, try to find
 For example, I want to ship every single feature with my ideal flow as I was able to this time: get the MVP done, add in "the sauce" and make sure you've considered any best in class additions. But it doesn't always work that way, and what doesn't ship today can always ship tomorrow. Thus, my unofficial tour of how Spend Stack becomes the proud parent of a new feature concludes!
 
 Until next time ✌️.
+
+[^1]: For Spend Stack, this was Siri Shortcuts. It hurt not to launch with them, it hurts more they still aren't there. But these are the choices we have to make as indies (for the record, hell or high water, shortcuts are coming).
 
 [1]: {{ site.url | append:"/Can-You-Learn-Design"}}
 [2]: https://www.scratch-paper.app

@@ -14,9 +14,7 @@ If you thought things were slowing down for UIKit in lieu of SwiftUI, well - tha
 
 If you want to catch up on this series first, view the [iOS 11][1], [iOS 12][2]and [iOS 13][3] versions of this article.
 
-For now, let's chat UIKit and iOS 14 niceties!
-
-> If you want to take a peek at finer implementation details, check out Apple's robust sample code cataloging a lot of UIKit changes shown in this article [right here][4].
+For now, let's chat UIKit and iOS 14 niceties[^1]!
 
 ### Date and Time Picker
 First, let's look at the free power ups. And nothing really embodies that more than the completely overhauled date picker. It went from serviceable to fully-featured.
@@ -241,6 +239,8 @@ UIKit got some serious juice in this release. I suspect it will for a long time,
 Plus - my wish came true. Catalyst apps built on UIKit look better already on macOS by virtue of Apple's new design language that bring the two closely together. I'm down! As always, it's been my pleasure diving into UIKit's diffs on an annual basis. There's a lot to love here.
 
 Until next time ✌️.
+
+[^1]:If you want to take a peek at finer implementation details, check out Apple's robust sample code cataloging a lot of UIKit changes shown in this article [right here][4].
 
 [1]: {{ site.url | append:"/iOS-11-notable-uikit-additions" }}
 [2]: {{ site.url | append:"/iOS-12-notable-uikit-additions" }}

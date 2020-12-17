@@ -8,11 +8,13 @@ description: "I've often written about what it takes to be considered a best in 
 image: /assets/images/logo.png
 ---
 
+**Update:** Spend Stack was acquired, so this list is no longer being updated. But, here's where I left off!
+
 Previously, I've written about this notion of what it looks like to be a [best in class iOS app][1]{:target="_blank"}. I wanted a tangible, written down list that I could reference to gauge whether or not I was being a good platform citizen with my own apps.
 
 Now, months later - how am I doing by my own definition? Let's take a look at where I stand. The grades below have been pulled from the Best in Class post, but some have been altered, added or left out to only include items that can be answered with a yes or no answer as it pertains to Spend Stack.
 
-> With each subsequent release, I'll be updating my progress.
+{% include prettyBlockquote.html text="With each subsequent release, I'll be updating my progress." %}
 
 <div class="infoContainer">
     <small>So far, Spend Stack is...</small>
