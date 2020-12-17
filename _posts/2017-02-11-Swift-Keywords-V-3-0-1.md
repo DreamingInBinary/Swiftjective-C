@@ -440,7 +440,7 @@ switch box
 ```
 **`where`** : Requires that an associated type must conform to a certain protocol, or that certain type parameters and associated types must be the same. It's also used to provide an additional condition within a pattern in cases that are considered to be matched to the control expression. 
 
-> The where clause can be used in several contexts, these are examples of their primary use as a generic where clause and pattern matching.
+{% include prettyBlockquote.html text="The where clause can be used in several contexts, these are examples of their primary use as a generic where clause and pattern matching." %}
 
 ```swift
 protocol Nameable  
@@ -557,7 +557,7 @@ for aPerson in people
 ```
 **`nil`** : Represents a stateless value for any type in Swift. 
 
-> Different from Objective-C's nil, which is a pointer to a nonexistent object
+{% include prettyBlockquote.html text="Different from Objective-C's nil, which is a pointer to a nonexistent object." %}
 
 ```swift
 class Person{}  
@@ -815,7 +815,7 @@ print(#line)
 ```
 ### Keywords For Specific Context(s)
 
-> These keywords can actually be used as identifiers if they are used outside of their respective contexts.
+{% include prettyBlockquote.html text="These keywords can actually be used as identifiers if they are used outside of their respective contexts." %}
 
 **`associativity`** : Specifies how a sequence of operators with the same precedence level are grouped together in the absence of grouping parentheses by using `left`, `right` or `none` .
 ```swift

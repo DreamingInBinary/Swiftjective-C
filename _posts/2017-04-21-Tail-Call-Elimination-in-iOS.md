@@ -105,7 +105,7 @@ handleButtonPress()
 setupUI()  
 [return address][frame pointer]
 ```
-> If anything, now you know where the term stack overflow comes from 💡!
+{% include prettyBlockquote.html text="If anything, now you know where the term stack overflow comes from 💡!" %}
 
 ### Beyond Recursion
 
