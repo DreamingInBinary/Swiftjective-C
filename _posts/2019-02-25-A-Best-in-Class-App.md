@@ -8,6 +8,7 @@ description: "What is a best in class iOS app? How are they built, and can we qu
 image: /assets/images/logo.png
 updated: "2020-07-07"
 special: "true"
+prettyTitle: "A Best in Class App"
 ---
 
 > Get the public Github Issue version of this list [here][31].

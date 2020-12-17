@@ -5,9 +5,8 @@ permalink: /
 <!DOCTYPE html>
 <html lang="en-US">
 {% include head.html %}
-{% assign sorted = site.posts | sort: "date" | reverse %}
-{% assign post = site.posts | first %}
 {% assign postCount = site.posts | size %}
+{% assign popular = site.posts | where: "special", "true" | slice:0,4 %}
 
 <body class="bg-white dark:bg-gray-700">
   <div class="relative">
@@ -36,6 +35,7 @@ permalink: /
           <!-- Greatest Hits -->
           <div class="pt-4">
             <span class="font-semibold pt-10">Greatest Hits</span>
+            {% for popPost in popular %}
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                 fill="currentColor">
@@ -43,35 +43,9 @@ permalink: /
                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd" />
               </svg>
-              <a>A Best in Class App</a>
+              <a href="{{ popPost.url | prepend: site.baseurl}}" class="hover:text-blue-500 border-blue-500 cursor-pointer">{{ popPost.prettyTitle }}</a>
             </div>
-            <div class="flex flex-row space-x-2">
-              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
-              <a>Swift Keywords</a>
-            </div>
-            <div class="flex flex-row space-x-2">
-              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
-              <a>Optimizing Images</a>
-            </div>
-            <div class="flex flex-row space-x-2">
-              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
-              <a>Spend Stack Acquired</a>
-            </div>
+            {% endfor %}
           </div>
           <!-- Reach Out -->
           <div class="pt-4">
@@ -83,7 +57,7 @@ permalink: /
                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd" />
               </svg>
-              <a>RSS</a>
+              <a class="hover:text-blue-500 border-blue-500 cursor-pointer">RSS</a>
             </div>
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -92,7 +66,7 @@ permalink: /
                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd" />
               </svg>
-              <a>Contact</a>
+              <a class="hover:text-blue-500 border-blue-500 cursor-pointer">Contact</a>
             </div>
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -101,14 +75,23 @@ permalink: /
                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd" />
               </svg>
-              <a>Mailing List</a>
+              <a class="hover:text-blue-500 border-blue-500 cursor-pointer">Mailing List</a>
+            </div>
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a class="hover:text-blue-500 border-blue-500 cursor-pointer">Report an Issue</a>
             </div>
           </div>
           <!-- Coffee -->
           <div class="pt-4">
-            <button class="inline-flex items-center px-3 py-2 rounded-full text-xs font-semibold bg-yellow-100 text-gray-800">
+            <a href="https://www.buymeacoffee.com/jordanmorgan" class="inline-flex items-center px-3 py-2 rounded-full text-xs font-semibold bg-yellow-100 text-gray-800">
               {% include coffeeTimeSmall.html %} <span class="pl-2">Buy me a coffee</span>
-            </button>
+            </a>
           </div>
         </div>
         <!-- Content -->

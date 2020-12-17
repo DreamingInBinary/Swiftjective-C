@@ -7,6 +7,7 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "Swift has quite a few keywords. Let's look at every single one, what it does and provide a code sample."
 image: /assets/images/logo.png
 special: "true"
+prettyTitle: "Swift Keywords"
 ---
 It's been said before and it'll be mentioned again, a craftsmen is as only as good as his or her tools of the trade. Our strict adherence to such tools take us where we want to go or make the thing we've dreamed of.
 

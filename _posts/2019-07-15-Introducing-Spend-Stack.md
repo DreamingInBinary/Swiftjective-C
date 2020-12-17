@@ -6,7 +6,6 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "If I write about indie development, I suppose it's time to reveal my indie project. Many years in the making, here's Spend Stack."
 image: /assets/images/logo.png
-special: "true"
 ---
 Every app has a story.
 

@@ -6,6 +6,8 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "A chapter of my professional life comes to an end. Spend Stack has been acquired and will get the full team it deserves!"
 image: /assets/images/newHome.png
+special: "true"
+prettyTitle: "Spend Stack Acquired"
 ---
 So, where do I even start with this one?
 

@@ -7,6 +7,7 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "iOS is a visual medium teeming with beautiful images in virtually every app on your phone. Important though they are, it's trivial to mismanage them from a memory and performance standpoint."
 image: /assets/images/logo.png
 special: "true"
+prettyTitle: "Optimizing Images"
 ---
 
 They say the best camera is the one you have with you. If that adage holds any weight, then without question - stem to stern the iPhone is the most important camera on the planet. And our industry shows it, too.
