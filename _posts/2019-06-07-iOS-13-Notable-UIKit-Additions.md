@@ -91,7 +91,7 @@ The result:
 
 Peering into the header for diffable snapshot reveals all sorts of things you'd want it do, such as updates, moves, etc.
 
-> One can apply snaphots from any queue, as well. The only requirement is consistency. So, if you update off of main, then one should _always_ apply snapshots off of main.
+{% include prettyBlockquote.html text="One can apply snaphots from any queue, as well. The only requirement is consistency. So, if you update off of main, then one should _always_ apply snapshots off of main." %}
 
 The flow is much different than what you were used to (a common theme for just about everything announced this year at dub dub), as reliance on a data source conformer along with index paths have less of an emphasis. But the changes are welcome, and they both eliminate a common source of friction for developers and provide a more fluid user experience to consumers.
 
@@ -177,9 +177,7 @@ section.orthogonalScrollingBehavior = groupPaging
 
 The API design is very well put together and lends itself well to later refactors. And, though I cannot assert with absolute authority that it was Steve Breen who authored it, anyone who rolls up to dub dub to emcee a session wearing a T-Shirt with wolves on it while wearing blue jeans is someone who goes so hard in the paint that I wouldn't even question it if it weren't.
 
-Steve Breen is the G.O.A.T. of dub dub talks - and I've learned quite a lot from all of his content so far. For all of the hoorahs SwiftUI has (deservedly so) received, it can be easy to forget that engineers such as Steve are still here to ensure UIKit stays relevant, efficient and a pragmatic choice to build apps with.
-
-> You may have asked yourself why the `NS` prefix is here in a `UIKit` world? Catalyst, and UIKit for Mac, is likely the reason.
+Steve Breen is the G.O.A.T. of dub dub talks - and I've learned quite a lot from all of his content so far. For all of the hoorahs SwiftUI has (deservedly so) received, it can be easy to forget that engineers such as Steve are still here to ensure UIKit stays relevant, efficient and a pragmatic choice to build apps with[^1].
 
 ### Scenes
 When it comes to vanilla UIKit, this is probably the most foundational change. At its core, scenes allow for iPadOS to kick off multiple instances of your app even though they still all run within one process. Though, even if you aren't targeting iPadOS - it's still a wise choice to adopt the model in your app. The tea leaves are here and they aren't exactly subtle.
@@ -295,6 +293,7 @@ But, even though SwiftUI is _not_ UIKit, the latter is certainly here to stay. A
 
 Until next time ✌️.
 
+[^1]: You may have asked yourself why the `NS` prefix is here in a `UIKit` world? Catalyst, and UIKit for Mac, is likely the reason.
 [1]: {{ site.url | append:"/iOS-11-notable-uikit-additions" }}
 [2]: {{ site.url | append:"/iOS-12-notable-uikit-additions" }}
 
