@@ -173,7 +173,7 @@ Though this clearly enhances life with Swift, I'd argue this can be a valuable a
 ### Choices
 It's worth considering which type of enumeration to use with Objective-C at this point. We've got enum, NS_ENUM or NS_CLOSED_ENUM. Fortunately, the answer is much simpler than you  might think.
 
-> NS_OPTIONS is also a choice, but is more suited towards bitmasks.
+{% include prettyBlockquote.html text="NS_OPTIONS is also a choice, but is more suited towards bitmasks." %}
 
 The old C way of defining an enumeration, which by proxy Objective-C gained by virtue of being a superset, could lead to confusion. Look to [NSHipster's](https://nshipster.com/ns_enum-ns_options/){:target="_blank"} excellent post over the topic, but to jog your memory:
 
@@ -212,7 +212,7 @@ Now, with NS_CLOSED_ENUM, the only _additional_ question you've got ask yourself
 
 It should be noted that the choice to use a frozen enumeration is final. The header for a closed enumeration communicates this plainly:
 
-> Once an enum is marked as closed, it is a binary and source incompatible change to add a new value. If there is any doubt about an enum gaining a private or additional public case in the future, use NS_ENUM instead.
+{% include prettyBlockquote.html text="Once an enum is marked as closed, it is a binary and source incompatible change to add a new value. If there is any doubt about an enum gaining a private or additional public case in the future, use `NS_ENUM` instead." %}
 
 ### Wrapping Up
 If Objective-C was "deprecated" tomorrow, the traveled software developer knows that in programming there is but one truth: what is dead never truly dies.

@@ -55,7 +55,7 @@ What I've found really isn't that exciting. There are a few commonalities among 
 
 This was convenient for my current investigation, but the reality is that I couldn't really nail down why sometimes I take time for myself, and other times I don't. This time, I'd have to accept that this wasn't a problem I could analyze several different ways and apply a few late nights to eventually uncover the answer to.
 
-> As a funny aside, when I was digging through my journal during this time my wife popped around the corner and casually asked "Watcha doin?". I said I was simply reading my journal, as saying I was in the middle of an in-depth investigation into why I can let myself relax enough to make pancakes and generally be normal was too odd of an answer.
+{% include prettyBlockquote.html text="As a funny aside, when I was digging through my journal during this time my wife popped around the corner and casually asked \"Watcha doin?\". I said I was simply reading my journal, as saying I was in the middle of an in-depth investigation into why I can let myself relax enough to make pancakes and generally be normal was too odd of an answer." %}
 
 The truth is that taking time to enjoy life's many simple pleasures isn't something that's a trivial matter. If it was, there wouldn't be numerous books, conferences or classes explaining how to do it. This blog post certainly doesn't offer up the silver bullet either.
 

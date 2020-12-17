@@ -55,7 +55,7 @@ if curDevice.isSupported
     })  
 }
 ```
-> Note that the simulator won't pass isSupported, so if you want to test it out— I guess do what we should be doing anyways and use the real thing 📱.
+{% include prettyBlockquote.html text="Note that the simulator won't pass isSupported, so if you want to test it out— I guess do what we should be doing anyways and use the real thing 📱." %}
 
 With that code you're on your first step (more to follow) to be able to store either:
 

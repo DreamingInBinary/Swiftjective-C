@@ -51,7 +51,7 @@ Expanding on this idea - one integral buffer for any iOS app is its frame buffer
 
 And timing matters here. To get the buttery smooth 60 frames per second scrolling, the frame buffer will need to have UIKit render the app's window and it's subsequent subviews into it when their information changes (i.e. assigning an image to an image view). If you do that slow, you drop a frame.
 
-> Think 1/60th of a second is short on time? Pro Motion devices up the ante to 1/120th of a second.
+{% include prettyBlockquote.html text="Think 1/60th of a second is short on time? Pro Motion devices up the ante to 1/120th of a second." %}
 
 ### Size Does Matter
 We can visualize this process and memory being consumed pretty easily. Using the picture of my daughter, I created a trivial app that shows an image view with that exact image within it:
@@ -73,7 +73,7 @@ imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
 imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
 ```
 
-> Mind the force unwraps in production. Here we're using a simple example scenario.
+{% include prettyBlockquote.html text="Mind the force unwraps in production. Here we're using a simple example scenario." %}
 
 Which gives us this:
 ![Baylor](../assets/images/baylorPhone.jpg)
@@ -252,7 +252,7 @@ Cover your eyes, Objective-C code sample from my side project incoming:
 }
 ```
 
-> Take care to use asset catalogs for the lion's share of your raw image assets, since it already manages buffer sizes (and a lot more) for you already.
+{% include prettyBlockquote.html text="Take care to use asset catalogs for the lion's share of your raw image assets, since it already manages buffer sizes (and a lot more) for you already." %}
 
 For more inspiration on how to be a first class citizen of all things memory and images, be sure to catch these particularly informative sessions from WWDC 18:
 

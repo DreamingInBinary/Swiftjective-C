@@ -33,7 +33,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-> If your app uses storyboards, the above is done for you. This is one reason why Xcode templates its app delegate objects with a `UIWindow` property.
+{% include prettyBlockquote.html text="If your app uses storyboards, the above is done for you. This is one reason why Xcode templates its app delegate objects with a `UIWindow` property." %}
 
 With that, we end up with a hierarchy that is stacked up like so, from bottom to top:
 
@@ -77,7 +77,7 @@ if let externalScreen = UIScreen.screens.last
     externalWindow.isHidden = false
 }
 ```
-> By default, a window's screen property is set to the hardware's current screen. For a window that'll show unique content on an external display, set it before you show the window as switching screens on an already displayed window carries significant performance costs.
+{% include prettyBlockquote.html text="By default, a window's screen property is set to the hardware's current screen. For a window that'll show unique content on an external display, set it before you show the window as switching screens on an already displayed window carries significant performance costs." %}
 
 It's at this point that you'd want to supply the relevant content to the new window's `rootViewController` property. So, for the image above showing the iPad Pro, Apple has created a controller that just shows the primary content and not the editing tools below it (as on the iPad's screen).
 
@@ -174,7 +174,7 @@ NotificationCenter.default.addObserver(forName: .UIScreenDidConnect, object: nil
 }
 ```
 
-> If your app is suspended when a notification arrives, UIKit delivers it when your app begins running again.
+{% include prettyBlockquote.html text="If your app is suspended when a notification arrives, UIKit delivers it when your app begins running again." %}
 
 It's about thinking of any context that _could_ be lost from any of these transitions that should later be restored. So, be thinking about currently selected index paths, selected content or view hierarchies that you might need to do some bookkeeping for to later restore.
 

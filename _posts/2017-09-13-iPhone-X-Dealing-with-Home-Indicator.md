@@ -45,7 +45,7 @@ class ViewController: UIViewController
 ```
 As mentioned, such scenarios are meant to be the outlier, and as such the default implementation returns false. There is, however, a particular comment in the documentation:
 
-> The system takes your preference into account, but returning `YES` is not a guarantee that an indicator will be hidden.
+{% include prettyBlockquote.html text="The system takes your preference into account, but returning `YES` is not a guarantee that an indicator will be hidden." %}
 
 There doesn't appear to be any mention of why or when UIKit would not respect your chosen preference, though it stands to reason that Apple will enforce what it thinks is best, when it thinks it's best — boolean values regardless. So, that should make for some fun Stack Overflow posts.
 

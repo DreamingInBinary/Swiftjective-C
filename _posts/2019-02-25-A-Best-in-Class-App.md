@@ -11,9 +11,7 @@ special: "true"
 prettyTitle: "A Best in Class App"
 ---
 
-> Get the public Github Issue version of this list [here][31].
-
-> Updated to reflect iOS 14.
+{% include prettyBlockquote.html text="You can get the public Github Issue version of this list <a href=\"https://gist.github.com/DreamingInBinary/0ccd49e3578c5ae1ebb20632c6c3af73\">here</a>. This post has been updated to reflect iOS 14." %}
 
 For as long as I've been a part of this industry, I've watched incredible, well-deserving apps take home an Apple Design Award. And _that's_ my endgame. 
 
@@ -31,7 +29,7 @@ Here's a quick brief on my methodology behind how I created it:
    
 That's it. 
 
-> As always, if you've got an item or two that belongs on this list, by all means create a pull request to get it added in by visiting the link at the bottom of the post.
+{% include prettyBlockquote.html text="As always, if you've got an item or two that belongs on this list, by all means create a pull request to get it added in by visiting the link at the bottom of the post." %}
 
 The five sections it covers are:
 
