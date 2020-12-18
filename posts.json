@@ -1,0 +1,11 @@
+---
+---
+[
+{% assign posts = site.posts %}
+{% for post in posts %}
+{
+    "title": "{{ post.title }}",
+    "href": "{{ post.url }}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
