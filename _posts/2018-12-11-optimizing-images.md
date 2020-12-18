@@ -23,7 +23,7 @@ But for all of their ubiquity on the platform, the act of showing them in a perf
 ### In Theory
 Pop quiz - how much memory will this 266 kilobyte (and quite dashing) photo of my beautiful daughter require in an iOS app?
 
-![Baylor](../assets/images/baylor.jpg)
+{% include lazyLoadImage.html image="../assets/images/baylor.jpg" altText="Picture of Baylor" %}
 
 Spoiler alert - it's not 266 kilobytes. It's not 2.66 megabytes. It's around _14 megabytes_. 
 
@@ -76,7 +76,7 @@ imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
 {% include prettyBlockquote.html text="Mind the force unwraps in production. Here we're using a simple example scenario." %}
 
 Which gives us this:
-![Baylor](../assets/images/baylorPhone.jpg)
+{% include lazyLoadImage.html image="../assets/images/baylorPhone.jpg" altText="Baylor on iPhone" %}
 
 A quick trip to LLDB shows us the image dimensions we're working with, even though we're using a much smaller image view to display it:
 
@@ -107,7 +107,7 @@ Image IO  13.4M   13.4M   13.4M    0K  0K  0K   0K  2
 
 Ah - there's about 14 megabytes of dirty memory right there. That's what our back-of-the-napkin math hypothesized our image would cost. For context, here's a quick screenshot of Terminal to clearly illustrate what each column means since they were omitted from our greppin':
 
-![Baylor](../assets/images/vmmap.jpg)
+{% include lazyLoadImage.html image="../assets/images/vmmap.jpg" %}
 
 So clearly, we're paying the full cost of the image in our 300 x 400 image view at this point. The size of the image can be key, but it's also not the only thing that matters.
 
