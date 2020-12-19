@@ -17,7 +17,7 @@
   {% feed_meta %} {% json_feed_meta %} {% seo %}
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
-  {% if page.layout= "splash" %}
+  {% if page.layout == "splash" %}
   <script type="text/javascript" src="/assets/js/splash.js"></script>
   {% endif %}
   {% if page.tags[0] == "Trivia" %}

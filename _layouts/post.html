@@ -1,29 +1,20 @@
 ---
 title: post
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en-US">
-  {% include head.html %} 
-  {% assign githubURL='https://github.com/DreamingInBinary/Swiftjective-C/' %}
-  <body>
-  <div class="relative bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      {% include navigation.html %}
-    <article itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="prose prose-blue prose-xl mx-auto">
-      <h1>
-        <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">The Indie Dev Diaries Presents</span>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ page.title }}</span>
-      </h1>
-      <p>{{ post.description }}</p>
-      <article>
-        {{ content }}
-      </article>
-      <h2>
-        If you liked this or another article of mine <a class="text-yellow-200" href="https://www.buymeacoffee.com/jordanmorgan">you can buy me a coffee</a>. If you didn't well then just don't say anything ;). 
-      </h2>
-    </div>
-    {% include bottomHeader.html %}
-  </body>
-</html>
+<article itemscope itemtype="http://schema.org/BlogPosting" class="mt-10">
+  <div class="prose prose-blue prose-xl mx-auto">
+    <h1>
+      <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">The Indie Dev Diaries Presents</span>
+      <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ page.title }}</span>
+    </h1>
+    <p>{{ post.description }}</p>
+    <article>
+      {{ content }}
+    </article>
+    <h2>
+      If you liked this or another article of mine <a class="text-yellow-200" href="https://www.buymeacoffee.com/jordanmorgan">you can buy me a coffee</a>. If you didn't well then just don't say anything ;). 
+    </h2>
+  </div>
+  {% include bottomHeader.html %}
