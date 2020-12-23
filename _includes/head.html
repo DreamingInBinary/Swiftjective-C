@@ -14,11 +14,16 @@
   <link rel="stylesheet" href="/tailwind_css/tw.css" />
   <meta name="twitter:data1" content="Read Time" />
   <meta name="twitter:label1" content="{% include readTime.html %}" />
-  {% feed_meta %} {% json_feed_meta %} {% seo %}
+  {% feed_meta %} 
+  {% json_feed_meta %} 
+  {% seo %}
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
   {% if page.layout == "splash" %}
   <script type="text/javascript" src="/assets/js/splash.js"></script>
+  {% endif %}
+  {% if page.layout == 'about' %}
+  <script type="text/javascript" src="/assets/js/about.js"></script>
   {% endif %}
   {% if page.tags[0] == "Trivia" %}
   <script type="text/javascript" src="/assets/js/quiz/confetti.js"></script>
