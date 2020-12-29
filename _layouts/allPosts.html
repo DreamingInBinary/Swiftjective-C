@@ -21,7 +21,7 @@ layout: default
                         <div>
                             <p class="text-blue-500"><a class="underline"
                                     href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span
-                                    class="text-gray-900"> in </span><span class="font-semibold text-gray-900">{{
+                                    class="text-gray-900 dark:text-gray-400"> in </span><span class="font-semibold text-gray-900 dark:text-gray-400">{{
                                     post.tags[0] }}</span></p>
                         </div>
                         <div class="text-right whitespace-nowrap text-gray-500">
@@ -29,7 +29,7 @@ layout: default
                         </div>
                     </div>
                 </div>
-                <div class="ml-11 mt-4 mb-8">
+                <div class="ml-11 mt-4 mb-8 dark:text-gray-400">
                     <p>{{ post.description }}</p>
                 </div>
             </div>

@@ -10,7 +10,7 @@ layout: default
 <div
     class="copyModal isHidden translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2 fixed inset-0 flex items-end justify-center px-4 py-6 pointer-events-none sm:p-6 sm:items-start sm:justify-end">
     <div
-        class="max-w-sm w-full bg-white shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden">
+        class="max-w-sm w-full bg-white dark:bg-gray-600 shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden">
         <div class="p-4">
             <div class="flex items-start">
                 <div class="flex-shrink-0">
@@ -22,7 +22,7 @@ layout: default
                     </svg>
                 </div>
                 <div class="ml-3 w-0 flex-1 pt-0.5">
-                    <p class="text-sm font-medium text-gray-900">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">
                         Link copied!
                     </p>
                     <p class="mt-1 text-sm text-gray-500">
@@ -31,7 +31,7 @@ layout: default
                 </div>
                 <div class="ml-4 flex-shrink-0 flex">
                     <button
-                        class="bg-white rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                        class="bg-white rounded-md inline-flex text-gray-400 dark:text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                         onclick="toggleModal();">
                         <span class="sr-only">Close</span>
                         <!-- Heroicon name: x -->
@@ -48,7 +48,7 @@ layout: default
     </div>
 </div>
 
-<div class="w-9/12 mt-10 prose prose-blue prose-xl dark:text-gray-200">
+<div class="w-9/12 mt-10 prose prose-blue prose-xl dark:bg-black dark:text-gray-200">
     <!-- First Post -->
     <div>
         <h1>
@@ -132,5 +132,11 @@ layout: default
         <article class="mb-36">
             {{ post3.content }}
         </article>
+    </div>
+    <div class="flex flex-col items-center">
+        <span class="text-gray-700 text-2xl font-semibold">Welcome to the bottom 👋.</span>
+        <div class="flex flex-row space-x-2 justify-center">
+            <a href="{{ '/allPosts.html' | prepend: site.baseurl}}" class="hover:text-blue-500 border-blue-500 cursor-pointer">Read More</a>
+          </div>
     </div>
 </div>

@@ -8,7 +8,7 @@ permalink: /
 {% assign postCount = site.posts | size %}
 {% assign popular = site.posts | where: "special", "true" | slice:0,4 %}
 
-<body class="bg-white dark:bg-gray-700">
+<body class="bg-white dark:bg-black">
   <div class="relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       {% include navigation.html count=postCount %}
@@ -33,7 +33,7 @@ permalink: /
             </div>
           </div>
           <!-- Greatest Hits -->
-          <div class="pt-4">
+          <div class="pt-4 dark:text-gray-400">
             <span class="font-semibold pt-10">Greatest Hits</span>
             {% for popPost in popular %}
             <div class="flex flex-row space-x-2">
@@ -48,7 +48,7 @@ permalink: /
             {% endfor %}
           </div>
           <!-- Reach Out -->
-          <div class="pt-4">
+          <div class="pt-4 dark:text-gray-400">
             <span class="font-semibold pt-10">Comms</span>
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
