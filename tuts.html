@@ -1,29 +1,22 @@
 ---
 layout: category
-title: The Indie Dev Diaries
-permalink: /indiedev
+title: Technical Articles
+permalink: /tuts
 ---
 
 {% assign indies = site.posts %}
 {% assign lastPost = sorted | last %}
 
 <div class="mt-12 mx-auto w-3/6">
-    <h3 class="text-2xl font-bold">The Indie Dev Diaries</h3>
+    <h3 class="text-2xl font-bold">The Tech Guide</h3>
     <br />
     <span class="font-medium">
-        <p>📢 Marketing</p>
-        <p>📰 Contacting the press</p>
-        <p>🎨 Design</p>
-        <p>💻 Development</p>
-        <br />
-        <p>...the list goes on. As indies, we do it
-            all. These posts are all about <b>how to manage</b> all of those things. From retrospectives of my
-            own apps to tips and tricks, this is a one stop shop for indie life.</p>
+        <p>You're in the right spot to learn all about <b>Swift, SwiftUI, UIKit</b> and everything else about developing for Apple platforms. Here, I deep dive into interesting APIs, dish out quick tips and cover broader topics such as how to architect your app.</p>
     </span>
     <ul class="my-12">
         {% for post in indies %}
         <li>
-            {% if post.tags[0] == "The Indie Dev Diaries" %}
+            {% if post.tags[0] != "The Indie Dev Diaries" %}
             <div class="relative pb-8">
                 {% if post.title != lastPost.title %}
                 <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
