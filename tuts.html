@@ -16,7 +16,7 @@ permalink: /tuts
     <ul class="my-12">
         {% for post in indies %}
         <li>
-            {% if post.tags[0] != "The Indie Dev Diaries" %}
+            {% if post.tags[0] != "The Indie Dev Diaries" and post.tags[0] != "Snips" %}
             <div class="relative pb-8">
                 {% if post.title != lastPost.title %}
                 <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>

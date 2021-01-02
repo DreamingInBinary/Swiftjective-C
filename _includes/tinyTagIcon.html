@@ -11,8 +11,14 @@
 {% elsif include.post.tags[0] == 'Link Blurb' %}
 <p>TODO LINK</p>
 {% elsif include.post.tags[0] == 'Snips' %}
-<p>TODO SNIPS</p>
-{% elsif include.post.tags[0] == 'Extras' %}
+<span class="h-8 w-8 rounded-full bg-blue-200 flex items-center justify-center ring-8 ring-white dark:ring-black">
+    <svg class="pb-0.5 stroke-current stroke-1 text-green-600" width="16" height="16" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20" fill="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
+    </svg>
+</span> 
+{% elsif include.post.tags[0]=='Extras' %} 
 <p>TODO EXTRAS</p>
 {% elsif include.post.tags[0] == 'Trivia' %}
 <span class="h-8 w-8 rounded-full bg-blue-200 flex items-center justify-center ring-8 ring-white dark:ring-black">
