@@ -38,9 +38,13 @@ window.onload = function () {
         }
     });
 
-    // Hover styles for navigation
+    // Mark active oage
     let links = document.getElementsByClassName("navDiv");
     for (var i = 0, len = links.length | 0; i < len; i = i + 1 | 0) {
-        links[i].classList.add('rounded-md');
+        // The div's ID will match the path of the page. Hacky, but works.
+        let linkDiv = links[i];
+        if (window.location.pathname.includes(linkDiv.id)) {
+            linkDiv.classList.add('font-extrabold', 'text-blue-400', 'hover:text-white');
+        }
     }
 }
