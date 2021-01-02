@@ -37,4 +37,10 @@ window.onload = function () {
             window.open(searchQuery, '_blank');
         }
     });
+
+    // Hover styles for navigation
+    let links = document.getElementsByClassName("navDiv");
+    for (var i = 0, len = links.length | 0; i < len; i = i + 1 | 0) {
+        links[i].classList.add('rounded-md');
+    }
 }

@@ -12,6 +12,9 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    rounded: ['hover'],
+    extend: {},
+  },
   plugins: [require("@tailwindcss/typography"), require('@tailwindcss/forms')],
 };
