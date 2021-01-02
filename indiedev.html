@@ -8,7 +8,7 @@ permalink: /indiedev
 {% assign lastPost = sorted | last %}
 
 <div class="mt-12 mx-auto w-3/6">
-    <h3 class="text-2xl font-bold dark:text-gray-500">The Indie Dev Diaries</h3>
+    <h3 class="text-2xl font-bold dark:text-gray-200">The Indie Dev Diaries</h3>
     <br />
     <span class="font-medium dark:text-white">
         <p>📢 Marketing</p>
@@ -36,15 +36,15 @@ permalink: /indiedev
                         <div>
                             <p class="text-blue-500"><a class="underline"
                                     href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span
-                                    class="text-gray-900 dark:text-gray-400"> in </span><span class="font-semibold text-gray-900 dark:text-gray-400">{{
+                                    class="text-gray-900 dark:text-gray-100"> in </span><span class="font-semibold text-gray-900 dark:text-gray-100">{{
                                     post.tags[0] }}</span></p>
                         </div>
-                        <div class="text-right whitespace-nowrap text-gray-500">
+                        <div class="text-right whitespace-nowrap dark:text-gray-100">
                             <time datetime="2020-09-20">{{ post.date | date: '%B %d, %Y' }}</time>
                         </div>
                     </div>
                 </div>
-                <div class="ml-11 mt-4 mb-8 dark:text-gray-400">
+                <div class="ml-11 mt-4 mb-8 dark:text-gray-100">
                     <p>{{ post.description }}</p>
                 </div>
             </div>
