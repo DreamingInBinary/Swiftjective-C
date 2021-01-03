@@ -8,21 +8,21 @@ layout: default
     <h1 class="mb-0">
       <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">The Indie Dev
         Diaries Presents</span>
-      <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{
+      <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">{{
         page.title }}</span>
     </h1>
     <div class="text-sm font-mono">
-      <small>// Written by <a href={{ page.writtenByTwitter }} target="_blank">{{ page.writtenBy }}</a> </small>
-      <small class="block">// {{ page.date | date_to_string: "ordinal", "US" }}</small>
+      <small class="dark:text-green-800">// Written by <a href={{ page.writtenByTwitter }} target="_blank">{{ page.writtenBy }}</a> </small>
+      <small class="block dark:text-green-800">// {{ page.date | date_to_string: "ordinal", "US" }}</small>
       {% if page.updated != NULL %}
-      <small class="block">// Updated {{ page.updated | date_to_string: "ordinal", "US" }}</small>
+      <small class="block dark:text-green-800">// Updated {{ page.updated | date_to_string: "ordinal", "US" }}</small>
       {% endif %}
-      <small class="block">// Read it in about {% include readTime.html %}</small>
+      <small class="block dark:text-green-800">// Read it in about {% include readTime.html %}</small>
     </div>
-    <article itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="dark:text-gray-100" itemscope itemtype="http://schema.org/BlogPosting">
       {{ content }}
     </article>
-    <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+    <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 dark:text-gray-200 sm:text-4xl">
       If you liked this or another article of mine <a class="text-yellow-200"
         href="https://www.buymeacoffee.com/jordanmorgan">you can buy me a coffee</a>. If you didn't well then just don't
       say anything ;)
