@@ -14,7 +14,7 @@ permalink: /
       {% include navigation.html count=postCount %}
       <div class="flex flex-row">
         <!-- Sidebar -->
-        <div class="w-3/12 mt-10 space-y-2">
+        <aside class="w-3/12 mt-10 space-y-2">
           <!-- Search -->
           <div class="flex w-9/12 mt-3">
             <label for="search" class="sr-only">Search</label>
@@ -93,11 +93,11 @@ permalink: /
               {% include coffeeTimeSmall.html %} <span class="pl-2">Buy me a coffee</span>
             </a>
           </div>
-        </div>
+        </aside>
         <!-- Content -->
-        <div class="w-9/12 mt-12">
+        <section class="w-9/12 mt-12">
           {{ content }}
-        </div>
+        </section>
       </div>
       {% include footer.html %}
     </div>

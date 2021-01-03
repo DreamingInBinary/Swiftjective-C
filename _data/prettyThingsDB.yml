@@ -1,0 +1,6 @@
+shots:
+  - title: App Group Animation
+    description: The animation triggered when tapping an app group.
+    works: Apple's mastery of animation that feels fluid shines through here. Notice the interpolation from the smaller grid of apps.
+    image: "/assets/images/prettyThings/appDrawer.PNG"
+    alt: App Drawer
