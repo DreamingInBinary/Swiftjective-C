@@ -5,6 +5,16 @@ function togglePrettyThing(ptData) {
     if (ptData != null) {
         let header = document.getElementById('ptHeader');
         header.innerHTML = ptData[0];
+
+        let description = document.getElementById('ptDescription');
+        description.innerHTML = ptData[1];
+
+        let whyItWorks = document.getElementById('ptWhyItWorks');
+        whyItWorks.innerHTML = ptData[2];
+
+        let image = document.getElementById('ptImage');
+        image.src  = ptData[3];
+        image.alt = ptData[4];
     }
 
     if (modalIsHidden) {

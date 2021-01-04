@@ -15,30 +15,30 @@ permalink: /prettythings
     <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true"></span>&#8203;
 
     <div
-      class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6"
+      class="inline-block w-2/6 align-bottom bg-white dark:bg-gray-700 rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6"
       role="dialog" aria-modal="true" aria-labelledby="modal-headline">
       <div class="sm:flex">
-        <div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
-          <div class="w-40 h-60">
-            <img id="ptImage" class="object-cover shadow-lg rounded-lg"
+        <div class="flex-shrink-0 sm:mb-0 sm:mr-4">
+          <div class="w-40">
+            <img id="ptImage" class="lozad w-40 object-scale-down shadow-lg rounded-lg"
               src=""
               alt="">
           </div>
         </div>
         <div class="flex flex-col justify-items-start">
-          <h4 id="ptHeader" class="text-lg font-bold">""</h4>
-          <span class="mt-4 font-medium">What is it?</span>
-          <p id="ptDescription">
+          <h4 id="ptHeader" class="text-lg font-bold dark:text-gray-200">""</h4>
+          <span class="mt-4 font-semibold dark:text-gray-200">What is it?</span>
+          <p id="ptDescription" class="text-gray-500 dark:text-gray-100">
             ""
           </p>
-          <span class="mt-4 font-medium">Why does it work?</span>
-          <p id="ptWhyItWorks">
+          <span class="mt-4 font-semibold dark:text-gray-200">Why does it work?</span>
+          <p id="ptWhyItWorks" class="text-gray-500 dark:text-gray-100">
             ""
           </p>
         </div>
         <div class="ml-4 flex-shrink-0 flex">
           <button
-            class="bg-white dark:bg-black rounded-md inline-flex text-gray-400 dark:text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            class="bg-white dark:bg-gray-700 rounded-md inline-flex text-gray-400 dark:text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             onclick="togglePrettyThing();">
             <span class="sr-only">Close</span>
             <!-- Heroicon name: x -->
@@ -64,8 +64,8 @@ permalink: /prettythings
     {% for thing in site.data.prettyThingsDB.shots %}
     <li>
       <div class="space-y-4">
-        <div class="aspect-w-3 aspect-h-2 cursor-pointer" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}']);">
-          <img class="object-cover shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
+        <div class="cursor-pointer hover:bg-blue-50" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}']);">
+          <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
         </div>
         <div class="space-y-2">
           <div class="text-lg leading-6 font-medium space-y-1">
