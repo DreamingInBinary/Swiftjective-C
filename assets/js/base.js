@@ -35,6 +35,7 @@ window.onload = function () {
             advGoogleSearch += "\"";
             let searchQuery = "https://www.google.com/search?q=" + advGoogleSearch;
             window.open(searchQuery, '_blank');
+            search.value = "";
         }
     });
 
