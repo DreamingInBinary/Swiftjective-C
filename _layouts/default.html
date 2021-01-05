@@ -14,7 +14,7 @@ permalink: /
       {% include navigation.html count=postCount %}
       <div class="flex flex-row">
         <!-- Sidebar -->
-        <aside class="w-3/12 mt-10 space-y-2">
+        <aside class="w-3/12 mt-10 space-y-2 sm:hidden md:block">
           <!-- Search -->
           <div class="flex w-9/12 mt-3">
             <label for="search" class="sr-only">Search</label>
@@ -95,7 +95,7 @@ permalink: /
           </div>
         </aside>
         <!-- Content -->
-        <section class="w-9/12 mt-12">
+        <section class="w-full md:w-9/12 md:mt-12">
           {{ content }}
         </section>
       </div>
