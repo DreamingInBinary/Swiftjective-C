@@ -1,6 +1,19 @@
 shots:
-  - title: App Group Animation
-    description: The animation triggered when tapping an app group.
-    works: Apple\'s mastery of animation that feels fluid shines through here. Notice the interpolation from the smaller grid of apps.
+  - title: App Group Grid
+    description: The app grid shown when tapping an app group.
+    works: Apple\'s mastery of depth shines through here. The background has a nice spring animation to introduce the blur which helps put the focus on the app grid that animates in, shown here.
     image: "/assets/images/prettyThings/appDrawer.PNG"
     alt: App Drawer
+    gif: ""
+  - title: Cash App Drawer
+    description: The animation when moving from preset options to numeric entry.
+    works: Animations only work when they feel fluid and natural. Here, I instinctively knew to swipe up to discover more options and expected a numeric entry screen. That\'s exactly what I got.
+    image: "/assets/images/prettyThings/cashAppDrawerShot.png"
+    alt: Cash App Drawer
+    gif: "/assets/images/prettyThings/cashAppDrawer.gif"
+  - title: Honk Settings
+    description: The setting screen in the Honk messaging app.
+    works: One thing people typically miss when designing is using the app\'s voice. Honk is playful and cheery, and it\'s bubbly setting screen perfectly reflects that voice.
+    image: "/assets/images/prettyThings/honk.jpeg"
+    alt: Honk Setting Screen
+    gif: ""

@@ -25,7 +25,7 @@ permalink: /prettythings
               alt="">
           </div>
         </div>
-        <div class="flex flex-col justify-items-start">
+        <div class="ml-4 flex flex-col justify-items-start">
           <h4 id="ptHeader" class="text-lg font-bold dark:text-gray-200">""</h4>
           <span class="mt-4 font-semibold dark:text-gray-200">What is it?</span>
           <p id="ptDescription" class="text-gray-500 dark:text-gray-100">
@@ -64,7 +64,7 @@ permalink: /prettythings
     {% for thing in site.data.prettyThingsDB.shots %}
     <li>
       <div class="space-y-4">
-        <div class="cursor-pointer hover:bg-blue-50" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}']);">
+        <div class="cursor-pointer hover:bg-blue-50" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}', '{{ thing.gif }}']);">
           <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
         </div>
         <div class="space-y-2">

@@ -12,9 +12,15 @@ function togglePrettyThing(ptData) {
         let whyItWorks = document.getElementById('ptWhyItWorks');
         whyItWorks.innerHTML = ptData[2];
 
+        // Does it have a gif, or just a still?
         let image = document.getElementById('ptImage');
-        image.src  = ptData[3];
-        image.alt = ptData[4];
+        if (ptData[5] != "") {
+            image.src  = ptData[5];
+            image.alt = ptData[4];
+        } else {
+            image.src  = ptData[3];
+            image.alt = ptData[4];
+        }
     }
 
     if (modalIsHidden) {
