@@ -64,7 +64,7 @@ permalink: /prettythings
     {% for thing in site.data.prettyThingsDB.shots %}
     <li>
       <div class="space-y-4">
-        <div class="cursor-pointer hover:bg-blue-50" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}', '{{ thing.gif }}']);">
+        <div class="cursor-pointer hover:bg-blue-50 dark:hover:bg-gray-700" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}', '{{ thing.gif }}']);">
           <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
         </div>
         <div class="space-y-2">
