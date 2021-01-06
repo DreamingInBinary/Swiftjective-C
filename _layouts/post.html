@@ -6,13 +6,27 @@ layout: default
 <div>
   <div class="prose prose-blue prose-xl mx-auto">
     <h1 class="mb-0">
+      {% if page.tags[0] == 'The Indie Dev Diaries' %}
       <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">The Indie Dev
         Diaries Presents</span>
-      <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">{{
+      {% elsif ipage.tags[0] == 'Link Blurb' %}
+      <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">And now, a links blurb</span>
+      {% elsif page.tags[0] == 'Snips' %}
+      <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Code Snips</span>
+      {% elsif page.tags[0] == 'Extras' %}
+      <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Extras</span>
+      {% elsif page.tags[0] == 'Trivia' %}
+      <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Trivia Time</span>
+      {% else %}
+      <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Technical Article</span>
+      {% endif %}
+      <span
+        class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">{{
         page.title }}</span>
     </h1>
     <div class="text-sm font-mono">
-      <small class="dark:text-green-800">// Written by <a href={{ page.writtenByTwitter }} target="_blank">{{ page.writtenBy }}</a> </small>
+      <small class="dark:text-green-800">// Written by <a href={{ page.writtenByTwitter }} target="_blank">{{
+          page.writtenBy }}</a> </small>
       <small class="block dark:text-green-800">// {{ page.date | date_to_string: "ordinal", "US" }}</small>
       {% if page.updated != NULL %}
       <small class="block dark:text-green-800">// Updated {{ page.updated | date_to_string: "ordinal", "US" }}</small>
