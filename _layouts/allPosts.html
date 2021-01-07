@@ -4,7 +4,7 @@ layout: default
 {% assign sorted = site.posts | sort: "date" | reverse %}
 {% assign lastPost = sorted | last %}
 
-<div class="sm:w-full md:w-2/3">
+<div class="mx-auto sm:w-full md:w-2/3">
     <ul>
         {% for post in sorted %}
         <li>
