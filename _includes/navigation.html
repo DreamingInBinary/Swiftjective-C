@@ -1,64 +1,62 @@
-<nav
-	class="mt-2 md:flex justify-center md:justify-between items-center border-b-2 border-gray-100 py-4 md:space-x-10">
-	<!-- Left side -->
-	<div class="hidden md:flex flex-row items-center justify-start lg:w-0 lg:flex-1">
-		<a title="The Home Button" href="/index.html" class="text-gray-700 dark:text-blue-200 mr-4 hover:text-blue-500">
-			<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-				<path
-					d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-			</svg>
-		</a>
-		<button title="Roll the dice"
+<nav class="mt-2 md:flex justify-center md:justify-between items-center border-b-2 border-gray-100 py-4 md:space-x-10">
+    <!-- Left side -->
+    <div class="hidden md:flex flex-row items-center justify-start lg:w-0 lg:flex-1">
+        <a title="The Home Button" href="/index.html" class="text-gray-700 dark:text-blue-200 mr-4 hover:text-blue-500">
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                    d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+            </svg>
+        </a>
+        <button title="Roll the dice"
             class="hidden lg:flex text-gray-700 font-mono dark:text-gray-200 hover:text-blue-500"
             onclick="randomPost();">
             arc4random_uniform(96)
         </button>
-	</div>
-	<!-- Right side -->
-	<div id="navigation" class="hidden md:flex md:items-center">
-		<a href="/indiedev.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="indiedev" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				Indies
-			</div>
-		</a>
-		<a href="/tuts.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="tuts" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				Technical
-			</div>
-		</a>
-		<a href="/snips.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="snips" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				Snips
-			</div>
-		</a>
-		<a href="/ama.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="ama" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				A.M.A.
-			</div>
-		</a>
-		<a href="/prettythings.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="prettythings" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				Pretty Things
-			</div>
-		</a>
-		<a href="/allPosts.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="allPosts" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				Archive
-			</div>
-		</a>
-		<a href="/about.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
-			<div id="about" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
-				About
-			</div>
-		</a>
-	</div>
-	<div class="flex items-center md:hidden">
-		<button class="flex-none">
-      Coffee
-    </button>
-		<h1 class="flex-grow font-bold text-2xl text-center">Swiftjective-C</h1>
-		<!-- Mobile menu button -->
-		<button
+    </div>
+    <!-- Right side -->
+    <div id="navigation" class="hidden md:flex md:items-center">
+        <a href="/indiedev.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="indiedev" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                Indies
+            </div>
+        </a>
+        <a href="/tuts.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="tuts" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                Technical
+            </div>
+        </a>
+        <a href="/snips.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="snips" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                Snips
+            </div>
+        </a>
+        <a href="/ama.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="ama" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                A.M.A.
+            </div>
+        </a>
+        <a href="/prettythings.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="prettythings" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                Pretty Things
+            </div>
+        </a>
+        <a href="/allPosts.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="allPosts" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                Archive
+            </div>
+        </a>
+        <a href="/about.html" class="text-base font-semibold hover:text-white dark:text-gray-200 lg:flex-none">
+            <div id="about" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
+                About
+            </div>
+        </a>
+    </div>
+    <div class="flex items-center md:hidden">
+        {% include coffeeTimeSmall.html %}
+        <a href="/index.html"
+            class="flex-grow text-transparent bg-gradient-to-r bg-clip-text from-gray-300 to-blue-400 font-extrabold text-2xl text-center">Swiftjective-C</a>
+        <!-- Mobile menu button -->
+        <button
             class="flex-none inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
             aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -68,8 +66,8 @@
   
               Menu open: "hidden", Menu closed: "block"
             -->
-            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" aria-hidden="true">
+            <svg class="block h-6 w-6 text-blue-300 dark:text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
             <!-- Icon when menu is open. -->
@@ -78,10 +76,10 @@
   
               Menu open: "block", Menu closed: "hidden"
             -->
-            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" aria-hidden="true">
+            <svg class="hidden h-6 w-6 text-blue-300 dark:text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
-	</div>
+    </div>
 </nav>
