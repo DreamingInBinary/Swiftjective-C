@@ -6,7 +6,7 @@ function throwConfetti() {
   }, 1200);
 }
 
-window.onload = function(){
+window.addEventListener("load", function(){
   throwConfetti();
-}
+})
 
