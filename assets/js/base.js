@@ -21,6 +21,27 @@ function randomPost() {
         });
 }
 
+function toggleMobileNav() {
+    // Get the mobile nav button
+    let mobileNavGlyph = document.getElementById("mobileNavOpen");
+    let mobileNavCloseGlyph = document.getElementById("mobileNavClose");
+
+    // Toggle what's showing
+    if (mobileNavGlyph.classList.contains("mobileNavIsClosed")) {
+        mobileNavGlyph.classList.remove("mobileNavIsClosed", "block");
+        mobileNavGlyph.classList.add("hidden");
+
+        mobileNavCloseGlyph.classList.remove("hidden");
+        mobileNavCloseGlyph.classList.add("block");
+    } else {
+        mobileNavGlyph.classList.remove("hidden");
+        mobileNavGlyph.classList.add("mobileNavIsClosed", "block");
+
+        mobileNavCloseGlyph.classList.remove("block");
+        mobileNavCloseGlyph.classList.add("hidden");
+    }
+}
+
 window.onload = function () {
     fixTwitter();
 

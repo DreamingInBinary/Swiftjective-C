@@ -23,13 +23,13 @@ function copyLink(link) {
 
 function toggleModal() {
     var modal = document.getElementsByClassName('copyModal')[0];
-    var modalIsHidden = modal.classList.contains('isHidden');
+    var modalIsHidden = modal.classList.contains('hidden');
 
     if (modalIsHidden) {
-        modal.classList.remove('isHidden', 'translate-y-2', 'opacity-0', 'sm:translate-y-0', 'sm:translate-x-2');
-        modal.classList.add('transform', 'ease-out', 'duration-500', 'transition', 'translate-y-0', 'opacity-100', 'm:translate-x-0');
+        modal.classList.remove('hidden', 'translate-y-2', 'opacity-0', 'sm:translate-y-0', 'sm:translate-x-2');
+        modal.classList.add('flex', 'transform', 'ease-out', 'duration-500', 'transition', 'translate-y-0', 'opacity-100', 'm:translate-x-0');
     } else {
-        modal.classList.remove('transform', 'ease-out', 'duration-500', 'transition', 'translate-y-0', 'opacity-100', 'm:translate-x-0');
-        modal.classList.add('isHidden', 'transform', 'ease-in', 'duration-300', 'translate-y-2', 'opacity-0', 'sm:translate-y-0', 'sm:translate-x-2');
+        modal.classList.remove('flex', 'transform', 'ease-out', 'duration-500', 'transition', 'translate-y-0', 'opacity-100', 'm:translate-x-0');
+        modal.classList.add('hidden', 'transform', 'ease-in', 'duration-300', 'translate-y-2', 'opacity-0', 'sm:translate-y-0', 'sm:translate-x-2');
     }
 }
