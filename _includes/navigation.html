@@ -1,5 +1,5 @@
-<div class="mt-2 flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
-    <div class="flex flex-row items-center justify-start lg:w-0 lg:flex-1">
+<nav class="mt-2 flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
+    <div class="hidden md:flex flex-row items-center justify-start lg:w-0 lg:flex-1">
         {% if page.layout != 'splash' %}
         <a title="The Home Button" href="/index.html" class="text-gray-700 dark:text-blue-200 mr-4 hover:text-blue-500">
             <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -8,11 +8,12 @@
             </svg>
         </a>
         {% endif %}
-        <button title="Roll the dice" class="text-gray-700 font-mono dark:text-gray-200 hover:text-blue-500" onclick="randomPost();">
+        <button title="Roll the dice" class="text-gray-700 font-mono dark:text-gray-200 hover:text-blue-500"
+            onclick="randomPost();">
             arc4random_uniform({{ include.count }})
         </button>
     </div>
-    <nav id="navigation" class="hidden md:flex items-center">
+    <div id="navigation" class="hidden md:flex items-center">
         <a href="/indiedev.html" class="flex-none text-base font-semibold hover:text-white dark:text-gray-200">
             <div id="indiedev" class="navDiv rounded-md px-4 py-2 hover:bg-blue-400 hover:bg-opacity-60">
                 Indies
@@ -48,5 +49,5 @@
                 About
             </div>
         </a>
-    </nav>
-</div>
+    </div>
+</nav>
