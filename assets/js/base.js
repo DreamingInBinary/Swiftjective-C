@@ -25,20 +25,27 @@ function toggleMobileNav() {
     // Get the mobile nav button
     let mobileNavGlyph = document.getElementById("mobileNavOpen");
     let mobileNavCloseGlyph = document.getElementById("mobileNavClose");
+    let mobileMenu = document.getElementById("mobileMenu");
 
     // Toggle what's showing
     if (mobileNavGlyph.classList.contains("mobileNavIsClosed")) {
+        // Opening menu here
         mobileNavGlyph.classList.remove("mobileNavIsClosed", "block");
         mobileNavGlyph.classList.add("hidden");
 
         mobileNavCloseGlyph.classList.remove("hidden");
         mobileNavCloseGlyph.classList.add("block");
+
+        mobileMenu.classList.remove("hidden");
     } else {
+        // Closing it here
         mobileNavGlyph.classList.remove("hidden");
         mobileNavGlyph.classList.add("mobileNavIsClosed", "block");
 
         mobileNavCloseGlyph.classList.remove("block");
         mobileNavCloseGlyph.classList.add("hidden");
+
+        mobileMenu.classList.add("hidden");
     }
 }
 
@@ -60,7 +67,7 @@ window.onload = function () {
         }
     });
 
-    // Mark active oage
+    // Mark active page
     let links = document.getElementsByClassName("navDiv");
     for (var i = 0, len = links.length | 0; i < len; i = i + 1 | 0) {
         // The div's ID will match the path of the page. Hacky, but works.
