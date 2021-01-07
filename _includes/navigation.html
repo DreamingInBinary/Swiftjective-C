@@ -57,7 +57,7 @@
             class="flex-grow text-transparent bg-gradient-to-r bg-clip-text-webkit from-gray-300 to-blue-400 font-extrabold text-2xl text-center">Swiftjective-C</a>
         <!-- Mobile menu button -->
         <button onclick="toggleMobileNav();"
-            class="flex-none inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            class="flex-none inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
             aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!-- Icon when menu is closed. -->
@@ -85,29 +85,29 @@
         </button>
     </div>
     <!-- Mobile Dropdown Menu -->
-    <div id="mobileMenu" class="hidden flex-row md:hidden bg-gray-50 mt-2 pt-2 pb-4 rounded-xl">
+    <div id="mobileMenu" class="hidden flex-row md:hidden bg-gray-50 dark:bg-gray-900 mt-2 pt-2 pb-4 rounded-xl">
         <nav class="mt-6 space-y-1" aria-label="Sidebar">
             <span class="text-gray-800 dark:text-gray-200 flex items-center px-3 font-bold rounded-md">Content</span>
             <div class="flex">
-                <a href="/indiedev.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/indiedev.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     Indies
                 </a>
-                <a href="/tuts.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/tuts.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     Technical
                 </a>
-                <a href="/snips.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/snips.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     Snips
                 </a>
-                <a href="/ama.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/ama.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     A.M.A.
                 </a>
-                <a href="/prettythings.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/prettythings.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     Pretty Things
                 </a>
-                <a href="/allPosts.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/allPosts.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     Archive
                 </a>
-                <a href="/about.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">
+                <a href="/about.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     About
                 </a>
             </div>
@@ -120,7 +120,7 @@
                 {% for popPost in popular %}
                 <div class="flex flex-row space-x-2">
                     <a href="{{ popPost.url | prepend: site.baseurl}}"
-                        class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">{{ popPost.prettyTitle }}</a>
+                        class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">{{ popPost.prettyTitle }}</a>
                 </div>
                 {% endfor %}
             </div>
@@ -129,11 +129,11 @@
         <nav class="mt-6 space-y-1" aria-label="Sidebar">
             <span class="text-gray-800 dark:text-gray-200 flex items-center px-3 font-bold rounded-md">Comms</span>
             <div class="flex">
-                <a href="/feed.xml" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">RSS</a>
-                <a href="https://www.twitter.com/jordanmorgan10" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">Tweeter Me</a>
-                <a href="https://swiftjectivec.us20.list-manage.com/subscribe/post?u=86763e3ce1da1fa79f8079a24&amp;id=b5d1e5e3bc" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">Mailing List</a>
-                <a href="https://github.com/DreamingInBinary/Swiftjective-C/issues" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">Report an Issue</a>
-                <a href="m&#97;i&#108;t&#111;&#58;jor&#100;a&#110;&#109;&#111;rgan&#64;hey&#46;com" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600">Contact</a>
+                <a href="/feed.xml" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">RSS</a>
+                <a href="https://www.twitter.com/jordanmorgan10" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">Tweeter Me</a>
+                <a href="https://swiftjectivec.us20.list-manage.com/subscribe/post?u=86763e3ce1da1fa79f8079a24&amp;id=b5d1e5e3bc" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">Mailing List</a>
+                <a href="https://github.com/DreamingInBinary/Swiftjective-C/issues" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">Report an Issue</a>
+                <a href="m&#97;i&#108;t&#111;&#58;jor&#100;a&#110;&#109;&#111;rgan&#64;hey&#46;com" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">Contact</a>
             </div>
         </nav>
     </div>

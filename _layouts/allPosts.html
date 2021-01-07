@@ -4,8 +4,7 @@ layout: default
 {% assign sorted = site.posts | sort: "date" | reverse %}
 {% assign lastPost = sorted | last %}
 
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="mx-auto w-2/3">
+<div class="sm:w-full md:w-2/3">
     <ul>
         {% for post in sorted %}
         <li>
