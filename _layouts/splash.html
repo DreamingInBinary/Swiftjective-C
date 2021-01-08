@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-{% assign sorted = site.posts | sort: "date" | reverse %}
-{% assign post = site.posts | first %}
-{% assign post2 = site.posts[1] %}
-{% assign post3 = site.posts[2] %}
 
 <!-- Copy Modal -->
 <div
@@ -49,90 +45,20 @@ layout: default
 </div>
 
 <div class="-mt-2 prose prose-blue prose-xl dark:bg-black dark:text-gray-200">
-    <!-- First Post -->
-    <div>
-        <h1>
-            <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
-                post.title }}
-            </span>
-        </h1>
-        <div class="flex flex-row justify-start items-center sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-            <span class="modal-open -mt-8 cursor-pointer" onclick="copyLink('{{ post.url | prepend: site.baseurl }}')">
-                <?xml version="1.0" encoding="UTF-8"?>
-                <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-            </span>
-            <div class="-mt-8">
-                {% include tagPill.html post=post %}
-            </div>
-            <div class="-mt-8 text-sm text-gray-500">
-                {{ post.date | date_to_string: "ordinal", "US" }}
-            </div>
-        </div>
-        <article class="mb-36">
-            {{ post.content }}
-        </article>
-    </div>
-    <!-- 2nd Post -->
-    <div>
-        <h1>
-            <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
-                post2.title }}
-            </span>
-        </h1>
-        <div class="flex flex-row justify-start items-center sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-            <span class="modal-open -mt-8 cursor-pointer" onclick="copyLink('{{ post2.url | prepend: site.baseurl }}')">
-                <?xml version="1.0" encoding="UTF-8"?>
-                <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-            </span>
-            <div class="-mt-8">
-                {% include tagPill.html post=post %}
-            </div>
-            <div class="-mt-8 text-sm text-gray-500">
-                {{ post2.date | date_to_string: "ordinal", "US" }}
-            </div>
-        </div>
-        <article class="mb-36">
-            {{ post2.content }}
-        </article>
-    </div>
-    <!-- 3rd Post -->
-    <div>
-        <h1>
-            <span
-                class="mt-2 mb-0 block text-3xl text-left leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">{{
-                post3.title }}
-            </span>
-        </h1>
-        <div class="flex flex-row justify-start items-center sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-            <span class="modal-open -mt-8 cursor-pointer" onclick="copyLink('{{ post3.url | prepend: site.baseurl }}')">
-                <?xml version="1.0" encoding="UTF-8"?>
-                <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-            </span>
-            <div class="-mt-8">
-                {% include tagPill.html post=post %}
-            </div>
-            <div class="-mt-8 text-sm text-gray-500">
-                {{ post3.date | date_to_string: "ordinal", "US" }}
-            </div>
-        </div>
-        <article class="mb-36">
-            {{ post3.content }}
-        </article>
-    </div>
+    <!-- First three posts that aren't snips -->
+    {% assign limiter = 0 %}
+    {% for noSnipPost in site.posts %}
+        {% if noSnipPost.tags[0] != "Snips" and limiter == 0 %}
+            {% include splashPost.html text="Test" post=noSnipPost %}
+            {% assign limiter = 1 %}
+        {% elsif noSnipPost.tags[0] != "Snips" and limiter == 1 %}
+            {% include splashPost.html post=noSnipPost %}
+            {% assign limiter = 2 %}
+        {% elsif noSnipPost.tags[0] != "Snips" and limiter == 2 %}
+            {% include splashPost.html post=noSnipPost %}
+            {% assign limiter = 3 %}
+        {% endif %}
+    {% endfor %}
     <div class="flex flex-col items-center">
         <span class="text-gray-700 text-2xl font-semibold">Welcome to the bottom 👋.</span>
         <div class="flex flex-row space-x-2 justify-center">
