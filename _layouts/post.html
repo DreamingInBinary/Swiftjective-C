@@ -35,6 +35,9 @@ layout: default
     <small class="block dark:text-green-800">// Read it in about {% include readTime.html %}</small>
   </div>
   <article class="dark:text-gray-100" itemscope itemtype="http://schema.org/BlogPosting">
+    {% if page.tags[0] == 'Snips' %}
+      {% include prettyBlockquote.html text="Welcome to Snips! Here, you'll find a short, focused code sample with two parts. The first is the complete code sample which you can copy and paste right into Xcode. The second is a step by step explanation. Enjoy!" %}
+    {% endif %}
     {{ content }}
   </article>
   <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 dark:text-gray-200 sm:text-4xl">

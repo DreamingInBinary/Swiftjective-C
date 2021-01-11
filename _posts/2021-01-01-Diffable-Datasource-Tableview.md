@@ -22,7 +22,11 @@ struct VideoGame: Hashable {
 }
 
 extension VideoGame {
-    static var data = [VideoGame(name: "Mass Effect"), VideoGame(name: "Mass Effect 2"), VideoGame(name: "ME: Andromeda")]
+    static var data = [VideoGame(name: "Mass Effect"), 
+                       VideoGame(name: "Mass Effect 2"), 
+                       VideoGame(name: "Mass Effect 3"), 
+                       VideoGame(name: "ME: Andromeda"), 
+                       VideoGame(name: "ME: Remaster")]
 }
 
 // 2
@@ -60,7 +64,9 @@ class ViewController: UIViewController {
     }
 }
 ```
+Which results in the populated table view:
 
+{% include lazyLoadImage.html image="/assets/images/snips/snip_diff_tv_1.png" altText="Table view demo" %}
 ### The Breakdown
 
 **Step 1**<br />
@@ -74,7 +80,7 @@ struct VideoGame: Hashable {
 }
 
 extension VideoGame {
-    static var data = [VideoGame(name: "Mass Effect"), VideoGame(name: "Mass Effect 2"), VideoGame(name: "ME: Andromeda")]
+    static var data = [VideoGame(name: "Mass Effect"), VideoGame(name: "Mass Effect 2"), VideoGame(name: "Mass Effect 3"), VideoGame(name: "ME: Andromeda"), VideoGame(name: "ME: Remaster"),]
 }
 ```
 
