@@ -9,7 +9,7 @@ framework:  UIKit
 lastChecked: iOS 14
 ---
 
-<h3>The Scenario</h3>
+### The Scenario
 Standing up diffable datasource with <code>UITableView</code>.
 
 ```swift
@@ -99,15 +99,15 @@ implicitlly unwrapped optional for a variety of reasons. Regardless, you've got 
    
 ```swift 
 // 3
- lazy var datasource: TableDataSource = {
-     let datasource = TableDataSource(tableView: tableView, cellProvider: { (tableView, indexPath, model) -> UITableViewCell? in
-         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-         cell.textLabel?.text = model.name
-         return cell
-     })
-     
-     return datasource
- }()
+lazy var datasource: TableDataSource = {
+  let datasource = TableDataSource(tableView: tableView, cellProvider: { (tableView, indexPath, model) -> UITableViewCell? in
+      let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+      cell.textLabel?.text = model.name
+      return cell
+  })
+  
+  return datasource
+}()
 ```
 
 **Step 4**<br />
