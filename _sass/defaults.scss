@@ -3,6 +3,10 @@
     background-clip: text;
 }
 
+div.highlight {
+    border-radius: 8px;
+}
+
 @media (prefers-color-scheme: dark) {
     .prose strong {
         color: #F2F5F7;

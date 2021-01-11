@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   <link rel="stylesheet" href="/tailwind_css/tw.css" />
   <link rel="stylesheet" href="/assets/css/basics.css" />
+  {% if page.layout == "post" %}
+  <link rel="stylesheet" href="/assets/css/monokai.css" />
+  {% endif %}
   <meta name="twitter:data1" content="Read Time" />
   <meta name="twitter:label1" content="{% include readTime.html %}" />
   {% feed_meta %} 
