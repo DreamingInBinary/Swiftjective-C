@@ -14,7 +14,6 @@ Expose your app's data to Spotlight Search using <code>NSUserActivity</code>.
 
 ```swift
 import Foundation
-import Intents
 import UIKit
 
 // 1
@@ -41,24 +40,30 @@ class ViewController: UIViewController {
         let videogame = videogames.first!
         
         // 2
-        let activity = NSUserActivity(activityType: "com.example.demo.videoGame")
-        activity.title = videogame.name
-        activity.userInfo = ["id": videogame.id]
-        activity.persistentIdentifier = videogame.id.uuidString
-        activity.isEligibleForSearch = true
-        activity.isEligibleForPrediction = true
-        activity.suggestedInvocationPhrase = "View \(videogame.name)"
-        activity.keywords = NSSet(array: [videogame.name]) as! Set
+        let videogame = videogames.first!
+        let attributeSet = CSSearchableItemAttributeSet(contentType: .content)
+        attributeSet.title = videogame.name
+        attributeSet.relatedUniqueIdentifier = videogame.id.uuidString
         
+        let searchableItem = CSSearchableItem(uniqueIdentifier: videogame.id.uuidString,
+                                              domainIdentifier: "com.example.demo.videoGame",
+                                              attributeSet: attributeSet)
+
         // 3
-        self.userActivity = activity
+        CSSearchableIndex.default().indexSearchableItems([searchableItem]) { error in
+            if let error = error {
+                print("Issue indexing video game: \(error)")
+            } else {
+                print("Video game was indexed.")
+            }
+        }
     }
 }
 ```
 
 Now, the first video game model ("Mass Effect") is shown in search:
 
-{% include lazyLoadImage.html image="/assets/images/snips/snip_useractivity_demo.gif" altText="Demo of Core Spolight search" %}
+{% include lazyLoadImage.html image="/assets/images/snips/snip_useractivity_demo.gif" altText="Demo of Core Spotlight search" %}
 
 ### The Breakdown
 
@@ -66,20 +71,15 @@ Now, the first video game model ("Mass Effect") is shown in search:
 First, identify what you want to expose with spotlight search. Typically, this is some sort of user data in your app. Here, we'll be exposing our video game view model.
 
 **Step 2**<br />
-Initialize a user activity instance and set relevant properties. View the documentation or header file to see all of them, but these are the ones I typically set. I'll list
-them top to bottom:
+To index with Core Spotlight, we need to use three things. For step 2, let's cover the first two:
 
-1) `title`: What the indexed item will show up as in the results.<br />
-2) `userInfo`: Common on iOS APIs, this dictionary allows you to store any metadata that'll help you later on. In this case, storing an identifier to find the model and open it is what we'll want to use it for.<br />
-3) `persistentIdentifier`: A stable identifier for the activity. You'll want to set this, among other reasons, to be able to later delete it when it's no longer relevant.<br />
-4) `isEligibleForSearch`: If this is set to `true`, the activity is added to the on device index. Here, we want it show up in search, so we've set it to `true`.<br />
-5) `isEligibleForPrediction`: If set to `true`, Siri can suggest this user activity as a shortcut to the user.<br />
-6) `suggestedInvocationPhrase`: Working in tandem with the above value, if the user creates their own shortcut from this activity, this phrase is what's suggested to them when it's made in the Shortcuts app.<br />
-7) `keywords`: Just like it reads - this helps Spotlight search surface this activity when searching for it.<br />
+1. `CSSearchableItemAttributeSet`: This groups a set of related data to search that's related by the `UTType` you give it. This could be one of Apple's several built in options, such as `.movie` or `.audio` or you can make your own. You'll want to give it a `title` and `relatedUniqueIdentifier`.<br />
+2. `CSSearchableItem`: This represents an individual item to search, associated back to an attribute set. Together, these two objects describe an item that'll be searched. It's a bit different than using `NSUserAcitivty` in that, among other things, some of the metadata is spread across two different objects instead of one.<br />
+   
 
 **Step 3**<br />
-Since we're in a view controller context, we've assigned this activity to the controller's `userActivity` property. Here, it's for demo purposes but in reality, it would make much more sense to set it when they were viewing a particular video game in this case. 
+Finally, using `CSSearchableIndex`'s default instance, this class will perform the actual indexing. You can index more items at once if you need, as it takes in `Array<CSSearchableItem>`. The closure lets you know if things were indexed properly.
 
-Also note that if we didn't set it on a view controller or `UIResponder` object, you'd want to instead invoke `becomeCurrent()` instead.
+Unlike the `NSUserActivity` approach, Core Spotlight APIs don’t require a user to visit the indexed content before it gets indexed. However, they don't have some capabilities such as donating it to Siri or weighting its position in search relative to the amount of times its viewed. But, it's perfectly valid to use both APIs in tandem.
 
 Until next time ✌️
