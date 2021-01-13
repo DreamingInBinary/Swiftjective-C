@@ -84,7 +84,7 @@ And don't be too hard on yourself. It's normal to forget these lessons, I certai
 I think this quote by Dr.Souza summarizes things nicely:
 
 > 
-"For a long time it had seemed to me that life was about to begin - real life. But there was always some obstacle in the way, something to be gotten through first, some unfinished business, time still to be served, or a debt to be paid. Then life would begin. At last it dawned on me that these obstacles were my life."
+For a long time it had seemed to me that life was about to begin - real life. But there was always some obstacle in the way, something to be gotten through first, some unfinished business, time still to be served, or a debt to be paid. Then life would begin. At last it dawned on me that these obstacles were my life.
 
 Until next time ✌️.
 
