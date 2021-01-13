@@ -90,7 +90,7 @@
     <div id="mobileMenu" class="hidden flex-row md:hidden bg-gray-50 dark:bg-gray-900 mt-2 pt-2 pb-4 rounded-xl">
         <nav class="mt-6 space-y-1" aria-label="Sidebar">
             <span class="text-gray-800 dark:text-gray-200 flex items-center px-3 font-bold rounded-md">Content</span>
-            <div class="flex">
+            <div class="flex flex-wrap">
                 <a href="/indiedev.html" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">
                     Indies
                 </a>
@@ -118,7 +118,7 @@
         <nav class="mt-6 space-y-1" aria-label="Sidebar">
             <span class="text-gray-800 dark:text-gray-200 flex items-center px-3 font-bold rounded-md">Greatest
                 Hits</span>
-            <div class="flex">
+            <div class="flex flex-wrap">
                 {% for popPost in popular %}
                 <div class="flex flex-row space-x-2">
                     <a href="{{ popPost.url | prepend: site.baseurl}}"
@@ -130,7 +130,7 @@
 
         <nav class="mt-6 space-y-1" aria-label="Sidebar">
             <span class="text-gray-800 dark:text-gray-200 flex items-center px-3 font-bold rounded-md">Comms</span>
-            <div class="flex">
+            <div class="flex flex-wrap">
                 <a href="/feed.xml" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">RSS</a>
                 <a href="https://www.twitter.com/jordanmorgan10" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">Tweeter Me</a>
                 <a href="https://swiftjectivec.us20.list-manage.com/subscribe/post?u=86763e3ce1da1fa79f8079a24&amp;id=b5d1e5e3bc" class="flex items-center px-3 py-2 text-sm font-semibold rounded-md text-gray-600 dark:text-gray-100">Mailing List</a>
