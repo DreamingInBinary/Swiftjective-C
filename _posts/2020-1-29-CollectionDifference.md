@@ -24,7 +24,7 @@ Fast forward to today, and we can thankfully say that WWDC 2019 mercifully addre
 
 Perhaps the most telling part of their proposal, though, is where they state the following:
 
-> "Representing, manufacturing, and applying transactions between states today requires writing a lot of error-prone code."
+> Representing, manufacturing, and applying transactions between states today requires writing a lot of error-prone code.
 
 You don't say.
 
@@ -36,7 +36,7 @@ struct CollectionDifference<ChangeElement>
 
 Perhaps the highest compliment I can extend it is that the API is easy on the eyes (uncommon for diffing libraries). As we'll see, it's typically a one or two line affair to get a diff and apply it, context depending.
 
-> Keep in mind this diffing capability is for _ordered_ collections only. In Swift, this is any collection conforming [`BidirectionalCollection`][2].
+{% include prettyBlockquote.html text="Keep in mind this diffing capability is for _ordered_ collections only. In Swift, this is any collection conforming <a href=\"https://developer.apple.com/documentation/swift/bidirectionalcollection\">`BidirectionalCollection`</a>." %}
 
 Performance-wise, the worst you can expect is O(n * m) - where _n_ represents the count of the first collection, and _m_ the other. You do have some influence here. If your elements conform to `Hashable` (and why the heck wouldn't they - we got diffable data source this year which requires it) or the collection share many common elements, expect the diff to perform better.
 
@@ -196,7 +196,6 @@ Now, go forth and serve up diffs with a newfound level of equanimity as you do s
 Until next time ✌️.
 
 [1]: https://github.com/apple/swift-evolution/blob/master/proposals/0240-ordered-collection-diffing.md
-[2]: https://developer.apple.com/documentation/swift/bidirectionalcollection
 [3]: {{ site.url | append:"/Diffable-Datasource-Empty-View"}}
 [4]: https://github.com/apple/swift/pull/25808
 [5]: http://www.xmailserver.org/diff2.pdf

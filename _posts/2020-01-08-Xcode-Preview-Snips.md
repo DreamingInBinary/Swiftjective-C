@@ -56,7 +56,7 @@ struct ContentView_Previews: PreviewProvider {
 
 {% include lazyLoadImage.html image="../assets/images/pl2.png" %}
 
-> Why `Group` here? `PreviewLayout` doesn't conform to `CaseIterable` currently, which, as we'll see, lends itself perfectly to `ForEach`.
+{% include prettyBlockquote.html text="Why `Group` here? `PreviewLayout` doesn't conform to `CaseIterable` currently, which, as we'll see, lends itself perfectly to `ForEach`." %}
 
 Next, let's hit on some pertinent environment values to preview against.
 
@@ -81,7 +81,7 @@ struct ContentView_Previews: PreviewProvider {
 
 {% include lazyLoadImage.html image="../assets/images/cs1.png" %}
 
-> Previews going a bit slow? Make sure you aren't going crazy in `didFinishLaunchingWithOptions` since Xcode will indeed invoke this when firing up Xcode Previews and kicking off the dynamic replacement dance.
+{% include prettyBlockquote.html text="Previews going a bit slow? Make sure you aren't going crazy in `didFinishLaunchingWithOptions` since Xcode will indeed invoke this when firing up Xcode Previews and kicking off the dynamic replacement dance." %}
 
 I haven't found an elegant way to do this yet, but you can also ensure flipping from an `HStack` to a `VStack` in an accessibility setting (in terms of font size) looks fine, too:
 
@@ -153,7 +153,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
-> Some accessibility traits can't be overriden within previews as far as I know. For example, `public var accessibilityInvertColors: Bool { get }` can't be a writable key path due to its read only nature.
+{% include prettyBlockquote.html text="Some accessibility traits can't be overriden within previews as far as I know. For example, `public var accessibilityInvertColors: Bool { get }` can't be a writable key path due to its read only nature." %}
 
 ### View Models
 View models can boost your workflow for all sorts of reasons. Separations of concerns, easier unit testing and in our case, an easy way to mock real data. We've all been bitten by our pixel perfect designs in Sketch that get trounced by the diversity in our user base once it's out in the wild, so let Xcode Previews be a shield against it.

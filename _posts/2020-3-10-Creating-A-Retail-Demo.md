@@ -121,11 +121,10 @@ They all were genuinely interested, and who knows - maybe I inadvertently create
 
 Why is that funny? Well, we're obviously very happy in that picture. So another couple walking by asked, with a beaming expression:
 
-> Them: Oh my goodness, did you all just get engaged!?<br />
-> Me: No, but Spend Stack got selected as a retail demo on the iPhones...<br />
-> Them: < They cut me off, looked at me weird and walked away confused before I could finish >
+**Them:** Oh my goodness, did you all just get engaged!?<br />
+**Me:** No, but Spend Stack got selected as a retail demo on the iPhones...<br />
 
-We still laugh about that 😜.
+They cut me off, looked at me weird and walked away confused before I could finish. We still laugh about that 😜.
 
 ### Other Random Insights
 

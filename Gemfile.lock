@@ -9,7 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.13.1)
+    ffi (1.14.2)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -31,6 +31,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-json-feed (1.0.0)
       jekyll (~> 3.3)
+    jekyll-postcss (0.4.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.7.1)
@@ -45,7 +46,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.3.1)
+    listen (3.4.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -56,7 +57,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.25.0)
+    rouge (3.26.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -71,6 +72,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-json-feed
+  jekyll-postcss
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-twitter-plugin

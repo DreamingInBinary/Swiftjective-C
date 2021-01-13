@@ -47,7 +47,7 @@ For this purpose, it looks like this:
     }
 }
 ```
-> The appID key simply must be your team or app ID,(.), followed by your bundle ID.
+{% include prettyBlockquote.html text="The appID key simply must be your team or app ID,(.), followed by your bundle ID." %}
 
 An easy place for the JSON file to live is typically in the .well-known subdirectory:
 ```json    
@@ -158,7 +158,7 @@ The entry under Associated Domains for password autofill looks a bit different t
 ```json
 webcredentials:anExample.com
 ```
-> XCode gonna' Xcode. If you're still seeing an error at this point, you might need to hop over to the developer portal and enable Associated Domains for your app ID.
+{% include prettyBlockquote.html text="XCode gonna' Xcode. If you're still seeing an error at this point, you might need to hop over to the developer portal and enable Associated Domains for your app ID." %}
 
 As you've likely keyed in on, the Associated Domains entries follow the same pattern of including a service (i.e. activitycontinuation, applinks, etc) and domain:
 ```json

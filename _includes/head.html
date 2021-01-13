@@ -1,29 +1,60 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="revisit-after" content="7 days" />
-    <meta name="msapplication-TileColor" content="#70A2F9" />
-    <meta name="theme-color" content="#70A2F9" />
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico">
-    {% if layout.title == 'default' or layout.title == 'allposts' %}
-    <meta name="google-site-verification" content="aQGwzERAwYPzppAe9aeRdCSTjUs7QHKqP9VTAcL7K2Q" />
-    <link rel="stylesheet" href="/assets/css/main.css">
-    {% elsif layout.title == 'about' %}
-    <link rel="stylesheet" href="/assets/css/about.css">
-    {% elsif layout.title == 'post' %}
-    <meta name="twitter:data1" content="Read Time" />
-    <meta name="twitter:label1" content="{% include readTime.html %}" />
-    <link rel="stylesheet" href="/assets/css/post.css">
-    <link rel="stylesheet" href="/assets/css/monokai.css">
-    {% endif %}
-    {% feed_meta %}
-    {% json_feed_meta %}
-    {% seo %}
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.description }}" />
-    {% if page.tags[0] == "Trivia" %}
-    <script type="text/javascript" src="/assets/js/quiz/confetti.js"></script>
-    <script type="text/javascript" src="/assets/js/quiz/quiz.js"></script>
-    {% endif %}
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="msapplication-TileColor" content="#70A2F9" />
+  <meta name="theme-color" content="#70A2F9" />
+
+  <!-- Favicon Fun-->
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+  <meta name="google-site-verification" content="aQGwzERAwYPzppAe9aeRdCSTjUs7QHKqP9VTAcL7K2Q" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  <link rel="stylesheet" href="/tailwind_css/tw.css" />
+  <link rel="stylesheet" href="/assets/css/basics.css" />
+  {% if page.layout == "post" %}
+  <link rel="stylesheet" href="/assets/css/monokai.css" />
+  {% endif %}
+  <meta name="twitter:data1" content="Read Time" />
+  <meta name="twitter:label1" content="{% include readTime.html %}" />
+  {% feed_meta %}
+  {% json_feed_meta %}
+  {% seo %}
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  {% if page.layout == "splash" %}
+  <script type="text/javascript" src="/assets/js/splash.js"></script>
+  {% endif %}
+  {% if page.layout == 'about' %}
+  <script type="text/javascript" src="/assets/js/about.js"></script>
+  {% endif %}
+  {% if page.permalink == "/prettythings" %}
+  <script type="text/javascript" src="/assets/js/prettyThings.js"></script>
+  {% endif %}
+  {% if page.tags[0] == "Trivia" %}
+  <script type="text/javascript" src="/assets/js/quiz/confetti.js"></script>
+  <script type="text/javascript" src="/assets/js/quiz/quiz.js"></script>
+  {% endif %}
+  <script type="text/javascript" src="/assets/js/base.js"></script>
 </head>

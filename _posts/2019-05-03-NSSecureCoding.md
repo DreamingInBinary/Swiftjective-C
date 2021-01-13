@@ -130,8 +130,7 @@ Or initialize some sort of singleton 🙅🏻‍♂️!<br/>
 ...or perform any other attack vector that they can dream up ⚰️.<br/>
 
 
-> You might think that's dramatic, but archives can be maliciously constructed. Plus, if [Steve Troughton-Smith](https://twitter.com/stroughtonsmith/status/1123741346425180161?s=20){:target="_blank"} can make Marzipan work when Marzipan isn't released on apps that he doesn't have the source code too - trust no one.
-
+{% include prettyBlockquote.html text="You might think that's dramatic, but archives can be maliciously constructed." %}
 
 So what's a dev to do? Of course, the answer is to use `NSSecureCoding` - and even better, it's typically _a one line change_.
 
@@ -178,7 +177,7 @@ BadTerribleThings.init?(coder:)
 BadTerribleThings.awakeAfer(using:)
 ```
 
-> You can see this list yourself, as coders have a set property containing its contents: `aCoder.allowedClasses`
+{% include prettyBlockquote.html text="You can see this list yourself, as coders have a set property containing its contents: `aCoder.allowedClasses`." %}
 
 Crisis averted, but `NSSecureCoding` also comes with another bonus: static type checking. If you've got any manual decode calls with conditional downcasts, those can now go away
 

@@ -6,6 +6,8 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "A chapter of my professional life comes to an end. Spend Stack has been acquired and will get the full team it deserves!"
 image: /assets/images/newHome.png
+special: "true"
+prettyTitle: "Spend Stack Acquired"
 ---
 So, where do I even start with this one?
 
@@ -19,7 +21,7 @@ Further, now that the app is no longer mine I feel like I can be more blunt with
 
 **The app is great!** <br />
 
-It is! It’s in a position to take that next leap. It’s well-built, easy to use and makes itself home on iOS. But none of that was ever the issue. Its biggest issue was, admittedly, well..._me_ 😅. 
+It is! It’s in a position to take that next leap. It’s well-built, easy to use and makes itself home on iOS. But none of that was ever the issue. Its biggest issue was, admittedly, well..._me_ 😅.
 
 I don’t think like a product owner most of the time with Spend Stack, by my own admittance. One of the core reasons I made it was to see if I could make something that would completely fulfill my [Best in Class][1] list. But it’s a product now, and it needs to be treated like one.
 
@@ -57,7 +59,7 @@ This is where things started to go off the rails a bit. I’ve never sold an app
 
 I adore this app, though. I would never, ever give it away. My name is on it, and I think that really means something. So I did my due diligence beforehand. I talked with close friends who had been through this, I found out what Spend Stack’s fair market value was and reached out to a few folks to get an idea of what I was in for.
 
-> Sidebar. So I talk about being a best in class app quite a bit. And from a monetization standpoint, that literally paid off. Spend Stack was worth more than other apps with similar numbers due to its quality, and I was really proud of that. That's not me talking either, that's from a valuation from a third party and from getting the same feedback from suitors. So, work towards that mark! I know I always will with whatever I make.
+{% include prettyBlockquote.html text="So I talk about being a best in class app quite a bit. And from a monetization standpoint, that literally paid off. Spend Stack was worth more than other apps with similar numbers due to its quality, and I was really proud of that. That's not me talking either, that's from a valuation from a third party and from getting the same feedback from suitors. So, work towards that mark! I know I always will with whatever I make." %}
 
 After a few weeks of this, I ended up with some clarity. I felt great, but only about one option. I don’t know if this is how things always work, but once I put a few feelers out some offers started cropping up. The dealings weren't ever made public and the whole thing was behind closed doors.
 

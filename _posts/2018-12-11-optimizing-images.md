@@ -7,6 +7,7 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "iOS is a visual medium teeming with beautiful images in virtually every app on your phone. Important though they are, it's trivial to mismanage them from a memory and performance standpoint."
 image: /assets/images/logo.png
 special: "true"
+prettyTitle: "Optimizing Images"
 ---
 
 They say the best camera is the one you have with you. If that adage holds any weight, then without question - stem to stern the iPhone is the most important camera on the planet. And our industry shows it, too.
@@ -22,7 +23,7 @@ But for all of their ubiquity on the platform, the act of showing them in a perf
 ### In Theory
 Pop quiz - how much memory will this 266 kilobyte (and quite dashing) photo of my beautiful daughter require in an iOS app?
 
-![Baylor](../assets/images/baylor.jpg)
+{% include lazyLoadImage.html image="../assets/images/baylor.jpg" altText="Picture of Baylor" %}
 
 Spoiler alert - it's not 266 kilobytes. It's not 2.66 megabytes. It's around _14 megabytes_. 
 
@@ -50,7 +51,7 @@ Expanding on this idea - one integral buffer for any iOS app is its frame buffer
 
 And timing matters here. To get the buttery smooth 60 frames per second scrolling, the frame buffer will need to have UIKit render the app's window and it's subsequent subviews into it when their information changes (i.e. assigning an image to an image view). If you do that slow, you drop a frame.
 
-> Think 1/60th of a second is short on time? Pro Motion devices up the ante to 1/120th of a second.
+{% include prettyBlockquote.html text="Think 1/60th of a second is short on time? Pro Motion devices up the ante to 1/120th of a second." %}
 
 ### Size Does Matter
 We can visualize this process and memory being consumed pretty easily. Using the picture of my daughter, I created a trivial app that shows an image view with that exact image within it:
@@ -72,10 +73,10 @@ imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
 imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
 ```
 
-> Mind the force unwraps in production. Here we're using a simple example scenario.
+{% include prettyBlockquote.html text="Mind the force unwraps in production. Here we're using a simple example scenario." %}
 
 Which gives us this:
-![Baylor](../assets/images/baylorPhone.jpg)
+{% include lazyLoadImage.html image="../assets/images/baylorPhone.jpg" altText="Baylor on iPhone" %}
 
 A quick trip to LLDB shows us the image dimensions we're working with, even though we're using a much smaller image view to display it:
 
@@ -106,7 +107,7 @@ Image IO  13.4M   13.4M   13.4M    0K  0K  0K   0K  2
 
 Ah - there's about 14 megabytes of dirty memory right there. That's what our back-of-the-napkin math hypothesized our image would cost. For context, here's a quick screenshot of Terminal to clearly illustrate what each column means since they were omitted from our greppin':
 
-![Baylor](../assets/images/vmmap.jpg)
+{% include lazyLoadImage.html image="../assets/images/vmmap.jpg" %}
 
 So clearly, we're paying the full cost of the image in our 300 x 400 image view at this point. The size of the image can be key, but it's also not the only thing that matters.
 
@@ -251,7 +252,7 @@ Cover your eyes, Objective-C code sample from my side project incoming:
 }
 ```
 
-> Take care to use asset catalogs for the lion's share of your raw image assets, since it already manages buffer sizes (and a lot more) for you already.
+{% include prettyBlockquote.html text="Take care to use asset catalogs for the lion's share of your raw image assets, since it already manages buffer sizes (and a lot more) for you already." %}
 
 For more inspiration on how to be a first class citizen of all things memory and images, be sure to catch these particularly informative sessions from WWDC 18:
 

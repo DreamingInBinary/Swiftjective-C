@@ -127,9 +127,7 @@ There are some services I checked into that package these things up, but each on
 
 To make this shorter, the only thing I did _not_ do myself was the app’s icon. It’s a know your strengths thing, and everything I was doing just wasn’t working. The icon is your poster child for an app, I really believe it’s money well spent to invest in it to make sure it’s done right.
 
-If I did it again, there is one other area I would outsource to someone I trust - my App Store screenshots. Right now, holistically speaking of Spend Stack, I’d wager that’s the weakest part of the package. It’s something I’m going to start improving right away.
-
-> For example, Spend Stack is internationalized to work with all currencies. But, you wouldn’t know it from my screenshots. Plus, there’s too much text.
+If I did it again, there is one other area I would outsource to someone I trust - my App Store screenshots. Right now, holistically speaking of Spend Stack, I’d wager that’s the weakest part of the package. It’s something I’m going to start improving right away[^1]. 
 
 ### The Mistakes
 Let’s chat about where I left something on the table, so to speak. The biggest mistake? Without a doubt, it was my handling of the press. 
@@ -160,7 +158,7 @@ Here are some things that were on my mind, but I didn’t know where to put them
 - *Think about them.* If someone takes the time to type out a detailed bug report and it’s already on your radar, don’t just send back “Thanks, I know!” - take the time to let them know how much you appreciate it. And when it comes to the press, consider why they would even cover your app - what’s in it for them? Same for product choices, and really - anything else.
 - *Make friends, not fans.* If you’re reading this, you’re likely an indie developer or are at least interested in iOS. I don’t ever want you to be my fan, I would much rather you be my friend. If someone bought your app and tweeted about it solely because they wanted to be nice and help, be sure to let them know you’ll do the same, and mean it. There can be a lot of ego in today’s social media driven society, but I truly believe that if you are just a nice person, people will naturally gravitate towards you, what you do and will listen to what you’re saying. 
 
-> For more on that last point, I highly recommend reading the classic tome on the matter, [How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034) by Dale Carnegie.
+{% include prettyBlockquote.html text="For more on that last point, I highly recommend reading the classic tome on the matter, <a href=\"https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034\">How to Win Friends and Influence People</a> by Dale Carnegie." %}
 
 To close things out, if I had to write a one sentence thesis on launching specifically for indies, it would go something like this:
 
@@ -172,3 +170,5 @@ Launching an app is a crazy, unnerving experience. You just really don’t know 
 Though there’s certainly an art to launching, I’ve yet to crack its code. Glean what you can from what worked for me, but more importantly - take note of what *didn’t* work. Avoid those. Most importantly, if you’re launching soon, best of luck!
 
 Until next time ✌️
+
+[^1]: For example, Spend Stack is internationalized to work with all currencies. But, you wouldn’t know it from my screenshots. Plus, there’s too much text.

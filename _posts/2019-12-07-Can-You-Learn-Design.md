@@ -33,7 +33,7 @@ Given that, the obvious question becomes:
 
 Today, I'm going to lay out eight core lessons I learned over the years which helped me appreciate design. They each will help answer the question of "How can indie devs learn about design?"   While I still wouldn't consider myself a designer, I'd submit to you that it's nearly undeniable how much better Spend Stack looks, works and functions today in comparison to what it did five years ago. 
 
-> A small sidebar before we continue - what follows below lays squarely in the "this is my opinion" category. Simply put, these are the things that helped me out. Design has objective truths, but can also have many subjective opinions. My goal here is to shed light on some design practices for those indie devs out there who might be stuck with it as I was. Let me tell you, I have not figured out design. I still see a million things wrong in Spend Stack today, but I'm getting there.
+{% include prettyBlockquote.html text="A small sidebar before we continue - what follows below lays squarely in the \"this is my opinion\" category. Simply put, these are the things that helped me out. Design has objective truths, but can also have many subjective opinions. My goal here is to shed light on some design practices for those indie devs out there who might be stuck with it as I was. Let me tell you, I have not figured out design. I still see a million things wrong in Spend Stack today, but I'm getting there."  %}
 
 That said, without further ado here are the lessons I've learned, and the order in which I learned them:
 
@@ -49,7 +49,7 @@ That said, without further ado here are the lessons I've learned, and the order 
 ### Lesson 1: Something You Can't Ignore {#syci}
 The first thing I realized about Spend Stack of yore was that the idea of the app was validated, but the design made your eyes bleed. As such, the app's idea or functionality (which are intrinsically tied to its design) didn't matter much.
 
-> In this lesson, when I say "design" I'm more pertaining to the "smell test"/judge-a-book-by-its-cover bits of design. Design is a function of many things - how it works, what it does and how it does it, not just how it looks. But in this lesson, it's all about the looks.
+{% include prettyBlockquote.html text="In this lesson, when I say \"design\" I'm more pertaining to the \"smell test\"/judge-a-book-by-its-cover bits of design. Design is a function of many things - how it works, what it does and how it does it, not just how it looks. But in this lesson, it's all about the looks." %}
 
 It could solve a problem, it could save you money. Nay, it could just _print_ money. It could cure diseases!
 
@@ -129,7 +129,7 @@ Developing a persona for your app is simply the process of mapping who your user
 
 If you've got a target customer with a problem you can solve, that's a huge first step. Considering it, you can consider if they might pay for your solution.
 
-> This lesson comes with an asterisk. Maybe you don't care about making money on your app. If that's the case, skip on to the next lesson. But even if you don't, it's still important to figure out who you're making the app for - if only for people like yourself.
+{% include prettyBlockquote.html text="This lesson comes with an asterisk. Maybe you don't care about making money on your app. If that's the case, skip on to the next lesson. But even if you don't, it's still important to figure out who you're making the app for - if only for people like yourself." %}
 
 This phase is especially difficult because iOS apps tend to have broad appeal. Given that, they often solve  "vitamin" problems. In his book [Marketing for Developers][3] Justin Jackson laid out a way to consider whether or not your target customer might be willing to buy your product. He did so with a pain tolerance concept, and I don't remember it word for word but the gist of it really resonated with me.
 

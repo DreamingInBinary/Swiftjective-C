@@ -180,7 +180,7 @@ NSPredicate *namesStartingWithK = [NSPredicate predicateWithFormat:@"SELF.name L
 // Now only contains Karl  
 [mutablePersonAr filterUsingPredicate:namesStartingWithK];
 ```
-> You may have noticed the asterisk above, which like many similar DSLs out there, represents a wildcard.
+{% include prettyBlockquote.html text="You may have noticed the asterisk above, which like many similar DSLs out there, represents a wildcard." %}
 
 The ease of use really begins to come to the forefront when you combine comparison operators within one query:
 ```swift

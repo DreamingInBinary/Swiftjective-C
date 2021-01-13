@@ -1,20 +1,218 @@
 ---
 title: about
+layout: default
+typedTo: 'about'
 ---
-<!doctype html>
-<html lang="en-US">
-{% include head.html %}
-<body>
-    <div id="gridContainer">
-        {% include smallHeader.html %}
-        <main id="gridMiddle">
-            <article>
-                {{ content }}
-            </article>
-        </main>
-        <footer id="gridFooter">
-            {% include footer.html %}
-        </footer>
-    </div>
-</body>
-</html>
+<div class="prose max-w-4xl mx-auto sm:px-6 lg:px-8">
+  <div class="prose-2xl dark:text-gray-100">
+    {{ content }}
+  </div>
+  <!-- FAQ -->
+  <div class="max-w-4xl mx-auto mt-12">
+    <span class="text-8xl font-extrabold text-gray-900 dark:text-gray-200 sm:text-4xl">
+      F.A.Q.
+    </span>
+    <dl class="mt-4 space-y-6 divide-y-4 divide-gray-100 dark:divide-gray-600">
+      <!-- What indie things have you done? -->
+      <div class="pt-6 dark:text-gray-100">
+        <dt class="text-lg">
+          <button id="q1" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+              What indie things have you done?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq1" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq1" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            I created <a class="hover:text-blue-500 border-blue-500 cursor-pointer" href="{{ '/Introducing-Spend-Stack' | prepend: site.baseurl }}">Spend Stack</a>, a personal finance app that is based on simple lists instead of complex spread
+            sheets. It took me two attempts at it over the span of
+            seven years. Finally, <a class="hover:text-blue-500 border-blue-500 cursor-pointer" href="https://twitter.com/JordanMorgan10/status/1265663472425205762?s=20">I figured it out</a> and it was a success - eventually being featured in Apple stores, the
+            App Store and more. It was <a class="hover:text-blue-500 border-blue-500 cursor-pointer" href="{{ '/A-New-Home-For-Spend-Stack' | prepend: site.baseurl }}">acquired in December 2020</a>.
+          </p>
+        </dd>
+      </div>
+
+      <!-- Where have I seen your work? -->
+      <div class="pt-6 dark:text-gray-100">
+        <dt class="text-lg">
+          <button id="q2" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+              Where else have I seen your work?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq2" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq2" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            It might be from a few different places:
+          </p>
+          <h4>Conferences and Podcasts</h4>
+          <ul>
+            {% for item in site.data.myWork.talks %}
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <h4>Books</h4>
+          <ul>
+            {% for item in site.data.myWork.books %}
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+          <h4>Awards and Honors</h4>
+          <ul>
+            {% for item in site.data.myWork.honors %}
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+          <h4>Interviews</h4>
+          <ul>
+            {% for item in site.data.myWork.interviews %}
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+          <h4>Other Places I've Written For</h4>
+          <ul>
+            {% for item in site.data.myWork.articles %}
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </dd>
+      </div>
+
+      <!-- arc4random -->
+      <div class="pt-6 dark:text-gray-100">
+        <dt class="text-lg">
+          <button id="q3" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+             Ummm....<pre class="inline mx-3">arc4random_uniform()</pre>?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq3" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq3" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            It's a random post button! If you started with Swift in your iOS journey, then this might look a little forgeign. For years, it was my go-to in
+            Objective-C to generate a random number. It's quite nifty, passing you a random value based on the upper bound you pass it while also eliminating modulo bias.
+          </p>
+        </dd>
+      </div>
+
+      <!-- What does the site run on?  -->
+      <div class="pt-6 dark:text-gray-100">
+        <dt class="text-lg">
+          <button id="q4" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+              What does this site run on, did you use a theme?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq4" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq4" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            I created this site from scratch using the incredibly helpful <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://www.tailwindcss.com">Tailwind CSS</a>. Tech wise, it runs on the following:
+          </p>
+          <ul>
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://jekyllrb.com">Jekyll</a>, a robust static site generator, is used to manage and create Swiftjective-C. It uses no existing theme and is rolled from scratch.</li>
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://code.visualstudio.com">Visual Studio Code</a> is my text editor of choice for web development.</li>
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://kramdown.gettalong.org">Kramdown</a> is used for authoring each article.</li>
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://www.netlify.com">Netlify</a> handles domain management and all deployment of its source code. Without it, I'm not sure this site would exist. It's easily the most intuitive way I've found to get a website up and rolling.</li>
+            <li><a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://www.github.com">Github</a> is used for source control, and each article and the entire <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://github.com/DreamingInBinary/Swiftjective-C">source code for this site</a> is available there for collaboration and learning purposes. It's free to use and to change however you wish.</li>
+          </ul>
+        </dd>
+      </div>
+
+      <!-- Who are you outside of work? -->
+      <div class="pt-6 dark:text-gray-100">
+          <button id="q5" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+              Who are you outside of work?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq5" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq5" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            My highest accomplishment is marrying up (like, <i>waaaaaay</i> up) to my <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="https://www.instagram.com/jmorgan">gorgeous wife</a> and having our three kids. I have two boys, Bennett and Remy, along with
+            my lovely daughter, Baylor. I tweet about my family all the time. Aside from programming, my other hobbies include video games and basketball.
+          </p>
+        </dd>
+      </div>
+
+      <!-- Podcast or conference? -->
+      <div class="pt-6 dark:text-gray-100">
+        <dt class="text-lg">
+          <button id="q6" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+              Will you be on my podcast or talk at my conference?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq6" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq6" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            I try my best to say yes to all podcasts and most conferences. {% include contactObs.html %} me for more.
+          </p>
+        </dd>
+      </div>
+
+      <!-- Support -->
+      <div class="pt-6 dark:text-gray-100">
+        <dt class="text-lg">
+          <button id="q7" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
+            <span class="font-semibold dark:text-gray-200">
+              How can I support the site, do you take sponsors?
+            </span>
+            <span class="ml-6 h-7 flex items-center">
+              <svg id="svgq7" class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </button>
+        </dt>
+        <dd id="ddq7" class="mt-2 pr-12 hidden">
+          <p class="text-base font-medium">
+            Right now I'm not doing any sponsorships for the site, as my publishing schedule might be erratic. However, I am working on some things specifically for indie developers which will be available later this year which you can buy. 
+            <br />
+            <br />
+            If you're just enjoying the site and wanna caffeinate me, you can <a class="hover:text-blue-500 border-blue-500 cursor-pointer" href="https://www.buymeacoffee.com/jordanmorgan">buy me a coffee</a> and I'd love that.
+          </p>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</div>

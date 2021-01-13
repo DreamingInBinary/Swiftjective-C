@@ -44,7 +44,7 @@ But as someone who took five years to release an app, I figured another shot of 
 
 After looking at Xcode's default master-detail view template (which has no accordances for this kind of thing), I quickly tested things out using `.secondaryBackground` for the master view - while keeping the detail view with `.primaryBackground`. This is similar to what Mail and Reminders do.
 
-> If you aren't using SwiftUI and want this process to be forty times less painless - trying using the helpful utility app [Adaptivity][1] to quickly reference colors.
+{% include prettyBlockquote.html text="If you aren't using SwiftUI and want this process to be forty times less painless - trying using the helpful utility app <a href=\"https://apps.apple.com/us/app/adaptivity-a/id1054670022\">Adaptivity</a> to quickly reference colors."  %}
 
 ```swift
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
@@ -125,5 +125,3 @@ I use a subclassed `UINavigationBar` throughout Spend Stack (same for the toolba
 We'll see what happens, and of course - I'll have the final product in the next version of Spend Stack, version 1.2.
 
 Until next time ✌️.
-
-[1]: https://apps.apple.com/us/app/adaptivity-a/id1054670022

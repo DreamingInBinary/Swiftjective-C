@@ -91,7 +91,7 @@ mediumPost as Post
 ```
 Apple has bluntly stated their stance on the matter. For lack of a better explanation, take it from the belly of the beast itself:
 
-> It may be easiest to remember the pattern for these operators in Swift as: ! implies _"this might trap,"_while ? indicates _"this might be nil."_
+{% include prettyBlockquote.html text="It may be easiest to remember the pattern for these operators in Swift as: ! implies _\"this might trap,\"_while ? indicates _\"this might be nil.\"_" %}
 
 ### Closing Act: Final Words
 

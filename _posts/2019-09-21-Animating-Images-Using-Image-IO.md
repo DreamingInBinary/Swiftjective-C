@@ -111,7 +111,7 @@ In Image IO's case, this will come either from the network or locally via a chun
 ### Implementation
 Of course, since we are in the stone age of Objective-C today (where I [admittedly](https://twitter.com/JordanMorgan10/status/1172882580187881472?s=20){:target="_blank"} love to play) where the header files roam freely, and the square brackets are treated as deity - we mustn't forget to write the other half of our code. Thus, we now arrive at the implementation file.
 
-> Let's not get too hasty, either. For years, the .h and .m paradigm has offered C, C++ and Objective-C many advantages . To learn more, visit your friendly neighborhood [Stack Overflow post](https://stackoverflow.com/questions/2798202/what-are-the-benefits-and-drawbacks-of-using-header-files){:target="_blank"}.
+{% include prettyBlockquote.html text="Let's not get too hasty, either. For years, the .h and .m paradigm has offered C, C++ and Objective-C many advantages . To learn more, visit your friendly neighborhood <a href=\"https://stackoverflow.com/questions/2798202/what-are-the-benefits-and-drawbacks-of-using-header-files\">Stack Overflow post</a>." %}
 
 ```objc
 #import "ImageAnimator.h"
@@ -199,7 +199,7 @@ There is not much to see here, other than we take care to vend any options we've
 
 Of note, in my testing I seemed to experience that any .gif would stop after one complete repetition if I passed `kCFNumberPositiveInfinity` as a default value for the loop count. The docs indicate that this should keep things playing - but hey, my aforementioned handyman Dad also told me Santa Clause was real too.
 
-> If you've been away from #TeamDino for some time, the pointer to a boolean may look weird too. However, this approach can be handy in cases where we might want to assign to a boolean (or any other type) later, but lack any context to control it after the initial function invocation. This way, one can set the boolean at any point within the block by referencing another boolean's assignment.
+{% include prettyBlockquote.html text="If you've been away from #TeamDino for some time, the pointer to a boolean may look weird too. However, this approach can be handy in cases where we might want to assign to a boolean (or any other type) later, but lack any context to control it after the initial function invocation. This way, one can set the boolean at any point within the block by referencing another boolean's assignment." %}
 
 Piping things over to Swift - we've now got a fully functioning class that will allow us to spread the joy of any animated .gif or APNG anywhere on the main queue. So, putting it all together:
 

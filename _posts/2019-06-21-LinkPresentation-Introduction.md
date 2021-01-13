@@ -40,7 +40,7 @@ provider.startFetchingMetadata(for: theURL) { (metadata, error) in
 }
 ```
 
-> As with most closure based APIs found within the Apple ecosystem, one must take care to dispatch back to the main queue if you plan to do any user interface processing.
+{% include prettyBlockquote.html text="As with most closure based APIs found within the Apple ecosystem, one must take care to dispatch back to the main queue if you plan to do any user interface processing." %}
 
 The few lines of code above should suffice for most use cases, but there are some things to be aware of. The most important, however, is how the life cycle of these providers work, namely - they are one shot objects. 
 
@@ -149,7 +149,7 @@ func activityViewControllerLinkMetadata(_ activityViewController: UIActivityView
 ```
 This route ensures the share sheet will show the link's data instantly, instead of asynchronously pulling it in via another meta data request. Plus, it's a gift that keeps on giving. If the users goes straight to Messages for the share request, the data is handed right off once more.
 
-> Also, if you've got local data already, it's completely fine to create your own meta data object and fill in its contents yourself. There's nothing that says this meta data has to come from the network.
+{% include prettyBlockquote.html text="Also, if you've got local data already, it's completely fine to create your own meta data object and fill in its contents yourself. There's nothing that says this meta data has to come from the network." %}
 
 ### Final Thoughts
 Sometimes you need to roll your own solution to get a job done in software engineering. UIKit, or whatever the framework is, could have the pieces you need but might lack the holistic vision of what you're after. This was the case with link previews. If you've rolled your own, well - today's innovation is now tomorrow's deprecation. But this time, it's for all of the right reasons.

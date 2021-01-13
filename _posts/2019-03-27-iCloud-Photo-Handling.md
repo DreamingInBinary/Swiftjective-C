@@ -110,8 +110,8 @@ PHCachingImageManager().requestImage(for: asset, targetSize: size, contentMode: 
 })
 ```
 
-> Though documentation states that one needs to set `isNetworkAccessAllowed`
-to `true` for this to work, I've seen it done without using it.
+{% include prettyBlockquote.html text="Though documentation states that one needs to set `isNetworkAccessAllowed`
+to `true` for this to work, I've seen it done without using it." %}
 
 One could be potentially flummoxed if they were to see these downloads complete, yet their asset request doesn't do anything after the fact. Do you need to request the asset again? Why would it show up if you were to scroll the collection or table view up and down again?
 
@@ -120,7 +120,7 @@ One could be potentially flummoxed if they were to see these downloads complete,
 
 The answer to this scenario is in the docs, but it's a blink and you'll miss it comment at the end of a document describing how to request user access to media:
 
-> Use the register(_:) method to observe photo library changes before fetching content. After the user grants your app access to the photo library, Photos sends change messages for any empty fetch results you retrieved earlier, notifying you that library content for those fetches is now available.
+{% include prettyBlockquote.html text="Use the register(_:) method to observe photo library changes before fetching content. After the user grants your app access to the photo library, Photos sends change messages for any empty fetch results you retrieved earlier, notifying you that library content for those fetches is now available." %}
 
 Photo libraries can mutate at any point, so the key for developers who are making their home baked media picker is to react to those changes. You can do so by adopting the `PHPhotoLibraryChangeObserver` protocol and implementing only one method. 
 

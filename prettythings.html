@@ -1,0 +1,80 @@
+---
+layout: default
+title: Pretty Things
+permalink: /prettythings
+---
+
+<!-- Pretty Thing Modal -->
+<div class="copyModal isHidden pointer-events-none opacity-0 fixed z-10 inset-0 overflow-y-auto">
+  <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+    <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+      <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+    </div>
+
+    <!-- This element is to trick the browser into centering the modal contents. -->
+    <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true"></span>&#8203;
+
+    <div
+      class="inline-block w-2/6 align-bottom bg-white dark:bg-gray-700 rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6"
+      role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+      <div class="sm:flex">
+        <div class="flex-shrink-0 sm:mb-0 sm:mr-4">
+          <div class="w-40">
+            <img id="ptImage" class="lozad w-40 object-scale-down shadow-lg rounded-lg"
+              src=""
+              alt="">
+          </div>
+        </div>
+        <div class="ml-4 flex flex-col justify-items-start">
+          <h4 id="ptHeader" class="text-lg font-bold dark:text-gray-200">""</h4>
+          <span class="mt-4 font-semibold dark:text-gray-200">What is it?</span>
+          <p id="ptDescription" class="text-gray-500 dark:text-gray-100">
+            ""
+          </p>
+          <span class="mt-4 font-semibold dark:text-gray-200">Why does it work?</span>
+          <p id="ptWhyItWorks" class="text-gray-500 dark:text-gray-100">
+            ""
+          </p>
+        </div>
+        <div class="ml-4 flex-shrink-0 flex">
+          <button
+            class="bg-white dark:bg-gray-700 rounded-md inline-flex text-gray-400 dark:text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            onclick="togglePrettyThing();">
+            <span class="sr-only">Close</span>
+            <!-- Heroicon name: x -->
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-base">
+  <div>
+    <h1 class="text-4xl font-bold dark:text-gray-200">Pretty Things</h1>
+    <h2 class="text-2xl dark:text-gray-200 mt-2">Little slices of software that inspired me.</h2>
+  </div>
+  <ul class="space-y-12 mt-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+    {% for thing in site.data.prettyThingsDB.shots %}
+    <li>
+      <div class="space-y-4">
+        <div class="cursor-pointer hover:bg-blue-50 dark:hover:bg-gray-700" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}', '{{ thing.gif }}']);">
+          <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
+        </div>
+        <div class="space-y-2">
+          <div class="text-lg leading-6 font-medium space-y-1">
+            <h3 class="dark:text-gray-200 font-semibold">{{ thing.title }}</h3>
+            <p class="text-gray-500 dark:text-gray-100">{{ thing.description }}</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

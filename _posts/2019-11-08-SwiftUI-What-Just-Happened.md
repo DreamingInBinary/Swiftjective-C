@@ -104,7 +104,7 @@ A new proposal (which is already technically implemented, bringing about a small
 
 The gist? A result of a function's statements collate everything together using a builder type, and the result is one value created from the sequence.
 
-> You can see this first hand by looking at the exotic return types one gets from their `body` property. Simply use `print()` along with reflection to check out what types your views are composing to.
+{% include prettyBlockquote.html text="You can see this first hand by looking at the exotic return types one gets from their `body` property. Simply use `print()` along with reflection to check out what types your views are composing to."  %}
 
 Now, our pre Swift 5.1 code sample looks like the real thing:
 
@@ -132,7 +132,7 @@ UIKit returns concrete `UIView` types allocated on the heap, that we extend and 
 
 Think about the immediate wins you get by creating an entire user interface from the client by simply returning a bunch of Structs on the stack - allowing the underlying details to be optimized and decided by the framework. And, SwiftUI can pick up changes extremely quick by virtue of its design to know what to update and when. It's insane, and awesome.
 
-> For example, it uses static types to optimize parts of its view graph that cannot, and will not, change.
+{% include prettyBlockquote.html text="For example, it uses static types to optimize parts of its view graph that cannot, and will not, change." %}
 
 You've simply got to leave `UIKit` *thinking* behind. 
 
@@ -166,7 +166,7 @@ As one Steve Jobs would say....are you getting it!? This isn't one type, this ca
 
 To me, this is the most exciting technical detail about SwiftUI. As one of the Swift holdouts for a number of reasons, seeing this in action made me realize what Swift has been all about since the beginning - pulling some tomfoolery that Objective-C simply can't do to allow for more robust frameworks and unique ways in which we can use them. And I'm here for it.
 
-> Notice I said "UIKit thinking", not UIKit itself. You can pull it in every which way with representables, or even pump SwiftUI views into UIKit.
+{% include prettyBlockquote.html text="Notice I said \"UIKit thinking\", not UIKit itself. You can pull it in every which way with representables, or even pump SwiftUI views into UIKit." %}
 
 ## The Live Preview {#live}
 The other part of the equation is the hot swapping previews Xcode is slinging. 
@@ -214,7 +214,7 @@ This is how we arrive at the text being centered in default template app. The pa
 
 But - if we added another view modifier, say `Frame`, then the `Text` would turn rebellious, ignore its parent - and two sheets to the wind, would use it's `Frame` size information instead. Regardless, `ContentView` has what it needs and it's placed according to the layout information on screen.
 
-> In SwiftUI, the top layer of any view with a `body` is said to be "layout neutral". In short - its bounds are defined by the bounds of its body. So, `ContentView` has the same bounds as the `Text` view returned from its `body` property.
+{% include prettyBlockquote.html text="In SwiftUI, the top layer of any view with a `body` is said to be \"layout neutral\". In short - its bounds are defined by the bounds of its body. So, `ContentView` has the same bounds as the `Text` view returned from its `body` property." %}
 
 When the layout system was being developed, it seems that all of the quirks, gotchas and oddities of UIKit, Auto Layout and frame based approaches were considered, and then sent out back packing. SwiftUI's approach is so easy - so trivial, that my wife looked over my shoulder the other night (who is a nurse with no programming experience) and was able to comprehend what a VStack and HStack were and what they meant.
 
@@ -224,7 +224,7 @@ The combination of SwiftUI's semantics and layout system mean I no longer reach 
 
 Further - it can optimized down to metal with one view modifier. While I'm not certain of this, some of the rendering may be already. For example, _something_ is going down with images and more efficient decoding - as sizing the same `UIImage` and `UIImageView` against the same representation in SwiftUI seemed to consume around 25% more memory.
 
-> Another freebie? SwiftUI rounds the corners of views to the nearest pixel to get crisp edges, instead of producing anti-aliased ones.
+{% include prettyBlockquote.html text="Another freebie? SwiftUI rounds the corners of views to the nearest pixel to get crisp edges, instead of producing anti-aliased ones." %}
 
 The immense control a child has over its sizing might be giving you slight anxiety, as to this point, UIKit developers have heavily relied on the parent to position controls. That's still possible too - all one needs to reach for is `GeometryReader`. Its somewhat heavy handed name aside, you can think of it as the UIKit frame of a super view. It reports sizing back to down to children to base things off of its parent's size, should you need it.
 

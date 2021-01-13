@@ -151,9 +151,7 @@ class KeyboardHandler {
     }
 }
 ```
-There's likely a prettier path to merging all of the notifications, but I accepted my Combine naïveté and moved on. Further, one might not need all of em' either. 
-
-> Update: Thanks to [Jasdev Singh](https://www.twitter.com/jasdev) for suggesting `mergeMany`.
+There's likely a prettier path to merging all of the notifications, but I accepted my Combine naïveté and moved on. Further, one might not need all of em' either[^1]. 
 
 ### In Practice
 So what's that leave us with? Well, a tidy little object that'll hide the messiness of keyboard handling away in a simple package:
@@ -176,3 +174,5 @@ What's ironic is that after I had written this, I realized I could've done this 
 But, it's just another example of how new API can make you look at age old problems in a new light. A problem well stated is a problem half solved I suppose.
 
 Until next time ✌️.
+
+[^1]: Update: Thanks to [Jasdev Singh](https://www.twitter.com/jasdev) for suggesting `mergeMany`.

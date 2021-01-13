@@ -1,0 +1,51 @@
+---
+layout: default
+title: A.M.A.
+permalink: /ama
+---
+
+<div class="sm:w-full md:mx-auto md:w-9/12">
+    <div class="text-center">
+        <h1 class="text-6xl font-extrabold dark:text-gray-200">Ask Me Anything!</h1>
+        <p class="font-bold mt-6 text-lg tracking-tight dark:text-gray-100">Questions over iOS, indie life, app building or something else?</p>
+    </div>
+    <div class="mt-12 w-full dark:bg-black">
+        <div class="mt-1">
+            <div class="rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <form method="post"
+                    action="https://api.formcake.com/api/form/839c8f2e-2f4f-4ac4-8458-1c72a5f438fa/submission">
+                    <h2 class="text-gray-900 text-lg mb-1 font-medium title-font dark:text-gray-300">Question</h2>
+                    <p class="leading-relaxed mb-5 text-gray-600 dark:text-gray-100">Twitter, name or email handle is optional.</p>
+                    <div class="relative mb-4">
+                        <label for="contact" class="leading-7 text-sm text-gray-600 dark:text-gray-300">Twitter, name or email</label>
+                        <input type="contact" id="contact" name="contact"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="question" class="leading-7 text-sm text-gray-600 dark:text-gray-300">Question</label>
+                        <textarea id="question" name="question"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                    <button
+                        class="text-white w-full bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Submit</button>
+                    <p class="text-xs text-gray-500 mt-3">Questions go live after I answer them.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Answered Questions -->
+    <div class="mt-12">
+        <hr class="mx-8" />
+        <p class="font-extrabold my-8 text-2xl text-center dark:text-gray-300">🎙 Answered questions 🎙</p>
+        <div class="flex flex-col space-y-8">
+            {% for qa in site.data.amas.questions %}
+            <div class="rounded bg-gray-50 dark:bg-gray-900 px-4 py-4">
+                <h3 class="dark:text-gray-300 font-semibold">{{ qa.from }} asks:</h3>
+                <h4 class="dark:text-gray-300 font-semibold">{{ qa.question }}</h4>
+                <p class="text-gray-800 dark:text-gray-100 font-medium mt-4">{{ qa.answer }}</p>
+                <small class="text-gray-800 dark:text-gray-100 font-semibold">Answered on {{ qa.askedOn }}</small>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

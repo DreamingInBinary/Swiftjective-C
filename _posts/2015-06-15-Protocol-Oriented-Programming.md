@@ -13,9 +13,7 @@ More complexity == More Bugs.
 
 The art of development is inherently complex. And now we've Swift 2.0, which _really_ wants to help engineers minimize complexities in codebases the world over. And, thankfully, it can.
 
-Meet Swift 2.0. Our profession's first protocol-oriented programming language.
-
-> Find the associated playground "Crustacean" [here][1], as well as the [lecture][2].
+Meet Swift 2.0. Our profession's first protocol-oriented programming language[^1].
 
 ### Section 1: In which we ask: What?
 
@@ -97,5 +95,6 @@ That's a short list. Swift is certainly implying that developers should use Swif
 
 Until next time ✌️.
 
+[^1]: Find the associated playground "Crustacean" [here][1], as well as the [lecture][2].
 [1]: https://developer.apple.com/sample-code/wwdc/2015/?q=
 [2]: https://developer.apple.com/videos/wwdc/2015/?id=408

@@ -1,50 +1,49 @@
 ---
 title: post
+layout: default
 ---
-<!doctype html>
-<html lang="en-US">
-{% include head.html %}
-{% assign githubURL='https://github.com/DreamingInBinary/Swiftjective-C/' %}
-<body>
-    <div id="gridContainer">
-        {% include smallHeader.html %}
-        <main id="gridMiddle">
-            <article itemscope itemtype="http://schema.org/BlogPosting">
-                <section id="articleHeaderSection">
-                    {% if page.tags[0] == "The Indie Dev Diaries" %}
-                        <i>The Indie Dev Diaries Presents...</i>
-                    {% elsif page.tags[0] == "Tech Notes" %}
-                        <i>Today in Tech Notes...</i>
-                    {% else %}
-                        <i>Now serving...</i>
-                    {% endif %}
-                    <h1 id="postHeader">{{ page.title }}</h1>
-                    <small id="miniphon">Written by <a href={{ page.writtenByTwitter }} target="_blank">{{ page.writtenBy }}</a> &#8226; {{ page.date | date_to_string: "ordinal", "US" }}</small>
-                    {% if page.updated != NULL %}
-                        <small id="miniphon">Updated {{ page.updated | date_to_string: "ordinal", "US" }}</small>
-                    {% endif %}
-                </section>
-                {{ content }}
-            </article>
-            <p id="pullsWelcome">Spot any corrections or have anything to add?<br />Feel free to open an <a href="{{ githubURL | append:'issues' }}" target="_blank">issue</a> or create a <a href="{{ githubURL | append: 'tree/master/_posts/'}}{{ page.path | remove_first:'_posts/' }}" target="_blank">pull request</a> for this article.</p>
-            {% assign next_post = page.next %}
-            {% if next_post == null %}
-            {% assign next_post = site.posts | slice:1, 2 | first  %}
-            {% endif %}
-            <div id="next">
-                <hr />
-                <h4>Next up...</h4>
-                <a href="{{ next_post.url }}"><h1>{{ next_post.title }}</h1></a>
-                {{ next_post.description | markdownify }}
-                <hr />
-            </div>
-            <div>
-                {% include mailingList.html %}
-            </div>
-        </main>
-        <footer id="gridFooter">
-            {% include footer.html %}
-        </footer>
-    </div>
-</body>
-</html>
+
+<div class="prose prose-blue prose-xl mx-auto min-w-full sm:max-w-screen-sm">
+  <h1 class="mb-0">
+    {% if page.tags[0] == 'The Indie Dev Diaries' %}
+    <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">The Indie Dev
+      Diaries Presents</span>
+    {% elsif ipage.tags[0] == 'Link Blurb' %}
+    <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">And now, a links
+      blurb</span>
+    {% elsif page.tags[0] == 'Snips' %}
+    <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Code Snips</span>
+    {% elsif page.tags[0] == 'Extras' %}
+    <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Extras</span>
+    {% elsif page.tags[0] == 'Trivia' %}
+    <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Trivia Time</span>
+    {% else %}
+    <span class="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">Technical
+      Article</span>
+    {% endif %}
+    <span
+      class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">{{
+      page.title }}</span>
+  </h1>
+  <div class="text-sm font-mono">
+    <small class="dark:text-green-800">// Written by <a href={{ page.writtenByTwitter }} target="_blank">{{
+        page.writtenBy }}</a> </small>
+    <small class="block dark:text-green-800">// {{ page.date | date_to_string: "ordinal", "US" }}</small>
+    {% if page.updated != NULL %}
+    <small class="block dark:text-green-800">// Updated {{ page.updated | date_to_string: "ordinal", "US" }}</small>
+    {% endif %}
+    <small class="block dark:text-green-800">// Read it in about {% include readTime.html %}</small>
+  </div>
+  <article class="dark:text-gray-100" itemscope itemtype="http://schema.org/BlogPosting">
+    {% if page.tags[0] == 'Snips' %}
+      {% include prettyBlockquote.html text="Welcome to Snips! Here, you'll find a short, fully code complete sample with two parts. The first is the entire code sample which you can copy and paste right into Xcode. The second is a step by step explanation. Enjoy!" %}
+    {% endif %}
+    {{ content }}
+  </article>
+  <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 dark:text-gray-200 sm:text-4xl">
+    If you liked this or another article of mine <a class="hover:text-blue-700"
+      href="https://www.buymeacoffee.com/jordanmorgan">you can buy me a coffee</a>. If you didn't well then just don't
+    say anything ;)
+  </h2>
+</div>
+{% include bottomHeader.html %}
