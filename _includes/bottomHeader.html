@@ -12,7 +12,7 @@
     <div class="mt-8 grid pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
       {% for post in next_posts  %}
       <div>
-        <div>
+        <div class="mt-8 md:mt-0">
           <a href="{{ post.url | prepend: site.baseurl }}" class="inline-block">
             {% assign postTag = post.tags[0] %}
             {% include tagPill.html post=post %}
