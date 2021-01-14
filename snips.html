@@ -12,8 +12,41 @@ permalink: /snips
         <h1 class="text-4xl font-bold dark:text-gray-200">Snips</h1>
         <h2 class="text-2xl dark:text-gray-200 mt-2">Short, complete solutions to common iOS situations.</h2>
     </div>
+    <!-- Small Size, use a list -->
+    <div class="md:hidden">
+        <div class="flow-root mt-6">
+            <ul class="-my-5 divide-y divide-gray-200">
+                {% for post in snips %}
+                {% if post.tags[0] == "Snips" %}
+                <li class="py-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-1 min-w-0">
+                            <p class="text-sm font-medium text-gray-900 dark:text-gray-200 truncate">
+                                {{ post.title }}
+                            </p>
+                            <span
+                                class="my-3 px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                {{ post.framework }}
+                            </span>
+                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-100 truncate pr-8">
+                                {{ post.description }}
+                            </p>
+                        </div>
+                        <div>
+                            <a href="{{ post.url |  prepend: site.baseurl }}"
+                                class="inline-flex items-center shadow-sm px-2.5 py-0.5 border border-gray-300 text-sm leading-5 font-medium rounded-full text-gray-700 bg-white hover:bg-gray-50">
+                                View
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
     <!-- Table -->
-    <div class="shadow mt-12 border-b border-gray-200 w-full rounded-lg md:min-w-full">
+    <div class="hidden md:block shadow mt-12 border-b border-gray-200 w-full rounded-lg md:min-w-full">
         <table class="w-full md:min-w-full table-fixed divide-y divide-gray-200">
             <thead class="bg-gray-50 dark:bg-gray-900 text-gray-700  dark:text-gray-200">
                 <tr>
@@ -34,7 +67,8 @@ permalink: /snips
             <tbody class="bg-white dark:bg-black divide-y divide-gray-200">
                 {% for post in snips %}
                 {% if post.tags[0] == "Snips" %}
-                <tr class="hover:bg-blue-200 hover:bg-opacity-30 cursor-pointer" onclick="window.location={{ post.url |  prepend: site.baseurl }}">
+                <tr class="hover:bg-blue-200 hover:bg-opacity-30 cursor-pointer"
+                    onclick="window.location={{ post.url |  prepend: site.baseurl }}">
                     <td class="px-6 py-4 w-2/6">
                         <div>
                             <div class="text-sm font-semibold text-gray-900 dark:text-gray-200">
