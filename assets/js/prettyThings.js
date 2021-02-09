@@ -14,20 +14,18 @@ function togglePrettyThing(ptData) {
 
         // Does it have a gif, or just a still?
         let image = document.getElementById('ptImage');
-        if (ptData[5] != "") {
-            image.src  = ptData[5];
-            image.alt = ptData[4];
+        if (ptData[6] != "") {
+            image.src  = ptData[6];
+            image.alt = ptData[5];
         } else {
-            image.src  = ptData[3];
-            image.alt = ptData[4];
+            image.src  = ptData[4];
+            image.alt = ptData[5];
         }
     }
 
     if (modalIsHidden) {
-        modal.classList.remove('isHidden', 'hidden', 'pointer-events-none', 'transform', 'ease-in', 'duration-100', 'opacity-0');
-        modal.classList.add('transform', 'ease-out', 'duration-300', 'transition', 'opacity-100');
+        modal.classList.remove('isHidden', 'hidden', 'pointer-events-none', 'opacity-0');
     } else {
-        modal.classList.remove('transform', 'ease-out', 'duration-300', 'transition', 'opacity-100');
-        modal.classList.add('isHidden', 'hidden', 'pointer-events-none', 'transform', 'ease-in', 'duration-100', 'opacity-0');
+        modal.classList.add('isHidden', 'hidden', 'pointer-events-none', 'opacity-0');
     }
 }

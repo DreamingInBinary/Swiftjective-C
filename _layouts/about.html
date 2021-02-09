@@ -3,19 +3,19 @@ title: about
 layout: default
 typedTo: 'about'
 ---
-<div class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl max-w-4xl mx-auto sm:px-6 lg:px-8">
+<div class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto sm:px-6 lg:px-8">
   <div class="dark:text-gray-100">
     {{ content }}
   </div>
   <!-- FAQ -->
-  <div class="max-w-4xl mx-auto mt-12">
-    <span class="text-8xl font-extrabold text-gray-900 dark:text-gray-200 sm:text-4xl">
+  <div class="mx-auto mt-12">
+    <span class="text-2xl md:text-8xl font-extrabold text-gray-900 dark:text-gray-200">
       F.A.Q.
     </span>
     <dl class="mt-4 space-y-6 divide-y-4 divide-gray-100 dark:divide-gray-600">
       <!-- What indie things have you done? -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q1" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               What indie things have you done?
@@ -29,7 +29,7 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq1" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             I created <a class="hover:text-blue-500 border-blue-500 cursor-pointer"
               href="{{ '/Introducing-Spend-Stack' | prepend: site.baseurl }}">Spend Stack</a>, a personal finance app
             that is based on simple lists instead of complex spread
@@ -45,7 +45,7 @@ typedTo: 'about'
 
       <!-- Where have I seen your work? -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q2" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               Where else have I seen your work?
@@ -59,7 +59,7 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq2" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             It might be from a few different places:
           </p>
           <h4>Conferences and Podcasts</h4>
@@ -105,7 +105,7 @@ typedTo: 'about'
 
       <!-- arc4random -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q3" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               Ummm....
@@ -120,9 +120,9 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq3" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             It's a random post button! If you started with Swift in your iOS journey, then this might look a little
-            forgeign. For years, it was my go-to in
+            foreign. For years, it was my go-to in
             Objective-C to generate a random number. It's quite nifty, passing you a random value based on the upper
             bound you pass it while also eliminating modulo bias.
           </p>
@@ -131,7 +131,7 @@ typedTo: 'about'
 
       <!-- What does the site run on?  -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q4" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               What does this site run on, did you use a theme?
@@ -145,7 +145,7 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq4" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             I created this site from scratch using the incredibly helpful <a
               class="hover:text-blue-500 border-blue-500 cursor-pointer" href="https://www.tailwindcss.com">Tailwind
               CSS</a>. Tech wise, it runs on the following:
@@ -173,7 +173,7 @@ typedTo: 'about'
 
       <!-- Who are you outside of work? -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q5" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               Who are you outside of work?
@@ -187,7 +187,7 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq5" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             My highest accomplishment is marrying up (like, <i>waaaaaay</i> up) to my <a
               class="hover:text-blue-500 border-blue-500 cursor-pointer"
               href="https://www.instagram.com/jmorgan">gorgeous wife</a> and having our three kids. I have two boys,
@@ -200,7 +200,7 @@ typedTo: 'about'
 
       <!-- Podcast or conference? -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q6" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               Will you be on my podcast or talk at my conference?
@@ -214,7 +214,7 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq6" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             I try my best to say yes to all podcasts and most conferences. {% include contactObs.html %} me for more.
           </p>
         </dd>
@@ -222,7 +222,7 @@ typedTo: 'about'
 
       <!-- Support -->
       <div class="pt-6 dark:text-gray-100">
-        <dt class="text-lg">
+        <dt class="text-sm md:text-lg">
           <button id="q7" class="text-left w-full flex justify-between items-start" onclick="toggleFAQ(this);">
             <span class="font-semibold dark:text-gray-200">
               How can I support the site, do you take sponsors?
@@ -236,7 +236,7 @@ typedTo: 'about'
           </button>
         </dt>
         <dd id="ddq7" class="mt-2 pr-12 hidden">
-          <p class="text-base font-medium">
+          <p class="text-sm md:text-base font-medium">
             Right now I'm not doing any sponsorships for the site, as my publishing schedule might be erratic. However,
             I am working on some things specifically for indie developers which will be available later this year which
             you can buy.

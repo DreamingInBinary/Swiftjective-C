@@ -15,10 +15,24 @@ permalink: /prettythings
     <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true"></span>&#8203;
 
     <div
-      class="inline-block w-2/6 align-bottom bg-white dark:bg-gray-700 rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6"
+      class="inline-block max-w-lg align-middle bg-white dark:bg-gray-700 rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all"
       role="dialog" aria-modal="true" aria-labelledby="modal-headline">
-      <div class="sm:flex">
-        <div class="flex-shrink-0 sm:mb-0 sm:mr-4">
+      <div class="flex-row md:flex">
+        <div class="ml-4 flex-shrink-0 flex justify-end md:hidden">
+          <button
+            class="bg-white dark:bg-gray-700 rounded-md inline-flex text-gray-400 dark:text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            onclick="togglePrettyThing();">
+            <span class="sr-only">Close</span>
+            <!-- Heroicon name: x -->
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex justify-center mb-8 md:mr-4">
           <div class="w-40">
             <img id="ptImage" class="lozad w-40 object-scale-down shadow-lg rounded-lg"
               src=""
@@ -36,7 +50,7 @@ permalink: /prettythings
             ""
           </p>
         </div>
-        <div class="ml-4 flex-shrink-0 flex">
+        <div class="ml-4 flex-shrink-0 flex justify-end invisible md:visible">
           <button
             class="bg-white dark:bg-gray-700 rounded-md inline-flex text-gray-400 dark:text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             onclick="togglePrettyThing();">
@@ -64,8 +78,12 @@ permalink: /prettythings
     {% for thing in site.data.prettyThingsDB.shots %}
     <li>
       <div class="space-y-4">
-        <div class="cursor-pointer hover:bg-blue-50 dark:hover:bg-gray-700" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.image }}', '{{ thing.alt }}', '{{ thing.gif }}']);">
-          <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
+        <div class="cursor-pointer hover:bg-blue-50 dark:hover:bg-gray-700" onclick="togglePrettyThing(['{{ thing.title }}', '{{ thing.description }}', '{{ thing.works }}', '{{ thing.previewImage }}', '{{ thing.image }}', '{{ thing.alt }}', '{{ thing.gif }}']);">
+          {% if thing.previewImage != "" %}
+            <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.previewImage }}" alt="{{ thing.alt }}">
+          {% else %}
+            <img class="object-scale-down h-56 w-full shadow-lg rounded-lg" src="{{ thing.image }}" alt="{{ thing.alt }}">
+          {% endif %}
         </div>
         <div class="space-y-2">
           <div class="text-lg leading-6 font-medium space-y-1">
