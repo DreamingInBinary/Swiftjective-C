@@ -54,18 +54,21 @@ window.onload = function () {
 
     // Find search bar
     let search = document.getElementById("search");
-    search.addEventListener('keyup', ({ key }) => {
-        if (key === "Enter") {
-            var advGoogleSearch = "site:\"swiftjectivec.com\"";
-            advGoogleSearch += " ";
-            advGoogleSearch += "\"";
-            advGoogleSearch += search.value;
-            advGoogleSearch += "\"";
-            let searchQuery = "https://www.google.com/search?q=" + advGoogleSearch;
-            window.open(searchQuery, '_blank');
-            search.value = "";
-        }
-    });
+
+    if (search != null) {
+        search.addEventListener('keyup', ({ key }) => {
+            if (key === "Enter") {
+                var advGoogleSearch = "site:\"swiftjectivec.com\"";
+                advGoogleSearch += " ";
+                advGoogleSearch += "\"";
+                advGoogleSearch += search.value;
+                advGoogleSearch += "\"";
+                let searchQuery = "https://www.google.com/search?q=" + advGoogleSearch;
+                window.open(searchQuery, '_blank');
+                search.value = "";
+            }
+        });
+    }
 
     // Mark active page
     let links = document.getElementsByClassName("navDiv");
