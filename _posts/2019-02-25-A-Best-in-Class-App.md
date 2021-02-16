@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: ["The Indie Dev Diaries"]
-title: "A Best in Class iOS App"
+title: "A Best-in-Class iOS App"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "What is a best in class iOS app? How are they built, and can we quantify what makes them great?"
@@ -11,9 +11,13 @@ special: "true"
 prettyTitle: "A Best in Class App"
 ---
 
-{% include prettyBlockquote.html text="You can get the public Github Issue version of this list <a href=\"https://gist.github.com/DreamingInBinary/0ccd49e3578c5ae1ebb20632c6c3af73\">here</a>. This post has been updated to reflect iOS 14." %}
+{% include prettyBlockquote.html text="<b>A Best-in-Class App: The Book is coming!</b> Complete with code samples, screencasts, an in-depth .pdf guide and more, get notified when it's ready <a href=\"/bestinclassbook.html\">here</a>!" %}
 
-> Make a project using this list in [Things][35].
+* Make a project using this list in [Things][35].
+* You can get the public Github Issue version of this list <a href="https://gist.github.com/DreamingInBinary/0ccd49e3578c5ae1ebb20632c6c3af73">here</a>.
+* This post has been updated to reflect <b>iOS 14</b>.
+
+<hr />
 
 For as long as I've been a part of this industry, I've watched incredible, well-deserving apps take home an Apple Design Award. And _that's_ my endgame. 
 

@@ -11,6 +11,6 @@ As an indie, my most <a class="hover:text-blue-500 border-blue-500 cursor-pointe
 
 More than anything, I dig developing **tightly focused apps** on iOS. I'm slightly obsessed with going a bit further, so each year I read Apple's Human Interface Guidlines from top to bottom and keep a helpful list on how to apply those tips <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="{{ '/a-best-in-class-app' | prepend: site.baseurl }}" target="_blank">here</a>.
 
-My close second love is **writing and teaching**. I'm currently working on a new digital product centered around making best in class apps. 
+My close second love is **writing and teaching**. I'm currently working on a <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="/bestinclassbook.html">new book over making best-in-class apps</a>. 
 
 Want to know more? An F.A.Q. is below or you can <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="/ama.html">ask me anything</a>.
