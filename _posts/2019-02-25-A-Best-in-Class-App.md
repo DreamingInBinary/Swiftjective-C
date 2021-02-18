@@ -5,8 +5,8 @@ title: "A Best-in-Class iOS App"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "What is a best in class iOS app? How are they built, and can we quantify what makes them great?"
-image: /assets/images/logo.png
-updated: "2020-07-07"
+image: /assets/images/bicLogo.png
+updated: "2021-02-18"
 special: "true"
 prettyTitle: "A Best in Class App"
 ---
@@ -91,8 +91,9 @@ The five sections it covers are:
 - In iMessage Sticker extensions, accessibility labels are provided.
 - Magic taps are supported for the app's most common functionality.
 - It uses `CFBundleSpokenName` if the app's name could potentially be mispronounced by the system (i..e CoolApp23 would be "CoolApp Twenty Three").
+- You respect videos automatically playing or not based off of [`isVideoAutoplayEnabled`][36] settings.
 - You only request permissions from iOS until you truly need them. From the HIG:
-> "When your request is clearly related to the current context, you help people understand your app’s intentions."
+> When your request is clearly related to the current context, you help people understand your app’s intentions.
 - At the end of the day, you're considering and building for all of these accessibility technologies (some of these deal with Mac Catalyst):
     + Alternate pointer actions
     + Slow keys
@@ -138,7 +139,7 @@ The five sections it covers are:
 - It fully supports dark mode.
 - Multiple spaces and scene support for iPadOS.
     + You leverage the idea of a primary window versus an auxiliary window. One provides access to your full feature set, while the other helps users complete a focused, singular task and is usually closed afterwards.
-    + To handle notification routing to the right scene, you set a target content indentifier on either `UNNotificationContent`, `UIApplicationShortcutItem` or `NSUserActivity`.
+    + To handle notification routing to the right scene, you set a target content identifier on either `UNNotificationContent`, `UIApplicationShortcutItem` or `NSUserActivity`.
 - Full multitasking support.
 - Home screen quick action support.
 - If you offer a sign in, Sign in with Apple is included.
@@ -186,6 +187,11 @@ The five sections it covers are:
 - If you need to secure data, you opt to user [Touch or Face ID][23].
 - You vend useful interactions for the current context via `UIActivity` and `UIActivityViewController`.
 - If it's relevant for your app, you supply an App Clip.
+  - Prefer App Clip codes to launch your clip (though QR and NFC codes will work too).
+  - Your clip performs a quick, to-the-point action that shows users why they'd want to continue on with the full app.
+  - If your full app is installed then ensure you bring over user metadata, such as if they had logged into your service from an app clip, instead of requiring it again.
+  - If you need to send a push notification within an App Clip's 8 hour window, ensure `NSAppClipRequestEphemeralUserNotification` is set within your info.plist file.
+  - Opt for imagery in the App Clip's card, as text won't be localizable.
 - When you use system capabilities, such as ARKit, you lean on platform defined conventions to help users get started. For example, to get an ARKit experience started you'd typically use `ARCoachingOverlayView` instead of rolling your own solution.
 - Finally, running the Analyze function in Xcode yields no errors, warnings or suggestions.
 
@@ -340,3 +346,4 @@ Until next time ✌️.
 [33]: https://developer.apple.com/documentation/avfoundation/media_playback_and_selection/adding_subtitles_and_alternative_audio_tracks
 [34]: https://developer.apple.com/documentation/uikit/uiaccessibilityelement
 [35]: things:///add-project?title=Best%20In%20Class%20iOS%20App&notes=https%3A%2F%2Fwww.swiftjectivec.com%2Fa-best-in-class-app%2F&to-dos=%23%23%20iOS%20Core%20Technology%0AiCloud%20Sync%0ACore%20Spotlight%0AWidgets%0ASystem%20extensions%0ASticker%20Pack%0AiMessage%20App%0ASiri%20Shortcuts%0AAirdrop%0ARich%20Notifications%0A%23%23%20iOS%20APIs%0ATwo%20finger%20drag%20to%20edit%0AUndo%20and%20Redo%0ADark%20Mode%0AiPadOS%20Cursor%20Support%0AContextual%20Actions%0APull%20down%20menus%0AHome%20screen%20quick%20action%0AUIActivity%20and%20UIActivityController%0AFull%20Keyboard%20support%0ASF%20Symbols%0ARobust%20drag%20and%20drop%20(internal%20and%20external%20support)%0AFull%20Full%20multitasking%20and%20UIScene%20support.%0ADynamic%20Type%0AMultiple%20icons%0AScribble%20support%20for%20Apple%20Pencil%0ASearch%20token%20support%20in%20search%20bars.%0ALive%20Photos%20Support%0ACallback%20URL%20support%0AState%20Restoration%0A%23%23%20Accessibility%20and%20Internationalization%0AVoice%20Over%2FVoice%20Control%0ASupport%20RTL%20settings.%20%0AFullly%20pass%20accessibility%20inspector.%0A%23%23%20Misc%0AHIG%20advice%20is%20followed%20for%20navigation%2C%20stock%20control%20usage%20and%20more.%20Refer%20to%20the%20linked%20post%20for%20more.%0A%23%23%20Contextual%20Technology%0AApple%20watch%20app%0AHandoff%20between%20iPhone%20and%20iPad%20(Mac%2C%20if%20applicable)%0ASign%20in%20with%20Apple%0ACore%20ML%20support%0AAR%20Kit%0ALocal%20Authentication%0AApple%20Pencil%20Support%0AAirplay%0ABusiness%20Chat%0AHealthKit%0AResearchKit%0ACareKit%0AHomekit%0AApp%20clips
+[36]: https://developer.apple.com/documentation/uikit/uiaccessibility/3238036-isvideoautoplayenabled
