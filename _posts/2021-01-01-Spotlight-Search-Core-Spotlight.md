@@ -1,11 +1,11 @@
 ---
 layout: post
 tags: ["Snips"]
-title: "Spotlight Search using NSUserActivity"
+title: "Spotlight search using Core Spotlight"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
-description: "Expose data from Spotlight search using NSUserActivity."
-framework:  Foundation
+description: "Expose data from Spotlight search using the Core Spotlight framework."
+framework:  Core Spotlight
 lastChecked: iOS 14
 ---
 
@@ -40,7 +40,6 @@ class ViewController: UIViewController {
         let videogame = videogames.first!
         
         // 2
-        let videogame = videogames.first!
         let attributeSet = CSSearchableItemAttributeSet(contentType: .content)
         attributeSet.title = videogame.name
         attributeSet.relatedUniqueIdentifier = videogame.id.uuidString

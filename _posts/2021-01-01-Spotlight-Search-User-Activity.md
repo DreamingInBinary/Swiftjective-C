@@ -1,14 +1,13 @@
 ---
 layout: post
 tags: ["Snips"]
-title: "Spotlight search using Core Spotlight"
+title: "Spotlight Search using NSUserActivity"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
-description: "Expose data from Spotlight search using the Core Spotlight framework."
-framework:  Core Spotlight
+description: "Expose data from Spotlight search using NSUserActivity."
+framework:  Foundation
 lastChecked: iOS 14
 ---
-
 ### The Scenario
 Expose your app's data to Spotlight Search using the <code>Core Spotlight</code> framework.
 
