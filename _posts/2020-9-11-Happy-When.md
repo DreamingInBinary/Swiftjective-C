@@ -77,7 +77,7 @@ You get the idea. But, I don't want to conflate my message here, either. Hard wo
 ### Final Thoughts
 Whether you are king of the mountain, just beginning to climb it or perhaps you've been stuck halfway for years - enjoy each moment. All of these events aren't obstacles leading to the next thing, or a segue to your spout of happiness you deserve. All of these obstacles are your life, and it would be a shame to not be happy while experiencing each of them.
 
-I truly believe that if you give yourself a second to take a step back and survey things, you may realize that the best time to happy and excited about the things you've got going on - is now.
+I truly believe that if you give yourself a second to take a step back and survey things, you may realize that the best time to be happy and excited about the things you've got going on - is now.
 
 And don't be too hard on yourself. It's normal to forget these lessons, I certainly do! But I'm trying to get better at coming back to them. No joke - indie development and its challenges are 70% mental, so don't take things like this lightly. 
 
