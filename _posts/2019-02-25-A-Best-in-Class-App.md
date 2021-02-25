@@ -230,6 +230,8 @@ The five sections it covers are:
     + You also consider using a short, memorable sound if it makes sense for the notification using `UNNotificationSound`.
     + You supply a detail view to expand on the context of the notification. If a user can accomplish the task within the notification without having to open the app, that's a good thing.
     + You also let users edit their notification preferences within your own app.
+    + You use `localizedUserNotificationStringForKey:arguments:` to defer loading localized strings until your notification is presented.
+    + If you have in-app notification settings, you provide deep linking to support to that view from within the Settings app via `providesAppNotificationSettings`.
 - `UITextInputAssistantItem` items are used to support common tasks on iPad that are at home within the shortcuts bar.
 - When performing CRUD operations on a table or collection view, you opt to animate these changes using a diffable datasource instead of `reloadData`.
 - Testing for leaks and freed memory is part of your workflow, as consuming an unnecessary amount of memory and power hampers everyone.
