@@ -6,7 +6,7 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "What is a best in class iOS app? How are they built, and can we quantify what makes them great?"
 image: /assets/images/bicLogo.png
-updated: "2021-02-18"
+updated: "2021-02-25"
 special: "true"
 prettyTitle: "A Best in Class App"
 ---
@@ -145,6 +145,7 @@ The five sections it covers are:
 - If you offer a sign in, Sign in with Apple is included.
     + If you don't, offer [password autofill][22].
 - Spotlight search and indexing support.
+    - If present, you support search continuation within your app via the `CoreSpotlightContinuation` info.plist key.
 - You have custom `UIPointerInteraction` support if your app needs it, and your interface supports cursor support correctly.
     + You don't force any interaction paradigm over another (i.e. touch is as viable as pointer or keyboard, and vice-versa).
     + You use the correct content effects consistently (highlight, lift and hover).
