@@ -85,7 +85,7 @@ But, what you can _see_ here is that I was learning. Let's not use any funky ges
 **Main lessons learned:** Just because you now _know_ better doesn't mean you'll actually _make_ something better - but if you're here, you're soooooooo close to getting it!
 
 ### So.....what?
-So why share all of, aside from the laughs? Is there some wise sage advice I'm inevitably about to drop?
+So why share all of this, aside from the laughs? Is there some wise sage advice I'm inevitably about to drop?
 
 I mean, I dunno? Here's what I found when writing this:
 
