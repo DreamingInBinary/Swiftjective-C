@@ -35,7 +35,15 @@ title: ogarticle
 
     if (params.get("blurb") != null) {
         document.getElementById("blurb").innerText = params.get("blurb");
+    } else {
+        const blurbArray = ["Grab a cup of joe and relax with a technical article.",
+                            "Got 5 minutes? Learn some new API!",
+                            "A technical article from Cupterino & Friends©",
+                            "Sit down, relax and enjoy some Swift talk."];
+        const randomBlurb = blurbArray[Math.floor(Math.random()*items.length)];
+        document.getElementById("blurb").innerText = randomBlurb;
     }
+
 
 </script>
 </html>
