@@ -40,7 +40,7 @@ title: ogarticle
                             "Got 5 minutes? Learn some new API!",
                             "A technical article from Cupterino & Friends©",
                             "Sit down, relax and enjoy some Swift talk."];
-        const randomBlurb = blurbArray[Math.floor(Math.random()*items.length)];
+        const randomBlurb = blurbArray[Math.floor(Math.random()*blurbArray.length)];
         document.getElementById("blurb").innerText = randomBlurb;
     }
 

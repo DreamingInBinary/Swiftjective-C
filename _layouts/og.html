@@ -41,7 +41,7 @@ title: og
                         "Time to enjoy some Swift over lunch!",
                         "It's code sample time!",
                         "Why not fire up your runloops with some good ol' code samples this afternoon?"];
-        const randomBlurb = blurbArray[Math.floor(Math.random()*items.length)];
+        const randomBlurb = blurbArray[Math.floor(Math.random()*blurbArray.length)];
         document.getElementById("blurb").innerText = randomBlurb;
     }
 
