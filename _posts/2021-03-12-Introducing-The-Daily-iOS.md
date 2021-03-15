@@ -45,12 +45,13 @@ As I saw it, this is what I had to do:
 
 <span class="font-mono font-bold">Finally, using a Siri Shortcut...</span>
 - Pick a random code sample and article
+- Parse its json
 - Generate the image mentioned above
 - Create the text for the tweet with a sanitized URL
 - Resize it for ideal Twitter media viewing
 - Upload the image somewhere to get a URL to it
 - Hit Buffer's API to schedule the tweet
-- While doing this twice daily
+- While doing this twice daily, fully automated
 
 Done and dusted.
 

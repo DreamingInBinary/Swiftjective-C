@@ -38,9 +38,12 @@ permalink: /
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                 fill="currentColor">
-                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                <path fill-rule="evenodd"
+                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                  clip-rule="evenodd" />
               </svg>
-              <a href="/bestinclassbook.html" class="hover:text-blue-500 border-blue-500 cursor-pointer">A Best-in-Class App: The Book</a>
+              <a href="/bestinclassbook.html" class="hover:text-blue-500 border-blue-500 cursor-pointer">A Best-in-Class
+                App: The Book</a>
             </div>
           </div>
           <!-- Greatest Hits -->
@@ -54,13 +57,37 @@ permalink: /
                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd" />
               </svg>
-              <a href="{{ popPost.url | prepend: site.baseurl}}" class="hover:text-blue-500 border-blue-500 cursor-pointer">{{ popPost.prettyTitle }}</a>
+              <a href="{{ popPost.url | prepend: site.baseurl}}"
+                class="hover:text-blue-500 border-blue-500 cursor-pointer">{{ popPost.prettyTitle }}</a>
             </div>
             {% endfor %}
           </div>
           <!-- Reach Out -->
           <div class="pt-4 dark:text-gray-100">
             <span class="font-semibold pt-10 dark:text-gray-200">Comms</span>
+            <!-- Twitter --> 
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a href="https://www.twitter.com/jordanmorgan10"
+                class="hover:text-blue-500 border-blue-500 cursor-pointer">Twitter</a>
+            </div>
+            <!-- The Daily iOS --> 
+            <div class="flex flex-row space-x-2">
+              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <a href="https://www.twitter.com/thedailyios"
+                class="hover:text-blue-500 border-blue-500 cursor-pointer">The Daily iOS</a>
+            </div>
+            <!-- RSS --> 
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                 fill="currentColor">
@@ -70,6 +97,7 @@ permalink: /
               </svg>
               <a href="/feed.xml" class="hover:text-blue-500 border-blue-500 cursor-pointer">RSS</a>
             </div>
+            <!-- Contact -->
             <div class="flex flex-row space-x-2">
               <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                 fill="currentColor">
@@ -77,39 +105,14 @@ permalink: /
                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd" />
               </svg>
-              <a href="https://www.twitter.com/jordanmorgan10" class="hover:text-blue-500 border-blue-500 cursor-pointer">Twitter</a>
-            </div>
-            <div class="flex flex-row space-x-2">
-              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
-              <a href="https://swiftjectivec.us20.list-manage.com/subscribe/post?u=86763e3ce1da1fa79f8079a24&amp;id=b5d1e5e3bc" class="hover:text-blue-500 border-blue-500 cursor-pointer">Mailing List</a>
-            </div>
-            <div class="flex flex-row space-x-2">
-              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
-              <a href="https://github.com/DreamingInBinary/Swiftjective-C/issues" class="hover:text-blue-500 border-blue-500 cursor-pointer">Report an Issue</a>
-            </div>
-            <div class="flex flex-row space-x-2">
-              <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
-              <a href="m&#97;i&#108;t&#111;&#58;jor&#100;a&#110;&#109;&#111;rgan&#64;hey&#46;com" class="hover:text-blue-500 border-blue-500 cursor-pointer">Contact</a>
+              <a href="m&#97;i&#108;t&#111;&#58;jor&#100;a&#110;&#109;&#111;rgan&#64;hey&#46;com"
+                class="hover:text-blue-500 border-blue-500 cursor-pointer">Contact</a>
             </div>
           </div>
           <!-- Coffee -->
           <div class="pt-4">
-            <a href="https://www.buymeacoffee.com/jordanmorgan" class="inline-flex items-center px-3 py-2 rounded-full text-xs font-semibold bg-yellow-100 text-gray-800">
+            <a href="https://www.buymeacoffee.com/jordanmorgan"
+              class="inline-flex items-center px-3 py-2 rounded-full text-xs font-semibold bg-yellow-100 text-gray-800">
               {% include coffeeTimeSmall.html %} <span class="pl-2">Buy me a coffee</span>
             </a>
           </div>

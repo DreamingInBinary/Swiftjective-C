@@ -6,7 +6,7 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "Indie development is about having a strong mental game as much as it is strong development skills."
 image: /assets/images/logo.png
-special: true
+special: false
 prettyTitle: Happy When?
 ---
 Early this year, my youngest daughter was bed-ridden in the hospital. As her (already tiny) body tried to fight off some mysterious infection that nobody could quite peg, I just sat around anxiously feeling powerless. If you're a parent, you know nothing comes close to your children being sick. It brings waves of emotions, worry and reflection.
