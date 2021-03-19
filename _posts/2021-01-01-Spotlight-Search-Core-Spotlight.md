@@ -7,6 +7,7 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "Expose data from Spotlight search using the Core Spotlight framework."
 framework:  Core Spotlight
 lastChecked: iOS 14
+image: /assets/images/snips/snips.png
 ---
 
 ### The Scenario

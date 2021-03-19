@@ -7,6 +7,7 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "Setup diffable datasource with UITableView."
 framework:  UIKit
 lastChecked: iOS 14
+image: /assets/images/snips/snips.png
 ---
 
 ### The Scenario

@@ -7,6 +7,7 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "Expose data from Spotlight search using NSUserActivity."
 framework:  Foundation
 lastChecked: iOS 14
+image: /assets/images/snips/snips.png
 ---
 ### The Scenario
 Expose your app's data to Spotlight Search using the <code>Core Spotlight</code> framework.

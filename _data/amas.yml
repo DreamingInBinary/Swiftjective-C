@@ -1,4 +1,26 @@
 questions:
+  - from: Tomas Sant
+    question: Hello, I have been involved in the Apple programming community for the past three years. I really enjoy developing apps and human computer interactions. 
+            <br />
+            <br />
+            As I finish my college education, I've been thinking about future jobs that I might like and an iOS engineer/developer is at the top of my list. I really like the Apple Programming ecosystem with all the cool frameworks, have two apps on the App Store and I want to continue learning and be a part of the amazing iOS community. 
+            <br />
+            <br />
+            However, I don’t have any experience being in the work force and I've been thinking about what it would be like long term as an iOS engineer. Do you still feel like you are learning everyday? Or does that feeling of continuous learning start to wear off after time? In general, how do software engineers find the balance of learning and being engaged with the time they stay working on the platform? 
+            <br />
+            <br />
+            Thank you for your help!
+    answer: Great question! I think what you're really asking here is "will you stay curious and learning as an iOS engineer" and the answer
+            is a resounding...YES! Even better, if you feel that iOS isn't for you, this is true for any facet of engineering. Each year, WWDC
+            can fundamentally change the way we work. SwiftUI was not even a thing two years ago, and it's an entirely new way to create whole, featured
+            applications.
+            <br />
+            <br />
+            This is true for any trade really, but programming has an accelerated rate of things you need to learn on the job. It's the one thing I love
+            most about it. If you're the curious type, you're going to love programming and you're in for a lifetime of learning.
+            <br />
+            <br />
+    askedOn: March 18th, 2021
   - from: <a class="text-blue-500" href="https://twitter.com/taiomi">@taiomi</a>
     question: Hey! Love your stuff! Why do you think there is a lack of diversity in tech?
     answer: It's a great question, and I think it's one that as an industry we're starting to ask more and more - which is a good thing!
@@ -18,7 +40,7 @@ questions:
             can, and will, address issues like this! 
             <br />
             <br />
-    askedOn: Feb 8th, 2020
+    askedOn: Feb 8th, 2021
   - from: <a class="text-blue-500" href="https://twitter.com/OscarGorog">@OscarGorog</a>
     question: What are you building at the moment?
     answer: This year I've got three main goals for 2021 in terms of shipping. The first is this very website! So, check that off ✅.
@@ -32,7 +54,7 @@ questions:
             you wanted a guide covering how to make your apps shine, I think it'll be for you! Lastly, if I do that within 2021 - I want to get back to making an app.
             <br />
             <br />
-    askedOn: Jan 14th, 2020
+    askedOn: Jan 14th, 2021
   - from: Anonymous
     question: How do you balance family life, kids, your job and side projects?
     answer: There is no easy answer for this! The first thing I'd say is - cut yourself some slack. Especially if you've got kids at home, you simply won't ship as 
@@ -49,13 +71,13 @@ questions:
             get discouraged - experiment with a bunch of different things until you find something that works.
             <br />
             <br />
-    askedOn: Jan 2nd, 2020
+    askedOn: Jan 2nd, 2021
   - from: Anonymous
     question: SwiftUI or UIKit?
     answer: Both 😉
             <br />
             <br />
-    askedOn: Jan 1st, 2020
+    askedOn: Jan 1st, 2021
   - from: Anonymous
     question: I can't seem to get any press, any tips?
     answer: This is one the most difficult skills to pick up as an indie. Remember this - folks in the press are absolutely drowning in emails. Given that, the typical
@@ -71,4 +93,4 @@ questions:
             those relationships through the years. This will pay dividends for your entire career.
             <br />
             <br />
-    askedOn: Jan 1st, 2020
+    askedOn: Jan 1st, 2021
