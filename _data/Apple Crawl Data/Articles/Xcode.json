@@ -1,0 +1,558 @@
+{
+  "articles": {
+    "Creating 3D Content with Reality Composer": {
+      "title": "Creating 3D Content with Reality Composer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/creating_3d_content_with_reality_composer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/creating_3d_content_with_reality_composer"
+    },
+    "Creating an Xcode Project for an App": {
+      "title": "Creating an Xcode Project for an App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_an_xcode_project_for_an_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_an_xcode_project_for_an_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Start developing your app by creating an Xcode project from a template."
+        }
+      ]
+    },
+    "Porting Your macOS Apps to Apple Silicon": {
+      "title": "Porting Your macOS Apps to Apple Silicon",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple-silicon/porting-your-macos-apps-to-apple-silicon",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple-silicon/porting-your-macos-apps-to-apple-silicon",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a version of your macOS app that runs on both Apple silicon and Intel-based Mac computers."
+        }
+      ]
+    },
+    "Creating, Organizing, and Editing Source Files": {
+      "title": "Creating, Organizing, and Editing Source Files",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_organizing_and_editing_source_files",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_organizing_and_editing_source_files",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update source code using groups, annotations, and Quick Help to improve your project’s maintainability."
+        }
+      ]
+    },
+    "Finding and Refactoring Code": {
+      "title": "Finding and Refactoring Code",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/finding_and_refactoring_code",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/finding_and_refactoring_code",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Search your code for text, patterns, and symbols that you can refactor quickly and easily. "
+        }
+      ]
+    },
+    "Coordinating and Syncing Code Changes": {
+      "title": "Coordinating and Syncing Code Changes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/coordinating_and_syncing_code_changes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/coordinating_and_syncing_code_changes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Sync code changes between team members and development computers with Xcode’s support for Git."
+        }
+      ]
+    },
+    "Organizing and Tracking Code Changes with Source Control": {
+      "title": "Organizing and Tracking Code Changes with Source Control",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/organizing_and_tracking_code_changes_with_source_control",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/organizing_and_tracking_code_changes_with_source_control",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manage and document source code changes with Xcode’s support for Git."
+        }
+      ]
+    },
+    "Creating Your App's Interface with SwiftUI": {
+      "title": "Creating Your App's Interface with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_your_app_s_interface_with_swiftui",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_your_app_s_interface_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Develop apps in SwiftUI with an interactive preview that keeps the code and layout in sync."
+        }
+      ]
+    },
+    "Supporting Dark Mode in Your Interface": {
+      "title": "Supporting Dark Mode in Your Interface",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update colors, images, and behaviors so that your app adapts automatically when Dark Mode is active."
+        }
+      ]
+    },
+    "Creating Custom Symbol Images for Your App": {
+      "title": "Creating Custom Symbol Images for Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_custom_symbol_images_for_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_custom_symbol_images_for_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create symbol images and augment the set of icons that SF Symbols provides."
+        }
+      ]
+    },
+    "Building a Universal macOS Binary": {
+      "title": "Building a Universal macOS Binary",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple-silicon/building-a-universal-macos-binary",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple-silicon/building-a-universal-macos-binary",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create macOS apps and other executables that run natively on both Apple silicon and Intel-based Mac computers."
+        }
+      ]
+    },
+    "Adding Capabilities to Your App": {
+      "title": "Adding Capabilities to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/adding_capabilities_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/adding_capabilities_to_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add capabilities to configure app services from Apple, such as push notifications, or Apple Pay."
+        }
+      ]
+    },
+    "Adding Package Dependencies to Your App": {
+      "title": "Adding Package Dependencies to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/adding_package_dependencies_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/adding_package_dependencies_to_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Integrate package dependencies to share code between projects, or leverage code from other developers."
+        }
+      ]
+    },
+    "Creating a Mac Version of Your iPad App": {
+      "title": "Creating a Mac Version of Your iPad App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Bring your iPad app to macOS with Mac Catalyst."
+        }
+      ]
+    },
+    "Running Your App in the Simulator or on a Device": {
+      "title": "Running Your App in the Simulator or on a Device",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/running_your_app_in_the_simulator_or_on_a_device",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/running_your_app_in_the_simulator_or_on_a_device",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Launch your app in a simulated iOS, tvOS, or watchOS device, or on a device connected to your Mac."
+        }
+      ]
+    },
+    "Diagnosing and Resolving Bugs in Your Running App": {
+      "title": "Diagnosing and Resolving Bugs in Your Running App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_and_resolving_bugs_in_your_running_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/diagnosing_and_resolving_bugs_in_your_running_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inspect your running app to isolate bugs, locate crashes, identify excess system resource usage, visualize memory bugs, and investigate view layout problems."
+        }
+      ]
+    },
+    "Setting Breakpoints to Pause Your Running App": {
+      "title": "Setting Breakpoints to Pause Your Running App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/setting_breakpoints_to_pause_your_running_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/setting_breakpoints_to_pause_your_running_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Specify where your app pauses when running the debugger to investigate bugs."
+        }
+      ]
+    },
+    "Stepping Through Code and Inspecting Variables to Isolate Bugs": {
+      "title": "Stepping Through Code and Inspecting Variables to Isolate Bugs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/stepping_through_code_and_inspecting_variables_to_isolate_bugs",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/stepping_through_code_and_inspecting_variables_to_isolate_bugs",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Find the cause of your bugs by watching variables change as you step through your source code in the debugger."
+        }
+      ]
+    },
+    "Building Your App to Include Debugging Information": {
+      "title": "Building Your App to Include Debugging Information",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/building_your_app_to_include_debugging_information",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/building_your_app_to_include_debugging_information",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure Xcode to produce the symbol information for debugging and crash reports."
+        }
+      ]
+    },
+    "Diagnosing Memory, Thread, and Crash Issues Early": {
+      "title": "Diagnosing Memory, Thread, and Crash Issues Early",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Identify runtime crashes and undefined behaviors in your app during testing using Xcode’s sanitizer tools. "
+        }
+      ]
+    },
+    "Diagnosing Issues with Entitlements": {
+      "title": "Diagnosing Issues with Entitlements",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_issues_with_entitlements",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/diagnosing_issues_with_entitlements",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Verify your app’s entitlements at every stage of development to track down errors during distribution."
+        }
+      ]
+    },
+    "Improving Your App's Performance": {
+      "title": "Improving Your App's Performance",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/improving_your_app_s_performance",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Model, measure, and boost the performance of your app by using a continuous-improvement cycle."
+        }
+      ]
+    },
+    "Analyzing the Performance of Your Shipping App": {
+      "title": "Analyzing the Performance of Your Shipping App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/analyzing_the_performance_of_your_shipping_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/analyzing_the_performance_of_your_shipping_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "View power and performance metrics for apps you distribute through the App Store"
+        }
+      ]
+    },
+    "Reducing Your App’s Size": {
+      "title": "Reducing Your App’s Size",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/reducing_your_app_s_size",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/reducing_your_app_s_size",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Measure your app’s size, optimize its assets and settings, and adopt technologies that help streamline installation over a mobile internet connection."
+        }
+      ]
+    },
+    "Testing Your Apps in Xcode": {
+      "title": "Testing Your Apps in Xcode",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/testing_your_apps_in_xcode",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/testing_your_apps_in_xcode",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect logic failures, UI problems, and performance regressions with XCTest."
+        }
+      ]
+    },
+    "Adding Unit Tests to Your Existing Project": {
+      "title": "Adding Unit Tests to Your Existing Project",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/adding_unit_tests_to_your_existing_project",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/adding_unit_tests_to_your_existing_project",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Remove coupling between components to increase test coverage and reliability."
+        }
+      ]
+    },
+    "Setting Up StoreKit Testing in Xcode": {
+      "title": "Setting Up StoreKit Testing in Xcode",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/setting_up_storekit_testing_in_xcode",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/setting_up_storekit_testing_in_xcode",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up your test environment to test in-app purchases with data you configure locally."
+        }
+      ]
+    },
+    "Preparing Your App for Distribution": {
+      "title": "Preparing Your App for Distribution",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/preparing_your_app_for_distribution",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/preparing_your_app_for_distribution",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure the information property list and add icons before you distribute your app."
+        }
+      ]
+    },
+    "Notarizing macOS Software Before Distribution": {
+      "title": "Notarizing macOS Software Before Distribution",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/notarizing_macos_software_before_distribution",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Give users even more confidence in your macOS software by submitting it to Apple for notarization."
+        }
+      ]
+    },
+    "Distributing Your App for Beta Testing and Releases": {
+      "title": "Distributing Your App for Beta Testing and Releases",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/distributing_your_app_for_beta_testing_and_releases",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/distributing_your_app_for_beta_testing_and_releases",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Release your app to beta testers and users."
+        }
+      ]
+    },
+    "Distributing Your App to Registered Devices": {
+      "title": "Distributing Your App to Registered Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/distributing_your_app_to_registered_devices",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/distributing_your_app_to_registered_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Register devices in your developer account and deploy your app to them for testing."
+        }
+      ]
+    },
+    "Using the Latest Code Signature Format": {
+      "title": "Using the Latest Code Signature Format",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/using_the_latest_code_signature_format",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/using_the_latest_code_signature_format",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update legacy app code signatures to avoid a warning from iOS."
+        }
+      ]
+    },
+    "Creating a Standalone Swift Package with Xcode": {
+      "title": "Creating a Standalone Swift Package with Xcode",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_a_standalone_swift_package_with_xcode",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_a_standalone_swift_package_with_xcode",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Bundle executable or shareable code into a standalone Swift package."
+        }
+      ]
+    },
+    "Publishing a Swift Package with Xcode": {
+      "title": "Publishing a Swift Package with Xcode",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/publishing_a_swift_package_with_xcode",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/publishing_a_swift_package_with_xcode",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Publish your Swift package privately, or share it globally with other developers."
+        }
+      ]
+    },
+    "Allowing Apps and Websites to Link to Your Content": {
+      "title": "Allowing Apps and Websites to Link to Your Content",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/allowing_apps_and_websites_to_link_to_your_content",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/allowing_apps_and_websites_to_link_to_your_content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use universal links to link directly to content within your app and share data securely."
+        }
+      ]
+    },
+    "Writing ARM64 Code for Apple Platforms": {
+      "title": "Writing ARM64 Code for Apple Platforms",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/writing_arm64_code_for_apple_platforms",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/writing_arm64_code_for_apple_platforms",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create 64-bit ARM assembly language instructions that adhere to the application binary interface (ABI) that Apple platforms support."
+        }
+      ]
+    },
+    "Writing ARMv7 Code for iOS": {
+      "title": "Writing ARMv7 Code for iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/writing_armv7_code_for_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/writing_armv7_code_for_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create ARMv7 assembly language instructions that adhere to the application binary interface (ABI) that iOS supports."
+        }
+      ]
+    },
+    "Writing ARMv6 Code for iOS": {
+      "title": "Writing ARMv6 Code for iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/writing_armv6_code_for_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/writing_armv6_code_for_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create ARMv6 assembly language instructions that adhere to the application binary interface (ABI) that iOS supports."
+        }
+      ]
+    },
+    "Improving the Speed of Incremental Builds": {
+      "title": "Improving the Speed of Incremental Builds",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_the_speed_of_incremental_builds",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/improving_the_speed_of_incremental_builds",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Tell the Xcode build system about your project’s target-related dependencies, and reduce the compiler workload during each build cycle."
+        }
+      ]
+    },
+    "Improving Build Efficiency with Good Coding Practices": {
+      "title": "Improving Build Efficiency with Good Coding Practices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_build_efficiency_with_good_coding_practices",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/improving_build_efficiency_with_good_coding_practices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Shorten compile times by reducing the number of symbols your code exports and by giving the compiler the explicit information it needs."
+        }
+      ]
+    }
+  }
+}

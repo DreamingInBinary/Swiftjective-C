@@ -1,0 +1,516 @@
+{
+  "code": {
+    "UIKit Catalog: Creating and Customizing Views and Controls": {
+      "title": "UIKit Catalog: Creating and Customizing Views and Controls",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/uikit_catalog_creating_and_customizing_views_and_controls",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/mac_catalyst/uikit_catalog_creating_and_customizing_views_and_controls",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize your app’s user interface with views and controls."
+        }
+      ]
+    },
+    "Adding Menus and Shortcuts to the Menu Bar and User Interface": {
+      "title": "Adding Menus and Shortcuts to the Menu Bar and User Interface",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uicommand/adding_menus_and_shortcuts_to_the_menu_bar_and_user_interface",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uicommand/adding_menus_and_shortcuts_to_the_menu_bar_and_user_interface",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide quick access to useful actions by adding menus and keyboard shortcuts to your Mac app built with Mac Catalyst."
+        }
+      ]
+    },
+    "Adopting Menus and UIActions in your User Interface": {
+      "title": "Adopting Menus and UIActions in your User Interface",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/menus_and_shortcuts/adopting_menus_and_uiactions_in_your_user_interface",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/menus_and_shortcuts/adopting_menus_and_uiactions_in_your_user_interface",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add menus to your user interface, with built-in button support and bar-button items, and create custom menu experiences."
+        }
+      ]
+    },
+    "Add Home Screen Quick Actions": {
+      "title": "Add Home Screen Quick Actions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/menus_and_shortcuts/add_home_screen_quick_actions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/menus_and_shortcuts/add_home_screen_quick_actions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Expose commonly used functionality with static or dynamic 3D Touch Home Screen quick actions."
+        }
+      ]
+    },
+    "Leveraging Touch Input for Drawing Apps": {
+      "title": "Leveraging Touch Input for Drawing Apps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/leveraging_touch_input_for_drawing_apps",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/touches_presses_and_gestures/leveraging_touch_input_for_drawing_apps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Capture touches as a series of strokes and render them efficiently on a drawing canvas."
+        }
+      ]
+    },
+    "Illustrating the Force, Altitude, and Azimuth Properties of Touch Input": {
+      "title": "Illustrating the Force, Altitude, and Azimuth Properties of Touch Input",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/illustrating_the_force_altitude_and_azimuth_properties_of_touch_input",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/touches_presses_and_gestures/illustrating_the_force_altitude_and_azimuth_properties_of_touch_input",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Capture Apple Pencil and touch input in views."
+        }
+      ]
+    },
+    "Adopting Drag and Drop in a Custom View": {
+      "title": "Adopting Drag and Drop in a Custom View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/drag_and_drop/adopting_drag_and_drop_in_a_custom_view",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/drag_and_drop/adopting_drag_and_drop_in_a_custom_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Demonstrates how to enable drag and drop for a "
+        },
+        {
+          "type": "codeVoice",
+          "code": "UIImageView"
+        },
+        {
+          "type": "text",
+          "text": " instance."
+        }
+      ]
+    },
+    "Adopting Drag and Drop in a Table View": {
+      "title": "Adopting Drag and Drop in a Table View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/drag_and_drop/adopting_drag_and_drop_in_a_table_view",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/drag_and_drop/adopting_drag_and_drop_in_a_table_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Demonstrates how to enable and implement drag and drop for a table view."
+        }
+      ]
+    },
+    "Creating Self-Sizing Table View Cells": {
+      "title": "Creating Self-Sizing Table View Cells",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uifont/creating_self-sizing_table_view_cells",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uifont/creating_self-sizing_table_view_cells",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create table view cells that support Dynamic Type and use system spacing constraints to adjust the spacing surrounding text labels."
+        }
+      ]
+    },
+    "Display Text with a Custom Layout": {
+      "title": "Display Text with a Custom Layout",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/text_storage/display_text_with_a_custom_layout",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/text_storage/display_text_with_a_custom_layout",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Lay out text in a custom-shaped container and apply glyph substitutions."
+        }
+      ]
+    },
+    "Autosizing Views for Localization in iOS": {
+      "title": "Autosizing Views for Localization in iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/autosizing_views_for_localization_in_ios",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/xcode/autosizing_views_for_localization_in_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add auto layout constraints to your app to achieve localizable views."
+        }
+      ]
+    },
+    "Implementing Modern Collection Views": {
+      "title": "Implementing Modern Collection Views",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Bring compositional layouts to your app and simplify updating your user interface with diffable data sources."
+        }
+      ]
+    },
+    "Customizing Collection View Layouts": {
+      "title": "Customizing Collection View Layouts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/collection_views/layouts/customizing_collection_view_layouts",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/views_and_controls/collection_views/layouts/customizing_collection_view_layouts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize a view layout by changing the size of cells in the flow or implementing a mosaic style."
+        }
+      ]
+    },
+    "Changing the Appearance of Selected and Highlighted Cells": {
+      "title": "Changing the Appearance of Selected and Highlighted Cells",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uicollectionviewdelegate/changing_the_appearance_of_selected_and_highlighted_cells",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uicollectionviewdelegate/changing_the_appearance_of_selected_and_highlighted_cells",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide visual feedback to the user about the state of a cell and the transition between states."
+        }
+      ]
+    },
+    "Selecting Multiple Items with a Two-Finger Pan Gesture": {
+      "title": "Selecting Multiple Items with a Two-Finger Pan Gesture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uitableviewdelegate/selecting_multiple_items_with_a_two-finger_pan_gesture",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uitableviewdelegate/selecting_multiple_items_with_a_two-finger_pan_gesture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Accelerate user selection of multiple items using the multiselect gesture on table and collection views."
+        }
+      ]
+    },
+    "Adopting iOS Dark Mode": {
+      "title": "Adopting iOS Dark Mode",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/appearance_customization/adopting_ios_dark_mode",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/appearance_customization/adopting_ios_dark_mode",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adopt Dark Mode in your iOS app by using dynamic colors and visual effects."
+        }
+      ]
+    },
+    "Adding Hardware Keyboard Support to Your App": {
+      "title": "Adding Hardware Keyboard Support to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/adding_hardware_keyboard_support_to_your_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/keyboards_and_input/adding_hardware_keyboard_support_to_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enhance interactions with your app by handling raw keyboard events, writing custom keyboard shortcuts, and working with gesture recognizers."
+        }
+      ]
+    },
+    "Asynchronously Loading Images into Table and Collection Views": {
+      "title": "Asynchronously Loading Images into Table and Collection Views",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiimage/asynchronously_loading_images_into_table_and_collection_views",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uiimage/asynchronously_loading_images_into_table_and_collection_views",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Store and fetch images asynchronously to make your app more responsive."
+        }
+      ]
+    },
+    "Prefetching Collection View Data": {
+      "title": "Prefetching Collection View Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uicollectionviewdatasourceprefetching/prefetching_collection_view_data",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uicollectionviewdatasourceprefetching/prefetching_collection_view_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Load data for collection view cells before they are displayed."
+        }
+      ]
+    },
+    "Data Delivery with Drag and Drop": {
+      "title": "Data Delivery with Drag and Drop",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/drag_and_drop/data_delivery_with_drag_and_drop",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/drag_and_drop/data_delivery_with_drag_and_drop",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share data between iPad apps during a drag and drop operation using an item provider."
+        }
+      ]
+    },
+    "Integrating Pointer Interactions into Your iPad App": {
+      "title": "Integrating Pointer Interactions into Your iPad App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/pointer_interactions/integrating_pointer_interactions_into_your_ipad_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/pointer_interactions/integrating_pointer_interactions_into_your_ipad_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Support touch interactions in your iPad app by adding pointer interactions to your views."
+        }
+      ]
+    },
+    "Enhancing Your iPad App with Pointer Interactions": {
+      "title": "Enhancing Your iPad App with Pointer Interactions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/pointer_interactions/enhancing_your_ipad_app_with_pointer_interactions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/pointer_interactions/enhancing_your_ipad_app_with_pointer_interactions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a great user experience with pointing devices, by incorporating pointer content effects and shape customizations."
+        }
+      ]
+    },
+    "Accessibility Design for Mac Catalyst": {
+      "title": "Accessibility Design for Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/accessibility_design_for_mac_catalyst",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/accessibility_design_for_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve navigation in your app by using keyboard shortcuts and accessibility containers."
+        }
+      ]
+    },
+    "Delivering an Exceptional Accessibility Experience": {
+      "title": "Delivering an Exceptional Accessibility Experience",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/accessibility_for_ios_and_tvos/delivering_an_exceptional_accessibility_experience",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/accessibility_for_ios_and_tvos/delivering_an_exceptional_accessibility_experience",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make improvements to your app’s interaction model to support assistive technologies such as VoiceOver."
+        }
+      ]
+    },
+    "Supporting Gesture Interaction in Your Apps": {
+      "title": "Supporting Gesture Interaction in Your Apps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/supporting_gesture_interaction_in_your_apps",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/touches_presses_and_gestures/supporting_gesture_interaction_in_your_apps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enrich your app’s user experience by supporting standard and custom gesture interaction."
+        }
+      ]
+    },
+    "Detecting Changes in the Preferences Window": {
+      "title": "Detecting Changes in the Preferences Window",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/detecting_changes_in_the_preferences_window",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/mac_catalyst/detecting_changes_in_the_preferences_window",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Listen for and respond to a user’s preference changes in your Mac app built with Mac Catalyst using Combine."
+        }
+      ]
+    },
+    "Bring an iPad App to the Mac with Mac Catalyst": {
+      "title": "Bring an iPad App to the Mac with Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/tutorials/mac-catalyst",
+      "kind": "overview",
+      "role": "overview",
+      "url": "/tutorials/mac-catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a native Mac app from the same codebase as your iPad app."
+        }
+      ]
+    },
+    "Supporting Multiple Windows on iPad": {
+      "title": "Supporting Multiple Windows on iPad",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiscenedelegate/supporting_multiple_windows_on_ipad",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uiscenedelegate/supporting_multiple_windows_on_ipad",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Support side-by-side instances of your interface and create a new window with drag-and-drop simplicity."
+        }
+      ]
+    },
+    "Restoring Your App’s State": {
+      "title": "Restoring Your App’s State",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiscenedelegate/restoring_your_app_s_state",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uiscenedelegate/restoring_your_app_s_state",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide continuity for the user by preserving current activities."
+        }
+      ]
+    },
+    "Restoring Your App’s State with SwiftUI": {
+      "title": "Restoring Your App’s State with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/restoring_your_app_s_state_with_swiftui",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/restoring_your_app_s_state_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide app continuity for users by preserving their current activities."
+        }
+      ]
+    },
+    "Implementing Peek and Pop": {
+      "title": "Implementing Peek and Pop",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/deprecated_symbols/implementing_peek_and_pop",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/deprecated_symbols/implementing_peek_and_pop",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Accelerate actions in your app by providing shortcuts to preview content in detail view controllers."
+        }
+      ]
+    },
+    "Disabling the Pull-Down Gesture for a Sheet": {
+      "title": "Disabling the Pull-Down Gesture for a Sheet",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/disabling_the_pull-down_gesture_for_a_sheet",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/disabling_the_pull-down_gesture_for_a_sheet",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure a positive user experience when presenting a view controller as a sheet."
+        }
+      ]
+    },
+    "Displaying Searchable Content by Using a Search Controller": {
+      "title": "Displaying Searchable Content by Using a Search Controller",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/displaying_searchable_content_by_using_a_search_controller",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/displaying_searchable_content_by_using_a_search_controller",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a user interface with searchable content in a table view."
+        }
+      ]
+    },
+    "Using Suggested Searches with a Search Controller": {
+      "title": "Using Suggested Searches with a Search Controller",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/using_suggested_searches_with_a_search_controller",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/using_suggested_searches_with_a_search_controller",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a search interface with a table view of suggested searches."
+        }
+      ]
+    },
+    "Building a Document Browser-Based App": {
+      "title": "Building a Document Browser-Based App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/building_a_document_browser-based_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/building_a_document_browser-based_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a document browser to provide access to the user’s text files."
+        }
+      ]
+    },
+    "Building a Document Browser App for Custom File Formats": {
+      "title": "Building a Document Browser App for Custom File Formats",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/building_a_document_browser_app_for_custom_file_formats",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/building_a_document_browser_app_for_custom_file_formats",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement a custom document file format to manage user interactions with files on different cloud storage providers."
+        }
+      ]
+    }
+  }
+}

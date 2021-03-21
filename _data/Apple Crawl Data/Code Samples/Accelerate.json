@@ -1,0 +1,376 @@
+{
+  "code": {
+    "Training a Neural Network to Recognize Digits": {
+      "title": "Training a Neural Network to Recognize Digits",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/training_a_neural_network_to_recognize_digits",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/training_a_neural_network_to_recognize_digits",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a simple neural network and train it to recognize randomly generated numbers."
+        }
+      ]
+    },
+    "Converting Color Images to Grayscale": {
+      "title": "Converting Color Images to Grayscale",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/converting_color_images_to_grayscale",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/converting_color_images_to_grayscale",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert a color image to grayscale using matrix multiplication."
+        }
+      ]
+    },
+    "Standardizing Arbitrary Image Formats for Processing": {
+      "title": "Standardizing Arbitrary Image Formats for Processing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/standardizing_arbitrary_image_formats_for_processing",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/standardizing_arbitrary_image_formats_for_processing",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert assets with disparate color spaces and bit depths to a standard working format for applying vImage operations."
+        }
+      ]
+    },
+    "Converting Luminance and Chrominance Planes to an ARGB Image": {
+      "title": "Converting Luminance and Chrominance Planes to an ARGB Image",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/converting_luminance_and_chrominance_planes_to_an_argb_image",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/converting_luminance_and_chrominance_planes_to_an_argb_image",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a displayable ARGB image from the luminance and chrominance information supplied by your device’s camera."
+        }
+      ]
+    },
+    "Applying Tone Curve Adjustments to Images": {
+      "title": "Applying Tone Curve Adjustments to Images",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/applying_tone_curve_adjustments_to_images",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/applying_tone_curve_adjustments_to_images",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the vImage library’s polynomial transform to apply tone curve adjustments to images."
+        }
+      ]
+    },
+    "Solving Systems of Linear Equations with LAPACK": {
+      "title": "Solving Systems of Linear Equations with LAPACK",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/solving_systems_of_linear_equations_with_lapack",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/solving_systems_of_linear_equations_with_lapack",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select the optimal LAPACK routine to solve a system of linear equations."
+        }
+      ]
+    },
+    "Denoising an Image Using Linear Algebra": {
+      "title": "Denoising an Image Using Linear Algebra",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/denoising_an_image_using_linear_algebra",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/denoising_an_image_using_linear_algebra",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Reduce noise in an image using singular value decomposition (SVD)."
+        }
+      ]
+    },
+    "Adjusting the Brightness and Contrast of an Image": {
+      "title": "Adjusting the Brightness and Contrast of an Image",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/adjusting_the_brightness_and_contrast_of_an_image",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/adjusting_the_brightness_and_contrast_of_an_image",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a gamma function to apply a linear or exponential curve."
+        }
+      ]
+    },
+    "Adjusting Saturation and Applying Tone Mapping": {
+      "title": "Adjusting Saturation and Applying Tone Mapping",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/adjusting_saturation_and_applying_tone_mapping",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/adjusting_saturation_and_applying_tone_mapping",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert an RGB image to discrete luminance and chrominance channels, and apply color and contrast treatments."
+        }
+      ]
+    },
+    "Adjusting the Hue of an Image": {
+      "title": "Adjusting the Hue of an Image",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/adjusting_the_hue_of_an_image",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/adjusting_the_hue_of_an_image",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert an RGB image to L*a*b* color space and apply hue adjustment."
+        }
+      ]
+    },
+    "Equalizing Audio with vDSP": {
+      "title": "Equalizing Audio with vDSP",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/equalizing_audio_with_vdsp",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/equalizing_audio_with_vdsp",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Change the frequency response of an audio signal."
+        }
+      ]
+    },
+    "Signal Extraction from Noise": {
+      "title": "Signal Extraction from Noise",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/signal_extraction_from_noise",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/signal_extraction_from_noise",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use Accelerate’s discrete cosine transform to remove noise from a signal."
+        }
+      ]
+    },
+    "Halftone Descreening with 2D Fast Fourier Transform": {
+      "title": "Halftone Descreening with 2D Fast Fourier Transform",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/halftone_descreening_with_2d_fast_fourier_transform",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/halftone_descreening_with_2d_fast_fourier_transform",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Reduce or remove periodic artifacts from images."
+        }
+      ]
+    },
+    "Computing the Mel Spectrum Using Linear Algebra": {
+      "title": "Computing the Mel Spectrum Using Linear Algebra",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/computing_the_mel_spectrum_using_linear_algebra",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/computing_the_mel_spectrum_using_linear_algebra",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Generate a real-time mel spectrogram of audio using matrix multiplication."
+        }
+      ]
+    },
+    "Visualizing Sound as an Audio Spectrogram": {
+      "title": "Visualizing Sound as an Audio Spectrogram",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/visualizing_sound_as_an_audio_spectrogram",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/visualizing_sound_as_an_audio_spectrogram",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share image data between vDSP and vImage to visualize audio that a device microphone captures."
+        }
+      ]
+    },
+    "Finding the Sharpest Image in a Sequence of Captured Images": {
+      "title": "Finding the Sharpest Image in a Sequence of Captured Images",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/finding_the_sharpest_image_in_a_sequence_of_captured_images",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/finding_the_sharpest_image_in_a_sequence_of_captured_images",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share image data between vDSP and vImage to compute the sharpest image from a bracketed photo sequence."
+        }
+      ]
+    },
+    "Building a Signal Generator": {
+      "title": "Building a Signal Generator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfaudio/audio_engine/building_a_signal_generator",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfaudio/audio_engine/building_a_signal_generator"
+    },
+    "Rotating a Cube by Transforming Its Vertices": {
+      "title": "Rotating a Cube by Transforming Its Vertices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/rotating_a_cube_by_transforming_its_vertices",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/rotating_a_cube_by_transforming_its_vertices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Rotate a cube through a series of keyframes using quaternion interpolation to transition between them."
+        }
+      ]
+    },
+    "Specifying Histograms with vImage": {
+      "title": "Specifying Histograms with vImage",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/specifying_histograms_with_vimage",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/specifying_histograms_with_vimage",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Calculate the histogram of one image and apply it to a second image."
+        }
+      ]
+    },
+    "Reducing Artifacts in Resampled Images": {
+      "title": "Reducing Artifacts in Resampled Images",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/reducing_artifacts_in_resampled_images",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/reducing_artifacts_in_resampled_images",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Avoid ringing effects introduced by the default Lanczos algorithm when scaling an image by using a custom resampling filter."
+        }
+      ]
+    },
+    "Blurring an Image": {
+      "title": "Blurring an Image",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/blurring_an_image",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/blurring_an_image",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Filter an image by convolving it with custom and high-speed kernels."
+        }
+      ]
+    },
+    "Adding a Bokeh Effect": {
+      "title": "Adding a Bokeh Effect",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/adding_a_bokeh_effect",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/adding_a_bokeh_effect",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Simulate a bokeh effect by applying dilation."
+        }
+      ]
+    },
+    "Reading From and Writing to Core Video Pixel Buffers": {
+      "title": "Reading From and Writing to Core Video Pixel Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/reading_from_and_writing_to_core_video_pixel_buffers",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/reading_from_and_writing_to_core_video_pixel_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Transfer image data between Core Video pixel buffers and vImage buffers to integrate vImage operations into a Core Image workflow"
+        }
+      ]
+    },
+    "Applying vImage Operations to Video Sample Buffers": {
+      "title": "Applying vImage Operations to Video Sample Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/applying_vimage_operations_to_video_sample_buffers",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/applying_vimage_operations_to_video_sample_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use vImage’s convert-any-to-any function to perform real-time image processing of video frames streamed from your device’s camera."
+        }
+      ]
+    },
+    "Real-Time Video Effects with vImage": {
+      "title": "Real-Time Video Effects with vImage",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/real-time_video_effects_with_vimage",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/real-time_video_effects_with_vimage",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use vImage to apply effects to a video feed in real time."
+        }
+      ]
+    },
+    "Compressing and Decompressing Files with Stream Compression": {
+      "title": "Compressing and Decompressing Files with Stream Compression",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_and_decompressing_files_with_stream_compression",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/compressing_and_decompressing_files_with_stream_compression",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Perform compression or the appropriate kind of decompression to a file based on its path extension."
+        }
+      ]
+    },
+    "Compressing and Decompressing Files with Swift Stream Compression": {
+      "title": "Compressing and Decompressing Files with Swift Stream Compression",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_and_decompressing_files_with_swift_stream_compression",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/compressing_and_decompressing_files_with_swift_stream_compression",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Perform compression for all files and decompression for files with supported extension types."
+        }
+      ]
+    }
+  }
+}

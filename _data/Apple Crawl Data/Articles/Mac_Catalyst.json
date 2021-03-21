@@ -1,0 +1,102 @@
+{
+  "articles": {
+    "Creating a Mac Version of Your iPad App": {
+      "title": "Creating a Mac Version of Your iPad App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Bring your iPad app to macOS with Mac Catalyst."
+        }
+      ]
+    },
+    "Choosing a User Interface Idiom for Your Mac App": {
+      "title": "Choosing a User Interface Idiom for Your Mac App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select the iPad or the Mac user interface idiom in your Mac app built with Mac Catalyst."
+        }
+      ]
+    },
+    "Optimizing Your iPad App for Mac": {
+      "title": "Optimizing Your iPad App for Mac",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/optimizing_your_ipad_app_for_mac",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/optimizing_your_ipad_app_for_mac",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your iPad app more like a Mac app by taking advantage of system features in macOS."
+        }
+      ]
+    },
+    "Displaying a Checkbox in Your Mac App Built with Mac Catalyst": {
+      "title": "Displaying a Checkbox in Your Mac App Built with Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiswitch/displaying_a_checkbox_in_your_mac_app_built_with_mac_catalyst",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/uiswitch/displaying_a_checkbox_in_your_mac_app_built_with_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Present a switch control as a Mac-style checkbox when your app runs in the Mac user interface idiom."
+        }
+      ]
+    },
+    "Removing the Title Bar in Your Mac App Built with Mac Catalyst": {
+      "title": "Removing the Title Bar in Your Mac App Built with Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/removing_the_title_bar_in_your_mac_app_built_with_mac_catalyst",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/removing_the_title_bar_in_your_mac_app_built_with_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display content that fills the entire height of a window by removing the title bar."
+        }
+      ]
+    },
+    "Handling Key Presses Made on a Physical Keyboard": {
+      "title": "Handling Key Presses Made on a Physical Keyboard",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/handling_key_presses_made_on_a_physical_keyboard",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/handling_key_presses_made_on_a_physical_keyboard",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect when the user presses and releases keys on a physical keyboard."
+        }
+      ]
+    },
+    "Displaying a Preferences Window": {
+      "title": "Displaying a Preferences Window",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/displaying_a_preferences_window",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/displaying_a_preferences_window",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a Preferences window in your Mac app built with Mac Catalyst so users can manage app preferences defined in a Settings bundle."
+        }
+      ]
+    }
+  }
+}
