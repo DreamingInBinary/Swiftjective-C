@@ -1,1 +1,54 @@
-{"code":{"Using Voice Processing":{"title":"Using Voice Processing","type":"topic","identifier":"doc://com.apple.documentation/documentation/avfaudio/audio_engine/audio_units/using_voice_processing","kind":"article","role":"sampleCode","url":"/documentation/avfaudio/audio_engine/audio_units/using_voice_processing","abstract":[{"type":"text","text":"Add voice processing capabilities to your app by using AVAudioEngine."}]},"Building a Signal Generator":{"title":"Building a Signal Generator","type":"topic","identifier":"doc://com.apple.documentation/documentation/avfaudio/audio_engine/building_a_signal_generator","kind":"article","role":"sampleCode","url":"/documentation/avfaudio/audio_engine/building_a_signal_generator","abstract":[{"type":"text","text":"Use "},{"type":"codeVoice","code":"AVAudioSourceNode"},{"type":"text","text":" and a custom render callback to generate audio signals."}]},"Performing Offline Audio Processing":{"title":"Performing Offline Audio Processing","type":"topic","identifier":"doc://com.apple.documentation/documentation/avfaudio/audio_engine/performing_offline_audio_processing","kind":"article","role":"sampleCode","url":"/documentation/avfaudio/audio_engine/performing_offline_audio_processing","abstract":[{"type":"text","text":"Add offline audio processing features to your app by enabling offline manual rendering mode."}]}}}
+{
+  "code": {
+    "Using Voice Processing": {
+      "title": "Using Voice Processing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfaudio/audio_engine/audio_units/using_voice_processing",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfaudio/audio_engine/audio_units/using_voice_processing",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add voice processing capabilities to your app by using AVAudioEngine."
+        }
+      ]
+    },
+    "Building a Signal Generator": {
+      "title": "Building a Signal Generator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfaudio/audio_engine/building_a_signal_generator",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfaudio/audio_engine/building_a_signal_generator",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use "
+        },
+        {
+          "type": "codeVoice",
+          "code": "AVAudioSourceNode"
+        },
+        {
+          "type": "text",
+          "text": " and a custom render callback to generate audio signals."
+        }
+      ]
+    },
+    "Performing Offline Audio Processing": {
+      "title": "Performing Offline Audio Processing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfaudio/audio_engine/performing_offline_audio_processing",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfaudio/audio_engine/performing_offline_audio_processing",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add offline audio processing features to your app by enabling offline manual rendering mode."
+        }
+      ]
+    }
+  }
+}
