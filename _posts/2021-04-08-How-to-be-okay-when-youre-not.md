@@ -77,7 +77,7 @@ I've found that it's two fold. The first reason I can think of is this; I've liv
 
 1. God/Christianity
 2. Family (my wife and kids)
-3. My healthy and fitness
+3. My health and fitness
 4. My career 
 5. My indie work
 
