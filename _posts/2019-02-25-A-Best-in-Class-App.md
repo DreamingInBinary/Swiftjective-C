@@ -181,6 +181,8 @@ The five sections it covers are:
 - Natural language processing support if necessary.
 - All tab bar images are vector .pdf images or have each corresponding size included to ensure they adapt correctly and are vended to accessibility modals properly.
 - Any displayed Live Photo will animate when force touched and utilize `PHLivePhotoImageView` for playback.
+  + Let the user know that playback is available by using `PHLivePhotoViewPlaybackStyle.hint`.
+  + If you need the playback gesture to be utilized on a different view, you install it by using the live photo view's `playbackGestureRecognizer` property.
 - For system specific features such as Live Photos or ARKit experiences, you use system badge to indicate they are available (i.e. a live photo or ARKit badge).
 - If it makes sense, it supports printing via `UIPrintInteractionController`.
 - There are no calls to `UIGraphicsBeginImageContextWithOptions`, and `UIGraphicsImageRenderer` is used instead.
