@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: ["Snips"]
-title: "Collapsable UICollectionView Sections"
+title: "Collapsible UICollectionView Sections"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "Create a basic UICollectionView with a collapsing section."
