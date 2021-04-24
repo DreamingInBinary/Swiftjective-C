@@ -55,7 +55,6 @@ class CollapseViewController: UIViewController {
         }
         
         let subItemsCellRegistration = UICollectionView.CellRegistration<UICollectionViewListCell, Item> { cell, indexPath, model in
-            // Populate the cell with our item description.
             var contentConfiguration = cell.defaultContentConfiguration()
             contentConfiguration.text = model.title
             contentConfiguration.textProperties.font = .preferredFont(forTextStyle: .subheadline)
