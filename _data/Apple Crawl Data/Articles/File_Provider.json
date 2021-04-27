@@ -1,1 +1,102 @@
-{"articles":{"Creating a File Provider for iOS":{"title":"Creating a File Provider for iOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileprovider/creating_a_file_provider_for_ios","kind":"article","role":"article","url":"/documentation/fileprovider/creating_a_file_provider_for_ios","abstract":[{"type":"text","text":"Build a File Provider extension that hosts and manages the user’s files. "}]},"Creating File Providers for Multiple Versions of iOS":{"title":"Creating File Providers for Multiple Versions of iOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileprovider/creating_file_providers_for_multiple_versions_of_ios","kind":"article","role":"article","url":"/documentation/fileprovider/creating_file_providers_for_multiple_versions_of_ios","abstract":[{"type":"text","text":"Create File Provider extensions that support different versions of iOS."}]},"Defining Your File Provider's Content":{"title":"Defining Your File Provider's Content","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/defining_your_file_provider_s_content","kind":"article","role":"article","url":"/documentation/fileprovider/content_and_change_tracking/defining_your_file_provider_s_content","abstract":[{"type":"text","text":"Create enumerators to specify your file provider's content."}]},"Tracking Your File Provider's Changes":{"title":"Tracking Your File Provider's Changes","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes","kind":"article","role":"article","url":"/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes","abstract":[{"type":"text","text":"Create an enumerator to track changes to your file provider's content."}]},"Tracking Changes to Documents":{"title":"Tracking Changes to Documents","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/tracking_changes_to_documents","kind":"article","role":"article","url":"/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/tracking_changes_to_documents","abstract":[{"type":"text","text":"Track and report changes to open documents."}]},"Using Push Notifications to Signal Changes":{"title":"Using Push Notifications to Signal Changes","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/using_push_notifications_to_signal_changes","kind":"article","role":"article","url":"/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/using_push_notifications_to_signal_changes","abstract":[{"type":"text","text":"Send push notifications to a device to signal changes from your server."}]}}}
+{
+  "articles": {
+    "Creating a File Provider for iOS": {
+      "title": "Creating a File Provider for iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/creating_a_file_provider_for_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/creating_a_file_provider_for_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a File Provider extension that hosts and manages the user’s files. "
+        }
+      ]
+    },
+    "Creating File Providers for Multiple Versions of iOS": {
+      "title": "Creating File Providers for Multiple Versions of iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/creating_file_providers_for_multiple_versions_of_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/creating_file_providers_for_multiple_versions_of_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create File Provider extensions that support different versions of iOS."
+        }
+      ]
+    },
+    "Defining Your File Provider's Content": {
+      "title": "Defining Your File Provider's Content",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/defining_your_file_provider_s_content",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/content_and_change_tracking/defining_your_file_provider_s_content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create enumerators to specify your file provider's content."
+        }
+      ]
+    },
+    "Tracking Your File Provider's Changes": {
+      "title": "Tracking Your File Provider's Changes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create an enumerator to track changes to your file provider's content."
+        }
+      ]
+    },
+    "Tracking Changes to Documents": {
+      "title": "Tracking Changes to Documents",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/tracking_changes_to_documents",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/tracking_changes_to_documents",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Track and report changes to open documents."
+        }
+      ]
+    },
+    "Using Push Notifications to Signal Changes": {
+      "title": "Using Push Notifications to Signal Changes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/using_push_notifications_to_signal_changes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/using_push_notifications_to_signal_changes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Send push notifications to a device to signal changes from your server."
+        }
+      ]
+    },
+    "Synchronizing the File Provider Extension": {
+      "title": "Synchronizing the File Provider Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/macos_support/synchronizing_the_file_provider_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/macos_support/synchronizing_the_file_provider_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Keep the local and remote copies of your File Provider extension’s content in sync."
+        }
+      ]
+    }
+  }
+}

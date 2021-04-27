@@ -1,1 +1,18 @@
-{"articles":{"Converting a User's Location to a Descriptive Placemark":{"title":"Converting a User's Location to a Descriptive Placemark","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkit/mkmapview/converting_a_user_s_location_to_a_descriptive_placemark","kind":"article","role":"article","url":"/documentation/mapkit/mkmapview/converting_a_user_s_location_to_a_descriptive_placemark","abstract":[{"type":"text","text":"Transform the user’s location displayed on a map into an informative description."}]}}}
+{
+  "articles": {
+    "Converting a User's Location to a Descriptive Placemark": {
+      "title": "Converting a User's Location to a Descriptive Placemark",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkit/mkmapview/converting_a_user_s_location_to_a_descriptive_placemark",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkit/mkmapview/converting_a_user_s_location_to_a_descriptive_placemark",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Transform the user’s location displayed on a map into an informative description."
+        }
+      ]
+    }
+  }
+}

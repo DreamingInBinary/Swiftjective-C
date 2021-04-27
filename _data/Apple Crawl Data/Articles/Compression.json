@@ -1,1 +1,32 @@
-{"articles":{"Compressing and Decompressing Data with Buffer Compression":{"title":"Compressing and Decompressing Data with Buffer Compression","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/compressing_and_decompressing_data_with_buffer_compression","kind":"article","role":"article","url":"/documentation/accelerate/compressing_and_decompressing_data_with_buffer_compression","abstract":[{"type":"text","text":"Compress a string, write it to the file system, and decompress the same file using buffer compression."}]},"Compressing and Decompressing Data with Input and Output Filters":{"title":"Compressing and Decompressing Data with Input and Output Filters","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/compressing_and_decompressing_data_with_input_and_output_filters","kind":"article","role":"article","url":"/documentation/accelerate/compressing_and_decompressing_data_with_input_and_output_filters","abstract":[{"type":"text","text":"Compress and decompress streamed or from-memory data, using input and output filters."}]}}}
+{
+  "articles": {
+    "Compressing and Decompressing Data with Buffer Compression": {
+      "title": "Compressing and Decompressing Data with Buffer Compression",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_and_decompressing_data_with_buffer_compression",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/compressing_and_decompressing_data_with_buffer_compression",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compress a string, write it to the file system, and decompress the same file using buffer compression."
+        }
+      ]
+    },
+    "Compressing and Decompressing Data with Input and Output Filters": {
+      "title": "Compressing and Decompressing Data with Input and Output Filters",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_and_decompressing_data_with_input_and_output_filters",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/compressing_and_decompressing_data_with_input_and_output_filters",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compress and decompress streamed or from-memory data, using input and output filters."
+        }
+      ]
+    }
+  }
+}

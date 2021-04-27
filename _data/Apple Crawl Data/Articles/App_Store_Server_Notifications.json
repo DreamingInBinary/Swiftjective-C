@@ -1,1 +1,18 @@
-{"articles":{"Enabling App Store Server Notifications":{"title":"Enabling App Store Server Notifications","type":"topic","identifier":"doc://com.apple.documentation/documentation/appstoreservernotifications/enabling_app_store_server_notifications","kind":"article","role":"article","url":"/documentation/appstoreservernotifications/enabling_app_store_server_notifications","abstract":[{"type":"text","text":"Use server notifications from the App Store to monitor and respond to users' subscription status changes."}]}}}
+{
+  "articles": {
+    "Enabling App Store Server Notifications": {
+      "title": "Enabling App Store Server Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreservernotifications/enabling_app_store_server_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreservernotifications/enabling_app_store_server_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use server notifications from the App Store to monitor and respond to users' subscription status changes."
+        }
+      ]
+    }
+  }
+}

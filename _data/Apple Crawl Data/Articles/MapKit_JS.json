@@ -1,1 +1,102 @@
-{"articles":{"Creating a Maps Identifier and a Private Key":{"title":"Creating a Maps Identifier and a Private Key","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key","kind":"article","role":"article","url":"/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key","abstract":[{"type":"text","text":"Create a Maps Identifer and a private key before generating tokens for MapKit JS. "}]},"Creating and Using Tokens with MapKit JS":{"title":"Creating and Using Tokens with MapKit JS","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/creating_and_using_tokens_with_mapkit_js","kind":"article","role":"article","url":"/documentation/mapkitjs/creating_and_using_tokens_with_mapkit_js","abstract":[{"type":"text","text":"Learn how to create JSON Web Tokens to use with MapKit JS. "}]},"Handling Initialization Events":{"title":"Handling Initialization Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/mapkit/handling_initialization_events","kind":"article","role":"article","url":"/documentation/mapkitjs/mapkit/handling_initialization_events","abstract":[{"type":"text","text":"Handle events that trigger when MapKit JS initializes."}]},"MapKit JS Release Notes":{"title":"MapKit JS Release Notes","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/mapkit_js_release_notes","kind":"article","role":"article","url":"/documentation/mapkitjs/mapkit_js_release_notes","abstract":[{"type":"text","text":"Learn about updates, bug fixes, and API changes for MapKit JS."}]},"Loading the Latest or a Specific Version of MapKit JS":{"title":"Loading the Latest or a Specific Version of MapKit JS","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/loading_the_latest_or_a_specific_version_of_mapkit_js","kind":"article","role":"article","url":"/documentation/mapkitjs/loading_the_latest_or_a_specific_version_of_mapkit_js","abstract":[{"type":"text","text":"Link to the most recent version of MapKit JS or a version of your choice."}]},"MapKit JS 5":{"title":"MapKit JS 5","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/mapkit_js_release_notes/mapkit_js_5","kind":"article","role":"article","url":"/documentation/mapkitjs/mapkit_js_release_notes/mapkit_js_5","abstract":[{"type":"text","text":"Use the most up-to-date version of MapKit JS on your website."}]},"Handling Map Events":{"title":"Handling Map Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/mapkit/map/handling_map_events","kind":"article","role":"article","url":"/documentation/mapkitjs/mapkit/map/handling_map_events","abstract":[{"type":"text","text":"Handle events that a map object dispatches."}]}}}
+{
+  "articles": {
+    "Creating a Maps Identifier and a Private Key": {
+      "title": "Creating a Maps Identifier and a Private Key",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a Maps Identifer and a private key before generating tokens for MapKit JS. "
+        }
+      ]
+    },
+    "Creating and Using Tokens with MapKit JS": {
+      "title": "Creating and Using Tokens with MapKit JS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/creating_and_using_tokens_with_mapkit_js",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/creating_and_using_tokens_with_mapkit_js",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to create JSON Web Tokens to use with MapKit JS. "
+        }
+      ]
+    },
+    "Handling Initialization Events": {
+      "title": "Handling Initialization Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/mapkit/handling_initialization_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/mapkit/handling_initialization_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Handle events that trigger when MapKit JS initializes."
+        }
+      ]
+    },
+    "MapKit JS Release Notes": {
+      "title": "MapKit JS Release Notes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/mapkit_js_release_notes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/mapkit_js_release_notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about updates, bug fixes, and API changes for MapKit JS."
+        }
+      ]
+    },
+    "Loading the Latest or a Specific Version of MapKit JS": {
+      "title": "Loading the Latest or a Specific Version of MapKit JS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/loading_the_latest_or_a_specific_version_of_mapkit_js",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/loading_the_latest_or_a_specific_version_of_mapkit_js",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Link to the most recent version of MapKit JS or a version of your choice."
+        }
+      ]
+    },
+    "MapKit JS 5": {
+      "title": "MapKit JS 5",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/mapkit_js_release_notes/mapkit_js_5",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/mapkit_js_release_notes/mapkit_js_5",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the most up-to-date version of MapKit JS on your website."
+        }
+      ]
+    },
+    "Handling Map Events": {
+      "title": "Handling Map Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/mapkit/map/handling_map_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/mapkit/map/handling_map_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Handle events that a map object dispatches."
+        }
+      ]
+    }
+  }
+}

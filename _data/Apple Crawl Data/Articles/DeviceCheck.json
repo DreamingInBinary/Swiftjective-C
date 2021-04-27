@@ -1,1 +1,82 @@
-{"articles":{"Accessing and Modifying Per-Device Data":{"title":"Accessing and Modifying Per-Device Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/devicecheck/accessing_and_modifying_per-device_data","kind":"article","role":"article","url":"/documentation/devicecheck/accessing_and_modifying_per-device_data","abstract":[{"type":"text","text":"Use a token from your app to query and modify two per-device binary digits stored on an Apple server."}]},"Establishing Your App’s Integrity":{"title":"Establishing Your App’s Integrity","type":"topic","identifier":"doc://com.apple.documentation/documentation/devicecheck/establishing_your_app_s_integrity","kind":"article","role":"article","url":"/documentation/devicecheck/establishing_your_app_s_integrity","abstract":[{"type":"text","text":"Demonstrate that requests sent to your server come from legitimate instances of your app."}]},"Assessing Fraud Risk":{"title":"Assessing Fraud Risk","type":"topic","identifier":"doc://com.apple.documentation/documentation/devicecheck/assessing_fraud_risk","kind":"article","role":"article","url":"/documentation/devicecheck/assessing_fraud_risk","abstract":[{"type":"text","text":"Request and analyze risk data using server-to-server calls."}]},"Establishing a Token-Based Connection to APNs":{"title":"Establishing a Token-Based Connection to APNs","type":"topic","identifier":"doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns","kind":"article","role":"article","url":"/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns"},"Validating Apps That Connect to Your Server":{"title":"Validating Apps That Connect to Your Server","type":"topic","identifier":"doc://com.apple.documentation/documentation/devicecheck/validating_apps_that_connect_to_your_server","kind":"article","role":"article","url":"/documentation/devicecheck/validating_apps_that_connect_to_your_server","abstract":[{"type":"text","text":"Verify that connections to your server come from legitimate instances of your app."}]},"Preparing to Use the App Attest Service":{"title":"Preparing to Use the App Attest Service","type":"topic","identifier":"doc://com.apple.documentation/documentation/devicecheck/preparing_to_use_the_app_attest_service","kind":"article","role":"article","url":"/documentation/devicecheck/preparing_to_use_the_app_attest_service","abstract":[{"type":"text","text":"Test your implementation in a development environment and onboard users gradually."}]}}}
+{
+  "articles": {
+    "Accessing and Modifying Per-Device Data": {
+      "title": "Accessing and Modifying Per-Device Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicecheck/accessing_and_modifying_per-device_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicecheck/accessing_and_modifying_per-device_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a token from your app to query and modify two per-device binary digits stored on an Apple server."
+        }
+      ]
+    },
+    "Establishing Your App’s Integrity": {
+      "title": "Establishing Your App’s Integrity",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicecheck/establishing_your_app_s_integrity",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicecheck/establishing_your_app_s_integrity",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Demonstrate that requests sent to your server come from legitimate instances of your app."
+        }
+      ]
+    },
+    "Assessing Fraud Risk": {
+      "title": "Assessing Fraud Risk",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicecheck/assessing_fraud_risk",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicecheck/assessing_fraud_risk",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request and analyze risk data using server-to-server calls."
+        }
+      ]
+    },
+    "Establishing a Token-Based Connection to APNs": {
+      "title": "Establishing a Token-Based Connection to APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns"
+    },
+    "Validating Apps That Connect to Your Server": {
+      "title": "Validating Apps That Connect to Your Server",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicecheck/validating_apps_that_connect_to_your_server",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicecheck/validating_apps_that_connect_to_your_server",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Verify that connections to your server come from legitimate instances of your app."
+        }
+      ]
+    },
+    "Preparing to Use the App Attest Service": {
+      "title": "Preparing to Use the App Attest Service",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicecheck/preparing_to_use_the_app_attest_service",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicecheck/preparing_to_use_the_app_attest_service",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Test your implementation in a development environment and onboard users gradually."
+        }
+      ]
+    }
+  }
+}

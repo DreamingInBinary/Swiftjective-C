@@ -1,1 +1,60 @@
-{"articles":{"Requesting the CarPlay Entitlements":{"title":"Requesting the CarPlay Entitlements","type":"topic","identifier":"doc://com.apple.documentation/documentation/carplay/requesting_the_carplay_entitlements","kind":"article","role":"article","url":"/documentation/carplay/requesting_the_carplay_entitlements","abstract":[{"type":"text","text":"Configure your CarPlay-enabled app with the entitlements it requires."}]},"Displaying Content in CarPlay":{"title":"Displaying Content in CarPlay","type":"topic","identifier":"doc://com.apple.documentation/documentation/carplay/displaying_content_in_carplay","kind":"article","role":"article","url":"/documentation/carplay/displaying_content_in_carplay","abstract":[{"type":"text","text":"Use scenes to present your app’s content on the vehicle’s built-in screen."}]},"Supporting Previous Versions of iOS":{"title":"Supporting Previous Versions of iOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/carplay/supporting_previous_versions_of_ios","kind":"article","role":"article","url":"/documentation/carplay/supporting_previous_versions_of_ios","abstract":[{"type":"text","text":"Make your CarPlay-enabled apps compatible with older system versions, such as iOS 13 and earlier."}]},"Using the CarPlay Simulator":{"title":"Using the CarPlay Simulator","type":"topic","identifier":"doc://com.apple.documentation/documentation/carplay/using_the_carplay_simulator","kind":"article","role":"article","url":"/documentation/carplay/using_the_carplay_simulator","abstract":[{"type":"text","text":"Configure Simulator to run and debug your CarPlay-enabled app."}]}}}
+{
+  "articles": {
+    "Requesting the CarPlay Entitlements": {
+      "title": "Requesting the CarPlay Entitlements",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/carplay/requesting_the_carplay_entitlements",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/carplay/requesting_the_carplay_entitlements",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your CarPlay-enabled app with the entitlements it requires."
+        }
+      ]
+    },
+    "Displaying Content in CarPlay": {
+      "title": "Displaying Content in CarPlay",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/carplay/displaying_content_in_carplay",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/carplay/displaying_content_in_carplay",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use scenes to present your app’s content on the vehicle’s built-in screen."
+        }
+      ]
+    },
+    "Supporting Previous Versions of iOS": {
+      "title": "Supporting Previous Versions of iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/carplay/supporting_previous_versions_of_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/carplay/supporting_previous_versions_of_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your CarPlay-enabled apps compatible with older system versions, such as iOS 13 and earlier."
+        }
+      ]
+    },
+    "Using the CarPlay Simulator": {
+      "title": "Using the CarPlay Simulator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/carplay/using_the_carplay_simulator",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/carplay/using_the_carplay_simulator",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure Simulator to run and debug your CarPlay-enabled app."
+        }
+      ]
+    }
+  }
+}

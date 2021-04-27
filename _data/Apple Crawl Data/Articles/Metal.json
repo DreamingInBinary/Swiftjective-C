@@ -1,1 +1,1252 @@
-{"articles":{"Using Metal Feature Set Tables":{"title":"Using Metal Feature Set Tables","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_features/using_metal_feature_set_tables","kind":"article","role":"article","url":"/documentation/metal/gpu_features/using_metal_feature_set_tables"},"Understanding GPU Family 4":{"title":"Understanding GPU Family 4","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4","kind":"article","role":"article","url":"/documentation/metal/gpu_features/understanding_gpu_family_4"},"About Imageblocks":{"title":"About Imageblocks","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_imageblocks","kind":"article","role":"article","url":"/documentation/metal/gpu_features/understanding_gpu_family_4/about_imageblocks","abstract":[{"type":"text","text":"Learn how imageblocks allow you to define and manipulate custom per-pixel data structures in high-bandwidth tile memory."}]},"About Tile Shading":{"title":"About Tile Shading","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_tile_shading","kind":"article","role":"article","url":"/documentation/metal/gpu_features/understanding_gpu_family_4/about_tile_shading","abstract":[{"type":"text","text":"Learn about combining rendering and compute operations into a single render pass while sharing local memory."}]},"About Raster Order Groups":{"title":"About Raster Order Groups","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_raster_order_groups","kind":"article","role":"article","url":"/documentation/metal/gpu_features/understanding_gpu_family_4/about_raster_order_groups","abstract":[{"type":"text","text":"Learn about precisely controlling the order of parallel fragment shader threads accessing the same pixel coordinates."}]},"About Enhanced MSAA and Imageblock Sample Coverage Control":{"title":"About Enhanced MSAA and Imageblock Sample Coverage Control","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_enhanced_msaa_and_imageblock_sample_coverage_control","kind":"article","role":"article","url":"/documentation/metal/gpu_features/understanding_gpu_family_4/about_enhanced_msaa_and_imageblock_sample_coverage_control","abstract":[{"type":"text","text":"Learn about accessing multisample tracking data within a tile shader, enabling development of custom MSAA resolve algorithms, and more."}]},"Getting the Default GPU":{"title":"Getting the Default GPU","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/getting_the_default_gpu","kind":"article","role":"article","url":"/documentation/metal/getting_the_default_gpu","abstract":[{"type":"text","text":"Select the system's default GPU device on which to run your Metal code. "}]},"Finding GPUs on macOS":{"title":"Finding GPUs on macOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/finding_gpus_on_macos","kind":"article","role":"article","url":"/documentation/metal/gpu_selection_in_macos/finding_gpus_on_macos","abstract":[{"type":"text","text":"Obtain, identify, and choose suitable GPUs for your app."}]},"Getting the GPU that Drives a View's Display":{"title":"Getting the GPU that Drives a View's Display","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/getting_the_gpu_that_drives_a_view_s_display","kind":"article","role":"article","url":"/documentation/metal/gpu_selection_in_macos/getting_the_gpu_that_drives_a_view_s_display"},"Handling External GPU Additions and Removals":{"title":"Handling External GPU Additions and Removals","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/handling_external_gpu_additions_and_removals","kind":"article","role":"article","url":"/documentation/metal/gpu_selection_in_macos/handling_external_gpu_additions_and_removals"},"Understanding External GPUs":{"title":"Understanding External GPUs","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/understanding_external_gpus","kind":"article","role":"article","url":"/documentation/metal/gpu_selection_in_macos/understanding_external_gpus","abstract":[{"type":"text","text":"Learn how to support external GPUs in your macOS apps and games."}]},"Understanding Multi-GPU and Multi-Display Setups":{"title":"Understanding Multi-GPU and Multi-Display Setups","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/understanding_multi-gpu_and_multi-display_setups","kind":"article","role":"article","url":"/documentation/metal/gpu_selection_in_macos/understanding_multi-gpu_and_multi-display_setups","abstract":[{"type":"text","text":"Learn about the different ways that a user can connect external GPUs and external displays to a Mac computer."}]},"Understanding GPU Bandwidth":{"title":"Understanding GPU Bandwidth","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/understanding_gpu_bandwidth","kind":"article","role":"article","url":"/documentation/metal/gpu_selection_in_macos/understanding_gpu_bandwidth","abstract":[{"type":"text","text":"Learn about some of the main factors that affect bandwidth between a GPU and a system on a Mac."}]},"Choosing a Resource Storage Mode in macOS":{"title":"Choosing a Resource Storage Mode in macOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_macos","kind":"article","role":"article","url":"/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_macos","abstract":[{"type":"text","text":"Choose an appropriate storage mode for your macOS resources."}]},"Setting Resource Storage Modes":{"title":"Setting Resource Storage Modes","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/setting_resource_storage_modes","kind":"article","role":"article","url":"/documentation/metal/setting_resource_storage_modes","abstract":[{"type":"text","text":"Set a storage mode that defines the memory location and access permissions of a resource."}]},"Choosing a Resource Storage Mode in iOS and tvOS":{"title":"Choosing a Resource Storage Mode in iOS and tvOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_ios_and_tvos","kind":"article","role":"article","url":"/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_ios_and_tvos","abstract":[{"type":"text","text":"Choose an appropriate storage mode for your iOS and tvOS resources."}]},"Copying Data to a Private Resource":{"title":"Copying Data to a Private Resource","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/copying_data_to_a_private_resource","kind":"article","role":"article","url":"/documentation/metal/copying_data_to_a_private_resource","abstract":[{"type":"text","text":"Use a blit command encoder to copy buffer or texture data to a private resource."}]},"Synchronizing a Managed Resource":{"title":"Synchronizing a Managed Resource","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/synchronizing_a_managed_resource","kind":"article","role":"article","url":"/documentation/metal/synchronizing_a_managed_resource","abstract":[{"type":"text","text":"Synchronize the contents of a managed resource for the CPU or GPU."}]},"Transferring Data Between Connected GPUs":{"title":"Transferring Data Between Connected GPUs","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/transferring_data_between_connected_gpus","kind":"article","role":"article","url":"/documentation/metal/transferring_data_between_connected_gpus","abstract":[{"type":"text","text":"Use high-speed connections between GPUs to transfer data quickly."}]},"Synchronizing Events Across Multiple Devices":{"title":"Synchronizing Events Across Multiple Devices","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_events_across_multiple_devices","kind":"article","role":"article","url":"/documentation/metal/synchronization/synchronizing_events_across_multiple_devices","abstract":[{"type":"text","text":"Use shareable events to synchronize your app’s work across multiple devices."}]},"Synchronizing Events Within a Single Device":{"title":"Synchronizing Events Within a Single Device","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_events_within_a_single_device","kind":"article","role":"article","url":"/documentation/metal/synchronization/synchronizing_events_within_a_single_device","abstract":[{"type":"text","text":"Use nonshareable events to synchronize your app’s work within a single device."}]},"About Synchronization Events":{"title":"About Synchronization Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/synchronization/about_synchronization_events","kind":"article","role":"article","url":"/documentation/metal/synchronization/about_synchronization_events","abstract":[{"type":"text","text":"Synchronize access to resources in your app by signaling events."}]},"Synchronizing Events Between a GPU and the CPU":{"title":"Synchronizing Events Between a GPU and the CPU","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_events_between_a_gpu_and_the_cpu","kind":"article","role":"article","url":"/documentation/metal/synchronization/synchronizing_events_between_a_gpu_and_the_cpu","abstract":[{"type":"text","text":"Use shareable events to synchronize your app's work between a GPU and the CPU. "}]},"Reducing the Memory Footprint of Metal Apps":{"title":"Reducing the Memory Footprint of Metal Apps","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/reducing_the_memory_footprint_of_metal_apps","kind":"article","role":"article","url":"/documentation/metal/reducing_the_memory_footprint_of_metal_apps","abstract":[{"type":"text","text":"Learn best practices for using memory efficiently in iOS and tvOS."}]},"Gathering Information About Memory Use":{"title":"Gathering Information About Memory Use","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_memory_use/gathering_information_about_memory_use","kind":"article","role":"article","url":"/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_memory_use/gathering_information_about_memory_use"},"Enabling Frame Capture":{"title":"Enabling Frame Capture","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/enabling_frame_capture","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/enabling_frame_capture"},"Capturing GPU Command Data Programmatically":{"title":"Capturing GPU Command Data Programmatically","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/capturing_gpu_command_data_programmatically","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/capturing_gpu_command_data_programmatically"},"Creating a Custom Capture Scope":{"title":"Creating a Custom Capture Scope","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/creating_a_custom_capture_scope","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/creating_a_custom_capture_scope","abstract":[{"type":"text","text":"Use custom capture scopes to control which commands get captured."}]},"Enhancing Frame Capture by Using Labels":{"title":"Enhancing Frame Capture by Using Labels","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/enhancing_frame_capture_by_using_labels","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/enhancing_frame_capture_by_using_labels"},"Capturing a Frame Using a Breakpoint":{"title":"Capturing a Frame Using a Breakpoint","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/capturing_a_frame_using_a_breakpoint","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/capturing_a_frame_using_a_breakpoint","abstract":[{"type":"text","text":"Capture a Metal frame at a breakpoint in your app by using Xcode's breakpoint actions."}]},"Developing and Debugging Metal Shaders":{"title":"Developing and Debugging Metal Shaders","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/shader_authoring/developing_and_debugging_metal_shaders","kind":"article","role":"article","url":"/documentation/metal/shader_authoring/developing_and_debugging_metal_shaders","abstract":[{"type":"text","text":"Step through your app's shaders to inspect their variables during execution, and use a live preview to enhance development."}]},"Optimizing Performance with the Shader Profiler":{"title":"Optimizing Performance with the Shader Profiler","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/shader_authoring/optimizing_performance_with_the_shader_profiler","kind":"article","role":"article","url":"/documentation/metal/shader_authoring/optimizing_performance_with_the_shader_profiler"},"Optimizing Performance with GPU Counters":{"title":"Optimizing Performance with GPU Counters","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/render_pipelines/optimizing_performance_with_gpu_counters","kind":"article","role":"article","url":"/documentation/metal/render_pipelines/optimizing_performance_with_gpu_counters","abstract":[{"type":"text","text":"Examine granular metrics for your rendering or compute calls, and tune your app as needed. "}]},"Optimizing Performance with Pipeline Statistics":{"title":"Optimizing Performance with Pipeline Statistics","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/render_pipelines/optimizing_performance_with_pipeline_statistics","kind":"article","role":"article","url":"/documentation/metal/render_pipelines/optimizing_performance_with_pipeline_statistics","abstract":[{"type":"text","text":"Decide how to tune your encoder performance by identifying your app's longest-running encoders and their primary GPU activity."}]},"Improving Memory and Resource Usage":{"title":"Improving Memory and Resource Usage","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage","abstract":[{"type":"text","text":"Analyze and tune your app's Metal memory footprint using Memory Viewer."}]},"Monitoring Basic Memory Statistics":{"title":"Monitoring Basic Memory Statistics","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics","abstract":[{"type":"text","text":"Keep track of your app's memory usage by checking statistics in Memory Viewer."}]},"Analyzing Resources":{"title":"Analyzing Resources","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/analyzing_resources","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/analyzing_resources","abstract":[{"type":"text","text":"Get details about your app's resources to determine if you can improve your app's memory management."}]},"Investigating Resource Issues":{"title":"Investigating Resource Issues","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/investigating_resource_issues","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/investigating_resource_issues","abstract":[{"type":"text","text":"Uncover common problems and fine-tune your app's behavior using data discovered in Memory Viewer."}]},"Optimizing Texture Data":{"title":"Optimizing Texture Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/optimizing_texture_data","kind":"article","role":"article","url":"/documentation/metal/textures/optimizing_texture_data","abstract":[{"type":"text","text":"Optimize a texture’s data to improve GPU or CPU access."}]},"Understanding Color-Renderable Pixel Format Sizes":{"title":"Understanding Color-Renderable Pixel Format Sizes","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/understanding_color-renderable_pixel_format_sizes","kind":"article","role":"article","url":"/documentation/metal/textures/understanding_color-renderable_pixel_format_sizes","abstract":[{"type":"text","text":"Know the size limits of pixel formats used by color render targets in iOS and tvOS GPUs."}]},"Improving Filtering Quality and Sampling Performance":{"title":"Improving Filtering Quality and Sampling Performance","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance","abstract":[{"type":"text","text":"Provide multiple levels of detail for your textures by using mipmaps."}]},"Creating a Mipmapped Texture":{"title":"Creating a Mipmapped Texture","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/creating_a_mipmapped_texture","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/creating_a_mipmapped_texture"},"Copying Data into or out of Mipmaps":{"title":"Copying Data into or out of Mipmaps","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/copying_data_into_or_out_of_mipmaps","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/copying_data_into_or_out_of_mipmaps","abstract":[{"type":"text","text":"Specify which mipmaps are affected by the data transfer."}]},"Generating Mipmap Data":{"title":"Generating Mipmap Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/generating_mipmap_data","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/generating_mipmap_data","abstract":[{"type":"text","text":"Create your mipmaps either when you author content or at runtime."}]},"Adding Mipmap Filtering to Samplers":{"title":"Adding Mipmap Filtering to Samplers","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/adding_mipmap_filtering_to_samplers","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/adding_mipmap_filtering_to_samplers","abstract":[{"type":"text","text":"Specify how the GPU samples mipmaps in your textures."}]},"Managing Texture Memory":{"title":"Managing Texture Memory","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory","kind":"article","role":"article","url":"/documentation/metal/textures/managing_texture_memory","abstract":[{"type":"text","text":"Take direct control of memory allocation for texture data by using sparse textures."}]},"Creating Sparse Heaps and Sparse Textures":{"title":"Creating Sparse Heaps and Sparse Textures","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/creating_sparse_heaps_and_sparse_textures","kind":"article","role":"article","url":"/documentation/metal/textures/managing_texture_memory/creating_sparse_heaps_and_sparse_textures","abstract":[{"type":"text","text":"Allocate memory for sparse textures by creating a sparse heap."}]},"Assigning Memory to Sparse Textures":{"title":"Assigning Memory to Sparse Textures","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/assigning_memory_to_sparse_textures","kind":"article","role":"article","url":"/documentation/metal/textures/managing_texture_memory/assigning_memory_to_sparse_textures","abstract":[{"type":"text","text":"Use a resource state encoder to allocate and deallocate sparse tiles for a sparse texture."}]},"Converting Between Pixel Regions and Sparse Tile Regions":{"title":"Converting Between Pixel Regions and Sparse Tile Regions","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/converting_between_pixel_regions_and_sparse_tile_regions","kind":"article","role":"article","url":"/documentation/metal/textures/managing_texture_memory/converting_between_pixel_regions_and_sparse_tile_regions","abstract":[{"type":"text","text":"Learn how a sparse texture's contents are organized in memory."}]},"Reading and Writing to Sparse Textures":{"title":"Reading and Writing to Sparse Textures","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/reading_and_writing_to_sparse_textures","kind":"article","role":"article","url":"/documentation/metal/textures/managing_texture_memory/reading_and_writing_to_sparse_textures","abstract":[{"type":"text","text":"Decide how to handle access to unmapped texture regions."}]},"Restricting Access to Specific Mipmaps":{"title":"Restricting Access to Specific Mipmaps","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/restricting_access_to_specific_mipmaps","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/restricting_access_to_specific_mipmaps","abstract":[{"type":"text","text":"Set the range of mipmap levels that a sampler can access."}]},"Determining Which Mipmaps the GPU Will Try to Access":{"title":"Determining Which Mipmaps the GPU Will Try to Access","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/determining_which_mipmaps_the_gpu_will_try_to_access","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/determining_which_mipmaps_the_gpu_will_try_to_access","abstract":[{"type":"text","text":"Get information at runtime about mipmaps the GPU will sample."}]},"Dynamically Adjusting Texture Level of Detail":{"title":"Dynamically Adjusting Texture Level of Detail","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/dynamically_adjusting_texture_level_of_detail","kind":"article","role":"article","url":"/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/dynamically_adjusting_texture_level_of_detail","abstract":[{"type":"text","text":"Defer generating or loading larger mipmaps until that level of detail is needed."}]},"Estimating How Often a Texture Region Is Accessed":{"title":"Estimating How Often a Texture Region Is Accessed","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/estimating_how_often_a_texture_region_is_accessed","kind":"article","role":"article","url":"/documentation/metal/textures/managing_texture_memory/estimating_how_often_a_texture_region_is_accessed","abstract":[{"type":"text","text":"Use texture access patterns to determine when you need to map a texture region."}]},"About Argument Buffers":{"title":"About Argument Buffers","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/buffers/about_argument_buffers","kind":"article","role":"article","url":"/documentation/metal/buffers/about_argument_buffers","abstract":[{"type":"text","text":"Improve your app’s performance by grouping your resources into an argument buffer."}]},"Indexing Argument Buffers":{"title":"Indexing Argument Buffers","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/buffers/indexing_argument_buffers","kind":"article","role":"article","url":"/documentation/metal/buffers/indexing_argument_buffers","abstract":[{"type":"text","text":"Assign resource indices within an argument buffer."}]},"Tracking the Resource Residency of Argument Buffers":{"title":"Tracking the Resource Residency of Argument Buffers","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/buffers/tracking_the_resource_residency_of_argument_buffers","kind":"article","role":"article","url":"/documentation/metal/buffers/tracking_the_resource_residency_of_argument_buffers","abstract":[{"type":"text","text":"Optimize resource performance within an argument buffer."}]},"Creating an Indirect Command Buffer":{"title":"Creating an Indirect Command Buffer","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/indirect_command_buffers/creating_an_indirect_command_buffer","kind":"article","role":"article","url":"/documentation/metal/indirect_command_buffers/creating_an_indirect_command_buffer","abstract":[{"type":"text","text":"Configure a descriptor to specify the properties of an indirect command buffer."}]},"Exporting Memory Viewer Information":{"title":"Exporting Memory Viewer Information","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/exporting_memory_viewer_information","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/exporting_memory_viewer_information","abstract":[{"type":"text","text":"Export data to share with other members of your team or to analyze later."}]},"Reducing Your Memory Footprint":{"title":"Reducing Your Memory Footprint","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/reducing_your_memory_footprint","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/reducing_your_memory_footprint","abstract":[{"type":"text","text":"Find ways to reduce memory consumption in your app by using Memory Viewer. "}]},"Setting Load and Store Actions":{"title":"Setting Load and Store Actions","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/mtlrenderpassdescriptor/setting_load_and_store_actions","kind":"article","role":"article","url":"/documentation/metal/mtlrenderpassdescriptor/setting_load_and_store_actions","abstract":[{"type":"text","text":"Set actions that define how a render pass loads and stores a render target."}]},"Generating Multiple Output Vertex Streams from One Input Stream":{"title":"Generating Multiple Output Vertex Streams from One Input Stream","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/generating_multiple_output_vertex_streams_from_one_input_stream","kind":"article","role":"article","url":"/documentation/metal/generating_multiple_output_vertex_streams_from_one_input_stream","abstract":[{"type":"text","text":"Render efficiently to multiple layers or viewports."}]},"Rendering to Multiple Texture Slices in a Draw Command":{"title":"Rendering to Multiple Texture Slices in a Draw Command","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/mtlrenderpassdescriptor/rendering_to_multiple_texture_slices_in_a_draw_command","kind":"article","role":"article","url":"/documentation/metal/mtlrenderpassdescriptor/rendering_to_multiple_texture_slices_in_a_draw_command","abstract":[{"type":"text","text":"Select a destination texture slice in your vertex shader."}]},"Rendering to Multiple Viewports in a Draw Command":{"title":"Rendering to Multiple Viewports in a Draw Command","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/mtlrendercommandencoder/rendering_to_multiple_viewports_in_a_draw_command","kind":"article","role":"article","url":"/documentation/metal/mtlrendercommandencoder/rendering_to_multiple_viewports_in_a_draw_command","abstract":[{"type":"text","text":"Select viewports and their corresponding scissor rectangles in your vertex shader."}]},"Understanding the Metal Shading Language Filename Extension":{"title":"Understanding the Metal Shading Language Filename Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/libraries/understanding_the_metal_shading_language_filename_extension","kind":"article","role":"article","url":"/documentation/metal/libraries/understanding_the_metal_shading_language_filename_extension","abstract":[{"type":"text","text":"Use the "},{"type":"codeVoice","code":".metal"},{"type":"text","text":" filename extension to gain access to Metal's build, profile, and debug tools."}]},"Building a Library with Metal's Command-Line Tools":{"title":"Building a Library with Metal's Command-Line Tools","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/libraries/building_a_library_with_metal_s_command-line_tools","kind":"article","role":"article","url":"/documentation/metal/libraries/building_a_library_with_metal_s_command-line_tools","abstract":[{"type":"text","text":"Use command-line tools to run the Metal compiler toolchain."}]},"Viewing Your Frame Graph":{"title":"Viewing Your Frame Graph","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/viewing_your_frame_graph","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/viewing_your_frame_graph"},"Viewing Your Meshes with the Geometry Viewer":{"title":"Viewing Your Meshes with the Geometry Viewer","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/viewing_your_meshes_with_the_geometry_viewer","kind":"article","role":"article","url":"/documentation/metal/frame_capture_debugging_tools/viewing_your_meshes_with_the_geometry_viewer"},"Diagnosing Metal Programming Issues Early":{"title":"Diagnosing Metal Programming Issues Early","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/diagnosing_metal_programming_issues_early","kind":"article","role":"article","url":"/documentation/metal/diagnosing_metal_programming_issues_early","abstract":[{"type":"text","text":"Identify Metal framework and shader programming errors during development using Xcode’s diagnostic tools."}]},"Diagnosing Memory, Thread, and Crash Issues Early":{"title":"Diagnosing Memory, Thread, and Crash Issues Early","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early","kind":"article","role":"article","url":"/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early"},"Developing Metal Apps that Run in Simulator":{"title":"Developing Metal Apps that Run in Simulator","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/developing_metal_apps_that_run_in_simulator","kind":"article","role":"article","url":"/documentation/metal/developing_metal_apps_that_run_in_simulator","abstract":[{"type":"text","text":"Prototype and test your Metal apps in Simulator."}]},"Using Metal System Trace in Instruments to Profile Your App":{"title":"Using Metal System Trace in Instruments to Profile Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/using_metal_system_trace_in_instruments_to_profile_your_app","kind":"article","role":"article","url":"/documentation/metal/using_metal_system_trace_in_instruments_to_profile_your_app","abstract":[{"type":"text","text":"Smooth out your frame rate by checking for issues in your app's CPU and GPU utilization. "}]},"Reading UNIX Manual Pages":{"title":"Reading UNIX Manual Pages","type":"topic","identifier":"doc://com.apple.documentation/documentation/os/reading_unix_manual_pages","kind":"article","role":"article","url":"/documentation/os/reading_unix_manual_pages"},"Optimizing Performance with the GPU Counters Instrument":{"title":"Optimizing Performance with the GPU Counters Instrument","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument","kind":"article","role":"article","url":"/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument","abstract":[{"type":"text","text":"Examine your app's use of GPU resources in Instruments, and tune your app as needed."}]},"Finding Your App's GPU Shader Occupancy":{"title":"Finding Your App's GPU Shader Occupancy","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/finding_your_app_s_gpu_shader_occupancy","kind":"article","role":"article","url":"/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/finding_your_app_s_gpu_shader_occupancy","abstract":[{"type":"text","text":"Determine how much of the GPU's potential concurrency is in use."}]},"Reducing Shader Bottlenecks":{"title":"Reducing Shader Bottlenecks","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/reducing_shader_bottlenecks","kind":"article","role":"article","url":"/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/reducing_shader_bottlenecks","abstract":[{"type":"text","text":"Determine where your shaders spend the most time by using limiter counters, and take action to alleviate the problems."}]},"Measuring the GPU's Use of Memory Bandwidth":{"title":"Measuring the GPU's Use of Memory Bandwidth","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/measuring_the_gpu_s_use_of_memory_bandwidth","kind":"article","role":"article","url":"/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/measuring_the_gpu_s_use_of_memory_bandwidth","abstract":[{"type":"text","text":"Determine whether your app accesses memory correctly by using bandwidth counters."}]},"Porting Your Metal Code to Apple Silicon":{"title":"Porting Your Metal Code to Apple Silicon","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple-silicon/porting-your-metal-code-to-apple-silicon","kind":"article","role":"article","url":"/documentation/apple-silicon/porting-your-metal-code-to-apple-silicon","abstract":[{"type":"text","text":"Create a version of your Metal app that runs on both Apple silicon and Intel-based Mac computers."}]},"Setting Up a Command Structure":{"title":"Setting Up a Command Structure","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/setting_up_a_command_structure","kind":"article","role":"article","url":"/documentation/metal/setting_up_a_command_structure","abstract":[{"type":"text","text":"Discover how Metal executes commands on a GPU."}]},"Preparing Your Metal App to Run in the Background":{"title":"Preparing Your Metal App to Run in the Background","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/preparing_your_metal_app_to_run_in_the_background","kind":"article","role":"article","url":"/documentation/metal/preparing_your_metal_app_to_run_in_the_background","abstract":[{"type":"text","text":"Prepare your app to move into the background by pausing future GPU use and ensuring  previous work is scheduled."}]},"Preparing Your UI to Run in the Background":{"title":"Preparing Your UI to Run in the Background","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background"},"Correlating CPU and GPU Timestamps":{"title":"Correlating CPU and GPU Timestamps","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/counter_sampling/correlating_cpu_and_gpu_timestamps","kind":"article","role":"article","url":"/documentation/metal/counter_sampling/correlating_cpu_and_gpu_timestamps","abstract":[{"type":"text","text":"Accurately compare CPU and GPU timestamps by converting GPU timestamps into the CPU’s time base."}]},"Resolving Counter Samples to Read the Data":{"title":"Resolving Counter Samples to Read the Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/counter_sampling/resolving_counter_samples_to_read_the_data","kind":"article","role":"article","url":"/documentation/metal/counter_sampling/resolving_counter_samples_to_read_the_data","abstract":[{"type":"text","text":"Convert GPU samples into a device-independent format to read the counter sample data."}]},"Checking for GPU Counter Support":{"title":"Checking for GPU Counter Support","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/counter_sampling/checking_for_gpu_counter_support","kind":"article","role":"article","url":"/documentation/metal/counter_sampling/checking_for_gpu_counter_support","abstract":[{"type":"text","text":"Query the GPU for supported counter sets."}]},"Creating Counter Sample Buffers to Hold Counter Data":{"title":"Creating Counter Sample Buffers to Hold Counter Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/counter_sampling/creating_counter_sample_buffers_to_hold_counter_data","kind":"article","role":"article","url":"/documentation/metal/counter_sampling/creating_counter_sample_buffers_to_hold_counter_data","abstract":[{"type":"text","text":"Use GPU-accessible memory to store sampling data."}]},"Sampling GPU Data into Counter Sample Buffers":{"title":"Sampling GPU Data into Counter Sample Buffers","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/counter_sampling/sampling_gpu_data_into_counter_sample_buffers","kind":"article","role":"article","url":"/documentation/metal/counter_sampling/sampling_gpu_data_into_counter_sample_buffers","abstract":[{"type":"text","text":"Determine when to sample counters when you encode Metal commands."}]},"Creating Threads and Threadgroups":{"title":"Creating Threads and Threadgroups","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/creating_threads_and_threadgroups","kind":"article","role":"article","url":"/documentation/metal/creating_threads_and_threadgroups","abstract":[{"type":"text","text":"Learn how Metal organizes compute-processing workloads."}]},"Calculating Threadgroup and Grid Sizes":{"title":"Calculating Threadgroup and Grid Sizes","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/calculating_threadgroup_and_grid_sizes","kind":"article","role":"article","url":"/documentation/metal/calculating_threadgroup_and_grid_sizes","abstract":[{"type":"text","text":"Calculate the optimum sizes for threadgroups and grids when dispatching compute-processing workloads."}]},"Viewing Your GPU Workload with the Metal Debugger":{"title":"Viewing Your GPU Workload with the Metal Debugger","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/basic_tasks_and_concepts/viewing_your_gpu_workload_with_the_metal_debugger","kind":"article","role":"article","url":"/documentation/metal/basic_tasks_and_concepts/viewing_your_gpu_workload_with_the_metal_debugger","abstract":[{"type":"text","text":"Step through your app's state on the GPU using various Metal tools in Xcode. "}]},"Displaying HDR Content in a Metal Layer":{"title":"Displaying HDR Content in a Metal Layer","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer","kind":"article","role":"article","url":"/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer","abstract":[{"type":"text","text":"Bring your high dynamic range (HDR) content to compatible Mac displays."}]},"Using Color Spaces to Display HDR Content":{"title":"Using Color Spaces to Display HDR Content","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_color_spaces_to_display_hdr_content","kind":"article","role":"article","url":"/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_color_spaces_to_display_hdr_content","abstract":[{"type":"text","text":"Use a color space when you don't need to edit or process the pixel data."}]},"Determining Support for EDR Values ":{"title":"Determining Support for EDR Values ","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/determining_support_for_edr_values","kind":"article","role":"article","url":"/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/determining_support_for_edr_values","abstract":[{"type":"text","text":"Check whether a display supports EDR."}]},"Using System Tone Mapping on Video Content":{"title":"Using System Tone Mapping on Video Content","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_system_tone_mapping_on_video_content","kind":"article","role":"article","url":"/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_system_tone_mapping_on_video_content","abstract":[{"type":"text","text":"Use EDR metadata to apply the default system tone mapping to a layer."}]},"Performing Your Own Tone Mapping":{"title":"Performing Your Own Tone Mapping","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/performing_your_own_tone_mapping","kind":"article","role":"article","url":"/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/performing_your_own_tone_mapping","abstract":[{"type":"text","text":"Apply your own tone mapping to get the exact behavior you want."}]},"Implementing Tone Mapping on Reference Displays":{"title":"Implementing Tone Mapping on Reference Displays","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/implementing_tone_mapping_on_reference_displays","kind":"article","role":"article","url":"/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/implementing_tone_mapping_on_reference_displays","abstract":[{"type":"text","text":"Detect reference displays and keep your content within the capabilities of the display hardware."}]}}}
+{
+  "articles": {
+    "Using Metal Feature Set Tables": {
+      "title": "Using Metal Feature Set Tables",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_features/using_metal_feature_set_tables",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_features/using_metal_feature_set_tables"
+    },
+    "Understanding GPU Family 4": {
+      "title": "Understanding GPU Family 4",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_features/understanding_gpu_family_4"
+    },
+    "About Imageblocks": {
+      "title": "About Imageblocks",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_imageblocks",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_features/understanding_gpu_family_4/about_imageblocks",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how imageblocks allow you to define and manipulate custom per-pixel data structures in high-bandwidth tile memory."
+        }
+      ]
+    },
+    "About Tile Shading": {
+      "title": "About Tile Shading",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_tile_shading",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_features/understanding_gpu_family_4/about_tile_shading",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about combining rendering and compute operations into a single render pass while sharing local memory."
+        }
+      ]
+    },
+    "About Raster Order Groups": {
+      "title": "About Raster Order Groups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_raster_order_groups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_features/understanding_gpu_family_4/about_raster_order_groups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about precisely controlling the order of parallel fragment shader threads accessing the same pixel coordinates."
+        }
+      ]
+    },
+    "About Enhanced MSAA and Imageblock Sample Coverage Control": {
+      "title": "About Enhanced MSAA and Imageblock Sample Coverage Control",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_features/understanding_gpu_family_4/about_enhanced_msaa_and_imageblock_sample_coverage_control",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_features/understanding_gpu_family_4/about_enhanced_msaa_and_imageblock_sample_coverage_control",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about accessing multisample tracking data within a tile shader, enabling development of custom MSAA resolve algorithms, and more."
+        }
+      ]
+    },
+    "Getting the Default GPU": {
+      "title": "Getting the Default GPU",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/getting_the_default_gpu",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/getting_the_default_gpu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select the system's default GPU device on which to run your Metal code. "
+        }
+      ]
+    },
+    "Finding GPUs on macOS": {
+      "title": "Finding GPUs on macOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/finding_gpus_on_macos",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_selection_in_macos/finding_gpus_on_macos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Obtain, identify, and choose suitable GPUs for your app."
+        }
+      ]
+    },
+    "Getting the GPU that Drives a View's Display": {
+      "title": "Getting the GPU that Drives a View's Display",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/getting_the_gpu_that_drives_a_view_s_display",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_selection_in_macos/getting_the_gpu_that_drives_a_view_s_display"
+    },
+    "Handling External GPU Additions and Removals": {
+      "title": "Handling External GPU Additions and Removals",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/handling_external_gpu_additions_and_removals",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_selection_in_macos/handling_external_gpu_additions_and_removals"
+    },
+    "Understanding External GPUs": {
+      "title": "Understanding External GPUs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/understanding_external_gpus",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_selection_in_macos/understanding_external_gpus",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to support external GPUs in your macOS apps and games."
+        }
+      ]
+    },
+    "Understanding Multi-GPU and Multi-Display Setups": {
+      "title": "Understanding Multi-GPU and Multi-Display Setups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/understanding_multi-gpu_and_multi-display_setups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_selection_in_macos/understanding_multi-gpu_and_multi-display_setups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about the different ways that a user can connect external GPUs and external displays to a Mac computer."
+        }
+      ]
+    },
+    "Understanding GPU Bandwidth": {
+      "title": "Understanding GPU Bandwidth",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/understanding_gpu_bandwidth",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/gpu_selection_in_macos/understanding_gpu_bandwidth",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about some of the main factors that affect bandwidth between a GPU and a system on a Mac."
+        }
+      ]
+    },
+    "Choosing a Resource Storage Mode in macOS": {
+      "title": "Choosing a Resource Storage Mode in macOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_macos",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_macos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Choose an appropriate storage mode for your macOS resources."
+        }
+      ]
+    },
+    "Setting Resource Storage Modes": {
+      "title": "Setting Resource Storage Modes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/setting_resource_storage_modes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/setting_resource_storage_modes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set a storage mode that defines the memory location and access permissions of a resource."
+        }
+      ]
+    },
+    "Choosing a Resource Storage Mode in iOS and tvOS": {
+      "title": "Choosing a Resource Storage Mode in iOS and tvOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_ios_and_tvos",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/setting_resource_storage_modes/choosing_a_resource_storage_mode_in_ios_and_tvos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Choose an appropriate storage mode for your iOS and tvOS resources."
+        }
+      ]
+    },
+    "Copying Data to a Private Resource": {
+      "title": "Copying Data to a Private Resource",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/copying_data_to_a_private_resource",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/copying_data_to_a_private_resource",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a blit command encoder to copy buffer or texture data to a private resource."
+        }
+      ]
+    },
+    "Synchronizing a Managed Resource": {
+      "title": "Synchronizing a Managed Resource",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronizing_a_managed_resource",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/synchronizing_a_managed_resource",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Synchronize the contents of a managed resource for the CPU or GPU."
+        }
+      ]
+    },
+    "Transferring Data Between Connected GPUs": {
+      "title": "Transferring Data Between Connected GPUs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/transferring_data_between_connected_gpus",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/transferring_data_between_connected_gpus",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use high-speed connections between GPUs to transfer data quickly."
+        }
+      ]
+    },
+    "Synchronizing Events Across Multiple Devices": {
+      "title": "Synchronizing Events Across Multiple Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_events_across_multiple_devices",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/synchronization/synchronizing_events_across_multiple_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use shareable events to synchronize your app’s work across multiple devices."
+        }
+      ]
+    },
+    "Synchronizing Events Within a Single Device": {
+      "title": "Synchronizing Events Within a Single Device",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_events_within_a_single_device",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/synchronization/synchronizing_events_within_a_single_device",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use nonshareable events to synchronize your app’s work within a single device."
+        }
+      ]
+    },
+    "About Synchronization Events": {
+      "title": "About Synchronization Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronization/about_synchronization_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/synchronization/about_synchronization_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Synchronize access to resources in your app by signaling events."
+        }
+      ]
+    },
+    "Synchronizing Events Between a GPU and the CPU": {
+      "title": "Synchronizing Events Between a GPU and the CPU",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_events_between_a_gpu_and_the_cpu",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/synchronization/synchronizing_events_between_a_gpu_and_the_cpu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use shareable events to synchronize your app's work between a GPU and the CPU. "
+        }
+      ]
+    },
+    "Reducing the Memory Footprint of Metal Apps": {
+      "title": "Reducing the Memory Footprint of Metal Apps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/reducing_the_memory_footprint_of_metal_apps",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/reducing_the_memory_footprint_of_metal_apps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn best practices for using memory efficiently in iOS and tvOS."
+        }
+      ]
+    },
+    "Gathering Information About Memory Use": {
+      "title": "Gathering Information About Memory Use",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_memory_use/gathering_information_about_memory_use",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_memory_use/gathering_information_about_memory_use"
+    },
+    "Enabling Frame Capture": {
+      "title": "Enabling Frame Capture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/enabling_frame_capture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/enabling_frame_capture"
+    },
+    "Capturing GPU Command Data Programmatically": {
+      "title": "Capturing GPU Command Data Programmatically",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/capturing_gpu_command_data_programmatically",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/capturing_gpu_command_data_programmatically"
+    },
+    "Creating a Custom Capture Scope": {
+      "title": "Creating a Custom Capture Scope",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/creating_a_custom_capture_scope",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/creating_a_custom_capture_scope",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use custom capture scopes to control which commands get captured."
+        }
+      ]
+    },
+    "Enhancing Frame Capture by Using Labels": {
+      "title": "Enhancing Frame Capture by Using Labels",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/enhancing_frame_capture_by_using_labels",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/enhancing_frame_capture_by_using_labels"
+    },
+    "Capturing a Frame Using a Breakpoint": {
+      "title": "Capturing a Frame Using a Breakpoint",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/capturing_a_frame_using_a_breakpoint",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/capturing_a_frame_using_a_breakpoint",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Capture a Metal frame at a breakpoint in your app by using Xcode's breakpoint actions."
+        }
+      ]
+    },
+    "Developing and Debugging Metal Shaders": {
+      "title": "Developing and Debugging Metal Shaders",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/shader_authoring/developing_and_debugging_metal_shaders",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/shader_authoring/developing_and_debugging_metal_shaders",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Step through your app's shaders to inspect their variables during execution, and use a live preview to enhance development."
+        }
+      ]
+    },
+    "Optimizing Performance with the Shader Profiler": {
+      "title": "Optimizing Performance with the Shader Profiler",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/shader_authoring/optimizing_performance_with_the_shader_profiler",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/shader_authoring/optimizing_performance_with_the_shader_profiler"
+    },
+    "Optimizing Performance with GPU Counters": {
+      "title": "Optimizing Performance with GPU Counters",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/render_pipelines/optimizing_performance_with_gpu_counters",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/render_pipelines/optimizing_performance_with_gpu_counters",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Examine granular metrics for your rendering or compute calls, and tune your app as needed. "
+        }
+      ]
+    },
+    "Optimizing Performance with Pipeline Statistics": {
+      "title": "Optimizing Performance with Pipeline Statistics",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/render_pipelines/optimizing_performance_with_pipeline_statistics",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/render_pipelines/optimizing_performance_with_pipeline_statistics",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Decide how to tune your encoder performance by identifying your app's longest-running encoders and their primary GPU activity."
+        }
+      ]
+    },
+    "Improving Memory and Resource Usage": {
+      "title": "Improving Memory and Resource Usage",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Analyze and tune your app's Metal memory footprint using Memory Viewer."
+        }
+      ]
+    },
+    "Monitoring Basic Memory Statistics": {
+      "title": "Monitoring Basic Memory Statistics",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Keep track of your app's memory usage by checking statistics in Memory Viewer."
+        }
+      ]
+    },
+    "Analyzing Resources": {
+      "title": "Analyzing Resources",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/analyzing_resources",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/analyzing_resources",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Get details about your app's resources to determine if you can improve your app's memory management."
+        }
+      ]
+    },
+    "Investigating Resource Issues": {
+      "title": "Investigating Resource Issues",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/investigating_resource_issues",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/investigating_resource_issues",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Uncover common problems and fine-tune your app's behavior using data discovered in Memory Viewer."
+        }
+      ]
+    },
+    "Optimizing Texture Data": {
+      "title": "Optimizing Texture Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/optimizing_texture_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/optimizing_texture_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Optimize a texture’s data to improve GPU or CPU access."
+        }
+      ]
+    },
+    "Understanding Color-Renderable Pixel Format Sizes": {
+      "title": "Understanding Color-Renderable Pixel Format Sizes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/understanding_color-renderable_pixel_format_sizes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/understanding_color-renderable_pixel_format_sizes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Know the size limits of pixel formats used by color render targets in iOS and tvOS GPUs."
+        }
+      ]
+    },
+    "Improving Filtering Quality and Sampling Performance": {
+      "title": "Improving Filtering Quality and Sampling Performance",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide multiple levels of detail for your textures by using mipmaps."
+        }
+      ]
+    },
+    "Creating a Mipmapped Texture": {
+      "title": "Creating a Mipmapped Texture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/creating_a_mipmapped_texture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/creating_a_mipmapped_texture"
+    },
+    "Copying Data into or out of Mipmaps": {
+      "title": "Copying Data into or out of Mipmaps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/copying_data_into_or_out_of_mipmaps",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/copying_data_into_or_out_of_mipmaps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Specify which mipmaps are affected by the data transfer."
+        }
+      ]
+    },
+    "Generating Mipmap Data": {
+      "title": "Generating Mipmap Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/generating_mipmap_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/generating_mipmap_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create your mipmaps either when you author content or at runtime."
+        }
+      ]
+    },
+    "Adding Mipmap Filtering to Samplers": {
+      "title": "Adding Mipmap Filtering to Samplers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/adding_mipmap_filtering_to_samplers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/adding_mipmap_filtering_to_samplers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Specify how the GPU samples mipmaps in your textures."
+        }
+      ]
+    },
+    "Managing Texture Memory": {
+      "title": "Managing Texture Memory",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/managing_texture_memory",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Take direct control of memory allocation for texture data by using sparse textures."
+        }
+      ]
+    },
+    "Creating Sparse Heaps and Sparse Textures": {
+      "title": "Creating Sparse Heaps and Sparse Textures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/creating_sparse_heaps_and_sparse_textures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/managing_texture_memory/creating_sparse_heaps_and_sparse_textures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allocate memory for sparse textures by creating a sparse heap."
+        }
+      ]
+    },
+    "Assigning Memory to Sparse Textures": {
+      "title": "Assigning Memory to Sparse Textures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/assigning_memory_to_sparse_textures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/managing_texture_memory/assigning_memory_to_sparse_textures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a resource state encoder to allocate and deallocate sparse tiles for a sparse texture."
+        }
+      ]
+    },
+    "Converting Between Pixel Regions and Sparse Tile Regions": {
+      "title": "Converting Between Pixel Regions and Sparse Tile Regions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/converting_between_pixel_regions_and_sparse_tile_regions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/managing_texture_memory/converting_between_pixel_regions_and_sparse_tile_regions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how a sparse texture's contents are organized in memory."
+        }
+      ]
+    },
+    "Reading and Writing to Sparse Textures": {
+      "title": "Reading and Writing to Sparse Textures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/reading_and_writing_to_sparse_textures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/managing_texture_memory/reading_and_writing_to_sparse_textures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Decide how to handle access to unmapped texture regions."
+        }
+      ]
+    },
+    "Restricting Access to Specific Mipmaps": {
+      "title": "Restricting Access to Specific Mipmaps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/restricting_access_to_specific_mipmaps",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/restricting_access_to_specific_mipmaps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set the range of mipmap levels that a sampler can access."
+        }
+      ]
+    },
+    "Determining Which Mipmaps the GPU Will Try to Access": {
+      "title": "Determining Which Mipmaps the GPU Will Try to Access",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/determining_which_mipmaps_the_gpu_will_try_to_access",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/determining_which_mipmaps_the_gpu_will_try_to_access",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Get information at runtime about mipmaps the GPU will sample."
+        }
+      ]
+    },
+    "Dynamically Adjusting Texture Level of Detail": {
+      "title": "Dynamically Adjusting Texture Level of Detail",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/dynamically_adjusting_texture_level_of_detail",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/improving_filtering_quality_and_sampling_performance/dynamically_adjusting_texture_level_of_detail",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Defer generating or loading larger mipmaps until that level of detail is needed."
+        }
+      ]
+    },
+    "Estimating How Often a Texture Region Is Accessed": {
+      "title": "Estimating How Often a Texture Region Is Accessed",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/textures/managing_texture_memory/estimating_how_often_a_texture_region_is_accessed",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/textures/managing_texture_memory/estimating_how_often_a_texture_region_is_accessed",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use texture access patterns to determine when you need to map a texture region."
+        }
+      ]
+    },
+    "About Argument Buffers": {
+      "title": "About Argument Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/buffers/about_argument_buffers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/buffers/about_argument_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve your app’s performance by grouping your resources into an argument buffer."
+        }
+      ]
+    },
+    "Indexing Argument Buffers": {
+      "title": "Indexing Argument Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/buffers/indexing_argument_buffers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/buffers/indexing_argument_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Assign resource indices within an argument buffer."
+        }
+      ]
+    },
+    "Tracking the Resource Residency of Argument Buffers": {
+      "title": "Tracking the Resource Residency of Argument Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/buffers/tracking_the_resource_residency_of_argument_buffers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/buffers/tracking_the_resource_residency_of_argument_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Optimize resource performance within an argument buffer."
+        }
+      ]
+    },
+    "Creating an Indirect Command Buffer": {
+      "title": "Creating an Indirect Command Buffer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/indirect_command_buffers/creating_an_indirect_command_buffer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/indirect_command_buffers/creating_an_indirect_command_buffer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure a descriptor to specify the properties of an indirect command buffer."
+        }
+      ]
+    },
+    "Exporting Memory Viewer Information": {
+      "title": "Exporting Memory Viewer Information",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/exporting_memory_viewer_information",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/exporting_memory_viewer_information",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Export data to share with other members of your team or to analyze later."
+        }
+      ]
+    },
+    "Reducing Your Memory Footprint": {
+      "title": "Reducing Your Memory Footprint",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/reducing_your_memory_footprint",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/reducing_your_memory_footprint",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Find ways to reduce memory consumption in your app by using Memory Viewer. "
+        }
+      ]
+    },
+    "Setting Load and Store Actions": {
+      "title": "Setting Load and Store Actions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/mtlrenderpassdescriptor/setting_load_and_store_actions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/mtlrenderpassdescriptor/setting_load_and_store_actions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set actions that define how a render pass loads and stores a render target."
+        }
+      ]
+    },
+    "Generating Multiple Output Vertex Streams from One Input Stream": {
+      "title": "Generating Multiple Output Vertex Streams from One Input Stream",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/generating_multiple_output_vertex_streams_from_one_input_stream",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/generating_multiple_output_vertex_streams_from_one_input_stream",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Render efficiently to multiple layers or viewports."
+        }
+      ]
+    },
+    "Rendering to Multiple Texture Slices in a Draw Command": {
+      "title": "Rendering to Multiple Texture Slices in a Draw Command",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/mtlrenderpassdescriptor/rendering_to_multiple_texture_slices_in_a_draw_command",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/mtlrenderpassdescriptor/rendering_to_multiple_texture_slices_in_a_draw_command",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select a destination texture slice in your vertex shader."
+        }
+      ]
+    },
+    "Rendering to Multiple Viewports in a Draw Command": {
+      "title": "Rendering to Multiple Viewports in a Draw Command",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/mtlrendercommandencoder/rendering_to_multiple_viewports_in_a_draw_command",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/mtlrendercommandencoder/rendering_to_multiple_viewports_in_a_draw_command",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select viewports and their corresponding scissor rectangles in your vertex shader."
+        }
+      ]
+    },
+    "Understanding the Metal Shading Language Filename Extension": {
+      "title": "Understanding the Metal Shading Language Filename Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/libraries/understanding_the_metal_shading_language_filename_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/libraries/understanding_the_metal_shading_language_filename_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the "
+        },
+        {
+          "type": "codeVoice",
+          "code": ".metal"
+        },
+        {
+          "type": "text",
+          "text": " filename extension to gain access to Metal's build, profile, and debug tools."
+        }
+      ]
+    },
+    "Building a Library with Metal's Command-Line Tools": {
+      "title": "Building a Library with Metal's Command-Line Tools",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/libraries/building_a_library_with_metal_s_command-line_tools",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/libraries/building_a_library_with_metal_s_command-line_tools",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use command-line tools to run the Metal compiler toolchain."
+        }
+      ]
+    },
+    "Viewing Your Frame Graph": {
+      "title": "Viewing Your Frame Graph",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/viewing_your_frame_graph",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/viewing_your_frame_graph"
+    },
+    "Viewing Your Meshes with the Geometry Viewer": {
+      "title": "Viewing Your Meshes with the Geometry Viewer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/viewing_your_meshes_with_the_geometry_viewer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/frame_capture_debugging_tools/viewing_your_meshes_with_the_geometry_viewer"
+    },
+    "Diagnosing Metal Programming Issues Early": {
+      "title": "Diagnosing Metal Programming Issues Early",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/diagnosing_metal_programming_issues_early",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/diagnosing_metal_programming_issues_early",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Identify Metal framework and shader programming errors during development using Xcode’s diagnostic tools."
+        }
+      ]
+    },
+    "Diagnosing Memory, Thread, and Crash Issues Early": {
+      "title": "Diagnosing Memory, Thread, and Crash Issues Early",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early"
+    },
+    "Developing Metal Apps that Run in Simulator": {
+      "title": "Developing Metal Apps that Run in Simulator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/developing_metal_apps_that_run_in_simulator",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/developing_metal_apps_that_run_in_simulator",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Prototype and test your Metal apps in Simulator."
+        }
+      ]
+    },
+    "Using Metal System Trace in Instruments to Profile Your App": {
+      "title": "Using Metal System Trace in Instruments to Profile Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/using_metal_system_trace_in_instruments_to_profile_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/using_metal_system_trace_in_instruments_to_profile_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Smooth out your frame rate by checking for issues in your app's CPU and GPU utilization. "
+        }
+      ]
+    },
+    "Reading UNIX Manual Pages": {
+      "title": "Reading UNIX Manual Pages",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/os/reading_unix_manual_pages",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/os/reading_unix_manual_pages"
+    },
+    "Optimizing Performance with the GPU Counters Instrument": {
+      "title": "Optimizing Performance with the GPU Counters Instrument",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Examine your app's use of GPU resources in Instruments, and tune your app as needed."
+        }
+      ]
+    },
+    "Finding Your App's GPU Shader Occupancy": {
+      "title": "Finding Your App's GPU Shader Occupancy",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/finding_your_app_s_gpu_shader_occupancy",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/finding_your_app_s_gpu_shader_occupancy",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Determine how much of the GPU's potential concurrency is in use."
+        }
+      ]
+    },
+    "Reducing Shader Bottlenecks": {
+      "title": "Reducing Shader Bottlenecks",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/reducing_shader_bottlenecks",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/reducing_shader_bottlenecks",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Determine where your shaders spend the most time by using limiter counters, and take action to alleviate the problems."
+        }
+      ]
+    },
+    "Measuring the GPU's Use of Memory Bandwidth": {
+      "title": "Measuring the GPU's Use of Memory Bandwidth",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/measuring_the_gpu_s_use_of_memory_bandwidth",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument/measuring_the_gpu_s_use_of_memory_bandwidth",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Determine whether your app accesses memory correctly by using bandwidth counters."
+        }
+      ]
+    },
+    "Porting Your Metal Code to Apple Silicon": {
+      "title": "Porting Your Metal Code to Apple Silicon",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple-silicon/porting-your-metal-code-to-apple-silicon",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple-silicon/porting-your-metal-code-to-apple-silicon",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a version of your Metal app that runs on both Apple silicon and Intel-based Mac computers."
+        }
+      ]
+    },
+    "Setting Up a Command Structure": {
+      "title": "Setting Up a Command Structure",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/setting_up_a_command_structure",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/setting_up_a_command_structure",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Discover how Metal executes commands on a GPU."
+        }
+      ]
+    },
+    "Preparing Your Metal App to Run in the Background": {
+      "title": "Preparing Your Metal App to Run in the Background",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/preparing_your_metal_app_to_run_in_the_background",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/preparing_your_metal_app_to_run_in_the_background",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Prepare your app to move into the background by pausing future GPU use and ensuring  previous work is scheduled."
+        }
+      ]
+    },
+    "Preparing Your UI to Run in the Background": {
+      "title": "Preparing Your UI to Run in the Background",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background"
+    },
+    "Correlating CPU and GPU Timestamps": {
+      "title": "Correlating CPU and GPU Timestamps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/counter_sampling/correlating_cpu_and_gpu_timestamps",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/counter_sampling/correlating_cpu_and_gpu_timestamps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Accurately compare CPU and GPU timestamps by converting GPU timestamps into the CPU’s time base."
+        }
+      ]
+    },
+    "Resolving Counter Samples to Read the Data": {
+      "title": "Resolving Counter Samples to Read the Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/counter_sampling/resolving_counter_samples_to_read_the_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/counter_sampling/resolving_counter_samples_to_read_the_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert GPU samples into a device-independent format to read the counter sample data."
+        }
+      ]
+    },
+    "Checking for GPU Counter Support": {
+      "title": "Checking for GPU Counter Support",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/counter_sampling/checking_for_gpu_counter_support",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/counter_sampling/checking_for_gpu_counter_support",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Query the GPU for supported counter sets."
+        }
+      ]
+    },
+    "Creating Counter Sample Buffers to Hold Counter Data": {
+      "title": "Creating Counter Sample Buffers to Hold Counter Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/counter_sampling/creating_counter_sample_buffers_to_hold_counter_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/counter_sampling/creating_counter_sample_buffers_to_hold_counter_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use GPU-accessible memory to store sampling data."
+        }
+      ]
+    },
+    "Sampling GPU Data into Counter Sample Buffers": {
+      "title": "Sampling GPU Data into Counter Sample Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/counter_sampling/sampling_gpu_data_into_counter_sample_buffers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/counter_sampling/sampling_gpu_data_into_counter_sample_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Determine when to sample counters when you encode Metal commands."
+        }
+      ]
+    },
+    "Creating Threads and Threadgroups": {
+      "title": "Creating Threads and Threadgroups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/creating_threads_and_threadgroups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/creating_threads_and_threadgroups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how Metal organizes compute-processing workloads."
+        }
+      ]
+    },
+    "Calculating Threadgroup and Grid Sizes": {
+      "title": "Calculating Threadgroup and Grid Sizes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/calculating_threadgroup_and_grid_sizes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/calculating_threadgroup_and_grid_sizes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Calculate the optimum sizes for threadgroups and grids when dispatching compute-processing workloads."
+        }
+      ]
+    },
+    "Viewing Your GPU Workload with the Metal Debugger": {
+      "title": "Viewing Your GPU Workload with the Metal Debugger",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/basic_tasks_and_concepts/viewing_your_gpu_workload_with_the_metal_debugger",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/basic_tasks_and_concepts/viewing_your_gpu_workload_with_the_metal_debugger",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Step through your app's state on the GPU using various Metal tools in Xcode. "
+        }
+      ]
+    },
+    "Displaying HDR Content in a Metal Layer": {
+      "title": "Displaying HDR Content in a Metal Layer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Bring your high dynamic range (HDR) content to compatible Mac displays."
+        }
+      ]
+    },
+    "Using Color Spaces to Display HDR Content": {
+      "title": "Using Color Spaces to Display HDR Content",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_color_spaces_to_display_hdr_content",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_color_spaces_to_display_hdr_content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a color space when you don't need to edit or process the pixel data."
+        }
+      ]
+    },
+    "Determining Support for EDR Values ": {
+      "title": "Determining Support for EDR Values ",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/determining_support_for_edr_values",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/determining_support_for_edr_values",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Check whether a display supports EDR."
+        }
+      ]
+    },
+    "Using System Tone Mapping on Video Content": {
+      "title": "Using System Tone Mapping on Video Content",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_system_tone_mapping_on_video_content",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/using_system_tone_mapping_on_video_content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use EDR metadata to apply the default system tone mapping to a layer."
+        }
+      ]
+    },
+    "Performing Your Own Tone Mapping": {
+      "title": "Performing Your Own Tone Mapping",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/performing_your_own_tone_mapping",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/performing_your_own_tone_mapping",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Apply your own tone mapping to get the exact behavior you want."
+        }
+      ]
+    },
+    "Implementing Tone Mapping on Reference Displays": {
+      "title": "Implementing Tone Mapping on Reference Displays",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/implementing_tone_mapping_on_reference_displays",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/drawable_objects/displaying_hdr_content_in_a_metal_layer/implementing_tone_mapping_on_reference_displays",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect reference displays and keep your content within the capabilities of the display hardware."
+        }
+      ]
+    }
+  }
+}

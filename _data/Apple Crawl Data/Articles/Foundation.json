@@ -1,1 +1,74 @@
-{"articles":{"Optimizing App Data for iCloud Backup":{"title":"Optimizing App Data for iCloud Backup","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/optimizing_app_data_for_icloud_backup","kind":"article","role":"article","url":"/documentation/foundation/optimizing_app_data_for_icloud_backup","abstract":[{"type":"text","text":"Minimize the space and the amount of time that iCloud Backup requires for your app data."}]},"About Apple File System":{"title":"About Apple File System","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/file_system/about_apple_file_system","kind":"article","role":"article","url":"/documentation/foundation/file_system/about_apple_file_system","abstract":[{"type":"text","text":"Use high-level APIs to get the most out of Apple File System."}]},"Encoding and Decoding Custom Types":{"title":"Encoding and Decoding Custom Types","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types","kind":"article","role":"article","url":"/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types","abstract":[{"type":"text","text":"Make your data types encodable and decodable for compatibility with external representations such as JSON."}]},"Implementing Handoff in Your App":{"title":"Implementing Handoff in Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/task_management/implementing_handoff_in_your_app","kind":"article","role":"article","url":"/documentation/foundation/task_management/implementing_handoff_in_your_app","abstract":[{"type":"text","text":"Create, send, and receive user activities directly."}]},"Supporting Suggestions in Your App’s Share Extension":{"title":"Supporting Suggestions in Your App’s Share Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/app_extension_support/supporting_suggestions_in_your_app_s_share_extension","kind":"article","role":"article","url":"/documentation/foundation/app_extension_support/supporting_suggestions_in_your_app_s_share_extension","abstract":[{"type":"text","text":"Make your messaging app available for share sheet suggestions and use SiriKit intents to populate your app’s share extension."}]}}}
+{
+  "articles": {
+    "Optimizing App Data for iCloud Backup": {
+      "title": "Optimizing App Data for iCloud Backup",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/optimizing_app_data_for_icloud_backup",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/optimizing_app_data_for_icloud_backup",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Minimize the space and the amount of time that iCloud Backup requires for your app data."
+        }
+      ]
+    },
+    "About Apple File System": {
+      "title": "About Apple File System",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/file_system/about_apple_file_system",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/file_system/about_apple_file_system",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use high-level APIs to get the most out of Apple File System."
+        }
+      ]
+    },
+    "Encoding and Decoding Custom Types": {
+      "title": "Encoding and Decoding Custom Types",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your data types encodable and decodable for compatibility with external representations such as JSON."
+        }
+      ]
+    },
+    "Implementing Handoff in Your App": {
+      "title": "Implementing Handoff in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/task_management/implementing_handoff_in_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/task_management/implementing_handoff_in_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create, send, and receive user activities directly."
+        }
+      ]
+    },
+    "Supporting Suggestions in Your App’s Share Extension": {
+      "title": "Supporting Suggestions in Your App’s Share Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/app_extension_support/supporting_suggestions_in_your_app_s_share_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/app_extension_support/supporting_suggestions_in_your_app_s_share_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your messaging app available for share sheet suggestions and use SiriKit intents to populate your app’s share extension."
+        }
+      ]
+    }
+  }
+}

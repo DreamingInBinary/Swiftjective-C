@@ -1,1 +1,160 @@
-{"articles":{"Verifying Device Support and User Permission":{"title":"Verifying Device Support and User Permission","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/verifying_device_support_and_user_permission","kind":"article","role":"article","url":"/documentation/arkit/verifying_device_support_and_user_permission","abstract":[{"type":"text","text":"Check whether your app can use ARKit and respect user privacy at runtime."}]},"Choosing Which Camera Feed to Augment":{"title":"Choosing Which Camera Feed to Augment","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/choosing_which_camera_feed_to_augment","kind":"article","role":"article","url":"/documentation/arkit/choosing_which_camera_feed_to_augment","abstract":[{"type":"text","text":"Add visual effects to the user's environment in an AR experience through the front or rear camera."}]},"Managing Session Life Cycle and Tracking Quality":{"title":"Managing Session Life Cycle and Tracking Quality","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/managing_session_life_cycle_and_tracking_quality","kind":"article","role":"article","url":"/documentation/arkit/managing_session_life_cycle_and_tracking_quality","abstract":[{"type":"text","text":"Keep the user informed on the current session state and recover from interruptions."}]},"Displaying an AR Experience with Metal":{"title":"Displaying an AR Experience with Metal","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/displaying_an_ar_experience_with_metal","kind":"article","role":"article","url":"/documentation/arkit/displaying_an_ar_experience_with_metal","abstract":[{"type":"text","text":"Control rendering of your app's virtual content on top of a camera feed. "}]},"Previewing a Model with AR Quick Look":{"title":"Previewing a Model with AR Quick Look","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/previewing_a_model_with_ar_quick_look","kind":"article","role":"article","url":"/documentation/arkit/previewing_a_model_with_ar_quick_look","abstract":[{"type":"text","text":"Display a model or scene that the user can move, scale, and share with others. "}]},"Creating 3D Content with Reality Composer":{"title":"Creating 3D Content with Reality Composer","type":"topic","identifier":"doc://com.apple.documentation/documentation/realitykit/creating_3d_content_with_reality_composer","kind":"article","role":"article","url":"/documentation/realitykit/creating_3d_content_with_reality_composer"},"Adding Visual Effects in AR Quick Look and RealityKit":{"title":"Adding Visual Effects in AR Quick Look and RealityKit","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/adding_visual_effects_in_ar_quick_look_and_realitykit","kind":"article","role":"article","url":"/documentation/arkit/adding_visual_effects_in_ar_quick_look_and_realitykit","abstract":[{"type":"text","text":"Balance the appearance and performance of your AR experiences with modeling strategies."}]},"Adding an Apple Pay Button or a Custom Action in AR Quick Look":{"title":"Adding an Apple Pay Button or a Custom Action in AR Quick Look","type":"topic","identifier":"doc://com.apple.documentation/documentation/arkit/adding_an_apple_pay_button_or_a_custom_action_in_ar_quick_look","kind":"article","role":"article","url":"/documentation/arkit/adding_an_apple_pay_button_or_a_custom_action_in_ar_quick_look","abstract":[{"type":"text","text":"Provide a banner that users can tap to make a purchase or perform a custom action in an AR experience."}]},"Starting a Chat from a URL":{"title":"Starting a Chat from a URL","type":"topic","identifier":"doc://com.apple.documentation/documentation/businesschat/starting_a_chat_from_a_url","kind":"article","role":"article","url":"/documentation/businesschat/starting_a_chat_from_a_url"}}}
+{
+  "articles": {
+    "Verifying Device Support and User Permission": {
+      "title": "Verifying Device Support and User Permission",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/verifying_device_support_and_user_permission",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/verifying_device_support_and_user_permission",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Check whether your app can use ARKit and respect user privacy at runtime."
+        }
+      ]
+    },
+    "Choosing Which Camera Feed to Augment": {
+      "title": "Choosing Which Camera Feed to Augment",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/choosing_which_camera_feed_to_augment",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/choosing_which_camera_feed_to_augment",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add visual effects to the user's environment in an AR experience through the front or rear camera."
+        }
+      ]
+    },
+    "Managing Session Life Cycle and Tracking Quality": {
+      "title": "Managing Session Life Cycle and Tracking Quality",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/managing_session_life_cycle_and_tracking_quality",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/managing_session_life_cycle_and_tracking_quality",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Keep the user informed on the current session state and recover from interruptions."
+        }
+      ]
+    },
+    "Displaying an AR Experience with Metal": {
+      "title": "Displaying an AR Experience with Metal",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/displaying_an_ar_experience_with_metal",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/displaying_an_ar_experience_with_metal",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Control rendering of your app's virtual content on top of a camera feed. "
+        }
+      ]
+    },
+    "Previewing a Model with AR Quick Look": {
+      "title": "Previewing a Model with AR Quick Look",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/previewing_a_model_with_ar_quick_look",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/previewing_a_model_with_ar_quick_look",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display a model or scene that the user can move, scale, and share with others. "
+        }
+      ]
+    },
+    "Creating 3D Content with Reality Composer": {
+      "title": "Creating 3D Content with Reality Composer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/creating_3d_content_with_reality_composer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/creating_3d_content_with_reality_composer"
+    },
+    "Adding Visual Effects in AR Quick Look and RealityKit": {
+      "title": "Adding Visual Effects in AR Quick Look and RealityKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/adding_visual_effects_in_ar_quick_look_and_realitykit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/adding_visual_effects_in_ar_quick_look_and_realitykit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Balance the appearance and performance of your AR experiences with modeling strategies."
+        }
+      ]
+    },
+    "Adding an Apple Pay Button or a Custom Action in AR Quick Look": {
+      "title": "Adding an Apple Pay Button or a Custom Action in AR Quick Look",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/adding_an_apple_pay_button_or_a_custom_action_in_ar_quick_look",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/adding_an_apple_pay_button_or_a_custom_action_in_ar_quick_look",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a banner that users can tap to make a purchase or perform a custom action in an AR experience."
+        }
+      ]
+    },
+    "Starting a Chat from a URL": {
+      "title": "Starting a Chat from a URL",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/businesschat/starting_a_chat_from_a_url",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/businesschat/starting_a_chat_from_a_url"
+    },
+    "Understanding World Tracking": {
+      "title": "Understanding World Tracking",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/configuration_objects/understanding_world_tracking",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/configuration_objects/understanding_world_tracking",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Discover features and best practices for building rear-camera AR experiences. "
+        }
+      ]
+    },
+    "Rigging a Model for Motion Capture": {
+      "title": "Rigging a Model for Motion Capture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/content_anchors/rigging_a_model_for_motion_capture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/content_anchors/rigging_a_model_for_motion_capture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure custom 3D models so ARKit’s human body-tracking feature can control them."
+        }
+      ]
+    },
+    "Validating a Model for Motion Capture": {
+      "title": "Validating a Model for Motion Capture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/arkit/content_anchors/validating_a_model_for_motion_capture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/arkit/content_anchors/validating_a_model_for_motion_capture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Verify that your character model matches ARKit’s Motion Capture requirements."
+        }
+      ]
+    }
+  }
+}

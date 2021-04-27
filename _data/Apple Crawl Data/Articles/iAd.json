@@ -1,1 +1,32 @@
-{"articles":{"iAd Framework Documentation Release Notes":{"title":"iAd Framework Documentation Release Notes","type":"topic","identifier":"doc://com.apple.documentation/documentation/iad/iad_framework_documentation_release_notes","kind":"article","role":"article","url":"/documentation/iad/iad_framework_documentation_release_notes","abstract":[{"type":"text","text":"Learn what’s new in the Apple Search Ads Attribution API."}]},"Setting up Apple Search Ads Attribution":{"title":"Setting up Apple Search Ads Attribution","type":"topic","identifier":"doc://com.apple.documentation/documentation/iad/setting_up_apple_search_ads_attribution","kind":"article","role":"article","url":"/documentation/iad/setting_up_apple_search_ads_attribution","abstract":[{"type":"text","text":"Retrieve the attribution dictionary."}]}}}
+{
+  "articles": {
+    "iAd Framework Documentation Release Notes": {
+      "title": "iAd Framework Documentation Release Notes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/iad/iad_framework_documentation_release_notes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/iad/iad_framework_documentation_release_notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn what’s new in the Apple Search Ads Attribution API."
+        }
+      ]
+    },
+    "Setting up Apple Search Ads Attribution": {
+      "title": "Setting up Apple Search Ads Attribution",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/iad/setting_up_apple_search_ads_attribution",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/iad/setting_up_apple_search_ads_attribution",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Retrieve the attribution dictionary."
+        }
+      ]
+    }
+  }
+}

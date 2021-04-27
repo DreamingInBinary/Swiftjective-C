@@ -1,1 +1,498 @@
-{"articles":{"Preventing Insecure Network Connections":{"title":"Preventing Insecure Network Connections","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/preventing_insecure_network_connections","kind":"article","role":"article","url":"/documentation/security/preventing_insecure_network_connections","abstract":[{"type":"text","text":"Enforce secure network links in your app by relying on App Transport Security."}]},"Performing Manual Server Trust Authentication":{"title":"Performing Manual Server Trust Authentication","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication","kind":"article","role":"article","url":"/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication"},"Identifying the Source of Blocked Connections":{"title":"Identifying the Source of Blocked Connections","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/preventing_insecure_network_connections/identifying_the_source_of_blocked_connections","kind":"article","role":"article","url":"/documentation/security/preventing_insecure_network_connections/identifying_the_source_of_blocked_connections","abstract":[{"type":"text","text":"Figure out why App Transport Security denies a network connection."}]},"Notarizing macOS Software Before Distribution":{"title":"Notarizing macOS Software Before Distribution","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution","kind":"article","role":"article","url":"/documentation/xcode/notarizing_macos_software_before_distribution","abstract":[{"type":"text","text":"Give users even more confidence in your macOS software by submitting it to Apple for notarization."}]},"Resolving Common Notarization Issues":{"title":"Resolving Common Notarization Issues","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution/resolving_common_notarization_issues","kind":"article","role":"article","url":"/documentation/xcode/notarizing_macos_software_before_distribution/resolving_common_notarization_issues","abstract":[{"type":"text","text":"Handle common problems reported in the notarization log file, or that arise during ticket stapling."}]},"Customizing the Notarization Workflow":{"title":"Customizing the Notarization Workflow","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow","kind":"article","role":"article","url":"/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow","abstract":[{"type":"text","text":"Notarize your app from the command line to handle special distribution cases."}]},"Customizing the Xcode Archive Process":{"title":"Customizing the Xcode Archive Process","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process","kind":"article","role":"article","url":"/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process","abstract":[{"type":"text","text":"Archive, export, and notarize your app in one step using Xcode post-action build scripts. "}]},"Requesting Access to Protected Resources":{"title":"Requesting Access to Protected Resources","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources","kind":"article","role":"article","url":"/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources"},"Reading UNIX Manual Pages":{"title":"Reading UNIX Manual Pages","type":"topic","identifier":"doc://com.apple.documentation/documentation/os/reading_unix_manual_pages","kind":"article","role":"article","url":"/documentation/os/reading_unix_manual_pages"},"Preparing Your App to Work with Pointer Authentication":{"title":"Preparing Your App to Work with Pointer Authentication","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/preparing_your_app_to_work_with_pointer_authentication","kind":"article","role":"article","url":"/documentation/security/preparing_your_app_to_work_with_pointer_authentication","abstract":[{"type":"text","text":"Test your app against the arm64e architecture to ensure that it works seamlessly with enhanced security features."}]},"Disabling and Enabling System Integrity Protection":{"title":"Disabling and Enabling System Integrity Protection","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/disabling_and_enabling_system_integrity_protection","kind":"article","role":"article","url":"/documentation/security/disabling_and_enabling_system_integrity_protection","abstract":[{"type":"text","text":"Disable system protections only temporarily during development to test drivers, kernel extensions, and other low-level code."}]},"Using the Latest Code Signature Format":{"title":"Using the Latest Code Signature Format","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/using_the_latest_code_signature_format","kind":"article","role":"article","url":"/documentation/xcode/using_the_latest_code_signature_format","abstract":[{"type":"text","text":"Update legacy app code signatures to avoid a warning from iOS."}]},"Applying Code Requirements":{"title":"Applying Code Requirements","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/code_signing_services/applying_code_requirements","kind":"article","role":"article","url":"/documentation/security/code_signing_services/applying_code_requirements","abstract":[{"type":"text","text":"Manage the code requirements that apply to your signed code."}]},"Hosting Guest Code":{"title":"Hosting Guest Code","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/code_signing_services/hosting_guest_code","kind":"article","role":"article","url":"/documentation/security/code_signing_services/hosting_guest_code","abstract":[{"type":"text","text":"Securely launch and manage plug-ins and other executable entities, known as guest code, from within your app acting as a host."}]},"Using Authorization Plug-ins":{"title":"Using Authorization Plug-ins","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/authorization_plug-ins/using_authorization_plug-ins","kind":"article","role":"article","url":"/documentation/security/authorization_plug-ins/using_authorization_plug-ins","abstract":[{"type":"text","text":"Extend authorization services with plug-ins."}]},"Supporting Associated Domains":{"title":"Supporting Associated Domains","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains","kind":"article","role":"article","url":"/documentation/safariservices/supporting_associated_domains","abstract":[{"type":"text","text":"Connect your app and a website to provide both a native app and a browser experience."}]},"Managing Shared Credentials":{"title":"Managing Shared Credentials","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/shared_web_credentials/managing_shared_credentials","kind":"article","role":"article","url":"/documentation/security/shared_web_credentials/managing_shared_credentials","abstract":[{"type":"text","text":"Use shared web credentials to create a seamless experience for the user."}]},"Using the Secure Socket Layer for Network Communication":{"title":"Using the Secure Socket Layer for Network Communication","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/secure_transport/using_the_secure_socket_layer_for_network_communication","kind":"article","role":"article","url":"/documentation/security/secure_transport/using_the_secure_socket_layer_for_network_communication","abstract":[{"type":"text","text":"Establish Secure Sockets Layer (SSL) sessions to facilitate secure communication between client and server."}]},"Working with Concurrency":{"title":"Working with Concurrency","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/working_with_concurrency","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/working_with_concurrency","abstract":[{"type":"text","text":"Learn about thread safety issues related to the certificate, key, and trust services API."}]},"Complying with Encryption Export Regulations":{"title":"Complying with Encryption Export Regulations","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/complying_with_encryption_export_regulations","kind":"article","role":"article","url":"/documentation/security/complying_with_encryption_export_regulations","abstract":[{"type":"text","text":"Declare the use of encryption in your app to streamline the app submission process."}]},"Getting a Certificate":{"title":"Getting a Certificate","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/getting_a_certificate","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/certificates/getting_a_certificate","abstract":[{"type":"text","text":"Obtain a certificate from an identity, from DER-encoded data, or from the keychain."}]},"Importing an Identity":{"title":"Importing an Identity","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/importing_an_identity","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/identities/importing_an_identity","abstract":[{"type":"text","text":"Learn how to import an identity from file."}]},"Evaluating a Trust and Parsing the Result":{"title":"Evaluating a Trust and Parsing the Result","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/evaluating_a_trust_and_parsing_the_result","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/trust/evaluating_a_trust_and_parsing_the_result","abstract":[{"type":"text","text":"Learn what to expect when evaluating a trust object."}]},"Creating a Trust Object":{"title":"Creating a Trust Object","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/creating_a_trust_object","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/trust/creating_a_trust_object","abstract":[{"type":"text","text":"Construct a trust object from a certificate and a policy."}]},"Using Keys for Encryption":{"title":"Using Keys for Encryption","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption","abstract":[{"type":"text","text":"Perform asymmetric and symmetric encryption and decryption using cryptographic keys."}]},"Getting an Existing Key":{"title":"Getting an Existing Key","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/getting_an_existing_key","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/getting_an_existing_key"},"Parsing an Identity":{"title":"Parsing an Identity","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/parsing_an_identity","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/identities/parsing_an_identity"},"Creating an Identity":{"title":"Creating an Identity","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/creating_an_identity","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/identities/creating_an_identity"},"Storing an Identity in the Keychain":{"title":"Storing an Identity in the Keychain","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/storing_an_identity_in_the_keychain","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/identities/storing_an_identity_in_the_keychain"},"Storing a Certificate in the Keychain":{"title":"Storing a Certificate in the Keychain","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/storing_a_certificate_in_the_keychain","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/certificates/storing_a_certificate_in_the_keychain","abstract":[{"type":"text","text":"Store a certificate in the keychain for safekeeping."}]},"Storing a DER-Encoded X.509 Certificate":{"title":"Storing a DER-Encoded X.509 Certificate","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/storing_a_der-encoded_x_509_certificate","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/certificates/storing_a_der-encoded_x_509_certificate","abstract":[{"type":"text","text":"Import and export a certificate from a file."}]},"Storing Keys in the Keychain":{"title":"Storing Keys in the Keychain","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_keychain","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_keychain","abstract":[{"type":"text","text":"Store and access cryptographic keys in the keychain."}]},"Generating New Cryptographic Keys":{"title":"Generating New Cryptographic Keys","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/generating_new_cryptographic_keys","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/generating_new_cryptographic_keys"},"Storing Keys in the Secure Enclave":{"title":"Storing Keys in the Secure Enclave","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_secure_enclave","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_secure_enclave","abstract":[{"type":"text","text":"Create an extra layer of security for your private keys."}]},"Signing and Verifying":{"title":"Signing and Verifying","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/signing_and_verifying","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/signing_and_verifying"},"Storing Keys as Data":{"title":"Storing Keys as Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/storing_keys_as_data","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/keys/storing_keys_as_data"},"Discovering Why a Trust Evaluation Failed":{"title":"Discovering Why a Trust Evaluation Failed","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/discovering_why_a_trust_evaluation_failed","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/trust/discovering_why_a_trust_evaluation_failed"},"Configuring a Trust":{"title":"Configuring a Trust","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/configuring_a_trust","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/trust/configuring_a_trust","abstract":[{"type":"text","text":"Work around a recoverable trust failure."}]},"Examining a Certificate":{"title":"Examining a Certificate","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/examining_a_certificate","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/certificates/examining_a_certificate","abstract":[{"type":"text","text":"Learn how to retrieve properties from a certificate."}]},"Getting Certificate Values":{"title":"Getting Certificate Values","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/getting_certificate_values","kind":"article","role":"article","url":"/documentation/security/certificate_key_and_trust_services/certificates/getting_certificate_values","abstract":[{"type":"text","text":"Obtain all the values associated with a certificate."}]}}}
+{
+  "articles": {
+    "Preventing Insecure Network Connections": {
+      "title": "Preventing Insecure Network Connections",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/preventing_insecure_network_connections",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/preventing_insecure_network_connections",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enforce secure network links in your app by relying on App Transport Security."
+        }
+      ]
+    },
+    "Performing Manual Server Trust Authentication": {
+      "title": "Performing Manual Server Trust Authentication",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication"
+    },
+    "Identifying the Source of Blocked Connections": {
+      "title": "Identifying the Source of Blocked Connections",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/preventing_insecure_network_connections/identifying_the_source_of_blocked_connections",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/preventing_insecure_network_connections/identifying_the_source_of_blocked_connections",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Figure out why App Transport Security denies a network connection."
+        }
+      ]
+    },
+    "Notarizing macOS Software Before Distribution": {
+      "title": "Notarizing macOS Software Before Distribution",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/notarizing_macos_software_before_distribution",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Give users even more confidence in your macOS software by submitting it to Apple for notarization."
+        }
+      ]
+    },
+    "Resolving Common Notarization Issues": {
+      "title": "Resolving Common Notarization Issues",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution/resolving_common_notarization_issues",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/notarizing_macos_software_before_distribution/resolving_common_notarization_issues",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Handle common problems reported in the notarization log file, or that arise during ticket stapling."
+        }
+      ]
+    },
+    "Customizing the Notarization Workflow": {
+      "title": "Customizing the Notarization Workflow",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Notarize your app from the command line to handle special distribution cases."
+        }
+      ]
+    },
+    "Customizing the Xcode Archive Process": {
+      "title": "Customizing the Xcode Archive Process",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Archive, export, and notarize your app in one step using Xcode post-action build scripts. "
+        }
+      ]
+    },
+    "Requesting Access to Protected Resources": {
+      "title": "Requesting Access to Protected Resources",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources"
+    },
+    "Reading UNIX Manual Pages": {
+      "title": "Reading UNIX Manual Pages",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/os/reading_unix_manual_pages",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/os/reading_unix_manual_pages"
+    },
+    "Preparing Your App to Work with Pointer Authentication": {
+      "title": "Preparing Your App to Work with Pointer Authentication",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/preparing_your_app_to_work_with_pointer_authentication",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/preparing_your_app_to_work_with_pointer_authentication",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Test your app against the arm64e architecture to ensure that it works seamlessly with enhanced security features."
+        }
+      ]
+    },
+    "Disabling and Enabling System Integrity Protection": {
+      "title": "Disabling and Enabling System Integrity Protection",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/disabling_and_enabling_system_integrity_protection",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/disabling_and_enabling_system_integrity_protection",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Disable system protections only temporarily during development to test drivers, kernel extensions, and other low-level code."
+        }
+      ]
+    },
+    "Using the Latest Code Signature Format": {
+      "title": "Using the Latest Code Signature Format",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/using_the_latest_code_signature_format",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/using_the_latest_code_signature_format",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update legacy app code signatures to avoid a warning from iOS."
+        }
+      ]
+    },
+    "Applying Code Requirements": {
+      "title": "Applying Code Requirements",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/code_signing_services/applying_code_requirements",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/code_signing_services/applying_code_requirements",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manage the code requirements that apply to your signed code."
+        }
+      ]
+    },
+    "Hosting Guest Code": {
+      "title": "Hosting Guest Code",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/code_signing_services/hosting_guest_code",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/code_signing_services/hosting_guest_code",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Securely launch and manage plug-ins and other executable entities, known as guest code, from within your app acting as a host."
+        }
+      ]
+    },
+    "Using Authorization Plug-ins": {
+      "title": "Using Authorization Plug-ins",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/authorization_plug-ins/using_authorization_plug-ins",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/authorization_plug-ins/using_authorization_plug-ins",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Extend authorization services with plug-ins."
+        }
+      ]
+    },
+    "Supporting Associated Domains": {
+      "title": "Supporting Associated Domains",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/supporting_associated_domains",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Connect your app and a website to provide both a native app and a browser experience."
+        }
+      ]
+    },
+    "Managing Shared Credentials": {
+      "title": "Managing Shared Credentials",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/shared_web_credentials/managing_shared_credentials",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/shared_web_credentials/managing_shared_credentials",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use shared web credentials to create a seamless experience for the user."
+        }
+      ]
+    },
+    "Using the Secure Socket Layer for Network Communication": {
+      "title": "Using the Secure Socket Layer for Network Communication",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/secure_transport/using_the_secure_socket_layer_for_network_communication",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/secure_transport/using_the_secure_socket_layer_for_network_communication",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Establish Secure Sockets Layer (SSL) sessions to facilitate secure communication between client and server."
+        }
+      ]
+    },
+    "Working with Concurrency": {
+      "title": "Working with Concurrency",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/working_with_concurrency",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/working_with_concurrency",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about thread safety issues related to the certificate, key, and trust services API."
+        }
+      ]
+    },
+    "Complying with Encryption Export Regulations": {
+      "title": "Complying with Encryption Export Regulations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/complying_with_encryption_export_regulations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/complying_with_encryption_export_regulations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Declare the use of encryption in your app to streamline the app submission process."
+        }
+      ]
+    },
+    "Getting a Certificate": {
+      "title": "Getting a Certificate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/getting_a_certificate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/certificates/getting_a_certificate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Obtain a certificate from an identity, from DER-encoded data, or from the keychain."
+        }
+      ]
+    },
+    "Importing an Identity": {
+      "title": "Importing an Identity",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/importing_an_identity",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/identities/importing_an_identity",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to import an identity from file."
+        }
+      ]
+    },
+    "Evaluating a Trust and Parsing the Result": {
+      "title": "Evaluating a Trust and Parsing the Result",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/evaluating_a_trust_and_parsing_the_result",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/trust/evaluating_a_trust_and_parsing_the_result",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn what to expect when evaluating a trust object."
+        }
+      ]
+    },
+    "Creating a Trust Object": {
+      "title": "Creating a Trust Object",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/creating_a_trust_object",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/trust/creating_a_trust_object",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Construct a trust object from a certificate and a policy."
+        }
+      ]
+    },
+    "Using Keys for Encryption": {
+      "title": "Using Keys for Encryption",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Perform asymmetric and symmetric encryption and decryption using cryptographic keys."
+        }
+      ]
+    },
+    "Getting an Existing Key": {
+      "title": "Getting an Existing Key",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/getting_an_existing_key",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/getting_an_existing_key"
+    },
+    "Parsing an Identity": {
+      "title": "Parsing an Identity",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/parsing_an_identity",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/identities/parsing_an_identity"
+    },
+    "Creating an Identity": {
+      "title": "Creating an Identity",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/creating_an_identity",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/identities/creating_an_identity"
+    },
+    "Storing an Identity in the Keychain": {
+      "title": "Storing an Identity in the Keychain",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/identities/storing_an_identity_in_the_keychain",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/identities/storing_an_identity_in_the_keychain"
+    },
+    "Storing a Certificate in the Keychain": {
+      "title": "Storing a Certificate in the Keychain",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/storing_a_certificate_in_the_keychain",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/certificates/storing_a_certificate_in_the_keychain",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Store a certificate in the keychain for safekeeping."
+        }
+      ]
+    },
+    "Storing a DER-Encoded X.509 Certificate": {
+      "title": "Storing a DER-Encoded X.509 Certificate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/storing_a_der-encoded_x_509_certificate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/certificates/storing_a_der-encoded_x_509_certificate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Import and export a certificate from a file."
+        }
+      ]
+    },
+    "Storing Keys in the Keychain": {
+      "title": "Storing Keys in the Keychain",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_keychain",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_keychain",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Store and access cryptographic keys in the keychain."
+        }
+      ]
+    },
+    "Generating New Cryptographic Keys": {
+      "title": "Generating New Cryptographic Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/generating_new_cryptographic_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/generating_new_cryptographic_keys"
+    },
+    "Storing Keys in the Secure Enclave": {
+      "title": "Storing Keys in the Secure Enclave",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_secure_enclave",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_secure_enclave",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create an extra layer of security for your private keys."
+        }
+      ]
+    },
+    "Signing and Verifying": {
+      "title": "Signing and Verifying",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/signing_and_verifying",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/signing_and_verifying"
+    },
+    "Storing Keys as Data": {
+      "title": "Storing Keys as Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/keys/storing_keys_as_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/keys/storing_keys_as_data"
+    },
+    "Discovering Why a Trust Evaluation Failed": {
+      "title": "Discovering Why a Trust Evaluation Failed",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/discovering_why_a_trust_evaluation_failed",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/trust/discovering_why_a_trust_evaluation_failed"
+    },
+    "Configuring a Trust": {
+      "title": "Configuring a Trust",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/trust/configuring_a_trust",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/trust/configuring_a_trust",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Work around a recoverable trust failure."
+        }
+      ]
+    },
+    "Examining a Certificate": {
+      "title": "Examining a Certificate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/examining_a_certificate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/certificates/examining_a_certificate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to retrieve properties from a certificate."
+        }
+      ]
+    },
+    "Getting Certificate Values": {
+      "title": "Getting Certificate Values",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/certificate_key_and_trust_services/certificates/getting_certificate_values",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/certificate_key_and_trust_services/certificates/getting_certificate_values",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Obtain all the values associated with a certificate."
+        }
+      ]
+    }
+  }
+}

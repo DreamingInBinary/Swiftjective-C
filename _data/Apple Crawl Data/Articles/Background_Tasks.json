@@ -1,1 +1,48 @@
-{"articles":{"Starting and Terminating Tasks During Development":{"title":"Starting and Terminating Tasks During Development","type":"topic","identifier":"doc://com.apple.documentation/documentation/backgroundtasks/starting_and_terminating_tasks_during_development","kind":"article","role":"article","url":"/documentation/backgroundtasks/starting_and_terminating_tasks_during_development","abstract":[{"type":"text","text":"Use the debugger during development to start tasks and to terminate them before completion."}]},"Choosing Background Strategies for Your App":{"title":"Choosing Background Strategies for Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/backgroundtasks/choosing_background_strategies_for_your_app","kind":"article","role":"article","url":"/documentation/backgroundtasks/choosing_background_strategies_for_your_app","abstract":[{"type":"text","text":"Select the best method of scheduling background runtime for your app."}]},"Downloading Files in the Background":{"title":"Downloading Files in the Background","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/url_loading_system/downloading_files_in_the_background","kind":"article","role":"article","url":"/documentation/foundation/url_loading_system/downloading_files_in_the_background"},"Pushing Background Updates to Your App":{"title":"Pushing Background Updates to Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app","kind":"article","role":"article","url":"/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app"}}}
+{
+  "articles": {
+    "Starting and Terminating Tasks During Development": {
+      "title": "Starting and Terminating Tasks During Development",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/backgroundtasks/starting_and_terminating_tasks_during_development",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/backgroundtasks/starting_and_terminating_tasks_during_development",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the debugger during development to start tasks and to terminate them before completion."
+        }
+      ]
+    },
+    "Choosing Background Strategies for Your App": {
+      "title": "Choosing Background Strategies for Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/backgroundtasks/choosing_background_strategies_for_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/backgroundtasks/choosing_background_strategies_for_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select the best method of scheduling background runtime for your app."
+        }
+      ]
+    },
+    "Downloading Files in the Background": {
+      "title": "Downloading Files in the Background",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/url_loading_system/downloading_files_in_the_background",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/url_loading_system/downloading_files_in_the_background"
+    },
+    "Pushing Background Updates to Your App": {
+      "title": "Pushing Background Updates to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app"
+    }
+  }
+}

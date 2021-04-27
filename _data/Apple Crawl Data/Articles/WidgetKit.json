@@ -1,1 +1,178 @@
-{"articles":{"Making a Configurable Widget":{"identifier":"doc://com.apple.WidgetKit/documentation/WidgetKit/Making-a-Configurable-Widget","abstract":[{"text":"Give users the option to customize their widgets, by adding a custom SiriKit","type":"text"},{"text":" ","type":"text"},{"text":"intent definition to your project.","type":"text"}],"title":"Making a Configurable Widget","role":"article","type":"topic","kind":"article","url":"/documentation/widgetkit/making-a-configurable-widget"},"Keeping a Widget Up To Date":{"abstract":[{"type":"text","text":"Plan your widget’s timeline to show timely, relevant information using"},{"type":"text","text":" "},{"type":"text","text":"dynamic views, and update the timeline when things change."}],"role":"article","kind":"article","url":"/documentation/widgetkit/keeping-a-widget-up-to-date","type":"topic","identifier":"doc://com.apple.WidgetKit/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date","title":"Keeping a Widget Up To Date"},"Accessing Location Information in Widgets":{"abstract":[{"type":"text","text":"Incorporate location information into your widget presentation to make it"},{"type":"text","text":" "},{"type":"text","text":"more relevant and contextual."}],"role":"article","kind":"article","url":"/documentation/widgetkit/accessing-location-information-in-widgets","type":"topic","identifier":"doc://com.apple.WidgetKit/documentation/WidgetKit/Accessing-Location-Information-in-Widgets","title":"Accessing Location Information in Widgets"},"Creating a Widget Extension":{"abstract":[{"type":"text","text":"Add and configure an extension to show your app’s content on the Home screen,"},{"type":"text","text":" "},{"type":"text","text":"Today View, or Notification Center."}],"role":"article","kind":"article","url":"/documentation/widgetkit/creating-a-widget-extension","type":"topic","identifier":"doc://com.apple.WidgetKit/documentation/WidgetKit/Creating-a-Widget-Extension","title":"Creating a Widget Extension"},"Displaying Dynamic Dates in Widgets":{"kind":"article","url":"/documentation/widgetkit/displaying-dynamic-dates","type":"topic","role":"article","identifier":"doc://com.apple.WidgetKit/documentation/WidgetKit/Displaying-Dynamic-Dates","title":"Displaying Dynamic Dates in Widgets","abstract":[{"text":"Show up-to-date, time-based information in your widget even when it","type":"text"},{"text":" ","type":"text"},{"text":"isn’t running.","type":"text"}]},"Requesting Authorization for Location Services":{"identifier":"doc://com.apple.documentation/documentation/corelocation/requesting_authorization_for_location_services","kind":"article","title":"Requesting Authorization for Location Services","url":"/documentation/corelocation/requesting_authorization_for_location_services","role":"article","abstract":[{"type":"text","text":"Ask the user for permission to access their location."}],"type":"topic"},"Choosing the  Location Services Authorization to Request":{"identifier":"doc://com.apple.documentation/documentation/corelocation/choosing_the_location_services_authorization_to_request","kind":"article","title":"Choosing the  Location Services Authorization to Request","url":"/documentation/corelocation/choosing_the_location_services_authorization_to_request","role":"article","abstract":[{"text":"Determine the authorization your app needs to access location data.","type":"text"}],"type":"topic"},"Downloading Files in the Background":{"kind":"article","url":"/documentation/foundation/url_loading_system/downloading_files_in_the_background","role":"article","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/url_loading_system/downloading_files_in_the_background","title":"Downloading Files in the Background","abstract":[{"text":"Create tasks that download files while your app is inactive.","type":"text"}]},"Debugging Widgets":{"role":"article","abstract":[{"type":"text","text":"Set environment variables in Xcode to control your widget’s configuration in"},{"type":"text","text":" "},{"type":"text","text":"the debugger."}],"kind":"article","url":"/documentation/widgetkit/debugging-widgets","type":"topic","identifier":"doc://com.apple.WidgetKit/documentation/WidgetKit/Debugging-Widgets","title":"Debugging Widgets"}}}
+{
+  "articles": {
+    "Making a Configurable Widget": {
+      "type": "topic",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Give users the option to customize their widgets, by adding a custom SiriKit",
+          "type": "text"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "intent definition to your project."
+        }
+      ],
+      "title": "Making a Configurable Widget",
+      "role": "article",
+      "url": "/documentation/widgetkit/making-a-configurable-widget",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Making-a-Configurable-Widget"
+    },
+    "Keeping a Widget Up To Date": {
+      "type": "topic",
+      "url": "/documentation/widgetkit/keeping-a-widget-up-to-date",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date",
+      "title": "Keeping a Widget Up To Date",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Plan your widget’s timeline to show timely, relevant information using",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "dynamic views, and update the timeline when things change.",
+          "type": "text"
+        }
+      ]
+    },
+    "Accessing Location Information in Widgets": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Incorporate location information into your widget presentation to make it"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "type": "text",
+          "text": "more relevant and contextual."
+        }
+      ],
+      "kind": "article",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Accessing-Location-Information-in-Widgets",
+      "title": "Accessing Location Information in Widgets",
+      "role": "article",
+      "url": "/documentation/widgetkit/accessing-location-information-in-widgets",
+      "type": "topic"
+    },
+    "Creating a Widget Extension": {
+      "title": "Creating a Widget Extension",
+      "type": "topic",
+      "url": "/documentation/widgetkit/creating-a-widget-extension",
+      "abstract": [
+        {
+          "text": "Add and configure an extension to show your app’s content on the Home screen,",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Today View, or Notification Center.",
+          "type": "text"
+        }
+      ],
+      "role": "article",
+      "kind": "article",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Creating-a-Widget-Extension"
+    },
+    "Displaying Dynamic Dates in Widgets": {
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Displaying-Dynamic-Dates",
+      "type": "topic",
+      "url": "/documentation/widgetkit/displaying-dynamic-dates",
+      "kind": "article",
+      "role": "article",
+      "title": "Displaying Dynamic Dates in Widgets",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Show up-to-date, time-based information in your widget even when it"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "isn’t running.",
+          "type": "text"
+        }
+      ]
+    },
+    "Requesting Authorization for Location Services": {
+      "title": "Requesting Authorization for Location Services",
+      "kind": "article",
+      "url": "/documentation/corelocation/requesting_authorization_for_location_services",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ask the user for permission to access their location."
+        }
+      ],
+      "role": "article",
+      "identifier": "doc://com.apple.documentation/documentation/corelocation/requesting_authorization_for_location_services"
+    },
+    "Choosing the  Location Services Authorization to Request": {
+      "title": "Choosing the  Location Services Authorization to Request",
+      "kind": "article",
+      "url": "/documentation/corelocation/choosing_the_location_services_authorization_to_request",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Determine the authorization your app needs to access location data."
+        }
+      ],
+      "role": "article",
+      "identifier": "doc://com.apple.documentation/documentation/corelocation/choosing_the_location_services_authorization_to_request"
+    },
+    "Downloading Files in the Background": {
+      "title": "Downloading Files in the Background",
+      "kind": "article",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/url_loading_system/downloading_files_in_the_background",
+      "url": "/documentation/foundation/url_loading_system/downloading_files_in_the_background",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create tasks that download files while your app is inactive."
+        }
+      ],
+      "role": "article",
+      "type": "topic"
+    },
+    "Debugging Widgets": {
+      "kind": "article",
+      "role": "article",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Debugging-Widgets",
+      "url": "/documentation/widgetkit/debugging-widgets",
+      "title": "Debugging Widgets",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set environment variables in Xcode to control your widget’s configuration in"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "the debugger.",
+          "type": "text"
+        }
+      ],
+      "type": "topic"
+    }
+  }
+}

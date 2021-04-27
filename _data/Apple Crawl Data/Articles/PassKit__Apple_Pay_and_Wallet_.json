@@ -1,1 +1,48 @@
-{"articles":{"Setting Up Apple Pay Requirements":{"title":"Setting Up Apple Pay Requirements","type":"topic","identifier":"doc://com.apple.documentation/documentation/passkit/apple_pay/setting_up_apple_pay_requirements","kind":"article","role":"article","url":"/documentation/passkit/apple_pay/setting_up_apple_pay_requirements","abstract":[{"type":"text","text":"Complete the requirements needed to use Apple Pay in your apps."}]},"Configuring Your Environment":{"title":"Configuring Your Environment","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/configuring_your_environment","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/configuring_your_environment"},"Supporting Semantic Tags in Wallet Passes":{"title":"Supporting Semantic Tags in Wallet Passes","type":"topic","identifier":"doc://com.apple.documentation/documentation/passkit/wallet/supporting_semantic_tags_in_wallet_passes","kind":"article","role":"article","url":"/documentation/passkit/wallet/supporting_semantic_tags_in_wallet_passes","abstract":[{"type":"text","text":"Enable the system to offer suggestions for actions related to Wallet passes by adding machine-readable metadata."}]}}}
+{
+  "articles": {
+    "Setting Up Apple Pay Requirements": {
+      "title": "Setting Up Apple Pay Requirements",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/passkit/apple_pay/setting_up_apple_pay_requirements",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/passkit/apple_pay/setting_up_apple_pay_requirements",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Complete the requirements needed to use Apple Pay in your apps."
+        }
+      ]
+    },
+    "Configuring Your Environment": {
+      "title": "Configuring Your Environment",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/configuring_your_environment",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/configuring_your_environment"
+    },
+    "Supporting Semantic Tags in Wallet Passes": {
+      "title": "Supporting Semantic Tags in Wallet Passes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/passkit/wallet/supporting_semantic_tags_in_wallet_passes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/passkit/wallet/supporting_semantic_tags_in_wallet_passes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enable the system to offer suggestions for actions related to passes by adding machine-readable metadata."
+        }
+      ]
+    },
+    "Adding Capabilities to Your App": {
+      "title": "Adding Capabilities to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/adding_capabilities_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/adding_capabilities_to_your_app"
+    }
+  }
+}

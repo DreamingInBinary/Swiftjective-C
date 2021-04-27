@@ -1,1 +1,46 @@
-{"articles":{"Preparing Your App to Play Haptics":{"title":"Preparing Your App to Play Haptics","type":"topic","identifier":"doc://com.apple.documentation/documentation/corehaptics/preparing_your_app_to_play_haptics","kind":"article","role":"article","url":"/documentation/corehaptics/preparing_your_app_to_play_haptics","abstract":[{"type":"text","text":"Set up your app to play haptics."}]},"Playing a Single-Tap Haptic Pattern":{"title":"Playing a Single-Tap Haptic Pattern","type":"topic","identifier":"doc://com.apple.documentation/documentation/corehaptics/playing_a_single-tap_haptic_pattern","kind":"article","role":"article","url":"/documentation/corehaptics/playing_a_single-tap_haptic_pattern","abstract":[{"type":"text","text":"Create and play a transient haptic pattern from a dictionary literal inline."}]},"Representing Haptic Patterns in AHAP Files":{"title":"Representing Haptic Patterns in AHAP Files","type":"topic","identifier":"doc://com.apple.documentation/documentation/corehaptics/representing_haptic_patterns_in_ahap_files","kind":"article","role":"article","url":"/documentation/corehaptics/representing_haptic_patterns_in_ahap_files","abstract":[{"type":"text","text":"Understand the Apple Haptic and Audio Pattern (AHAP) file format."}]}}}
+{
+  "articles": {
+    "Preparing Your App to Play Haptics": {
+      "title": "Preparing Your App to Play Haptics",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/preparing_your_app_to_play_haptics",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/corehaptics/preparing_your_app_to_play_haptics",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up your app to play haptics."
+        }
+      ]
+    },
+    "Playing a Single-Tap Haptic Pattern": {
+      "title": "Playing a Single-Tap Haptic Pattern",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/playing_a_single-tap_haptic_pattern",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/corehaptics/playing_a_single-tap_haptic_pattern",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and play a transient haptic pattern from a dictionary literal inline."
+        }
+      ]
+    },
+    "Representing Haptic Patterns in AHAP Files": {
+      "title": "Representing Haptic Patterns in AHAP Files",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/representing_haptic_patterns_in_ahap_files",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/corehaptics/representing_haptic_patterns_in_ahap_files",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Understand the Apple Haptic and Audio Pattern (AHAP) file format."
+        }
+      ]
+    }
+  }
+}

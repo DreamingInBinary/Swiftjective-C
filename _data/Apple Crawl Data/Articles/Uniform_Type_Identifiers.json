@@ -1,1 +1,18 @@
-{"articles":{"Defining File and Data Types for Your App":{"title":"Defining File and Data Types for Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uniformtypeidentifiers/defining_file_and_data_types_for_your_app","kind":"article","role":"article","url":"/documentation/uniformtypeidentifiers/defining_file_and_data_types_for_your_app","abstract":[{"type":"text","text":"Declare Uniform Type Identifiers to support your app’s proprietary data formats."}]}}}
+{
+  "articles": {
+    "Defining File and Data Types for Your App": {
+      "title": "Defining File and Data Types for Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uniformtypeidentifiers/defining_file_and_data_types_for_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uniformtypeidentifiers/defining_file_and_data_types_for_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Declare uniform type identifiers to support your app’s proprietary data formats."
+        }
+      ]
+    }
+  }
+}

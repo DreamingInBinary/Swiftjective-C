@@ -1,1 +1,46 @@
-{"articles":{"Getting Started as an Apple News Publisher":{"title":"Getting Started as an Apple News Publisher","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_news/getting_started_as_an_apple_news_publisher","kind":"article","role":"article","url":"/documentation/apple_news/getting_started_as_an_apple_news_publisher","abstract":[{"type":"text","text":"Provide information about your publication, choose how to publish content, and submit your application."}]},"Apple News Format Tutorials":{"title":"Apple News Format Tutorials","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_news/apple_news_format_tutorials","kind":"article","role":"article","url":"/documentation/apple_news/apple_news_format_tutorials","abstract":[{"type":"text","text":"Create a basic article and then add advanced design features."}]},"Apple News API Tutorial":{"title":"Apple News API Tutorial","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_news/apple_news_api_tutorial","kind":"article","role":"article","url":"/documentation/apple_news/apple_news_api_tutorial","abstract":[{"type":"text","text":"Request channel data and publish an article using the Apple News API."}]}}}
+{
+  "articles": {
+    "Getting Started as an Apple News Publisher": {
+      "title": "Getting Started as an Apple News Publisher",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_news/getting_started_as_an_apple_news_publisher",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_news/getting_started_as_an_apple_news_publisher",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide information about your publication, choose how to publish content, and submit your application."
+        }
+      ]
+    },
+    "Apple News Format Tutorials": {
+      "title": "Apple News Format Tutorials",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_news/apple_news_format_tutorials",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_news/apple_news_format_tutorials",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a basic article and then add advanced design features."
+        }
+      ]
+    },
+    "Apple News API Tutorial": {
+      "title": "Apple News API Tutorial",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_news/apple_news_api_tutorial",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_news/apple_news_api_tutorial",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request channel data and publish an article using the Apple News API."
+        }
+      ]
+    }
+  }
+}

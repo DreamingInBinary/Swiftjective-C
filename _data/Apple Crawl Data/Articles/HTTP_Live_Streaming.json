@@ -1,1 +1,214 @@
-{"articles":{"Understanding the HTTP Live Streaming Architecture":{"title":"Understanding the HTTP Live Streaming Architecture","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/understanding_the_http_live_streaming_architecture","kind":"article","role":"article","url":"/documentation/http_live_streaming/understanding_the_http_live_streaming_architecture","abstract":[{"type":"text","text":"Understand how the major components of HLS work together to deliver streaming media."}]},"Deploying a Basic HTTP Live Stream":{"title":"Deploying a Basic HTTP Live Stream","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/deploying_a_basic_http_live_stream","kind":"article","role":"article","url":"/documentation/http_live_streaming/deploying_a_basic_http_live_stream","abstract":[{"type":"text","text":"Create a basic webpage to deliver an HTTP Live Stream."}]},"Preparing Audio for HTTP Live Streaming":{"title":"Preparing Audio for HTTP Live Streaming","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/preparing_audio_for_http_live_streaming","kind":"article","role":"article","url":"/documentation/http_live_streaming/preparing_audio_for_http_live_streaming","abstract":[{"type":"text","text":"Encode your media properly to ensure synchronized audio and video playback."}]},"About the EXT-X-VERSION tag":{"title":"About the EXT-X-VERSION tag","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/about_the_ext-x-version_tag","kind":"article","role":"article","url":"/documentation/http_live_streaming/about_the_ext-x-version_tag","abstract":[{"type":"text","text":"Find the protocol version that corresponds with the HLS features your app supports."}]},"About Apple's HTTP Live Streaming Tools":{"title":"About Apple's HTTP Live Streaming Tools","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/about_apple_s_http_live_streaming_tools","kind":"article","role":"article","url":"/documentation/http_live_streaming/about_apple_s_http_live_streaming_tools","abstract":[{"type":"text","text":"Segment your video stream and create media playlists for successful transmission with Apple’s provided tools."}]},"HLS Authoring Specification for Apple Devices":{"title":"HLS Authoring Specification for Apple Devices","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/hls_authoring_specification_for_apple_devices","kind":"article","role":"article","url":"/documentation/http_live_streaming/hls_authoring_specification_for_apple_devices","abstract":[{"type":"text","text":"Learn the requirements for live and VOD audio-video content delivery using HTTP Live Streaming (HLS) to Apple devices."}]},"About the Common Media Application Format with HTTP Live Streaming":{"title":"About the Common Media Application Format with HTTP Live Streaming","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/about_the_common_media_application_format_with_http_live_streaming","kind":"article","role":"article","url":"/documentation/http_live_streaming/about_the_common_media_application_format_with_http_live_streaming","abstract":[{"type":"text","text":"Learn the Common Media Application Format as it applies to HTTP Live Streaming."}]},"Enabling Low-Latency HLS":{"title":"Enabling Low-Latency HLS","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/enabling_low-latency_hls","kind":"article","role":"article","url":"/documentation/http_live_streaming/enabling_low-latency_hls","abstract":[{"type":"text","text":"Add Low-Latency HTTP Live Streaming to your content streams."}]},"Links to Additional Specifications and Videos":{"title":"Links to Additional Specifications and Videos","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/links_to_additional_specifications_and_videos","kind":"article","role":"article","url":"/documentation/http_live_streaming/links_to_additional_specifications_and_videos","abstract":[{"type":"text","text":"Review additional specifications and documents."}]},"Videos about HLS":{"title":"Videos about HLS","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/videos_about_hls","kind":"article","role":"article","url":"/documentation/http_live_streaming/videos_about_hls","abstract":[{"type":"text","text":"Review informational videos about HTTP Live Streaming."}]},"Providing Metadata for xHE-AAC Video Soundtracks":{"title":"Providing Metadata for xHE-AAC Video Soundtracks","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/providing_metadata_for_xhe-aac_video_soundtracks","kind":"article","role":"article","url":"/documentation/http_live_streaming/providing_metadata_for_xhe-aac_video_soundtracks","abstract":[{"type":"text","text":"Ensure volume normalization by including metadata for loudness and dynamic range control."}]},"Adjusting Anchor Loudness":{"title":"Adjusting Anchor Loudness","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/adjusting_anchor_loudness","kind":"article","role":"article","url":"/documentation/http_live_streaming/adjusting_anchor_loudness","abstract":[{"type":"text","text":"Adjust anchor loudness when measurements of speech-gated loudness for a full mix may be inaccurate, such as when speech activity is low."}]},"JavaScript Object Notation (JSON) Chapter Format for HTTP Live Streaming":{"title":"JavaScript Object Notation (JSON) Chapter Format for HTTP Live Streaming","type":"topic","identifier":"doc://com.apple.documentation/documentation/http_live_streaming/javascript_object_notation_json_chapter_format_for_http_live_streaming","kind":"article","role":"article","url":"/documentation/http_live_streaming/javascript_object_notation_json_chapter_format_for_http_live_streaming","abstract":[{"type":"text","text":"Understand the JSON chapter formatting required for HTTP Live Streaming."}]}}}
+{
+  "articles": {
+    "Understanding the HTTP Live Streaming Architecture": {
+      "title": "Understanding the HTTP Live Streaming Architecture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/understanding_the_http_live_streaming_architecture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/understanding_the_http_live_streaming_architecture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Understand how the major components of HLS work together to deliver streaming media."
+        }
+      ]
+    },
+    "Deploying a Basic HTTP Live Stream": {
+      "title": "Deploying a Basic HTTP Live Stream",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/deploying_a_basic_http_live_stream",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/deploying_a_basic_http_live_stream",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a basic webpage to deliver an HTTP Live Stream."
+        }
+      ]
+    },
+    "Preparing Audio for HTTP Live Streaming": {
+      "title": "Preparing Audio for HTTP Live Streaming",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/preparing_audio_for_http_live_streaming",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/preparing_audio_for_http_live_streaming",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Encode your media properly to ensure synchronized audio and video playback."
+        }
+      ]
+    },
+    "About the EXT-X-VERSION tag": {
+      "title": "About the EXT-X-VERSION tag",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/about_the_ext-x-version_tag",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/about_the_ext-x-version_tag",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Find the protocol version that corresponds with the HLS features your app supports."
+        }
+      ]
+    },
+    "About Apple's HTTP Live Streaming Tools": {
+      "title": "About Apple's HTTP Live Streaming Tools",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/about_apple_s_http_live_streaming_tools",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/about_apple_s_http_live_streaming_tools",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Segment your video stream and create media playlists for successful transmission with Apple’s provided tools."
+        }
+      ]
+    },
+    "HLS Authoring Specification for Apple Devices": {
+      "title": "HLS Authoring Specification for Apple Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/hls_authoring_specification_for_apple_devices",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/hls_authoring_specification_for_apple_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn the requirements for live and VOD audio-video content delivery using HTTP Live Streaming (HLS) to Apple devices."
+        }
+      ]
+    },
+    "About the Common Media Application Format with HTTP Live Streaming": {
+      "title": "About the Common Media Application Format with HTTP Live Streaming",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/about_the_common_media_application_format_with_http_live_streaming",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/about_the_common_media_application_format_with_http_live_streaming",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn the Common Media Application Format as it applies to HTTP Live Streaming."
+        }
+      ]
+    },
+    "Enabling Low-Latency HLS": {
+      "title": "Enabling Low-Latency HLS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/enabling_low-latency_hls",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/enabling_low-latency_hls",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add Low-Latency HTTP Live Streaming to your content streams."
+        }
+      ]
+    },
+    "Links to Additional Specifications and Videos": {
+      "title": "Links to Additional Specifications and Videos",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/links_to_additional_specifications_and_videos",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/links_to_additional_specifications_and_videos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review additional specifications and documents."
+        }
+      ]
+    },
+    "Videos about HLS": {
+      "title": "Videos about HLS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/videos_about_hls",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/videos_about_hls",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review informational videos about HTTP Live Streaming."
+        }
+      ]
+    },
+    "Providing Metadata for xHE-AAC Video Soundtracks": {
+      "title": "Providing Metadata for xHE-AAC Video Soundtracks",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/providing_metadata_for_xhe-aac_video_soundtracks",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/providing_metadata_for_xhe-aac_video_soundtracks",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure volume normalization by including metadata for loudness and dynamic range control."
+        }
+      ]
+    },
+    "Adjusting Anchor Loudness": {
+      "title": "Adjusting Anchor Loudness",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/adjusting_anchor_loudness",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/adjusting_anchor_loudness",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adjust anchor loudness when measurements of speech-gated loudness for a full mix may be inaccurate, such as when speech activity is low."
+        }
+      ]
+    },
+    "JavaScript Object Notation (JSON) Chapter Format for HTTP Live Streaming": {
+      "title": "JavaScript Object Notation (JSON) Chapter Format for HTTP Live Streaming",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/javascript_object_notation_json_chapter_format_for_http_live_streaming",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/javascript_object_notation_json_chapter_format_for_http_live_streaming",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Understand the JSON chapter formatting required for HTTP Live Streaming."
+        }
+      ]
+    },
+    "Videos About HLS": {
+      "title": "Videos About HLS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/videos_about_hls",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/videos_about_hls",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review informational videos about HTTP Live Streaming."
+        }
+      ]
+    },
+    "Providing JavaScript Object Notation (JSON) Chapters": {
+      "title": "Providing JavaScript Object Notation (JSON) Chapters",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/http_live_streaming/providing_javascript_object_notation_json_chapters",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/http_live_streaming/providing_javascript_object_notation_json_chapters",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Prepare JSON chapters for HTTP Live Streaming."
+        }
+      ]
+    }
+  }
+}

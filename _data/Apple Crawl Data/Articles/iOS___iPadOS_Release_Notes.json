@@ -1,1 +1,312 @@
-{"articles":{"iOS & iPadOS 13.3.1 Release Notes":{"kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_3_1-release-notes","role":"article","type":"topic","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"title":"iOS & iPadOS 13.3.1 Release Notes","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_3_1-release-notes"},"iOS & iPadOS 14.5 Beta 3 Release Notes":{"type":"topic","kind":"article","url":"/documentation/ios-ipados-release-notes/ios-ipados-14_5-beta-release-notes","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_5-beta-release-notes","title":"iOS & iPadOS 14.5 Beta 3 Release Notes","role":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}]},"iOS & iPadOS 13.3 Release Notes":{"role":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"title":"iOS & iPadOS 13.3 Release Notes","type":"topic","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_3-release-notes","kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_3-release-notes"},"iOS & iPadOS 13.1 Release Notes":{"role":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_1-release-notes","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_1-release-notes","type":"topic","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"title":"iOS & iPadOS 13.1 Release Notes","kind":"article"},"iOS 12.1.3 Release Notes":{"role":"article","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"type":"topic","kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_1_3-release-notes","title":"iOS 12.1.3 Release Notes","url":"/documentation/ios-ipados-release-notes/ios-12_1_3-release-notes"},"iOS & iPadOS 13.6 Release Notes":{"role":"article","title":"iOS & iPadOS 13.6 Release Notes","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"type":"topic","kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_6-release-notes","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_6-release-notes"},"iOS 12.1 Release Notes":{"url":"/documentation/ios-ipados-release-notes/ios-12_1-release-notes","kind":"article","type":"topic","title":"iOS 12.1 Release Notes","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"role":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_1-release-notes"},"iOS & iPadOS 13.5 Release Notes":{"abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_5-release-notes","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_5-release-notes","type":"topic","role":"article","kind":"article","title":"iOS & iPadOS 13.5 Release Notes"},"iOS & iPadOS 14.4 Release Notes":{"role":"article","type":"topic","title":"iOS & iPadOS 14.4 Release Notes","kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_4-release-notes","url":"/documentation/ios-ipados-release-notes/ios-ipados-14_4-release-notes","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}]},"iOS & iPadOS 14.3 Release Notes":{"abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"url":"/documentation/ios-ipados-release-notes/ios-ipados-14_3-release-notes","title":"iOS & iPadOS 14.3 Release Notes","type":"topic","role":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_3-release-notes","kind":"article"},"iOS & iPadOS 14 Release Notes":{"title":"iOS & iPadOS 14 Release Notes","url":"/documentation/ios-ipados-release-notes/ios-ipados-14-release-notes","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"type":"topic","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14-release-notes","role":"article","kind":"article"},"iOS 12.1.1 Release Notes":{"role":"article","kind":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"type":"topic","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_1_1-release-notes","title":"iOS 12.1.1 Release Notes","url":"/documentation/ios-ipados-release-notes/ios-12_1_1-release-notes"},"iOS & iPadOS 13.4 Release Notes":{"url":"/documentation/ios-ipados-release-notes/ios-ipados-13_4-release-notes","kind":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"role":"article","type":"topic","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_4-release-notes","title":"iOS & iPadOS 13.4 Release Notes"},"iOS 12.4 Release Notes":{"role":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_4-release-notes","type":"topic","title":"iOS 12.4 Release Notes","url":"/documentation/ios-ipados-release-notes/ios-12_4-release-notes"},"iOS & iPadOS 13.7 Release Notes":{"title":"iOS & iPadOS 13.7 Release Notes","type":"topic","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_7-release-notes","role":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_7-release-notes","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"kind":"article"},"iOS 13 Release Notes":{"type":"topic","title":"iOS 13 Release Notes","kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-13-release-notes","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"url":"/documentation/ios-ipados-release-notes/ios-13-release-notes","role":"article"},"iOS 12.2 Release Notes":{"role":"article","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"type":"topic","kind":"article","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_2-release-notes","title":"iOS 12.2 Release Notes","url":"/documentation/ios-ipados-release-notes/ios-12_2-release-notes"},"iOS & iPadOS 13.2 Release Notes":{"identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_2-release-notes","type":"topic","title":"iOS & iPadOS 13.2 Release Notes","kind":"article","url":"/documentation/ios-ipados-release-notes/ios-ipados-13_2-release-notes","role":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}]},"iOS 12.3 Release Notes":{"url":"/documentation/ios-ipados-release-notes/ios-12_3-release-notes","role":"article","kind":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"title":"iOS 12.3 Release Notes","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_3-release-notes","type":"topic"},"iOS & iPadOS 14.2 Release Notes":{"type":"topic","kind":"article","url":"/documentation/ios-ipados-release-notes/ios-ipados-14_2-release-notes","identifier":"doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_2-release-notes","title":"iOS & iPadOS 14.2 Release Notes","role":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}]}}}
+{
+  "articles": {
+    "iOS & iPadOS 13.3.1 Release Notes": {
+      "role": "article",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "title": "iOS & iPadOS 13.3.1 Release Notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_3_1-release-notes",
+      "type": "topic",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_3_1-release-notes"
+    },
+    "iOS & iPadOS 14.5 Beta 3 Release Notes": {
+      "type": "topic",
+      "kind": "article",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14_5-beta-release-notes",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_5-beta-release-notes",
+      "title": "iOS & iPadOS 14.5 Beta 3 Release Notes",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ]
+    },
+    "iOS & iPadOS 13.3 Release Notes": {
+      "title": "iOS & iPadOS 13.3 Release Notes",
+      "role": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "kind": "article",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_3-release-notes",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_3-release-notes"
+    },
+    "iOS & iPadOS 13.1 Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_1-release-notes",
+      "kind": "article",
+      "type": "topic",
+      "title": "iOS & iPadOS 13.1 Release Notes",
+      "role": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_1-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ]
+    },
+    "iOS 12.1.3 Release Notes": {
+      "role": "article",
+      "kind": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_1_3-release-notes",
+      "type": "topic",
+      "title": "iOS 12.1.3 Release Notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/ios-ipados-release-notes/ios-12_1_3-release-notes"
+    },
+    "iOS & iPadOS 13.6 Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_6-release-notes",
+      "kind": "article",
+      "title": "iOS & iPadOS 13.6 Release Notes",
+      "role": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_6-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ]
+    },
+    "iOS 12.1 Release Notes": {
+      "type": "topic",
+      "role": "article",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/ios-ipados-release-notes/ios-12_1-release-notes",
+      "kind": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_1-release-notes",
+      "title": "iOS 12.1 Release Notes"
+    },
+    "iOS & iPadOS 13.5 Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_5-release-notes",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "title": "iOS & iPadOS 13.5 Release Notes",
+      "role": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_5-release-notes",
+      "type": "topic"
+    },
+    "iOS & iPadOS 14.4 Release Notes": {
+      "role": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_4-release-notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14_4-release-notes",
+      "type": "topic",
+      "title": "iOS & iPadOS 14.4 Release Notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "kind": "article"
+    },
+    "iOS & iPadOS 14.3 Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14_3-release-notes",
+      "kind": "article",
+      "title": "iOS & iPadOS 14.3 Release Notes",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_3-release-notes",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "type": "topic"
+    },
+    "iOS & iPadOS 14 Release Notes": {
+      "role": "article",
+      "kind": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14-release-notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14-release-notes",
+      "type": "topic",
+      "title": "iOS & iPadOS 14 Release Notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ]
+    },
+    "iOS 12.1.1 Release Notes": {
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_1_1-release-notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-12_1_1-release-notes",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "role": "article",
+      "title": "iOS 12.1.1 Release Notes",
+      "type": "topic"
+    },
+    "iOS & iPadOS 13.4 Release Notes": {
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_4-release-notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_4-release-notes",
+      "type": "topic",
+      "title": "iOS & iPadOS 13.4 Release Notes"
+    },
+    "iOS 12.4 Release Notes": {
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_4-release-notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-12_4-release-notes",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "role": "article",
+      "title": "iOS 12.4 Release Notes",
+      "type": "topic"
+    },
+    "iOS & iPadOS 13.7 Release Notes": {
+      "kind": "article",
+      "title": "iOS & iPadOS 13.7 Release Notes",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_7-release-notes",
+      "type": "topic",
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_7-release-notes",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ]
+    },
+    "iOS 13 Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-13-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-13-release-notes",
+      "title": "iOS 13 Release Notes",
+      "role": "article",
+      "kind": "article"
+    },
+    "iOS 12.2 Release Notes": {
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_2-release-notes",
+      "url": "/documentation/ios-ipados-release-notes/ios-12_2-release-notes",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "title": "iOS 12.2 Release Notes",
+      "type": "topic"
+    },
+    "iOS & iPadOS 13.2 Release Notes": {
+      "type": "topic",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-13_2-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-13_2-release-notes",
+      "title": "iOS & iPadOS 13.2 Release Notes",
+      "role": "article",
+      "kind": "article"
+    },
+    "iOS 12.3 Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-12_3-release-notes",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-12_3-release-notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "kind": "article",
+      "type": "topic",
+      "title": "iOS 12.3 Release Notes",
+      "role": "article"
+    },
+    "iOS & iPadOS 14.2 Release Notes": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14_2-release-notes",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_2-release-notes",
+      "title": "iOS & iPadOS 14.2 Release Notes",
+      "type": "topic",
+      "role": "article",
+      "kind": "article"
+    },
+    "iOS & iPadOS 14.5 Release Notes": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14_5-release-notes",
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_5-release-notes",
+      "title": "iOS & iPadOS 14.5 Release Notes",
+      "kind": "article"
+    },
+    "iOS & iPadOS 14.6 Beta Release Notes": {
+      "url": "/documentation/ios-ipados-release-notes/ios-ipados-14_6-beta-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "identifier": "doc://com.apple.ios-ipados-release-notes/documentation/iOS-iPadOS-Release-Notes/ios-ipados-14_6-beta-release-notes",
+      "title": "iOS & iPadOS 14.6 Beta Release Notes",
+      "role": "article",
+      "kind": "article"
+    }
+  }
+}

@@ -1,1 +1,124 @@
-{"articles":{"Checking for Apple Pay Availability":{"title":"Checking for Apple Pay Availability","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability"},"Configuring Your Environment":{"title":"Configuring Your Environment","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/configuring_your_environment","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/configuring_your_environment","abstract":[{"type":"text","text":"Create your Apple Pay merchant ID and certificates, and verify your domain."}]},"Setting Up Your Server":{"title":"Setting Up Your Server","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/setting_up_your_server","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/setting_up_your_server","abstract":[{"type":"text","text":"Set up your server for secure communications with Apple Pay."}]},"Maintaining Your Environment":{"title":"Maintaining Your Environment","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/maintaining_your_environment","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/maintaining_your_environment","abstract":[{"type":"text","text":"Prevent interruptions in your Apple Pay service by keeping certificates and domain verification current."}]},"Displaying Apple Pay Buttons":{"title":"Displaying Apple Pay Buttons","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons","abstract":[{"type":"text","text":"Use CSS templates to display Apple Pay buttons in Safari."}]},"Styling the Apple Pay Button with CSS":{"title":"Styling the Apple Pay Button with CSS","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/styling_the_apple_pay_button_with_css","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/styling_the_apple_pay_button_with_css","abstract":[{"type":"text","text":"Choose a button color and size to suit your webpage."}]},"Localizing Apple Pay Buttons":{"title":"Localizing Apple Pay Buttons","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/localizing_apple_pay_buttons","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/localizing_apple_pay_buttons","abstract":[{"type":"text","text":"Set the language of an Apple Pay button."}]},"Choosing an API for Implementing Apple Pay on Your Website":{"title":"Choosing an API for Implementing Apple Pay on Your Website","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/choosing_an_api_for_implementing_apple_pay_on_your_website","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/choosing_an_api_for_implementing_apple_pay_on_your_website","abstract":[{"type":"text","text":"Compare Apple Pay JS and Payment Request API to choose the right implementation for your website."}]},"Apple Pay on the Web Version History":{"title":"Apple Pay on the Web Version History","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history","kind":"article","role":"article","url":"/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history","abstract":[{"type":"text","text":"Learn about features in each Apple Pay version."}]}}}
+{
+  "articles": {
+    "Checking for Apple Pay Availability": {
+      "title": "Checking for Apple Pay Availability",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability"
+    },
+    "Configuring Your Environment": {
+      "title": "Configuring Your Environment",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/configuring_your_environment",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/configuring_your_environment",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create your Apple Pay merchant ID and certificates, and verify your domain."
+        }
+      ]
+    },
+    "Setting Up Your Server": {
+      "title": "Setting Up Your Server",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/setting_up_your_server",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/setting_up_your_server",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up your server for secure communications with Apple Pay."
+        }
+      ]
+    },
+    "Maintaining Your Environment": {
+      "title": "Maintaining Your Environment",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/maintaining_your_environment",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/maintaining_your_environment",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Prevent interruptions in your Apple Pay service by keeping certificates and domain verification current."
+        }
+      ]
+    },
+    "Displaying Apple Pay Buttons": {
+      "title": "Displaying Apple Pay Buttons",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use CSS templates to display Apple Pay buttons in Safari."
+        }
+      ]
+    },
+    "Styling the Apple Pay Button with CSS": {
+      "title": "Styling the Apple Pay Button with CSS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/styling_the_apple_pay_button_with_css",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/styling_the_apple_pay_button_with_css",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Choose a button color and size to suit your webpage."
+        }
+      ]
+    },
+    "Localizing Apple Pay Buttons": {
+      "title": "Localizing Apple Pay Buttons",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/localizing_apple_pay_buttons",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/localizing_apple_pay_buttons",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set the language of an Apple Pay button."
+        }
+      ]
+    },
+    "Choosing an API for Implementing Apple Pay on Your Website": {
+      "title": "Choosing an API for Implementing Apple Pay on Your Website",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/choosing_an_api_for_implementing_apple_pay_on_your_website",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/choosing_an_api_for_implementing_apple_pay_on_your_website",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compare Apple Pay JS and Payment Request API to choose the right implementation for your website."
+        }
+      ]
+    },
+    "Apple Pay on the Web Version History": {
+      "title": "Apple Pay on the Web Version History",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about features in each Apple Pay version."
+        }
+      ]
+    }
+  }
+}

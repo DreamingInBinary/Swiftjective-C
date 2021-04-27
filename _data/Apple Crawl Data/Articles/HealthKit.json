@@ -1,1 +1,244 @@
-{"articles":{"Protecting User Privacy":{"title":"Protecting User Privacy","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/protecting_user_privacy","kind":"article","role":"article","url":"/documentation/healthkit/protecting_user_privacy","abstract":[{"type":"text","text":"Respect and safeguard your user’s privacy."}]},"About the HealthKit Framework":{"title":"About the HealthKit Framework","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/about_the_healthkit_framework","kind":"article","role":"article","url":"/documentation/healthkit/about_the_healthkit_framework","abstract":[{"type":"text","text":"Learn about the architecture and design of the HealthKit framework."}]},"Setting Up HealthKit":{"title":"Setting Up HealthKit","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/setting_up_healthkit","kind":"article","role":"article","url":"/documentation/healthkit/setting_up_healthkit","abstract":[{"type":"text","text":"Set up and configure your HealthKit store."}]},"Authorizing Access to Health Data":{"title":"Authorizing Access to Health Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/authorizing_access_to_health_data","kind":"article","role":"article","url":"/documentation/healthkit/authorizing_access_to_health_data","abstract":[{"type":"text","text":"Request permission to read and share data in your app."}]},"Saving Data to HealthKit":{"title":"Saving Data to HealthKit","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/saving_data_to_healthkit","kind":"article","role":"article","url":"/documentation/healthkit/saving_data_to_healthkit","abstract":[{"type":"text","text":"Create and share HealthKit samples."}]},"Reading Data from HealthKit":{"title":"Reading Data from HealthKit","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/reading_data_from_healthkit","kind":"article","role":"article","url":"/documentation/healthkit/reading_data_from_healthkit","abstract":[{"type":"text","text":"Use queries to request sample data from HealthKit."}]},"Accessing Health Records":{"title":"Accessing Health Records","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/samples/accessing_health_records","kind":"article","role":"article","url":"/documentation/healthkit/samples/accessing_health_records","abstract":[{"type":"text","text":"Read clinical record data from the HealthKit store."}]},"Accessing Sample Data in the Simulator":{"title":"Accessing Sample Data in the Simulator","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/samples/accessing_sample_data_in_the_simulator","kind":"article","role":"article","url":"/documentation/healthkit/samples/accessing_sample_data_in_the_simulator","abstract":[{"type":"text","text":"Set up sample accounts to build and test your app."}]},"Adding Digital Signatures":{"title":"Adding Digital Signatures","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/samples/adding_digital_signatures","kind":"article","role":"article","url":"/documentation/healthkit/samples/adding_digital_signatures","abstract":[{"type":"text","text":"Cryptographically sign samples."}]},"Defining and Converting Units and Quantities":{"title":"Defining and Converting Units and Quantities","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/samples/units_and_quantities/defining_and_converting_units_and_quantities","kind":"article","role":"article","url":"/documentation/healthkit/samples/units_and_quantities/defining_and_converting_units_and_quantities","abstract":[{"type":"text","text":"Create and convert units and quantities."}]},"Creating a Workout Route":{"title":"Creating a Workout Route","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/creating_a_workout_route","kind":"article","role":"article","url":"/documentation/healthkit/workouts_and_activity_rings/creating_a_workout_route","abstract":[{"type":"text","text":"Record the user’s route during a workout."}]},"Reading Route Data":{"title":"Reading Route Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/reading_route_data","kind":"article","role":"article","url":"/documentation/healthkit/workouts_and_activity_rings/reading_route_data","abstract":[{"type":"text","text":"Access the user’s route for a workout."}]},"Adding Samples to a Workout":{"title":"Adding Samples to a Workout","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/adding_samples_to_a_workout","kind":"article","role":"article","url":"/documentation/healthkit/workouts_and_activity_rings/adding_samples_to_a_workout","abstract":[{"type":"text","text":"Create associated samples that add details to a workout."}]},"Running Workout Sessions":{"title":"Running Workout Sessions","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/running_workout_sessions","kind":"article","role":"article","url":"/documentation/healthkit/workouts_and_activity_rings/running_workout_sessions","abstract":[{"type":"text","text":"Track a workout on Apple Watch."}]},"Playing Background Audio":{"title":"Playing Background Audio","type":"topic","identifier":"doc://com.apple.documentation/documentation/watchkit/playing_background_audio","kind":"article","role":"article","url":"/documentation/watchkit/playing_background_audio"}}}
+{
+  "articles": {
+    "Protecting User Privacy": {
+      "title": "Protecting User Privacy",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/protecting_user_privacy",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/protecting_user_privacy",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Respect and safeguard your user’s privacy."
+        }
+      ]
+    },
+    "About the HealthKit Framework": {
+      "title": "About the HealthKit Framework",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/about_the_healthkit_framework",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/about_the_healthkit_framework",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about the architecture and design of the HealthKit framework."
+        }
+      ]
+    },
+    "Setting Up HealthKit": {
+      "title": "Setting Up HealthKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/setting_up_healthkit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/setting_up_healthkit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up and configure your HealthKit store."
+        }
+      ]
+    },
+    "Authorizing Access to Health Data": {
+      "title": "Authorizing Access to Health Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/authorizing_access_to_health_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/authorizing_access_to_health_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request permission to read and share data in your app."
+        }
+      ]
+    },
+    "Saving Data to HealthKit": {
+      "title": "Saving Data to HealthKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/saving_data_to_healthkit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/saving_data_to_healthkit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and share HealthKit samples."
+        }
+      ]
+    },
+    "Reading Data from HealthKit": {
+      "title": "Reading Data from HealthKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/reading_data_from_healthkit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/reading_data_from_healthkit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use queries to request sample data from HealthKit."
+        }
+      ]
+    },
+    "Accessing Health Records": {
+      "title": "Accessing Health Records",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_health_records",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/samples/accessing_health_records",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Read clinical record data from the HealthKit store."
+        }
+      ]
+    },
+    "Accessing Sample Data in the Simulator": {
+      "title": "Accessing Sample Data in the Simulator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_sample_data_in_the_simulator",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/samples/accessing_sample_data_in_the_simulator",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up sample accounts to build and test your app."
+        }
+      ]
+    },
+    "Adding Digital Signatures": {
+      "title": "Adding Digital Signatures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/adding_digital_signatures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/samples/adding_digital_signatures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Cryptographically sign samples."
+        }
+      ]
+    },
+    "Defining and Converting Units and Quantities": {
+      "title": "Defining and Converting Units and Quantities",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/units_and_quantities/defining_and_converting_units_and_quantities",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/samples/units_and_quantities/defining_and_converting_units_and_quantities",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and convert units and quantities."
+        }
+      ]
+    },
+    "Creating a Workout Route": {
+      "title": "Creating a Workout Route",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/creating_a_workout_route",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/workouts_and_activity_rings/creating_a_workout_route",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Record the user’s route during a workout."
+        }
+      ]
+    },
+    "Reading Route Data": {
+      "title": "Reading Route Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/reading_route_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/workouts_and_activity_rings/reading_route_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Access the user’s route for a workout."
+        }
+      ]
+    },
+    "Adding Samples to a Workout": {
+      "title": "Adding Samples to a Workout",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/adding_samples_to_a_workout",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/workouts_and_activity_rings/adding_samples_to_a_workout",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create associated samples that add details to a workout."
+        }
+      ]
+    },
+    "Running Workout Sessions": {
+      "title": "Running Workout Sessions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/running_workout_sessions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/workouts_and_activity_rings/running_workout_sessions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Track a workout on Apple Watch."
+        }
+      ]
+    },
+    "Playing Background Audio": {
+      "title": "Playing Background Audio",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/storyboard_support/playing_background_audio",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/storyboard_support/playing_background_audio"
+    },
+    "Preparing Your UI to Run in the Background": {
+      "title": "Preparing Your UI to Run in the Background",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background"
+    },
+    "Executing Statistical Queries": {
+      "title": "Executing Statistical Queries",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/queries/executing_statistical_queries",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/queries/executing_statistical_queries",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and run statistical queries."
+        }
+      ]
+    },
+    "Executing Statistics Collection Queries": {
+      "title": "Executing Statistics Collection Queries",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/queries/executing_statistics_collection_queries",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/queries/executing_statistics_collection_queries",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Calculate statistical data for graphs and charts."
+        }
+      ]
+    }
+  }
+}

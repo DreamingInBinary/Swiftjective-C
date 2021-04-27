@@ -1,1 +1,1372 @@
-{"articles":{"About App Development with UIKit":{"title":"About App Development with UIKit","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/about_app_development_with_uikit","kind":"article","role":"article","url":"/documentation/uikit/about_app_development_with_uikit","abstract":[{"type":"text","text":"Learn about the basic support that UIKit and Xcode provide for your iOS and tvOS apps."}]},"Protecting the User’s Privacy":{"title":"Protecting the User’s Privacy","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy","kind":"article","role":"article","url":"/documentation/uikit/protecting_the_user_s_privacy","abstract":[{"type":"text","text":"Secure personal data, and respect user preferences for how data is used."}]},"Requesting Access to Protected Resources":{"title":"Requesting Access to Protected Resources","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources","kind":"article","role":"article","url":"/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources","abstract":[{"type":"text","text":"Provide a purpose string that explains to the user why you need access to protected resources."}]},"Encrypting Your App’s Files":{"title":"Encrypting Your App’s Files","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files","kind":"article","role":"article","url":"/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files","abstract":[{"type":"text","text":"Protect the user’s data in iOS by encrypting it on disk."}]},"Managing Your App's Life Cycle":{"title":"Managing Your App's Life Cycle","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle","abstract":[{"type":"text","text":"Respond to system notifications when your app is in the foreground or background, and handle other significant system-related events."}]},"Specifying the Scenes Your App Supports":{"title":"Specifying the Scenes Your App Supports","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/specifying_the_scenes_your_app_supports","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/specifying_the_scenes_your_app_supports","abstract":[{"type":"text","text":"Tell the system about your app’s scenes, including the objects you use to manage each scene and its initial user interface."}]},"Preparing Your UI to Run in the Foreground":{"title":"Preparing Your UI to Run in the Foreground","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground"},"Responding to the Launch of Your App":{"title":"Responding to the Launch of Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app","abstract":[{"type":"text","text":"Initialize your app’s data structures, prepare your app to run, and respond to any launch-time requests from the system."}]},"Performing One-Time Setup for Your App":{"title":"Performing One-Time Setup for Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/performing_one-time_setup_for_your_app","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/performing_one-time_setup_for_your_app","abstract":[{"type":"text","text":"Ensure proper configuration of your app environment."}]},"About the App Launch Sequence":{"title":"About the App Launch Sequence","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence","abstract":[{"type":"text","text":"Learn the order that your custom code executes at launch time."}]},"Preserving Your App's UI Across Launches":{"title":"Preserving Your App's UI Across Launches","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches","abstract":[{"type":"text","text":"Return your app to its previous state after the system terminates it."}]},"About the UI Preservation Process":{"title":"About the UI Preservation Process","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_preservation_process","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_preservation_process","abstract":[{"type":"text","text":"Learn how to customize the UIKit state preservation process. "}]},"About the UI Restoration Process":{"title":"About the UI Restoration Process","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_restoration_process","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_restoration_process","abstract":[{"type":"text","text":"Learn how to customize the UIKit state restoration process."}]},"Managing Content in Your App's Windows":{"title":"Managing Content in Your App's Windows","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/managing_content_in_your_app_s_windows","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/managing_content_in_your_app_s_windows","abstract":[{"type":"text","text":"Build your app’s user interface from view controllers, and change the currently visible view controller when you want to display new content."}]},"Creating a Custom Container View Controller":{"title":"Creating a Custom Container View Controller","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/creating_a_custom_container_view_controller","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/creating_a_custom_container_view_controller","abstract":[{"type":"text","text":"Create a composite interface by combining content from one or more view controllers with other custom views."}]},"Displaying and Managing Views with a View Controller":{"title":"Displaying and Managing Views with a View Controller","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/displaying_and_managing_views_with_a_view_controller","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/displaying_and_managing_views_with_a_view_controller","abstract":[{"type":"text","text":"Build a view controller in storyboards, configure it with custom views, and fill those views with your app’s data."}]},"Showing and Hiding View Controllers":{"title":"Showing and Hiding View Controllers","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/showing_and_hiding_view_controllers","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/showing_and_hiding_view_controllers","abstract":[{"type":"text","text":"Display view controllers using different techniques, and pass data between them during transitions."}]},"Customizing the Behavior of Segue-Based Presentations":{"title":"Customizing the Behavior of Segue-Based Presentations","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/resource_management/customizing_the_behavior_of_segue-based_presentations","kind":"article","role":"article","url":"/documentation/uikit/resource_management/customizing_the_behavior_of_segue-based_presentations","abstract":[{"type":"text","text":"Pass data between view controllers during a segue, and programmatically control when segues occur."}]},"Dismissing a View Controller with an Unwind Segue":{"title":"Dismissing a View Controller with an Unwind Segue","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue","kind":"article","role":"article","url":"/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue","abstract":[{"type":"text","text":"Configure an unwind segue in your storyboard file that dynamically chooses the most appropriate view controller to display next."}]},"Creating a Mac Version of Your iPad App":{"title":"Creating a Mac Version of Your iPad App","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/creating_a_mac_version_of_your_ipad_app","kind":"article","role":"article","url":"/documentation/xcode/creating_a_mac_version_of_your_ipad_app","abstract":[{"type":"text","text":"Bring your iPad app to macOS with Mac Catalyst."}]},"Optimizing Your iPad App for Mac":{"title":"Optimizing Your iPad App for Mac","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/mac_catalyst/optimizing_your_ipad_app_for_mac","kind":"article","role":"article","url":"/documentation/uikit/mac_catalyst/optimizing_your_ipad_app_for_mac","abstract":[{"type":"text","text":"Make your iPad app more like a Mac app by taking advantage of system features in macOS."}]},"Displaying a Preferences Window":{"title":"Displaying a Preferences Window","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/mac_catalyst/displaying_a_preferences_window","kind":"article","role":"article","url":"/documentation/uikit/mac_catalyst/displaying_a_preferences_window","abstract":[{"type":"text","text":"Provide a Preferences window in your Mac app built with Mac Catalyst so users can manage app preferences defined in a Settings bundle."}]},"Choosing a User Interface Idiom for Your Mac App":{"title":"Choosing a User Interface Idiom for Your Mac App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app","kind":"article","role":"article","url":"/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app"},"Displaying a Checkbox in Your Mac App Built with Mac Catalyst":{"title":"Displaying a Checkbox in Your Mac App Built with Mac Catalyst","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/uiswitch/displaying_a_checkbox_in_your_mac_app_built_with_mac_catalyst","kind":"article","role":"article","url":"/documentation/uikit/uiswitch/displaying_a_checkbox_in_your_mac_app_built_with_mac_catalyst","abstract":[{"type":"text","text":"Present a switch control as a Mac-style checkbox when your app runs in the Mac user interface idiom."}]},"Removing the Title Bar in Your Mac App Built with Mac Catalyst":{"title":"Removing the Title Bar in Your Mac App Built with Mac Catalyst","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/mac_catalyst/removing_the_title_bar_in_your_mac_app_built_with_mac_catalyst","kind":"article","role":"article","url":"/documentation/uikit/mac_catalyst/removing_the_title_bar_in_your_mac_app_built_with_mac_catalyst","abstract":[{"type":"text","text":"Display content that fills the entire height of a window by removing the title bar."}]},"Supporting Drag and Drop in Collection Views":{"title":"Supporting Drag and Drop in Collection Views","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/views_and_controls/collection_views/supporting_drag_and_drop_in_collection_views","kind":"article","role":"article","url":"/documentation/uikit/views_and_controls/collection_views/supporting_drag_and_drop_in_collection_views","abstract":[{"type":"text","text":"Initiate drags and handle drops from a collection view."}]},"Filling a Table with Data":{"title":"Filling a Table with Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data","kind":"article","role":"article","url":"/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data","abstract":[{"type":"text","text":"Create and configure cells for your table dynamically using a data source object, or provide them statically from your storyboard."}]},"Configuring the Cells for Your Table":{"title":"Configuring the Cells for Your Table","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/configuring_the_cells_for_your_table","kind":"article","role":"article","url":"/documentation/uikit/views_and_controls/table_views/configuring_the_cells_for_your_table"},"Estimating the Height of a Table's Scrolling Area":{"title":"Estimating the Height of a Table's Scrolling Area","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/estimating_the_height_of_a_table_s_scrolling_area","kind":"article","role":"article","url":"/documentation/uikit/views_and_controls/table_views/estimating_the_height_of_a_table_s_scrolling_area","abstract":[{"type":"text","text":"Provide height estimates for your table view’s headers, footers, and rows to ensure that scrolling accurately reflects the size of your content."}]},"Adding Headers and Footers to Table Sections":{"title":"Adding Headers and Footers to Table Sections","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/adding_headers_and_footers_to_table_sections","kind":"article","role":"article","url":"/documentation/uikit/views_and_controls/table_views/adding_headers_and_footers_to_table_sections","abstract":[{"type":"text","text":"Differentiate groups of rows visually by adding header and footer views to your table view’s sections."}]},"Handling Row Selection in a Table View":{"title":"Handling Row Selection in a Table View","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/uitableviewdelegate/handling_row_selection_in_a_table_view","kind":"article","role":"article","url":"/documentation/uikit/uitableviewdelegate/handling_row_selection_in_a_table_view","abstract":[{"type":"text","text":"Detect when a user taps a table view cell so your app can take the next indicated action."}]},"Supporting Drag and Drop in Table Views":{"title":"Supporting Drag and Drop in Table Views","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/supporting_drag_and_drop_in_table_views","kind":"article","role":"article","url":"/documentation/uikit/views_and_controls/table_views/supporting_drag_and_drop_in_table_views","abstract":[{"type":"text","text":"Initiate drags and handle drops from a table view."}]},"Positioning Content Within Layout Margins":{"title":"Positioning Content Within Layout Margins","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/uiview/positioning_content_within_layout_margins","kind":"article","role":"article","url":"/documentation/uikit/uiview/positioning_content_within_layout_margins","abstract":[{"type":"text","text":"Position views so that they are not crowded by other content."}]},"Positioning Content Relative to the Safe Area":{"title":"Positioning Content Relative to the Safe Area","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/uiview/positioning_content_relative_to_the_safe_area","kind":"article","role":"article","url":"/documentation/uikit/uiview/positioning_content_relative_to_the_safe_area","abstract":[{"type":"text","text":"Position views so that they are not obstructed by other content. "}]},"Supporting Dark Mode in Your Interface":{"title":"Supporting Dark Mode in Your Interface","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/supporting_dark_mode_in_your_interface","kind":"article","role":"article","url":"/documentation/xcode/supporting_dark_mode_in_your_interface","abstract":[{"type":"text","text":"Update colors, images, and behaviors so that your app adapts automatically when Dark Mode is active."}]},"Displaying Transient Content in a Popover":{"title":"Displaying Transient Content in a Popover","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/windows_and_screens/displaying_transient_content_in_a_popover","kind":"article","role":"article","url":"/documentation/uikit/windows_and_screens/displaying_transient_content_in_a_popover","abstract":[{"type":"text","text":"Show a temporary interface on top of your app’s content on iPad. "}]},"Getting the User's Attention with Alerts and Action Sheets":{"title":"Getting the User's Attention with Alerts and Action Sheets","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/windows_and_screens/getting_the_user_s_attention_with_alerts_and_action_sheets","kind":"article","role":"article","url":"/documentation/uikit/windows_and_screens/getting_the_user_s_attention_with_alerts_and_action_sheets","abstract":[{"type":"text","text":"Present important information to the user or prompt the user about an important choice."}]},"Displaying Content on a Connected Screen":{"title":"Displaying Content on a Connected Screen","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/windows_and_screens/displaying_content_on_a_connected_screen","kind":"article","role":"article","url":"/documentation/uikit/windows_and_screens/displaying_content_on_a_connected_screen","abstract":[{"type":"text","text":"Fill connected displays with additional content from your app."}]},"Handling Key Presses Made on a Physical Keyboard":{"title":"Handling Key Presses Made on a Physical Keyboard","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/mac_catalyst/handling_key_presses_made_on_a_physical_keyboard","kind":"article","role":"article","url":"/documentation/uikit/mac_catalyst/handling_key_presses_made_on_a_physical_keyboard","abstract":[{"type":"text","text":"Detect when the user presses and releases keys on a physical keyboard."}]},"Using Responders and the Responder Chain to Handle Events":{"title":"Using Responders and the Responder Chain to Handle Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events"},"Handling UIKit Gestures":{"title":"Handling UIKit Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures"},"Handling Tap Gestures":{"title":"Handling Tap Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_tap_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_tap_gestures","abstract":[{"type":"text","text":"Use brief taps on the screen to implement button-like interactions with your content."}]},"Handling Long-Press Gestures":{"title":"Handling Long-Press Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_long-press_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_long-press_gestures","abstract":[{"type":"text","text":"Detect extended duration taps on the screen, and use them to reveal contextually relevant content."}]},"Handling Pan Gestures":{"title":"Handling Pan Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pan_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pan_gestures","abstract":[{"type":"text","text":"Trace the movement of fingers around the screen, and apply that movement to your content."}]},"Handling Swipe Gestures":{"title":"Handling Swipe Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_swipe_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_swipe_gestures","abstract":[{"type":"text","text":"Detect a horizontal or vertical swipe motion on the screen, and use it to trigger navigation through your content."}]},"Handling Pinch Gestures":{"title":"Handling Pinch Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pinch_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pinch_gestures","abstract":[{"type":"text","text":"Track the distance between two fingers and use that information to scale or zoom your content."}]},"Handling Rotation Gestures":{"title":"Handling Rotation Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_rotation_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_rotation_gestures","abstract":[{"type":"text","text":"Measure the relative rotation of two fingers on the screen, and use that motion to rotate your content."}]},"Handling Touches in Your View":{"title":"Handling Touches in Your View","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view","abstract":[{"type":"text","text":"Use touch events directly on a view subclass if touch handling is intricately linked to the view's content."}]},"Implementing a Multi-Touch App":{"title":"Implementing a Multi-Touch App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/implementing_a_multi-touch_app","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/implementing_a_multi-touch_app","abstract":[{"type":"text","text":"Learn how to create a simple app that handles multitouch input."}]},"Getting High-Fidelity Input with Coalesced Touches":{"title":"Getting High-Fidelity Input with Coalesced Touches","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches"},"Implementing Coalesced Touch Support in an App":{"title":"Implementing Coalesced Touch Support in an App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches/implementing_coalesced_touch_support_in_an_app","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches/implementing_coalesced_touch_support_in_an_app","abstract":[{"type":"text","text":"Learn how to create a simple app that handles coalesced touches."}]},"Minimizing Latency with Predicted Touches":{"title":"Minimizing Latency with Predicted Touches","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches","abstract":[{"type":"text","text":"Create a smooth and responsive drawing experience using UIKit's predictions for touch locations."}]},"Handling Input from Apple Pencil":{"title":"Handling Input from Apple Pencil","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil","kind":"article","role":"article","url":"/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil","abstract":[{"type":"text","text":"Learn how to detect and respond to touches from Apple Pencil."}]},"Computing the Perpendicular Force of Apple Pencil":{"title":"Computing the Perpendicular Force of Apple Pencil","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil/computing_the_perpendicular_force_of_apple_pencil","kind":"article","role":"article","url":"/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil/computing_the_perpendicular_force_of_apple_pencil","abstract":[{"type":"text","text":"Adjust the force values reported by Apple Pencil so that they are consistent with 3D Touch force values. "}]},"Handling Double Taps from Apple Pencil":{"title":"Handling Double Taps from Apple Pencil","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/pencil_interactions/handling_double_taps_from_apple_pencil","kind":"article","role":"article","url":"/documentation/uikit/pencil_interactions/handling_double_taps_from_apple_pencil","abstract":[{"type":"text","text":"Detect and respond to double taps a user makes on Apple Pencil."}]},"Understanding a Drag Item as a Promise":{"title":"Understanding a Drag Item as a Promise","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/drag_and_drop/understanding_a_drag_item_as_a_promise","kind":"article","role":"article","url":"/documentation/uikit/drag_and_drop/understanding_a_drag_item_as_a_promise","abstract":[{"type":"text","text":"Use drag items to convey data representation promises between a source app and a destination app."}]},"Making a View into a Drag Source":{"title":"Making a View into a Drag Source","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/drag_and_drop/making_a_view_into_a_drag_source","kind":"article","role":"article","url":"/documentation/uikit/drag_and_drop/making_a_view_into_a_drag_source","abstract":[{"type":"text","text":"Adopt drag interaction APIs to provide items for dragging."}]},"Making a View into a Drop Destination":{"title":"Making a View into a Drop Destination","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/drag_and_drop/making_a_view_into_a_drop_destination","kind":"article","role":"article","url":"/documentation/uikit/drag_and_drop/making_a_view_into_a_drop_destination","abstract":[{"type":"text","text":"Adopt drop interaction APIs to selectively consume dragged content."}]},"About Focus Interactions for Apple TV":{"title":"About Focus Interactions for Apple TV","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/focus-based_navigation/about_focus_interactions_for_apple_tv","kind":"article","role":"article","url":"/documentation/uikit/focus-based_navigation/about_focus_interactions_for_apple_tv","abstract":[{"type":"text","text":"Design and implement intuitive control schemes for menus and interactive user interface layouts."}]},"Adding User-Focusable Elements to a tvOS App":{"title":"Adding User-Focusable Elements to a tvOS App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/focus-based_navigation/adding_user-focusable_elements_to_a_tvos_app","kind":"article","role":"article","url":"/documentation/uikit/focus-based_navigation/adding_user-focusable_elements_to_a_tvos_app","abstract":[{"type":"text","text":"Create intuitive and easily manipulated user-interactive controls for your tvOS app."}]},"Creating Custom Navigation Interactions":{"title":"Creating Custom Navigation Interactions","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/focus-based_navigation/creating_custom_navigation_interactions","kind":"article","role":"article","url":"/documentation/uikit/focus-based_navigation/creating_custom_navigation_interactions","abstract":[{"type":"text","text":"Build nonstandard navigation interactions that move focus to the desired location."}]},"Debugging Focus Issues in Your App":{"title":"Debugging Focus Issues in Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/focus-based_navigation/debugging_focus_issues_in_your_app","kind":"article","role":"article","url":"/documentation/uikit/focus-based_navigation/debugging_focus_issues_in_your_app","abstract":[{"type":"text","text":"Find errors and determine why the next focused item isn't what you expected."}]},"Supporting VoiceOver in Your App":{"title":"Supporting VoiceOver in Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/accessibility_for_ios_and_tvos/supporting_voiceover_in_your_app","kind":"article","role":"article","url":"/documentation/uikit/accessibility_for_ios_and_tvos/supporting_voiceover_in_your_app","abstract":[{"type":"text","text":"Learn how to make your iOS app more accessible to users who are blind or have low vision by adding VoiceOver support."}]},"Tracking the Force of 3D Touch Events":{"title":"Tracking the Force of 3D Touch Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events","abstract":[{"type":"text","text":"Manipulate your content based on the force of touches. "}]},"Checking the Availability of 3D Touch":{"title":"Checking the Availability of 3D Touch","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events/checking_the_availability_of_3d_touch","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events/checking_the_availability_of_3d_touch","abstract":[{"type":"text","text":"Check whether a device supports 3D Touch before enabling features that use it."}]},"Coordinating Multiple Gesture Recognizers":{"title":"Coordinating Multiple Gesture Recognizers","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers","abstract":[{"type":"text","text":"Discover how to use multiple gesture recognizers on the same view."}]},"Preferring One Gesture Over Another":{"title":"Preferring One Gesture Over Another","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/preferring_one_gesture_over_another","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/preferring_one_gesture_over_another","abstract":[{"type":"text","text":"Use a gesture recognizer delegate object to determine the order in which gestures are recognized in your views."}]},"Allowing the Simultaneous Recognition of Multiple Gestures":{"title":"Allowing the Simultaneous Recognition of Multiple Gestures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/allowing_the_simultaneous_recognition_of_multiple_gestures","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/allowing_the_simultaneous_recognition_of_multiple_gestures","abstract":[{"type":"text","text":"Learn how to use a delegate object to allow detection of more than one gesture at a time."}]},"Attaching Gesture Recognizers to UIKit Controls":{"title":"Attaching Gesture Recognizers to UIKit Controls","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/attaching_gesture_recognizers_to_uikit_controls","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/attaching_gesture_recognizers_to_uikit_controls","abstract":[{"type":"text","text":"Learn how gesture recognizers interact with UIKit controls such as buttons switches and sliders."}]},"Implementing a Custom Gesture Recognizer":{"title":"Implementing a Custom Gesture Recognizer","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer","abstract":[{"type":"text","text":"Discover when and how to build your own gesture recognizers"}]},"About the Gesture Recognizer State Machine":{"title":"About the Gesture Recognizer State Machine","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/about_the_gesture_recognizer_state_machine","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/about_the_gesture_recognizer_state_machine","abstract":[{"type":"text","text":"Learn about the states and transitions of the state machine that underlies gesture recognizers."}]},"Implementing a Discrete Gesture Recognizer":{"title":"Implementing a Discrete Gesture Recognizer","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_discrete_gesture_recognizer","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_discrete_gesture_recognizer","abstract":[{"type":"text","text":"If your gesture involves a specific pattern of events, consider implementing a discrete gesture recognizer for it."}]},"Implementing a Continuous Gesture Recognizer":{"title":"Implementing a Continuous Gesture Recognizer","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_continuous_gesture_recognizer","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_continuous_gesture_recognizer","abstract":[{"type":"text","text":"For gestures that do not easily match a specific pattern, or when you want to use a gesture recognizer to gather touch input, create a continuous gesture recognizer."}]},"Creating a Custom Keyboard":{"title":"Creating a Custom Keyboard","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard","kind":"article","role":"article","url":"/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard","abstract":[{"type":"text","text":"Add an extension to your Xcode project to provide systemwide customized text input."}]},"Configuring Open Access for a Custom Keyboard":{"title":"Configuring Open Access for a Custom Keyboard","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_open_access_for_a_custom_keyboard","kind":"article","role":"article","url":"/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_open_access_for_a_custom_keyboard","abstract":[{"type":"text","text":"Enable network access and write access to a shared group container."}]},"Configuring a Custom Keyboard Interface":{"title":"Configuring a Custom Keyboard Interface","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_a_custom_keyboard_interface","kind":"article","role":"article","url":"/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_a_custom_keyboard_interface","abstract":[{"type":"text","text":"Design a flexible, functional, and responsive interface for editing text."}]},"Handling Text Interactions in Custom Keyboards":{"title":"Handling Text Interactions in Custom Keyboards","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/handling_text_interactions_in_custom_keyboards","kind":"article","role":"article","url":"/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/handling_text_interactions_in_custom_keyboards","abstract":[{"type":"text","text":"Insert, delete, and manipulate text by using a proxy to a text input view."}]},"Understanding the Exception Types in a Crash Report":{"title":"Understanding the Exception Types in a Crash Report","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/understanding_the_exception_types_in_a_crash_report","kind":"article","role":"article","url":"/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/understanding_the_exception_types_in_a_crash_report"},"Scaling Fonts Automatically":{"title":"Scaling Fonts Automatically","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/uifont/scaling_fonts_automatically","kind":"article","role":"article","url":"/documentation/uikit/uifont/scaling_fonts_automatically","abstract":[{"type":"text","text":"Scale text in your interface automatically using Dynamic Type."}]},"Adding a Custom Font to Your App":{"title":"Adding a Custom Font to Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app","kind":"article","role":"article","url":"/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app","abstract":[{"type":"text","text":"Add a custom font to your app and use it in your app’s interface."}]},"Adding a Document Browser to Your App":{"title":"Adding a Document Browser to Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app","abstract":[{"type":"text","text":"Give users access to their local or remote documents from within your app.  "}]},"Setting Up a Document Browser App":{"title":"Setting Up a Document Browser App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/setting_up_a_document_browser_app","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/setting_up_a_document_browser_app"},"Presenting Selected Documents":{"title":"Presenting Selected Documents","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/presenting_selected_documents","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/presenting_selected_documents","abstract":[{"type":"text","text":"Display user-selected documents over your browser view controller."}]},"Enabling Document Sharing":{"title":"Enabling Document Sharing","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/enabling_document_sharing","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/enabling_document_sharing","abstract":[{"type":"text","text":"Give users the ability to import and export documents from your app.  "}]},"Customizing the Browser":{"title":"Customizing the Browser","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/customizing_the_browser","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/customizing_the_browser","abstract":[{"type":"text","text":"Customize the document browser’s look and behavior."}]},"Adding Custom Actions and Activities":{"title":"Adding Custom Actions and Activities","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/adding_custom_actions_and_activities","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/adding_custom_actions_and_activities","abstract":[{"type":"text","text":"Add custom document browser actions, activities, and bar items.  "}]},"Providing Access to Directories":{"title":"Providing Access to Directories","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/view_controllers/providing_access_to_directories","kind":"article","role":"article","url":"/documentation/uikit/view_controllers/providing_access_to_directories","abstract":[{"type":"text","text":"Use a document picker to access the content of a directory outside your app’s container."}]},"Processing Queued Notifications":{"title":"Processing Queued Notifications","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground/processing_queued_notifications","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground/processing_queued_notifications","abstract":[{"type":"text","text":"Respond to notifications when coming out of the suspended state. "}]},"Preparing Your UI to Run in the Background":{"title":"Preparing Your UI to Run in the Background","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background"},"Preparing Your Metal App to Run in the Background":{"title":"Preparing Your Metal App to Run in the Background","type":"topic","identifier":"doc://com.apple.documentation/documentation/metal/preparing_your_metal_app_to_run_in_the_background","kind":"article","role":"article","url":"/documentation/metal/preparing_your_metal_app_to_run_in_the_background"},"Updating Your App with Background App Refresh":{"title":"Updating Your App with Background App Refresh","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/updating_your_app_with_background_app_refresh","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/updating_your_app_with_background_app_refresh","abstract":[{"type":"text","text":"Fetch content opportunistically in the background and update your app's interface."}]},"Extending Your App's Background Execution Time":{"title":"Extending Your App's Background Execution Time","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/extending_your_app_s_background_execution_time","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/extending_your_app_s_background_execution_time","abstract":[{"type":"text","text":"Ensure that critical tasks finish when your app moves to the background."}]},"About the Background Execution Sequence":{"title":"About the Background Execution Sequence","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/about_the_background_execution_sequence","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/about_the_background_execution_sequence","abstract":[{"type":"text","text":"Learn the order in which your custom code is executed when your app moves to the background."}]},"Responding to Memory Warnings":{"title":"Responding to Memory Warnings","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle/responding_to_memory_warnings","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle/responding_to_memory_warnings","abstract":[{"type":"text","text":"Free up memory when asked to do so by the system."}]},"Responding to Changing Display Modes on Apple TV":{"title":"Responding to Changing Display Modes on Apple TV","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_changing_display_modes_on_apple_tv","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/responding_to_changing_display_modes_on_apple_tv","abstract":[{"type":"text","text":"Change images and resources dynamically when the screen gamut on your device changes."}]},"Updating Your App from 32-Bit to 64-Bit Architecture":{"title":"Updating Your App from 32-Bit to 64-Bit Architecture","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture","abstract":[{"type":"text","text":"Ensure that your app behaves as expected by adapting it to support later versions of the operating system."}]},"Updating Data Structures":{"title":"Updating Data Structures","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/updating_data_structures","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/updating_data_structures","abstract":[{"type":"text","text":"Review your app's data design and update it to conform with 64-bit architecture."}]},"Auditing Pointer Usage":{"title":"Auditing Pointer Usage","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/auditing_pointer_usage","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/auditing_pointer_usage","abstract":[{"type":"text","text":"Ensure that the pointers in your code are safe for the 64-bit runtime."}]},"Managing Functions and Function Pointers":{"title":"Managing Functions and Function Pointers","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/managing_functions_and_function_pointers","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/managing_functions_and_function_pointers","abstract":[{"type":"text","text":"Ensure that your code correctly handles functions, function pointers, and Objective-C messages."}]},"Optimizing Memory Performance":{"title":"Optimizing Memory Performance","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/optimizing_memory_performance","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/optimizing_memory_performance","abstract":[{"type":"text","text":"Measure the impact of the 64-bit runtime on your app's memory usage."}]},"Verifying Mathematical Calculations":{"title":"Verifying Mathematical Calculations","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/verifying_mathematical_calculations","kind":"article","role":"article","url":"/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/verifying_mathematical_calculations","abstract":[{"type":"text","text":"Ensure the accuracy of your math operations in 64-bit architecture."}]},"Incorporating Predicted Touches into an App":{"title":"Incorporating Predicted Touches into an App","type":"topic","identifier":"doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches/incorporating_predicted_touches_into_an_app","kind":"article","role":"article","url":"/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches/incorporating_predicted_touches_into_an_app","abstract":[{"type":"text","text":"Learn how to create a simple app that incorporates predicted touches into its drawing code."}]}}}
+{
+  "articles": {
+    "About App Development with UIKit": {
+      "title": "About App Development with UIKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/about_app_development_with_uikit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/about_app_development_with_uikit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about the basic support that UIKit and Xcode provide for your iOS and tvOS apps."
+        }
+      ]
+    },
+    "Protecting the User’s Privacy": {
+      "title": "Protecting the User’s Privacy",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/protecting_the_user_s_privacy",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Secure personal data, and respect user preferences for how data is used."
+        }
+      ]
+    },
+    "Requesting Access to Protected Resources": {
+      "title": "Requesting Access to Protected Resources",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a purpose string that explains to the user why you need access to protected resources."
+        }
+      ]
+    },
+    "Encrypting Your App’s Files": {
+      "title": "Encrypting Your App’s Files",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Protect the user’s data in iOS by encrypting it on disk."
+        }
+      ]
+    },
+    "Managing Your App's Life Cycle": {
+      "title": "Managing Your App's Life Cycle",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Respond to system notifications when your app is in the foreground or background, and handle other significant system-related events."
+        }
+      ]
+    },
+    "Specifying the Scenes Your App Supports": {
+      "title": "Specifying the Scenes Your App Supports",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/specifying_the_scenes_your_app_supports",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/specifying_the_scenes_your_app_supports",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Tell the system about your app’s scenes, including the objects you use to manage each scene and its initial user interface."
+        }
+      ]
+    },
+    "Preparing Your UI to Run in the Foreground": {
+      "title": "Preparing Your UI to Run in the Foreground",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground"
+    },
+    "Responding to the Launch of Your App": {
+      "title": "Responding to the Launch of Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Initialize your app’s data structures, prepare your app to run, and respond to any launch-time requests from the system."
+        }
+      ]
+    },
+    "Performing One-Time Setup for Your App": {
+      "title": "Performing One-Time Setup for Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/performing_one-time_setup_for_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/performing_one-time_setup_for_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure proper configuration of your app environment."
+        }
+      ]
+    },
+    "About the App Launch Sequence": {
+      "title": "About the App Launch Sequence",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn the order that your custom code executes at launch time."
+        }
+      ]
+    },
+    "Preserving Your App's UI Across Launches": {
+      "title": "Preserving Your App's UI Across Launches",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Return your app to its previous state after the system terminates it."
+        }
+      ]
+    },
+    "About the UI Preservation Process": {
+      "title": "About the UI Preservation Process",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_preservation_process",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_preservation_process",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to customize the UIKit state preservation process. "
+        }
+      ]
+    },
+    "About the UI Restoration Process": {
+      "title": "About the UI Restoration Process",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_restoration_process",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches/about_the_ui_restoration_process",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to customize the UIKit state restoration process."
+        }
+      ]
+    },
+    "Managing Content in Your App's Windows": {
+      "title": "Managing Content in Your App's Windows",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/managing_content_in_your_app_s_windows",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/managing_content_in_your_app_s_windows",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build your app’s user interface from view controllers, and change the currently visible view controller when you want to display new content."
+        }
+      ]
+    },
+    "Creating a Custom Container View Controller": {
+      "title": "Creating a Custom Container View Controller",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/creating_a_custom_container_view_controller",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/creating_a_custom_container_view_controller",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a composite interface by combining content from one or more view controllers with other custom views."
+        }
+      ]
+    },
+    "Displaying and Managing Views with a View Controller": {
+      "title": "Displaying and Managing Views with a View Controller",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/displaying_and_managing_views_with_a_view_controller",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/displaying_and_managing_views_with_a_view_controller",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a view controller in storyboards, configure it with custom views, and fill those views with your app’s data."
+        }
+      ]
+    },
+    "Showing and Hiding View Controllers": {
+      "title": "Showing and Hiding View Controllers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/showing_and_hiding_view_controllers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/showing_and_hiding_view_controllers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display view controllers using different techniques, and pass data between them during transitions."
+        }
+      ]
+    },
+    "Customizing the Behavior of Segue-Based Presentations": {
+      "title": "Customizing the Behavior of Segue-Based Presentations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/resource_management/customizing_the_behavior_of_segue-based_presentations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/resource_management/customizing_the_behavior_of_segue-based_presentations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Pass data between view controllers during a segue, and programmatically control when segues occur."
+        }
+      ]
+    },
+    "Dismissing a View Controller with an Unwind Segue": {
+      "title": "Dismissing a View Controller with an Unwind Segue",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure an unwind segue in your storyboard file that dynamically chooses the most appropriate view controller to display next."
+        }
+      ]
+    },
+    "Creating a Mac Version of Your iPad App": {
+      "title": "Creating a Mac Version of Your iPad App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Bring your iPad app to macOS with Mac Catalyst."
+        }
+      ]
+    },
+    "Optimizing Your iPad App for Mac": {
+      "title": "Optimizing Your iPad App for Mac",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/optimizing_your_ipad_app_for_mac",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/optimizing_your_ipad_app_for_mac",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your iPad app more like a Mac app by taking advantage of system features in macOS."
+        }
+      ]
+    },
+    "Displaying a Preferences Window": {
+      "title": "Displaying a Preferences Window",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/displaying_a_preferences_window",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/displaying_a_preferences_window",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a Preferences window in your Mac app built with Mac Catalyst so users can manage app preferences defined in a Settings bundle."
+        }
+      ]
+    },
+    "Choosing a User Interface Idiom for Your Mac App": {
+      "title": "Choosing a User Interface Idiom for Your Mac App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app"
+    },
+    "Displaying a Checkbox in Your Mac App Built with Mac Catalyst": {
+      "title": "Displaying a Checkbox in Your Mac App Built with Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiswitch/displaying_a_checkbox_in_your_mac_app_built_with_mac_catalyst",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/uiswitch/displaying_a_checkbox_in_your_mac_app_built_with_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Present a switch control as a Mac-style checkbox when your app runs in the Mac user interface idiom."
+        }
+      ]
+    },
+    "Removing the Title Bar in Your Mac App Built with Mac Catalyst": {
+      "title": "Removing the Title Bar in Your Mac App Built with Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/removing_the_title_bar_in_your_mac_app_built_with_mac_catalyst",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/removing_the_title_bar_in_your_mac_app_built_with_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display content that fills the entire height of a window by removing the title bar."
+        }
+      ]
+    },
+    "Supporting Drag and Drop in Collection Views": {
+      "title": "Supporting Drag and Drop in Collection Views",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/collection_views/supporting_drag_and_drop_in_collection_views",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/views_and_controls/collection_views/supporting_drag_and_drop_in_collection_views",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Initiate drags and handle drops from a collection view."
+        }
+      ]
+    },
+    "Filling a Table with Data": {
+      "title": "Filling a Table with Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and configure cells for your table dynamically using a data source object, or provide them statically from your storyboard."
+        }
+      ]
+    },
+    "Configuring the Cells for Your Table": {
+      "title": "Configuring the Cells for Your Table",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/configuring_the_cells_for_your_table",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/views_and_controls/table_views/configuring_the_cells_for_your_table"
+    },
+    "Estimating the Height of a Table's Scrolling Area": {
+      "title": "Estimating the Height of a Table's Scrolling Area",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/estimating_the_height_of_a_table_s_scrolling_area",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/views_and_controls/table_views/estimating_the_height_of_a_table_s_scrolling_area",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide height estimates for your table view’s headers, footers, and rows to ensure that scrolling accurately reflects the size of your content."
+        }
+      ]
+    },
+    "Adding Headers and Footers to Table Sections": {
+      "title": "Adding Headers and Footers to Table Sections",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/adding_headers_and_footers_to_table_sections",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/views_and_controls/table_views/adding_headers_and_footers_to_table_sections",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Differentiate groups of rows visually by adding header and footer views to your table view’s sections."
+        }
+      ]
+    },
+    "Handling Row Selection in a Table View": {
+      "title": "Handling Row Selection in a Table View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uitableviewdelegate/handling_row_selection_in_a_table_view",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/uitableviewdelegate/handling_row_selection_in_a_table_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect when a user taps a table view cell so your app can take the next indicated action."
+        }
+      ]
+    },
+    "Supporting Drag and Drop in Table Views": {
+      "title": "Supporting Drag and Drop in Table Views",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/supporting_drag_and_drop_in_table_views",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/views_and_controls/table_views/supporting_drag_and_drop_in_table_views",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Initiate drags and handle drops from a table view."
+        }
+      ]
+    },
+    "Positioning Content Within Layout Margins": {
+      "title": "Positioning Content Within Layout Margins",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiview/positioning_content_within_layout_margins",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/uiview/positioning_content_within_layout_margins",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Position views so that they are not crowded by other content."
+        }
+      ]
+    },
+    "Positioning Content Relative to the Safe Area": {
+      "title": "Positioning Content Relative to the Safe Area",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uiview/positioning_content_relative_to_the_safe_area",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/uiview/positioning_content_relative_to_the_safe_area",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Position views so that they are not obstructed by other content. "
+        }
+      ]
+    },
+    "Supporting Dark Mode in Your Interface": {
+      "title": "Supporting Dark Mode in Your Interface",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update colors, images, and behaviors so that your app adapts automatically when Dark Mode is active."
+        }
+      ]
+    },
+    "Displaying Transient Content in a Popover": {
+      "title": "Displaying Transient Content in a Popover",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/windows_and_screens/displaying_transient_content_in_a_popover",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/windows_and_screens/displaying_transient_content_in_a_popover",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Show a temporary interface on top of your app’s content on iPad. "
+        }
+      ]
+    },
+    "Getting the User's Attention with Alerts and Action Sheets": {
+      "title": "Getting the User's Attention with Alerts and Action Sheets",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/windows_and_screens/getting_the_user_s_attention_with_alerts_and_action_sheets",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/windows_and_screens/getting_the_user_s_attention_with_alerts_and_action_sheets",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Present important information to the user or prompt the user about an important choice."
+        }
+      ]
+    },
+    "Displaying Content on a Connected Screen": {
+      "title": "Displaying Content on a Connected Screen",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/windows_and_screens/displaying_content_on_a_connected_screen",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/windows_and_screens/displaying_content_on_a_connected_screen",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Fill connected displays with additional content from your app."
+        }
+      ]
+    },
+    "Handling Key Presses Made on a Physical Keyboard": {
+      "title": "Handling Key Presses Made on a Physical Keyboard",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/handling_key_presses_made_on_a_physical_keyboard",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/handling_key_presses_made_on_a_physical_keyboard",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect when the user presses and releases keys on a physical keyboard."
+        }
+      ]
+    },
+    "Using Responders and the Responder Chain to Handle Events": {
+      "title": "Using Responders and the Responder Chain to Handle Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events"
+    },
+    "Handling UIKit Gestures": {
+      "title": "Handling UIKit Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures"
+    },
+    "Handling Tap Gestures": {
+      "title": "Handling Tap Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_tap_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_tap_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use brief taps on the screen to implement button-like interactions with your content."
+        }
+      ]
+    },
+    "Handling Long-Press Gestures": {
+      "title": "Handling Long-Press Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_long-press_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_long-press_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect extended duration taps on the screen, and use them to reveal contextually relevant content."
+        }
+      ]
+    },
+    "Handling Pan Gestures": {
+      "title": "Handling Pan Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pan_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pan_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Trace the movement of fingers around the screen, and apply that movement to your content."
+        }
+      ]
+    },
+    "Handling Swipe Gestures": {
+      "title": "Handling Swipe Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_swipe_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_swipe_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect a horizontal or vertical swipe motion on the screen, and use it to trigger navigation through your content."
+        }
+      ]
+    },
+    "Handling Pinch Gestures": {
+      "title": "Handling Pinch Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pinch_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_pinch_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Track the distance between two fingers and use that information to scale or zoom your content."
+        }
+      ]
+    },
+    "Handling Rotation Gestures": {
+      "title": "Handling Rotation Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_rotation_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures/handling_rotation_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Measure the relative rotation of two fingers on the screen, and use that motion to rotate your content."
+        }
+      ]
+    },
+    "Handling Touches in Your View": {
+      "title": "Handling Touches in Your View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use touch events directly on a view subclass if touch handling is intricately linked to the view's content."
+        }
+      ]
+    },
+    "Implementing a Multi-Touch App": {
+      "title": "Implementing a Multi-Touch App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/implementing_a_multi-touch_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/implementing_a_multi-touch_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to create a simple app that handles multitouch input."
+        }
+      ]
+    },
+    "Getting High-Fidelity Input with Coalesced Touches": {
+      "title": "Getting High-Fidelity Input with Coalesced Touches",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches"
+    },
+    "Implementing Coalesced Touch Support in an App": {
+      "title": "Implementing Coalesced Touch Support in an App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches/implementing_coalesced_touch_support_in_an_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/getting_high-fidelity_input_with_coalesced_touches/implementing_coalesced_touch_support_in_an_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to create a simple app that handles coalesced touches."
+        }
+      ]
+    },
+    "Minimizing Latency with Predicted Touches": {
+      "title": "Minimizing Latency with Predicted Touches",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a smooth and responsive drawing experience using UIKit's predictions for touch locations."
+        }
+      ]
+    },
+    "Handling Input from Apple Pencil": {
+      "title": "Handling Input from Apple Pencil",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to detect and respond to touches from Apple Pencil."
+        }
+      ]
+    },
+    "Computing the Perpendicular Force of Apple Pencil": {
+      "title": "Computing the Perpendicular Force of Apple Pencil",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil/computing_the_perpendicular_force_of_apple_pencil",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil/computing_the_perpendicular_force_of_apple_pencil",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adjust the force values reported by Apple Pencil so that they are consistent with 3D Touch force values. "
+        }
+      ]
+    },
+    "Handling Double Taps from Apple Pencil": {
+      "title": "Handling Double Taps from Apple Pencil",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/pencil_interactions/handling_double_taps_from_apple_pencil",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/pencil_interactions/handling_double_taps_from_apple_pencil",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect and respond to double taps a user makes on Apple Pencil."
+        }
+      ]
+    },
+    "Understanding a Drag Item as a Promise": {
+      "title": "Understanding a Drag Item as a Promise",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/drag_and_drop/understanding_a_drag_item_as_a_promise",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/drag_and_drop/understanding_a_drag_item_as_a_promise",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use drag items to convey data representation promises between a source app and a destination app."
+        }
+      ]
+    },
+    "Making a View into a Drag Source": {
+      "title": "Making a View into a Drag Source",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/drag_and_drop/making_a_view_into_a_drag_source",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/drag_and_drop/making_a_view_into_a_drag_source",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adopt drag interaction APIs to provide items for dragging."
+        }
+      ]
+    },
+    "Making a View into a Drop Destination": {
+      "title": "Making a View into a Drop Destination",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/drag_and_drop/making_a_view_into_a_drop_destination",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/drag_and_drop/making_a_view_into_a_drop_destination",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adopt drop interaction APIs to selectively consume dragged content."
+        }
+      ]
+    },
+    "About Focus Interactions for Apple TV": {
+      "title": "About Focus Interactions for Apple TV",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/focus-based_navigation/about_focus_interactions_for_apple_tv",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/focus-based_navigation/about_focus_interactions_for_apple_tv",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Design and implement intuitive control schemes for menus and interactive user interface layouts."
+        }
+      ]
+    },
+    "Adding User-Focusable Elements to a tvOS App": {
+      "title": "Adding User-Focusable Elements to a tvOS App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/focus-based_navigation/adding_user-focusable_elements_to_a_tvos_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/focus-based_navigation/adding_user-focusable_elements_to_a_tvos_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create intuitive and easily manipulated user-interactive controls for your tvOS app."
+        }
+      ]
+    },
+    "Creating Custom Navigation Interactions": {
+      "title": "Creating Custom Navigation Interactions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/focus-based_navigation/creating_custom_navigation_interactions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/focus-based_navigation/creating_custom_navigation_interactions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build nonstandard navigation interactions that move focus to the desired location."
+        }
+      ]
+    },
+    "Debugging Focus Issues in Your App": {
+      "title": "Debugging Focus Issues in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/focus-based_navigation/debugging_focus_issues_in_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/focus-based_navigation/debugging_focus_issues_in_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Find errors and determine why the next focused item isn't what you expected."
+        }
+      ]
+    },
+    "Supporting VoiceOver in Your App": {
+      "title": "Supporting VoiceOver in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/accessibility_for_ios_and_tvos/supporting_voiceover_in_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/accessibility_for_ios_and_tvos/supporting_voiceover_in_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to make your iOS app more accessible to users who are blind or have low vision by adding VoiceOver support."
+        }
+      ]
+    },
+    "Tracking the Force of 3D Touch Events": {
+      "title": "Tracking the Force of 3D Touch Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manipulate your content based on the force of touches. "
+        }
+      ]
+    },
+    "Checking the Availability of 3D Touch": {
+      "title": "Checking the Availability of 3D Touch",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events/checking_the_availability_of_3d_touch",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/tracking_the_force_of_3d_touch_events/checking_the_availability_of_3d_touch",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Check whether a device supports 3D Touch before enabling features that use it."
+        }
+      ]
+    },
+    "Coordinating Multiple Gesture Recognizers": {
+      "title": "Coordinating Multiple Gesture Recognizers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Discover how to use multiple gesture recognizers on the same view."
+        }
+      ]
+    },
+    "Preferring One Gesture Over Another": {
+      "title": "Preferring One Gesture Over Another",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/preferring_one_gesture_over_another",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/preferring_one_gesture_over_another",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a gesture recognizer delegate object to determine the order in which gestures are recognized in your views."
+        }
+      ]
+    },
+    "Allowing the Simultaneous Recognition of Multiple Gestures": {
+      "title": "Allowing the Simultaneous Recognition of Multiple Gestures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/allowing_the_simultaneous_recognition_of_multiple_gestures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/allowing_the_simultaneous_recognition_of_multiple_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to use a delegate object to allow detection of more than one gesture at a time."
+        }
+      ]
+    },
+    "Attaching Gesture Recognizers to UIKit Controls": {
+      "title": "Attaching Gesture Recognizers to UIKit Controls",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/attaching_gesture_recognizers_to_uikit_controls",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/coordinating_multiple_gesture_recognizers/attaching_gesture_recognizers_to_uikit_controls",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how gesture recognizers interact with UIKit controls such as buttons switches and sliders."
+        }
+      ]
+    },
+    "Implementing a Custom Gesture Recognizer": {
+      "title": "Implementing a Custom Gesture Recognizer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Discover when and how to build your own gesture recognizers"
+        }
+      ]
+    },
+    "About the Gesture Recognizer State Machine": {
+      "title": "About the Gesture Recognizer State Machine",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/about_the_gesture_recognizer_state_machine",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/about_the_gesture_recognizer_state_machine",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about the states and transitions of the state machine that underlies gesture recognizers."
+        }
+      ]
+    },
+    "Implementing a Discrete Gesture Recognizer": {
+      "title": "Implementing a Discrete Gesture Recognizer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_discrete_gesture_recognizer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_discrete_gesture_recognizer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "If your gesture involves a specific pattern of events, consider implementing a discrete gesture recognizer for it."
+        }
+      ]
+    },
+    "Implementing a Continuous Gesture Recognizer": {
+      "title": "Implementing a Continuous Gesture Recognizer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_continuous_gesture_recognizer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer/implementing_a_continuous_gesture_recognizer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "For gestures that do not easily match a specific pattern, or when you want to use a gesture recognizer to gather touch input, create a continuous gesture recognizer."
+        }
+      ]
+    },
+    "Creating a Custom Keyboard": {
+      "title": "Creating a Custom Keyboard",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add an extension to your Xcode project to provide systemwide customized text input."
+        }
+      ]
+    },
+    "Configuring Open Access for a Custom Keyboard": {
+      "title": "Configuring Open Access for a Custom Keyboard",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_open_access_for_a_custom_keyboard",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_open_access_for_a_custom_keyboard",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enable network access and write access to a shared group container."
+        }
+      ]
+    },
+    "Configuring a Custom Keyboard Interface": {
+      "title": "Configuring a Custom Keyboard Interface",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_a_custom_keyboard_interface",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/configuring_a_custom_keyboard_interface",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Design a flexible, functional, and responsive interface for editing text."
+        }
+      ]
+    },
+    "Handling Text Interactions in Custom Keyboards": {
+      "title": "Handling Text Interactions in Custom Keyboards",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/handling_text_interactions_in_custom_keyboards",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/handling_text_interactions_in_custom_keyboards",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Insert, delete, and manipulate text by using a proxy to a text input view."
+        }
+      ]
+    },
+    "Understanding the Exception Types in a Crash Report": {
+      "title": "Understanding the Exception Types in a Crash Report",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/understanding_the_exception_types_in_a_crash_report",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/understanding_the_exception_types_in_a_crash_report"
+    },
+    "Scaling Fonts Automatically": {
+      "title": "Scaling Fonts Automatically",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uifont/scaling_fonts_automatically",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/uifont/scaling_fonts_automatically",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Scale text in your interface automatically using Dynamic Type."
+        }
+      ]
+    },
+    "Adding a Custom Font to Your App": {
+      "title": "Adding a Custom Font to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add a custom font to your app and use it in your app’s interface."
+        }
+      ]
+    },
+    "Adding a Document Browser to Your App": {
+      "title": "Adding a Document Browser to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Give users access to their local or remote documents from within your app.  "
+        }
+      ]
+    },
+    "Setting Up a Document Browser App": {
+      "title": "Setting Up a Document Browser App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/setting_up_a_document_browser_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/setting_up_a_document_browser_app"
+    },
+    "Presenting Selected Documents": {
+      "title": "Presenting Selected Documents",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/presenting_selected_documents",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/presenting_selected_documents",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display user-selected documents over your browser view controller."
+        }
+      ]
+    },
+    "Enabling Document Sharing": {
+      "title": "Enabling Document Sharing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/enabling_document_sharing",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/enabling_document_sharing",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Give users the ability to import and export documents from your app.  "
+        }
+      ]
+    },
+    "Customizing the Browser": {
+      "title": "Customizing the Browser",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/customizing_the_browser",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/customizing_the_browser",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize the document browser’s look and behavior."
+        }
+      ]
+    },
+    "Adding Custom Actions and Activities": {
+      "title": "Adding Custom Actions and Activities",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/adding_custom_actions_and_activities",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/adding_a_document_browser_to_your_app/adding_custom_actions_and_activities",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add custom document browser actions, activities, and bar items.  "
+        }
+      ]
+    },
+    "Providing Access to Directories": {
+      "title": "Providing Access to Directories",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/providing_access_to_directories",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/view_controllers/providing_access_to_directories",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a document picker to access the content of a directory outside your app’s container."
+        }
+      ]
+    },
+    "Processing Queued Notifications": {
+      "title": "Processing Queued Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground/processing_queued_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_foreground/processing_queued_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Respond to notifications when coming out of the suspended state. "
+        }
+      ]
+    },
+    "Preparing Your UI to Run in the Background": {
+      "title": "Preparing Your UI to Run in the Background",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background"
+    },
+    "Preparing Your Metal App to Run in the Background": {
+      "title": "Preparing Your Metal App to Run in the Background",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/preparing_your_metal_app_to_run_in_the_background",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metal/preparing_your_metal_app_to_run_in_the_background"
+    },
+    "Updating Your App with Background App Refresh": {
+      "title": "Updating Your App with Background App Refresh",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/updating_your_app_with_background_app_refresh",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/updating_your_app_with_background_app_refresh",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Fetch content opportunistically in the background and update your app's interface."
+        }
+      ]
+    },
+    "Extending Your App's Background Execution Time": {
+      "title": "Extending Your App's Background Execution Time",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/extending_your_app_s_background_execution_time",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/extending_your_app_s_background_execution_time",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that critical tasks finish when your app moves to the background."
+        }
+      ]
+    },
+    "About the Background Execution Sequence": {
+      "title": "About the Background Execution Sequence",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/about_the_background_execution_sequence",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/about_the_background_execution_sequence",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn the order in which your custom code is executed when your app moves to the background."
+        }
+      ]
+    },
+    "Responding to Memory Warnings": {
+      "title": "Responding to Memory Warnings",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle/responding_to_memory_warnings",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle/responding_to_memory_warnings",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Free up memory when asked to do so by the system."
+        }
+      ]
+    },
+    "Responding to Changing Display Modes on Apple TV": {
+      "title": "Responding to Changing Display Modes on Apple TV",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_changing_display_modes_on_apple_tv",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/responding_to_changing_display_modes_on_apple_tv",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Change images and resources dynamically when the screen gamut on your device changes."
+        }
+      ]
+    },
+    "Updating Your App from 32-Bit to 64-Bit Architecture": {
+      "title": "Updating Your App from 32-Bit to 64-Bit Architecture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that your app behaves as expected by adapting it to support later versions of the operating system."
+        }
+      ]
+    },
+    "Updating Data Structures": {
+      "title": "Updating Data Structures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/updating_data_structures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/updating_data_structures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review your app's data design and update it to conform with 64-bit architecture."
+        }
+      ]
+    },
+    "Auditing Pointer Usage": {
+      "title": "Auditing Pointer Usage",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/auditing_pointer_usage",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/auditing_pointer_usage",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that the pointers in your code are safe for the 64-bit runtime."
+        }
+      ]
+    },
+    "Managing Functions and Function Pointers": {
+      "title": "Managing Functions and Function Pointers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/managing_functions_and_function_pointers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/managing_functions_and_function_pointers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that your code correctly handles functions, function pointers, and Objective-C messages."
+        }
+      ]
+    },
+    "Optimizing Memory Performance": {
+      "title": "Optimizing Memory Performance",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/optimizing_memory_performance",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/optimizing_memory_performance",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Measure the impact of the 64-bit runtime on your app's memory usage."
+        }
+      ]
+    },
+    "Verifying Mathematical Calculations": {
+      "title": "Verifying Mathematical Calculations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/verifying_mathematical_calculations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture/verifying_mathematical_calculations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure the accuracy of your math operations in 64-bit architecture."
+        }
+      ]
+    },
+    "Incorporating Predicted Touches into an App": {
+      "title": "Incorporating Predicted Touches into an App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches/incorporating_predicted_touches_into_an_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_touches_in_your_view/minimizing_latency_with_predicted_touches/incorporating_predicted_touches_into_an_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to create a simple app that incorporates predicted touches into its drawing code."
+        }
+      ]
+    }
+  }
+}

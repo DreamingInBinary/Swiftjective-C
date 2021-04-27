@@ -1,1 +1,74 @@
-{"articles":{"Delivering a Great Privacy Experience in Your Photos App":{"title":"Delivering a Great Privacy Experience in Your Photos App","type":"topic","identifier":"doc://com.apple.documentation/documentation/photokit/delivering_a_great_privacy_experience_in_your_photos_app","kind":"article","role":"article","url":"/documentation/photokit/delivering_a_great_privacy_experience_in_your_photos_app","abstract":[{"type":"text","text":"Adopt the latest privacy enhancements to deliver a private and trusted experience to your users."}]},"Fetching Objects and Requesting Changes":{"title":"Fetching Objects and Requesting Changes","type":"topic","identifier":"doc://com.apple.documentation/documentation/photokit/fetching_objects_and_requesting_changes","kind":"article","role":"article","url":"/documentation/photokit/fetching_objects_and_requesting_changes","abstract":[{"type":"text","text":"Get assets, asset collections, and collection lists matching a specified query."}]},"Loading and Caching Assets and Thumbnails":{"title":"Loading and Caching Assets and Thumbnails","type":"topic","identifier":"doc://com.apple.documentation/documentation/photokit/loading_and_caching_assets_and_thumbnails","kind":"article","role":"article","url":"/documentation/photokit/loading_and_caching_assets_and_thumbnails","abstract":[{"type":"text","text":"Request image, video, or Live Photos content, and cache for quick reuse."}]},"Displaying Live Photos":{"title":"Displaying Live Photos","type":"topic","identifier":"doc://com.apple.documentation/documentation/photokit/displaying_live_photos","kind":"article","role":"article","url":"/documentation/photokit/displaying_live_photos","abstract":[{"type":"text","text":"Provide the same interactive playback of Live Photos as in the iOS Photos app."}]},"Creating Photo Editing Extensions":{"title":"Creating Photo Editing Extensions","type":"topic","identifier":"doc://com.apple.documentation/documentation/photokit/creating_photo_editing_extensions","kind":"article","role":"article","url":"/documentation/photokit/creating_photo_editing_extensions","abstract":[{"type":"text","text":"Allow your app to edit assets directly within the Photos app."}]}}}
+{
+  "articles": {
+    "Delivering a Great Privacy Experience in Your Photos App": {
+      "title": "Delivering a Great Privacy Experience in Your Photos App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/delivering_a_great_privacy_experience_in_your_photos_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/photokit/delivering_a_great_privacy_experience_in_your_photos_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adopt the latest privacy enhancements to deliver a private and trusted experience to your users."
+        }
+      ]
+    },
+    "Fetching Objects and Requesting Changes": {
+      "title": "Fetching Objects and Requesting Changes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/fetching_objects_and_requesting_changes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/photokit/fetching_objects_and_requesting_changes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Get assets, asset collections, and collection lists matching a specified query."
+        }
+      ]
+    },
+    "Loading and Caching Assets and Thumbnails": {
+      "title": "Loading and Caching Assets and Thumbnails",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/loading_and_caching_assets_and_thumbnails",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/photokit/loading_and_caching_assets_and_thumbnails",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request image, video, or Live Photos content, and cache for quick reuse."
+        }
+      ]
+    },
+    "Displaying Live Photos": {
+      "title": "Displaying Live Photos",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/displaying_live_photos",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/photokit/displaying_live_photos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide the same interactive playback of Live Photos as in the iOS Photos app."
+        }
+      ]
+    },
+    "Creating Photo Editing Extensions": {
+      "title": "Creating Photo Editing Extensions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/creating_photo_editing_extensions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/photokit/creating_photo_editing_extensions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow your app to edit assets directly within the Photos app."
+        }
+      ]
+    }
+  }
+}

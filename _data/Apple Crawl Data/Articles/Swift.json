@@ -1,1 +1,110 @@
-{"articles":{"Choosing Between Structures and Classes":{"title":"Choosing Between Structures and Classes","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/choosing_between_structures_and_classes","kind":"article","role":"article","url":"/documentation/swift/choosing_between_structures_and_classes","abstract":[{"type":"text","text":"Decide how to store data and model behavior."}]},"Adopting Common Protocols":{"title":"Adopting Common Protocols","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/adopting_common_protocols","kind":"article","role":"article","url":"/documentation/swift/adopting_common_protocols","abstract":[{"type":"text","text":"Make your custom types easier to use by ensuring that they conform to Swift protocols."}]},"Maintaining State in Your Apps":{"title":"Maintaining State in Your Apps","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/maintaining_state_in_your_apps","kind":"article","role":"article","url":"/documentation/swift/maintaining_state_in_your_apps","abstract":[{"type":"text","text":"Use enumerations to capture and track the state of your app."}]},"Preventing Timing Problems When Using Closures":{"title":"Preventing Timing Problems When Using Closures","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/preventing_timing_problems_when_using_closures","kind":"article","role":"article","url":"/documentation/swift/preventing_timing_problems_when_using_closures","abstract":[{"type":"text","text":"Understand how different API calls to your closures can affect your app."}]},"Migrating Your Objective-C Code to Swift":{"title":"Migrating Your Objective-C Code to Swift","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/migrating_your_objective-c_code_to_swift","kind":"article","role":"article","url":"/documentation/swift/migrating_your_objective-c_code_to_swift","abstract":[{"type":"text","text":"Learn the recommended steps to migrate your code."}]},"Handling Dynamically Typed Methods and Objects in Swift":{"title":"Handling Dynamically Typed Methods and Objects in Swift","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/handling_dynamically_typed_methods_and_objects_in_swift","kind":"article","role":"article","url":"/documentation/swift/handling_dynamically_typed_methods_and_objects_in_swift","abstract":[{"type":"text","text":"Cast instances of the Objective-C "},{"type":"codeVoice","code":"id"},{"type":"text","text":" type to a specific Swift type."}]},"Using Objective-C Runtime Features in Swift":{"title":"Using Objective-C Runtime Features in Swift","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift/using_objective-c_runtime_features_in_swift","kind":"article","role":"article","url":"/documentation/swift/using_objective-c_runtime_features_in_swift","abstract":[{"type":"text","text":"Use selectors and key paths to interact with dynamic Objective-C APIs."}]}}}
+{
+  "articles": {
+    "Choosing Between Structures and Classes": {
+      "title": "Choosing Between Structures and Classes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/choosing_between_structures_and_classes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/choosing_between_structures_and_classes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Decide how to store data and model behavior."
+        }
+      ]
+    },
+    "Adopting Common Protocols": {
+      "title": "Adopting Common Protocols",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/adopting_common_protocols",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/adopting_common_protocols",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your custom types easier to use by ensuring that they conform to Swift protocols."
+        }
+      ]
+    },
+    "Maintaining State in Your Apps": {
+      "title": "Maintaining State in Your Apps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/maintaining_state_in_your_apps",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/maintaining_state_in_your_apps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use enumerations to capture and track the state of your app."
+        }
+      ]
+    },
+    "Preventing Timing Problems When Using Closures": {
+      "title": "Preventing Timing Problems When Using Closures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/preventing_timing_problems_when_using_closures",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/preventing_timing_problems_when_using_closures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Understand how different API calls to your closures can affect your app."
+        }
+      ]
+    },
+    "Migrating Your Objective-C Code to Swift": {
+      "title": "Migrating Your Objective-C Code to Swift",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/migrating_your_objective-c_code_to_swift",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/migrating_your_objective-c_code_to_swift",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn the recommended steps to migrate your code."
+        }
+      ]
+    },
+    "Handling Dynamically Typed Methods and Objects in Swift": {
+      "title": "Handling Dynamically Typed Methods and Objects in Swift",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/handling_dynamically_typed_methods_and_objects_in_swift",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/handling_dynamically_typed_methods_and_objects_in_swift",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Cast instances of the Objective-C "
+        },
+        {
+          "type": "codeVoice",
+          "code": "id"
+        },
+        {
+          "type": "text",
+          "text": " type to a specific Swift type."
+        }
+      ]
+    },
+    "Using Objective-C Runtime Features in Swift": {
+      "title": "Using Objective-C Runtime Features in Swift",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/using_objective-c_runtime_features_in_swift",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/using_objective-c_runtime_features_in_swift",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use selectors and key paths to interact with dynamic Objective-C APIs."
+        }
+      ]
+    }
+  }
+}

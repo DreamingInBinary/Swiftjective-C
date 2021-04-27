@@ -1,1 +1,18 @@
-{"articles":{"Messaging Between a Playground Page and the Always-On Live View":{"title":"Messaging Between a Playground Page and the Always-On Live View","type":"topic","identifier":"doc://com.apple.documentation/documentation/playgroundsupport/messaging_between_a_playground_page_and_the_always-on_live_view","kind":"article","role":"article","url":"/documentation/playgroundsupport/messaging_between_a_playground_page_and_the_always-on_live_view","abstract":[{"type":"text","text":"Display the results of running a playground page's code in a persistent live view."}]}}}
+{
+  "articles": {
+    "Messaging Between a Playground Page and the Always-On Live View": {
+      "title": "Messaging Between a Playground Page and the Always-On Live View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/playgroundsupport/messaging_between_a_playground_page_and_the_always-on_live_view",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/playgroundsupport/messaging_between_a_playground_page_and_the_always-on_live_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display the results of running a playground page's code in a persistent live view."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,18 @@
-{"articles":{"Adding Actions to the Context Menu":{"title":"Adding Actions to the Context Menu","type":"topic","identifier":"doc://com.apple.documentation/documentation/fileproviderui/adding_actions_to_the_context_menu","kind":"article","role":"article","url":"/documentation/fileproviderui/adding_actions_to_the_context_menu","abstract":[{"type":"text","text":"Present custom actions from your File Provider extension in the system’s file browser."}]}}}
+{
+  "articles": {
+    "Adding Actions to the Context Menu": {
+      "title": "Adding Actions to the Context Menu",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileproviderui/adding_actions_to_the_context_menu",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileproviderui/adding_actions_to_the_context_menu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Present custom actions from your File Provider extension in the system’s file browser."
+        }
+      ]
+    }
+  }
+}

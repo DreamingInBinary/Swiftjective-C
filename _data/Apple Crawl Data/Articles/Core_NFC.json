@@ -1,1 +1,18 @@
-{"articles":{"Adding Support for Background Tag Reading":{"title":"Adding Support for Background Tag Reading","type":"topic","identifier":"doc://com.apple.documentation/documentation/corenfc/adding_support_for_background_tag_reading","kind":"article","role":"article","url":"/documentation/corenfc/adding_support_for_background_tag_reading","abstract":[{"type":"text","text":"Allow users to scan NFC tags without an app using background tag reading."}]}}}
+{
+  "articles": {
+    "Adding Support for Background Tag Reading": {
+      "title": "Adding Support for Background Tag Reading",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corenfc/adding_support_for_background_tag_reading",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/corenfc/adding_support_for_background_tag_reading",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to scan NFC tags without an app using background tag reading."
+        }
+      ]
+    }
+  }
+}

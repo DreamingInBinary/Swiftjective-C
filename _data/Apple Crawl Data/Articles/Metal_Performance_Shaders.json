@@ -1,1 +1,20 @@
-{"articles":{"The MPSKernel Class":{"title":"The MPSKernel Class","type":"topic","identifier":"doc://com.apple.documentation/documentation/metalperformanceshaders/the_mpskernel_class","kind":"article","role":"article","url":"/documentation/metalperformanceshaders/the_mpskernel_class"},"Tuning Hints":{"title":"Tuning Hints","type":"topic","identifier":"doc://com.apple.documentation/documentation/metalperformanceshaders/tuning_hints","kind":"article","role":"article","url":"/documentation/metalperformanceshaders/tuning_hints"}}}
+{
+  "articles": {
+    "The MPSKernel Class": {
+      "title": "The MPSKernel Class",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metalperformanceshaders/the_mpskernel_class",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metalperformanceshaders/the_mpskernel_class"
+    },
+    "Tuning Hints": {
+      "title": "Tuning Hints",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metalperformanceshaders/tuning_hints",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metalperformanceshaders/tuning_hints"
+    }
+  }
+}

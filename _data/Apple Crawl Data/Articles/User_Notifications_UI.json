@@ -1,1 +1,18 @@
-{"articles":{"Customizing the Appearance of Notifications":{"title":"Customizing the Appearance of Notifications","type":"topic","identifier":"doc://com.apple.documentation/documentation/usernotificationsui/customizing_the_appearance_of_notifications","kind":"article","role":"article","url":"/documentation/usernotificationsui/customizing_the_appearance_of_notifications","abstract":[{"type":"text","text":"Customize the appearance of your iOS app’s notification alerts with a notification content app extension."}]}}}
+{
+  "articles": {
+    "Customizing the Appearance of Notifications": {
+      "title": "Customizing the Appearance of Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotificationsui/customizing_the_appearance_of_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotificationsui/customizing_the_appearance_of_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize the appearance of your iOS app’s notification alerts with a notification content app extension."
+        }
+      ]
+    }
+  }
+}

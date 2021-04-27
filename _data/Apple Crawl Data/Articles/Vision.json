@@ -1,1 +1,60 @@
-{"articles":{"Cropping Images Using Saliency":{"title":"Cropping Images Using Saliency","type":"topic","identifier":"doc://com.apple.documentation/documentation/vision/cropping_images_using_saliency","kind":"article","role":"article","url":"/documentation/vision/cropping_images_using_saliency","abstract":[{"type":"text","text":"Isolate regions in an image that are most likely to draw people's attention. "}]},"Detecting Human Body Poses in Images":{"title":"Detecting Human Body Poses in Images","type":"topic","identifier":"doc://com.apple.documentation/documentation/vision/detecting_human_body_poses_in_images","kind":"article","role":"article","url":"/documentation/vision/detecting_human_body_poses_in_images","abstract":[{"type":"text","text":"Add the capability to detect human body poses to your app using the Vision framework."}]},"Identifying Trajectories in Video":{"title":"Identifying Trajectories in Video","type":"topic","identifier":"doc://com.apple.documentation/documentation/vision/identifying_trajectories_in_video","kind":"article","role":"article","url":"/documentation/vision/identifying_trajectories_in_video","abstract":[{"type":"text","text":"Gain new insights into your video data by using Vision to detect trajectories."}]},"Recognizing Text in Images":{"title":"Recognizing Text in Images","type":"topic","identifier":"doc://com.apple.documentation/documentation/vision/recognizing_text_in_images","kind":"article","role":"article","url":"/documentation/vision/recognizing_text_in_images","abstract":[{"type":"text","text":"Add text-recognition features to your app using the Vision framework."}]}}}
+{
+  "articles": {
+    "Cropping Images Using Saliency": {
+      "title": "Cropping Images Using Saliency",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/cropping_images_using_saliency",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/vision/cropping_images_using_saliency",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Isolate regions in an image that are most likely to draw people's attention. "
+        }
+      ]
+    },
+    "Detecting Human Body Poses in Images": {
+      "title": "Detecting Human Body Poses in Images",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/detecting_human_body_poses_in_images",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/vision/detecting_human_body_poses_in_images",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add the capability to detect human body poses to your app using the Vision framework."
+        }
+      ]
+    },
+    "Identifying Trajectories in Video": {
+      "title": "Identifying Trajectories in Video",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/identifying_trajectories_in_video",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/vision/identifying_trajectories_in_video",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Gain new insights into your video data by using Vision to detect trajectories."
+        }
+      ]
+    },
+    "Recognizing Text in Images": {
+      "title": "Recognizing Text in Images",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/recognizing_text_in_images",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/vision/recognizing_text_in_images",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add text-recognition features to your app using the Vision framework."
+        }
+      ]
+    }
+  }
+}

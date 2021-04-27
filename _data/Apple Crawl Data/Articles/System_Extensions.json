@@ -1,1 +1,56 @@
-{"articles":{"Implementing Drivers, System Extensions, and Kexts":{"title":"Implementing Drivers, System Extensions, and Kexts","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_silicon/implementing_drivers_system_extensions_and_kexts","kind":"article","role":"article","url":"/documentation/apple_silicon/implementing_drivers_system_extensions_and_kexts","abstract":[{"type":"text","text":"Create drivers and system extensions to communicate with hardware and provide low-level services, and only use kernel extensions for a few tasks. "}]},"Creating a Driver Using the DriverKit SDK":{"title":"Creating a Driver Using the DriverKit SDK","type":"topic","identifier":"doc://com.apple.documentation/documentation/driverkit/creating_a_driver_using_the_driverkit_sdk","kind":"article","role":"article","url":"/documentation/driverkit/creating_a_driver_using_the_driverkit_sdk"},"Preparing Your App to Work with Pointer Authentication":{"title":"Preparing Your App to Work with Pointer Authentication","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/preparing_your_app_to_work_with_pointer_authentication","kind":"article","role":"article","url":"/documentation/security/preparing_your_app_to_work_with_pointer_authentication"},"Installing a Custom Kernel Extension":{"title":"Installing a Custom Kernel Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple-silicon/installing-a-custom-kernel-extension","kind":"article","role":"article","url":"/documentation/apple-silicon/installing-a-custom-kernel-extension"},"Installing System Extensions and Drivers":{"title":"Installing System Extensions and Drivers","type":"topic","identifier":"doc://com.apple.documentation/documentation/systemextensions/installing_system_extensions_and_drivers","kind":"article","role":"article","url":"/documentation/systemextensions/installing_system_extensions_and_drivers","abstract":[{"type":"text","text":"Activate system extensions and drivers to make them available to the system, and update or deactivate them as needed. "}]}}}
+{
+  "articles": {
+    "Implementing Drivers, System Extensions, and Kexts": {
+      "title": "Implementing Drivers, System Extensions, and Kexts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/systemextensions/implementing_drivers_system_extensions_and_kexts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/systemextensions/implementing_drivers_system_extensions_and_kexts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create drivers and system extensions to communicate with hardware and provide low-level services, and only use kernel extensions for a few tasks. "
+        }
+      ]
+    },
+    "Creating a Driver Using the DriverKit SDK": {
+      "title": "Creating a Driver Using the DriverKit SDK",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/driverkit/creating_a_driver_using_the_driverkit_sdk",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/driverkit/creating_a_driver_using_the_driverkit_sdk"
+    },
+    "Preparing Your App to Work with Pointer Authentication": {
+      "title": "Preparing Your App to Work with Pointer Authentication",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/preparing_your_app_to_work_with_pointer_authentication",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/preparing_your_app_to_work_with_pointer_authentication"
+    },
+    "Installing a Custom Kernel Extension": {
+      "title": "Installing a Custom Kernel Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple-silicon/installing-a-custom-kernel-extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple-silicon/installing-a-custom-kernel-extension"
+    },
+    "Installing System Extensions and Drivers": {
+      "title": "Installing System Extensions and Drivers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/systemextensions/installing_system_extensions_and_drivers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/systemextensions/installing_system_extensions_and_drivers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Activate system extensions and drivers to make them available to the system, and update or deactivate them as needed. "
+        }
+      ]
+    }
+  }
+}

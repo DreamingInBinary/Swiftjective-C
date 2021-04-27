@@ -1,1 +1,18 @@
-{"articles":{"Analyzing Audio to Classify Sounds":{"title":"Analyzing Audio to Classify Sounds","type":"topic","identifier":"doc://com.apple.documentation/documentation/soundanalysis/analyzing_audio_to_classify_sounds","kind":"article","role":"article","url":"/documentation/soundanalysis/analyzing_audio_to_classify_sounds","abstract":[{"type":"text","text":"Use the SoundAnalysis framework and Core ML to analyze audio."}]}}}
+{
+  "articles": {
+    "Analyzing Audio to Classify Sounds": {
+      "title": "Analyzing Audio to Classify Sounds",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/soundanalysis/analyzing_audio_to_classify_sounds",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/soundanalysis/analyzing_audio_to_classify_sounds",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the SoundAnalysis framework and Core ML to analyze audio."
+        }
+      ]
+    }
+  }
+}

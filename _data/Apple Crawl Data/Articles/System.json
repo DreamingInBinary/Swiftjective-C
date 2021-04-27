@@ -1,1 +1,46 @@
-{"articles":{"Adopting Swift Error Constants":{"role":"article","identifier":"doc://com.apple.SwiftSystem/documentation/System/adopting-errno","kind":"article","title":"Adopting Swift Error Constants","abstract":[{"type":"text","text":"Migrate existing C code to Swift, using the error constants provided by the System module."}],"type":"topic","url":"/documentation/system/adopting-errno"},"Adopting Swift File Operations":{"title":"Adopting Swift File Operations","type":"topic","identifier":"doc://com.apple.SwiftSystem/documentation/System/adopting-file-operations","role":"article","url":"/documentation/system/adopting-file-operations","kind":"article","abstract":[{"text":"Migrate existing C code to Swift, using the file operations provided by the System module.","type":"text"}]},"Adopting Swift File Options":{"title":"Adopting Swift File Options","type":"topic","identifier":"doc://com.apple.SwiftSystem/documentation/System/adopting-file-options","role":"article","kind":"article","url":"/documentation/system/adopting-file-options","abstract":[{"type":"text","text":"Migrate existing C code to Swift, using the file-operation options provided by the System module."}]}}}
+{
+  "articles": {
+    "Adopting Swift Error Constants": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Migrate existing C code to Swift, using the error constants provided by the System module."
+        }
+      ],
+      "identifier": "doc://com.apple.SwiftSystem/documentation/System/adopting-errno",
+      "title": "Adopting Swift Error Constants",
+      "kind": "article",
+      "url": "/documentation/system/adopting-errno",
+      "role": "article",
+      "type": "topic"
+    },
+    "Adopting Swift File Operations": {
+      "title": "Adopting Swift File Operations",
+      "abstract": [
+        {
+          "text": "Migrate existing C code to Swift, using the file operations provided by the System module.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/system/adopting-file-operations",
+      "kind": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.SwiftSystem/documentation/System/adopting-file-operations",
+      "role": "article"
+    },
+    "Adopting Swift File Options": {
+      "identifier": "doc://com.apple.SwiftSystem/documentation/System/adopting-file-options",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Migrate existing C code to Swift, using the file-operation options provided by the System module.",
+          "type": "text"
+        }
+      ],
+      "title": "Adopting Swift File Options",
+      "role": "article",
+      "url": "/documentation/system/adopting-file-options",
+      "kind": "article"
+    }
+  }
+}

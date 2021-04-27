@@ -1,1 +1,18 @@
-{"articles":{"Complying with Encryption Export Regulations":{"title":"Complying with Encryption Export Regulations","type":"topic","identifier":"doc://com.apple.documentation/documentation/security/complying_with_encryption_export_regulations","kind":"article","role":"article","url":"/documentation/security/complying_with_encryption_export_regulations","abstract":[{"type":"text","text":"Declare the use of encryption in your app to streamline the app submission process."}]}}}
+{
+  "articles": {
+    "Complying with Encryption Export Regulations": {
+      "title": "Complying with Encryption Export Regulations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/complying_with_encryption_export_regulations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/complying_with_encryption_export_regulations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Declare the use of encryption in your app to streamline the app submission process."
+        }
+      ]
+    }
+  }
+}

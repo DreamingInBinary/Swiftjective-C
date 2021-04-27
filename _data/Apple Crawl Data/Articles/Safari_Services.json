@@ -1,1 +1,324 @@
-{"articles":{"Creating a Content Blocker":{"title":"Creating a Content Blocker","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/creating_a_content_blocker","kind":"article","role":"article","url":"/documentation/safariservices/creating_a_content_blocker","abstract":[{"type":"text","text":"Create a Content Blocker for Safari in Xcode."}]},"Supporting Associated Domains":{"title":"Supporting Associated Domains","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains","kind":"article","role":"article","url":"/documentation/safariservices/supporting_associated_domains","abstract":[{"type":"text","text":"Connect your app and a website to provide both a native app and a browser experience."}]},"Converting a Legacy Safari Extension to a Safari App Extension":{"title":"Converting a Legacy Safari Extension to a Safari App Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/converting_a_legacy_safari_extension_to_a_safari_app_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/converting_a_legacy_safari_extension_to_a_safari_app_extension","abstract":[{"type":"text","text":"Convert a Legacy Safari Extension to a Safari App Extension, automatically with keys or manually."}]},"Building a Safari App Extension":{"title":"Building a Safari App Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension"},"Troubleshooting Your Safari App Extension":{"title":"Troubleshooting Your Safari App Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/troubleshooting_your_safari_app_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/troubleshooting_your_safari_app_extension","abstract":[{"type":"text","text":"Debug your Safari App Extension with these techniques. "}]},"Adjusting Website Access Permissions":{"title":"Adjusting Website Access Permissions","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_website_access_permissions","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_website_access_permissions","abstract":[{"type":"text","text":"Set website access permissions in a Safari App Extension using information property list keys."}]},"Setting Safari App Extension Feature Keys":{"title":"Setting Safari App Extension Feature Keys","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/setting_safari_app_extension_feature_keys","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/setting_safari_app_extension_feature_keys","abstract":[{"type":"text","text":"Set keys for permissions, scripts, style sheets, contextual menu items, and toolbar items in the information property list file. "}]},"About Content Script and Style Sheet Keys":{"title":"About Content Script and Style Sheet Keys","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_content_script_and_style_sheet_keys","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_content_script_and_style_sheet_keys","abstract":[{"type":"text","text":"Learn about controlling style sheet and script injection with information property list keys. "}]},"About Permissions for Scripts and Style Sheets":{"title":"About Permissions for Scripts and Style Sheets","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_permissions_for_scripts_and_style_sheets","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_permissions_for_scripts_and_style_sheets"},"About Safari App Extension Default Keys":{"title":"About Safari App Extension Default Keys","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_safari_app_extension_default_keys","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_safari_app_extension_default_keys","abstract":[{"type":"text","text":"Learn about the default keys in the information property list file. "}]},"Injecting a Script into a Webpage":{"title":"Injecting a Script into a Webpage","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/injecting_a_script_into_a_webpage","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/injecting_a_script_into_a_webpage","abstract":[{"type":"text","text":"Inject a script that you've written from a Safari App Extension into a webpage. "}]},"About Injected Style Sheets and Scripts":{"title":"About Injected Style Sheets and Scripts","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/about_injected_style_sheets_and_scripts","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/about_injected_style_sheets_and_scripts","abstract":[{"type":"text","text":"Learn how you can affect the appearance or behavior of a webpage by using injected style sheets and scripts."}]},"Injecting CSS Style Sheets into a Webpage":{"title":"Injecting CSS Style Sheets into a Webpage","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/injecting_css_style_sheets_into_a_webpage","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/injecting_css_style_sheets_into_a_webpage","abstract":[{"type":"text","text":"Add to or override styles by injecting CSS style sheets into webpages."}]},"Passing Messages Between Safari App Extensions and Injected Scripts":{"title":"Passing Messages Between Safari App Extensions and Injected Scripts","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/passing_messages_between_safari_app_extensions_and_injected_scripts","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/passing_messages_between_safari_app_extensions_and_injected_scripts","abstract":[{"type":"text","text":"Pass data back and forth between Safari App Extension and injected scripts."}]},"Adjusting Settings for a Toolbar Item":{"title":"Adjusting Settings for a Toolbar Item","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_a_toolbar_item","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_a_toolbar_item","abstract":[{"type":"text","text":"Customize a toolbar item for your Safari App Extension."}]},"About Contextual Menu and Toolbar Item Keys":{"title":"About Contextual Menu and Toolbar Item Keys","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_contextual_menu_and_toolbar_item_keys","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_contextual_menu_and_toolbar_item_keys"},"Adjusting Settings for Contextual Menu Items":{"title":"Adjusting Settings for Contextual Menu Items","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_contextual_menu_items","kind":"article","role":"article","url":"/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_contextual_menu_items"},"Creating a Safari Web Extension":{"title":"Creating a Safari Web Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension","abstract":[{"type":"text","text":"Build and deploy a Safari web extension using an Xcode project."}]},"Converting a Web Extension for Safari":{"title":"Converting a Web Extension for Safari","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari","abstract":[{"type":"text","text":"Convert your existing extension to a Safari web extension using Xcode’s command-line tool."}]},"Assessing Your Safari Web Extension’s Browser Compatibility":{"title":"Assessing Your Safari Web Extension’s Browser Compatibility","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/assessing_your_safari_web_extension_s_browser_compatibility","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/assessing_your_safari_web_extension_s_browser_compatibility","abstract":[{"type":"text","text":"Review your Safari web extension implementation plan, manifest keys, and JavaScript API usage for compatibility with other browsers."}]},"Converting a Safari App Extension to a Safari Web Extension":{"title":"Converting a Safari App Extension to a Safari Web Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/converting_a_safari_app_extension_to_a_safari_web_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/converting_a_safari_app_extension_to_a_safari_web_extension","abstract":[{"type":"text","text":"Unify your web extensions and simplify development by sharing code with a Safari web extension."}]},"Customizing a Safari Web Extension":{"title":"Customizing a Safari Web Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/customizing_a_safari_web_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/customizing_a_safari_web_extension","abstract":[{"type":"text","text":"Update and improve your Safari web extension using Xcode and Safari tools."}]},"Distributing Your App for Beta Testing and Releases":{"title":"Distributing Your App for Beta Testing and Releases","type":"topic","identifier":"doc://com.apple.documentation/documentation/xcode/distributing_your_app_for_beta_testing_and_releases","kind":"article","role":"article","url":"/documentation/xcode/distributing_your_app_for_beta_testing_and_releases"},"Managing Safari Web Extension Permissions":{"title":"Managing Safari Web Extension Permissions","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/managing_safari_web_extension_permissions","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/managing_safari_web_extension_permissions","abstract":[{"type":"text","text":"Respect user privacy by setting appropriate permissions for your Safari web extension."}]},"Messaging Between the App and JavaScript in a Safari Web Extension":{"title":"Messaging Between the App and JavaScript in a Safari Web Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/messaging_between_the_app_and_javascript_in_a_safari_web_extension","kind":"article","role":"article","url":"/documentation/safariservices/safari_web_extensions/messaging_between_the_app_and_javascript_in_a_safari_web_extension","abstract":[{"type":"text","text":"Communicate about events and share data between the app and JavaScript by using native messaging and app groups."}]}}}
+{
+  "articles": {
+    "Creating a Content Blocker": {
+      "title": "Creating a Content Blocker",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/creating_a_content_blocker",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/creating_a_content_blocker",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a Content Blocker for Safari in Xcode."
+        }
+      ]
+    },
+    "Supporting Associated Domains": {
+      "title": "Supporting Associated Domains",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/supporting_associated_domains",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Connect your app and a website to provide both a native app and a browser experience."
+        }
+      ]
+    },
+    "Converting a Legacy Safari Extension to a Safari App Extension": {
+      "title": "Converting a Legacy Safari Extension to a Safari App Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/converting_a_legacy_safari_extension_to_a_safari_app_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/converting_a_legacy_safari_extension_to_a_safari_app_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert a Legacy Safari Extension to a Safari App Extension, automatically with keys or manually."
+        }
+      ]
+    },
+    "Building a Safari App Extension": {
+      "title": "Building a Safari App Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension"
+    },
+    "Troubleshooting Your Safari App Extension": {
+      "title": "Troubleshooting Your Safari App Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/troubleshooting_your_safari_app_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/troubleshooting_your_safari_app_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Debug your Safari App Extension with these techniques. "
+        }
+      ]
+    },
+    "Adjusting Website Access Permissions": {
+      "title": "Adjusting Website Access Permissions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_website_access_permissions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_website_access_permissions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set website access permissions in a Safari App Extension using information property list keys."
+        }
+      ]
+    },
+    "Setting Safari App Extension Feature Keys": {
+      "title": "Setting Safari App Extension Feature Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/setting_safari_app_extension_feature_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/setting_safari_app_extension_feature_keys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set keys for permissions, scripts, style sheets, contextual menu items, and toolbar items in the information property list file. "
+        }
+      ]
+    },
+    "About Content Script and Style Sheet Keys": {
+      "title": "About Content Script and Style Sheet Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_content_script_and_style_sheet_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_content_script_and_style_sheet_keys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about controlling style sheet and script injection with information property list keys. "
+        }
+      ]
+    },
+    "About Permissions for Scripts and Style Sheets": {
+      "title": "About Permissions for Scripts and Style Sheets",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_permissions_for_scripts_and_style_sheets",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_permissions_for_scripts_and_style_sheets"
+    },
+    "About Safari App Extension Default Keys": {
+      "title": "About Safari App Extension Default Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_safari_app_extension_default_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_safari_app_extension_default_keys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about the default keys in the information property list file. "
+        }
+      ]
+    },
+    "Injecting a Script into a Webpage": {
+      "title": "Injecting a Script into a Webpage",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/injecting_a_script_into_a_webpage",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/injecting_a_script_into_a_webpage",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inject a script that you've written from a Safari App Extension into a webpage. "
+        }
+      ]
+    },
+    "About Injected Style Sheets and Scripts": {
+      "title": "About Injected Style Sheets and Scripts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/about_injected_style_sheets_and_scripts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/about_injected_style_sheets_and_scripts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how you can affect the appearance or behavior of a webpage by using injected style sheets and scripts."
+        }
+      ]
+    },
+    "Injecting CSS Style Sheets into a Webpage": {
+      "title": "Injecting CSS Style Sheets into a Webpage",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/injecting_css_style_sheets_into_a_webpage",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/injecting_css_style_sheets_into_a_webpage",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add to or override styles by injecting CSS style sheets into webpages."
+        }
+      ]
+    },
+    "Passing Messages Between Safari App Extensions and Injected Scripts": {
+      "title": "Passing Messages Between Safari App Extensions and Injected Scripts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/passing_messages_between_safari_app_extensions_and_injected_scripts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/passing_messages_between_safari_app_extensions_and_injected_scripts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Pass data back and forth between Safari App Extension and injected scripts."
+        }
+      ]
+    },
+    "Adjusting Settings for a Toolbar Item": {
+      "title": "Adjusting Settings for a Toolbar Item",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_a_toolbar_item",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_a_toolbar_item",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize a toolbar item for your Safari App Extension."
+        }
+      ]
+    },
+    "About Contextual Menu and Toolbar Item Keys": {
+      "title": "About Contextual Menu and Toolbar Item Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_contextual_menu_and_toolbar_item_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/about_contextual_menu_and_toolbar_item_keys"
+    },
+    "Adjusting Settings for Contextual Menu Items": {
+      "title": "Adjusting Settings for Contextual Menu Items",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_contextual_menu_items",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_app_extensions/safari_app_extension_info_property_list_keys/adjusting_settings_for_contextual_menu_items"
+    },
+    "Creating a Safari Web Extension": {
+      "title": "Creating a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build and deploy a Safari web extension using an Xcode project."
+        }
+      ]
+    },
+    "Converting a Web Extension for Safari": {
+      "title": "Converting a Web Extension for Safari",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert your existing extension to a Safari web extension using Xcode’s command-line tool."
+        }
+      ]
+    },
+    "Assessing Your Safari Web Extension’s Browser Compatibility": {
+      "title": "Assessing Your Safari Web Extension’s Browser Compatibility",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/assessing_your_safari_web_extension_s_browser_compatibility",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/assessing_your_safari_web_extension_s_browser_compatibility",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review your Safari web extension implementation plan, manifest keys, and JavaScript API usage for compatibility with other browsers."
+        }
+      ]
+    },
+    "Converting a Safari App Extension to a Safari Web Extension": {
+      "title": "Converting a Safari App Extension to a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/converting_a_safari_app_extension_to_a_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/converting_a_safari_app_extension_to_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Unify your web extensions and simplify development by sharing code with a Safari web extension."
+        }
+      ]
+    },
+    "Customizing a Safari Web Extension": {
+      "title": "Customizing a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/customizing_a_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/customizing_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update and improve your Safari web extension using Xcode and Safari tools."
+        }
+      ]
+    },
+    "Distributing Your App for Beta Testing and Releases": {
+      "title": "Distributing Your App for Beta Testing and Releases",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/distributing_your_app_for_beta_testing_and_releases",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/distributing_your_app_for_beta_testing_and_releases"
+    },
+    "Managing Safari Web Extension Permissions": {
+      "title": "Managing Safari Web Extension Permissions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/managing_safari_web_extension_permissions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/managing_safari_web_extension_permissions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Respect user privacy by setting appropriate permissions for your Safari web extension."
+        }
+      ]
+    },
+    "Messaging Between the App and JavaScript in a Safari Web Extension": {
+      "title": "Messaging Between the App and JavaScript in a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/messaging_between_the_app_and_javascript_in_a_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/messaging_between_the_app_and_javascript_in_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Communicate about events and share data between the app and JavaScript by using native messaging and app groups."
+        }
+      ]
+    }
+  }
+}

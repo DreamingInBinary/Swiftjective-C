@@ -1,1 +1,46 @@
-{"articles":{"Processing Changes for Sign in with Apple Accounts":{"title":"Processing Changes for Sign in with Apple Accounts","type":"topic","identifier":"doc://com.apple.documentation/documentation/sign_in_with_apple/processing_changes_for_sign_in_with_apple_accounts","kind":"article","role":"article","url":"/documentation/sign_in_with_apple/processing_changes_for_sign_in_with_apple_accounts","abstract":[{"type":"text","text":"Manage user-initiated modifications to maintain privacy."}]},"Transferring Your Apps and Users to Another Team":{"title":"Transferring Your Apps and Users to Another Team","type":"topic","identifier":"doc://com.apple.documentation/documentation/sign_in_with_apple/transferring_your_apps_and_users_to_another_team","kind":"article","role":"article","url":"/documentation/sign_in_with_apple/transferring_your_apps_and_users_to_another_team","abstract":[{"type":"text","text":"Migrate Sign in with Apple users to another team."}]},"Bringing New Apps and Users into Your Team":{"title":"Bringing New Apps and Users into Your Team","type":"topic","identifier":"doc://com.apple.documentation/documentation/sign_in_with_apple/bringing_new_apps_and_users_into_your_team","kind":"article","role":"article","url":"/documentation/sign_in_with_apple/bringing_new_apps_and_users_into_your_team","abstract":[{"type":"text","text":"Receive Sign in with Apple users and associated apps from another team."}]}}}
+{
+  "articles": {
+    "Processing Changes for Sign in with Apple Accounts": {
+      "title": "Processing Changes for Sign in with Apple Accounts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sign_in_with_apple/processing_changes_for_sign_in_with_apple_accounts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sign_in_with_apple/processing_changes_for_sign_in_with_apple_accounts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manage user-initiated modifications to maintain privacy."
+        }
+      ]
+    },
+    "Transferring Your Apps and Users to Another Team": {
+      "title": "Transferring Your Apps and Users to Another Team",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sign_in_with_apple/transferring_your_apps_and_users_to_another_team",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sign_in_with_apple/transferring_your_apps_and_users_to_another_team",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Migrate Sign in with Apple users to another team."
+        }
+      ]
+    },
+    "Bringing New Apps and Users into Your Team": {
+      "title": "Bringing New Apps and Users into Your Team",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sign_in_with_apple/bringing_new_apps_and_users_into_your_team",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sign_in_with_apple/bringing_new_apps_and_users_into_your_team",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Receive Sign in with Apple users and associated apps from another team."
+        }
+      ]
+    }
+  }
+}

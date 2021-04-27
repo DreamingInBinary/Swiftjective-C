@@ -1,1 +1,54 @@
-{"articles":{"Defining Test Cases and Test Methods":{"title":"Defining Test Cases and Test Methods","type":"topic","identifier":"doc://com.apple.documentation/documentation/xctest/defining_test_cases_and_test_methods","kind":"article","role":"article","url":"/documentation/xctest/defining_test_cases_and_test_methods","abstract":[{"type":"text","text":"Add test cases and test methods to a test target to confirm that your code performs as expected."}]},"Testing Asynchronous Operations with Expectations":{"title":"Testing Asynchronous Operations with Expectations","type":"topic","identifier":"doc://com.apple.documentation/documentation/xctest/asynchronous_tests_and_expectations/testing_asynchronous_operations_with_expectations","kind":"article","role":"article","url":"/documentation/xctest/asynchronous_tests_and_expectations/testing_asynchronous_operations_with_expectations"},"Grouping Tests into Substeps with Activities":{"title":"Grouping Tests into Substeps with Activities","type":"topic","identifier":"doc://com.apple.documentation/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities","kind":"article","role":"article","url":"/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities","abstract":[{"type":"text","text":"Create named activities within test methods to simplify test reports."}]},"Adding Attachments to Tests, Activities, and Issues":{"title":"Adding Attachments to Tests, Activities, and Issues","type":"topic","identifier":"doc://com.apple.documentation/documentation/xctest/activities_and_attachments/adding_attachments_to_tests_activities_and_issues","kind":"article","role":"article","url":"/documentation/xctest/activities_and_attachments/adding_attachments_to_tests_activities_and_issues","abstract":[{"type":"text","text":"Use attachments to store a test’s output data for later analysis."}]}}}
+{
+  "articles": {
+    "Defining Test Cases and Test Methods": {
+      "title": "Defining Test Cases and Test Methods",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xctest/defining_test_cases_and_test_methods",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xctest/defining_test_cases_and_test_methods",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add test cases and test methods to a test target to confirm that your code performs as expected."
+        }
+      ]
+    },
+    "Testing Asynchronous Operations with Expectations": {
+      "title": "Testing Asynchronous Operations with Expectations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xctest/asynchronous_tests_and_expectations/testing_asynchronous_operations_with_expectations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xctest/asynchronous_tests_and_expectations/testing_asynchronous_operations_with_expectations"
+    },
+    "Grouping Tests into Substeps with Activities": {
+      "title": "Grouping Tests into Substeps with Activities",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create named activities within test methods to simplify test reports."
+        }
+      ]
+    },
+    "Adding Attachments to Tests, Activities, and Issues": {
+      "title": "Adding Attachments to Tests, Activities, and Issues",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xctest/activities_and_attachments/adding_attachments_to_tests_activities_and_issues",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xctest/activities_and_attachments/adding_attachments_to_tests_activities_and_issues",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use attachments to store a test’s output data for later analysis."
+        }
+      ]
+    }
+  }
+}

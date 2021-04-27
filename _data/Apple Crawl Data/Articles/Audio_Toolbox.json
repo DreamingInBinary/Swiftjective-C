@@ -1,1 +1,116 @@
-{"articles":{"Porting Your Audio Code to Apple Silicon":{"title":"Porting Your Audio Code to Apple Silicon","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple-silicon/porting-your-audio-code-to-apple-silicon","kind":"article","role":"article","url":"/documentation/apple-silicon/porting-your-audio-code-to-apple-silicon","abstract":[{"type":"text","text":"Eliminate issues in your audio-specific code when running on Apple silicon Mac computers."}]},"Enabling USB Audio and MIDI for iOS":{"title":"Enabling USB Audio and MIDI for iOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/enabling_usb_audio_and_midi_for_ios","kind":"article","role":"article","url":"/documentation/audiotoolbox/enabling_usb_audio_and_midi_for_ios","abstract":[{"type":"text","text":"Set up your system to record digital audio from an iOS device and exchange MIDI data with it by enabling Inter-Device Audio and MIDI."}]},"Migrating Your Audio Unit Host to the AUv3 API":{"title":"Migrating Your Audio Unit Host to the AUv3 API","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/migrating_your_audio_unit_host_to_the_auv3_api","kind":"article","role":"article","url":"/documentation/audiotoolbox/audio_unit_v3_plug-ins/migrating_your_audio_unit_host_to_the_auv3_api","abstract":[{"type":"text","text":"Update your Audio Unit (AU) host app to take advantage of the new features and capabilities of AUv3."}]},"Hosting Audio Unit Extensions Using the AUv2 API":{"title":"Hosting Audio Unit Extensions Using the AUv2 API","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/hosting_audio_unit_extensions_using_the_auv2_api","kind":"article","role":"article","url":"/documentation/audiotoolbox/audio_unit_v3_plug-ins/hosting_audio_unit_extensions_using_the_auv2_api","abstract":[{"type":"text","text":"Update your existing Audio Unit v2 host app to load and use Audio Unit extensions."}]},"Understanding Audio Workgroups":{"title":"Understanding Audio Workgroups","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/understanding_audio_workgroups","kind":"article","role":"article","url":"/documentation/audiotoolbox/workgroup_management/understanding_audio_workgroups","abstract":[{"type":"text","text":"Learn how to optimize real-time rendering performance with the Audio Workgroups API."}]},"Adding Parallel Real-Time Threads to Audio Workgroups":{"title":"Adding Parallel Real-Time Threads to Audio Workgroups","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/adding_parallel_real-time_threads_to_audio_workgroups","kind":"article","role":"article","url":"/documentation/audiotoolbox/workgroup_management/adding_parallel_real-time_threads_to_audio_workgroups","abstract":[{"type":"text","text":"Optimize the performance of real-time audio threads that run in sync with the I/O thread by adding them to the audio device workgroup."}]},"Adding Asynchronous Real-Time Threads to Audio Workgroups":{"title":"Adding Asynchronous Real-Time Threads to Audio Workgroups","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/adding_asynchronous_real-time_threads_to_audio_workgroups","kind":"article","role":"article","url":"/documentation/audiotoolbox/workgroup_management/adding_asynchronous_real-time_threads_to_audio_workgroups","abstract":[{"type":"text","text":"Optimize system performance by adding real-time audio threads that run asynchronously to the I/O thread to custom audio workgroups."}]},"Adding Audio Unit Auxiliary Real-Time Threads to Audio Workgroups":{"title":"Adding Audio Unit Auxiliary Real-Time Threads to Audio Workgroups","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/adding_audio_unit_auxiliary_real-time_threads_to_audio_workgroups","kind":"article","role":"article","url":"/documentation/audiotoolbox/workgroup_management/adding_audio_unit_auxiliary_real-time_threads_to_audio_workgroups","abstract":[{"type":"text","text":"If your Audio Unit plug-in creates auxiliary real-time rendering threads, add them to the host app’s audio workgroup so the system can schedule them appropriately."}]}}}
+{
+  "articles": {
+    "Porting Your Audio Code to Apple Silicon": {
+      "title": "Porting Your Audio Code to Apple Silicon",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple-silicon/porting-your-audio-code-to-apple-silicon",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple-silicon/porting-your-audio-code-to-apple-silicon",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Eliminate issues in your audio-specific code when running on Apple silicon Mac computers."
+        }
+      ]
+    },
+    "Enabling USB Audio and MIDI for iOS": {
+      "title": "Enabling USB Audio and MIDI for iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/enabling_usb_audio_and_midi_for_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/enabling_usb_audio_and_midi_for_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up your system to record digital audio from an iOS device and exchange MIDI data with it by enabling Inter-Device Audio and MIDI."
+        }
+      ]
+    },
+    "Migrating Your Audio Unit Host to the AUv3 API": {
+      "title": "Migrating Your Audio Unit Host to the AUv3 API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/migrating_your_audio_unit_host_to_the_auv3_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/audio_unit_v3_plug-ins/migrating_your_audio_unit_host_to_the_auv3_api",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your Audio Unit (AU) host app to take advantage of the new features and capabilities of AUv3."
+        }
+      ]
+    },
+    "Hosting Audio Unit Extensions Using the AUv2 API": {
+      "title": "Hosting Audio Unit Extensions Using the AUv2 API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/hosting_audio_unit_extensions_using_the_auv2_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/audio_unit_v3_plug-ins/hosting_audio_unit_extensions_using_the_auv2_api",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your existing Audio Unit v2 host app to load and use Audio Unit extensions."
+        }
+      ]
+    },
+    "Understanding Audio Workgroups": {
+      "title": "Understanding Audio Workgroups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/understanding_audio_workgroups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/workgroup_management/understanding_audio_workgroups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to optimize real-time rendering performance with the Audio Workgroups API."
+        }
+      ]
+    },
+    "Adding Parallel Real-Time Threads to Audio Workgroups": {
+      "title": "Adding Parallel Real-Time Threads to Audio Workgroups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/adding_parallel_real-time_threads_to_audio_workgroups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/workgroup_management/adding_parallel_real-time_threads_to_audio_workgroups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Optimize the performance of real-time audio threads that run in sync with the I/O thread by adding them to the audio device workgroup."
+        }
+      ]
+    },
+    "Adding Asynchronous Real-Time Threads to Audio Workgroups": {
+      "title": "Adding Asynchronous Real-Time Threads to Audio Workgroups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/adding_asynchronous_real-time_threads_to_audio_workgroups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/workgroup_management/adding_asynchronous_real-time_threads_to_audio_workgroups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Optimize system performance by adding real-time audio threads that run asynchronously to the I/O thread to custom audio workgroups."
+        }
+      ]
+    },
+    "Adding Audio Unit Auxiliary Real-Time Threads to Audio Workgroups": {
+      "title": "Adding Audio Unit Auxiliary Real-Time Threads to Audio Workgroups",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/workgroup_management/adding_audio_unit_auxiliary_real-time_threads_to_audio_workgroups",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/audiotoolbox/workgroup_management/adding_audio_unit_auxiliary_real-time_threads_to_audio_workgroups",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "If your Audio Unit plug-in creates auxiliary real-time rendering threads, add them to the host app’s audio workgroup so the system can schedule them appropriately."
+        }
+      ]
+    }
+  }
+}

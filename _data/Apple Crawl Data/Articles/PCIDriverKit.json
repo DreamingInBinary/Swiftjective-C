@@ -1,1 +1,18 @@
-{"articles":{"Creating Custom PCIe Drivers for Thunderbolt Devices":{"title":"Creating Custom PCIe Drivers for Thunderbolt Devices","type":"topic","identifier":"doc://com.apple.documentation/documentation/pcidriverkit/creating_custom_pcie_drivers_for_thunderbolt_devices","kind":"article","role":"article","url":"/documentation/pcidriverkit/creating_custom_pcie_drivers_for_thunderbolt_devices","abstract":[{"type":"text","text":"Create a DriverKit extension to support your Thunderbolt device’s custom features. "}]}}}
+{
+  "articles": {
+    "Creating Custom PCIe Drivers for Thunderbolt Devices": {
+      "title": "Creating Custom PCIe Drivers for Thunderbolt Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pcidriverkit/creating_custom_pcie_drivers_for_thunderbolt_devices",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/pcidriverkit/creating_custom_pcie_drivers_for_thunderbolt_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a DriverKit extension to support your Thunderbolt device’s custom features. "
+        }
+      ]
+    }
+  }
+}

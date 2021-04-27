@@ -1,1 +1,18 @@
-{"articles":{"Requesting Authorization to Access Contacts":{"title":"Requesting Authorization to Access Contacts","type":"topic","identifier":"doc://com.apple.documentation/documentation/contacts/requesting_authorization_to_access_contacts","kind":"article","role":"article","url":"/documentation/contacts/requesting_authorization_to_access_contacts","abstract":[{"type":"text","text":"Request permission from the user to read, create, and modify their Contacts entries."}]}}}
+{
+  "articles": {
+    "Requesting Authorization to Access Contacts": {
+      "title": "Requesting Authorization to Access Contacts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/contacts/requesting_authorization_to_access_contacts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/contacts/requesting_authorization_to_access_contacts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request permission from the user to read, create, and modify their Contacts entries."
+        }
+      ]
+    }
+  }
+}

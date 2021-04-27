@@ -1,1 +1,18 @@
-{"articles":{"Creating 3D Content with Reality Composer":{"title":"Creating 3D Content with Reality Composer","type":"topic","identifier":"doc://com.apple.documentation/documentation/realitykit/creating_3d_content_with_reality_composer","kind":"article","role":"article","url":"/documentation/realitykit/creating_3d_content_with_reality_composer","abstract":[{"type":"text","text":"Assemble assets into a dynamic 3D composition that you can add to a scene in your app, or share with AR Quick Look."}]}}}
+{
+  "articles": {
+    "Creating 3D Content with Reality Composer": {
+      "title": "Creating 3D Content with Reality Composer",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/creating_3d_content_with_reality_composer",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/creating_3d_content_with_reality_composer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Assemble assets into a dynamic 3D composition that you can add to a scene in your app, or share with AR Quick Look."
+        }
+      ]
+    }
+  }
+}

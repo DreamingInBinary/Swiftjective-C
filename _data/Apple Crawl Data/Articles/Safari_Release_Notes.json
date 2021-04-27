@@ -1,1 +1,74 @@
-{"articles":{"Safari 14 Release Notes":{"type":"topic","role":"article","kind":"article","identifier":"doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-14-release-notes","abstract":[{"type":"text","text":"Update your web content to use new features and test your web content against API changes."}],"url":"/documentation/safari-release-notes/safari-14-release-notes","title":"Safari 14 Release Notes"},"Safari 12.1 Release Notes":{"type":"topic","role":"article","kind":"article","identifier":"doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-12_1-release-notes","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"url":"/documentation/safari-release-notes/safari-12_1-release-notes","title":"Safari 12.1 Release Notes"},"Safari 13.1 Release Notes":{"type":"topic","role":"article","kind":"article","identifier":"doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-13_1-release_notes","abstract":[{"text":"Update your apps to use new features, and test your apps against API changes.","type":"text"}],"url":"/documentation/safari-release-notes/safari-13_1-release_notes","title":"Safari 13.1 Release Notes"},"Safari 13 Release Notes":{"type":"topic","role":"article","kind":"article","identifier":"doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-13-release-notes","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"url":"/documentation/safari-release-notes/safari-13-release-notes","title":"Safari 13 Release Notes"},"Safari 12 Release Notes":{"type":"topic","role":"article","kind":"article","abstract":[{"type":"text","text":"Update your apps to use new features, and test your apps against API changes."}],"identifier":"doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-12-release-notes","url":"/documentation/safari-release-notes/safari-12-release-notes","title":"Safari 12 Release Notes"}}}
+{
+  "articles": {
+    "Safari 14 Release Notes": {
+      "url": "/documentation/safari-release-notes/safari-14-release-notes",
+      "title": "Safari 14 Release Notes",
+      "identifier": "doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-14-release-notes",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your web content to use new features and test your web content against API changes."
+        }
+      ],
+      "kind": "article",
+      "type": "topic"
+    },
+    "Safari 12.1 Release Notes": {
+      "url": "/documentation/safari-release-notes/safari-12_1-release-notes",
+      "title": "Safari 12.1 Release Notes",
+      "identifier": "doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-12_1-release-notes",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "kind": "article",
+      "type": "topic"
+    },
+    "Safari 13.1 Release Notes": {
+      "url": "/documentation/safari-release-notes/safari-13_1-release_notes",
+      "title": "Safari 13.1 Release Notes",
+      "identifier": "doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-13_1-release_notes",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "type": "topic"
+    },
+    "Safari 13 Release Notes": {
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "title": "Safari 13 Release Notes",
+      "role": "article",
+      "identifier": "doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-13-release-notes",
+      "type": "topic",
+      "url": "/documentation/safari-release-notes/safari-13-release-notes"
+    },
+    "Safari 12 Release Notes": {
+      "url": "/documentation/safari-release-notes/safari-12-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://com.apple.Safari-Release-Notes/documentation/Safari-Release-Notes/safari-12-release-notes",
+      "role": "article",
+      "kind": "article",
+      "title": "Safari 12 Release Notes",
+      "type": "topic"
+    }
+  }
+}

@@ -1,1 +1,60 @@
-{"articles":{"Authenticating with the Apple Search Ads API":{"title":"Authenticating with the Apple Search Ads API","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_search_ads/authenticating_with_the_apple_search_ads_api","kind":"article","role":"article","url":"/documentation/apple_search_ads/authenticating_with_the_apple_search_ads_api","abstract":[{"type":"text","text":"Generate a certificate to make API requests. "}]},"Using Apple Search Ads API Functionality":{"title":"Using Apple Search Ads API Functionality","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_search_ads/using_apple_search_ads_api_functionality","kind":"article","role":"article","url":"/documentation/apple_search_ads/using_apple_search_ads_api_functionality","abstract":[{"type":"text","text":"Call endpoints by using CRUD methods. "}]},"Apple Search Ads API Release Notes":{"title":"Apple Search Ads API Release Notes","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_search_ads/apple_search_ads_api_release_notes","kind":"article","role":"article","url":"/documentation/apple_search_ads/apple_search_ads_api_release_notes","abstract":[{"type":"text","text":"Make adjustments to your API implementation."}]},"Set Up a Payment Model":{"title":"Set Up a Payment Model","type":"topic","identifier":"doc://com.apple.documentation/documentation/apple_search_ads/campaigns/set_up_a_payment_model","kind":"article","role":"article","url":"/documentation/apple_search_ads/campaigns/set_up_a_payment_model","abstract":[{"type":"text","text":"Choose standard invoicing or budget orders."}]}}}
+{
+  "articles": {
+    "Authenticating with the Apple Search Ads API": {
+      "title": "Authenticating with the Apple Search Ads API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/authenticating_with_the_apple_search_ads_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/authenticating_with_the_apple_search_ads_api",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manage secure access to Search Ads accounts. "
+        }
+      ]
+    },
+    "Using Apple Search Ads API Functionality": {
+      "title": "Using Apple Search Ads API Functionality",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/using_apple_search_ads_api_functionality",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/using_apple_search_ads_api_functionality",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Call endpoints by using CRUD methods. "
+        }
+      ]
+    },
+    "Apple Search Ads API Release Notes": {
+      "title": "Apple Search Ads API Release Notes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/apple_search_ads_api_release_notes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/apple_search_ads_api_release_notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make adjustments to your API implementation."
+        }
+      ]
+    },
+    "Set Up a Payment Model": {
+      "title": "Set Up a Payment Model",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/campaigns/set_up_a_payment_model",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/campaigns/set_up_a_payment_model",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Choose standard invoicing or budget orders."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "articles": {
+    "Creating the Source for a Pass": {
+      "title": "Creating the Source for a Pass",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/walletpasses/creating_the_source_for_a_pass",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/walletpasses/creating_the_source_for_a_pass",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create the directory structure and add source files and images to define a pass."
+        }
+      ]
+    },
+    "Choosing Localization Regions and Scripts": {
+      "title": "Choosing Localization Regions and Scripts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/localization/choosing_localization_regions_and_scripts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/localization/choosing_localization_regions_and_scripts"
+    },
+    "Building a Pass": {
+      "title": "Building a Pass",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/walletpasses/building_a_pass",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/walletpasses/building_a_pass",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a distributable pass."
+        }
+      ]
+    },
+    "Distributing and Updating a Pass": {
+      "title": "Distributing and Updating a Pass",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/walletpasses/distributing_and_updating_a_pass",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/walletpasses/distributing_and_updating_a_pass",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Distribute a pass to your users or update an existing pass."
+        }
+      ]
+    },
+    "Adding a Web Service to Update Passes": {
+      "title": "Adding a Web Service to Update Passes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/walletpasses/adding_a_web_service_to_update_passes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/walletpasses/adding_a_web_service_to_update_passes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement a web server to register, update, and unregister a pass on a device."
+        }
+      ]
+    },
+    "Sending Notification Requests to APNs": {
+      "title": "Sending Notification Requests to APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns"
+    }
+  }
+}

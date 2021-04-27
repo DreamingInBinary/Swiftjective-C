@@ -1,1 +1,468 @@
-{"articles":{"alertTemplate":{"title":"alertTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/alerttemplate","kind":"article","role":"article","url":"/documentation/tvml/alerttemplate","abstract":[{"type":"text","text":"Displays important information to the user."}]},"catalogTemplate":{"title":"catalogTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/catalogtemplate","kind":"article","role":"article","url":"/documentation/tvml/catalogtemplate","abstract":[{"type":"text","text":"Displays groups of items along one side of a page and images of a group's contents on the other side."}]},"compilationTemplate":{"title":"compilationTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/compilationtemplate","kind":"article","role":"article","url":"/documentation/tvml/compilationtemplate","abstract":[{"type":"text","text":"Displays information about a single media item and its components."}]},"descriptiveAlertTemplate":{"title":"descriptiveAlertTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/descriptivealerttemplate","kind":"article","role":"article","url":"/documentation/tvml/descriptivealerttemplate","abstract":[{"type":"text","text":"Displays large amounts of important information to the user."}]},"divTemplate":{"title":"divTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/divtemplate","kind":"article","role":"article","url":"/documentation/tvml/divtemplate","abstract":[{"type":"text","text":"Provides the ability to create pages that don't conform to a layout defined by another template."}]},"formTemplate":{"title":"formTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/formtemplate","kind":"article","role":"article","url":"/documentation/tvml/formtemplate","abstract":[{"type":"text","text":"Provides the ability to gather information from the user."}]},"listTemplate":{"title":"listTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/listtemplate","kind":"article","role":"article","url":"/documentation/tvml/listtemplate","abstract":[{"type":"text","text":"Displays a list of items along one side of a page and the corresponding image on the other side."}]},"loadingTemplate":{"title":"loadingTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/loadingtemplate","kind":"article","role":"article","url":"/documentation/tvml/loadingtemplate","abstract":[{"type":"text","text":"Displays a spinner and description on the screen."}]},"mainTemplate":{"title":"mainTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/maintemplate","kind":"article","role":"article","url":"/documentation/tvml/maintemplate","abstract":[{"type":"text","text":"Displays user options for a media item."}]},"menuBarTemplate":{"title":"menuBarTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/menubartemplate","kind":"article","role":"article","url":"/documentation/tvml/menubartemplate","abstract":[{"type":"text","text":"Creates a page with items along the top and related information below."}]},"oneupTemplate":{"title":"oneupTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/oneuptemplate","kind":"article","role":"article","url":"/documentation/tvml/oneuptemplate","abstract":[{"type":"text","text":"Creates a page that allows users to navigate between full-screen images."}]},"paradeTemplate":{"title":"paradeTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/paradetemplate","kind":"article","role":"article","url":"/documentation/tvml/paradetemplate","abstract":[{"type":"text","text":"Displays a groups of items along one side of a page and scrolling images on the other side."}]},"productBundleTemplate":{"title":"productBundleTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/productbundletemplate","kind":"article","role":"article","url":"/documentation/tvml/productbundletemplate","abstract":[{"type":"text","text":"Displays information for a group of related media items."}]},"productTemplate":{"title":"productTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/producttemplate","kind":"article","role":"article","url":"/documentation/tvml/producttemplate","abstract":[{"type":"text","text":"Displays detailed information about a single product."}]},"ratingTemplate":{"title":"ratingTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/ratingtemplate","kind":"article","role":"article","url":"/documentation/tvml/ratingtemplate","abstract":[{"type":"text","text":"Displays a rating for an item."}]},"searchTemplate":{"title":"searchTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/searchtemplate","kind":"article","role":"article","url":"/documentation/tvml/searchtemplate","abstract":[{"type":"text","text":"Searches for a media item based on user input."}]},"showcaseTemplate":{"title":"showcaseTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/showcasetemplate","kind":"article","role":"article","url":"/documentation/tvml/showcasetemplate","abstract":[{"type":"text","text":"Displays images the user can navigate between."}]},"stackTemplate":{"title":"stackTemplate","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/stacktemplate","kind":"article","role":"article","url":"/documentation/tvml/stacktemplate","abstract":[{"type":"text","text":"Displays groups of products."}]},"tv-placeholder":{"title":"tv-placeholder","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/tv-placeholder","kind":"article","role":"article","url":"/documentation/tvml/tv-placeholder","abstract":[{"type":"text","text":"Sets a default image for an "},{"type":"codeVoice","code":"img"},{"type":"text","text":" or "},{"type":"codeVoice","code":"monogram"},{"type":"text","text":" element."}]},"tv-rating-style":{"title":"tv-rating-style","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/tv-rating-style","kind":"article","role":"article","url":"/documentation/tvml/tv-rating-style","abstract":[{"type":"text","text":"Sets the displayed image for rating a product."}]},"tv-transition":{"title":"tv-transition","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/tv-transition","kind":"article","role":"article","url":"/documentation/tvml/tv-transition","abstract":[{"type":"text","text":"Specifies how an element transitions on and off the screen."}]},"tv-text-highlight-style":{"title":"tv-text-highlight-style","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/tv-text-highlight-style","kind":"article","role":"article","url":"/documentation/tvml/tv-text-highlight-style","abstract":[{"type":"text","text":"Specifies how an element looks when it comes into focus."}]},"tv-scrollable-bounds-inset":{"title":"tv-scrollable-bounds-inset","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/tv-scrollable-bounds-inset","kind":"article","role":"article","url":"/documentation/tvml/tv-scrollable-bounds-inset","abstract":[{"type":"text","text":"Creates an unscrollable region of a specified size at the top and bottom of the stack template."}]},"Adding Resource Icons":{"title":"Adding Resource Icons","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/adding_resource_icons","kind":"article","role":"article","url":"/documentation/tvml/adding_resource_icons","abstract":[{"type":"text","text":"Add Apple-provided icons to buttons and as independent images."}]},"Button Icons":{"title":"Button Icons","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/button_icons","kind":"article","role":"article","url":"/documentation/tvml/button_icons","abstract":[{"type":"text","text":"Icons that indicate the function of a button."}]},"Movie Rating Icons (United States)":{"title":"Movie Rating Icons (United States)","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/movie_rating_icons_united_states","kind":"article","role":"article","url":"/documentation/tvml/movie_rating_icons_united_states","abstract":[{"type":"text","text":"Icons that pertain to United States movie ratings."}]},"Television Rating Icons (United States)":{"title":"Television Rating Icons (United States)","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/television_rating_icons_united_states","kind":"article","role":"article","url":"/documentation/tvml/television_rating_icons_united_states","abstract":[{"type":"text","text":"Icons that pertain to United States television ratings."}]},"Rating Icons (New Zealand)":{"title":"Rating Icons (New Zealand)","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/rating_icons_new_zealand","kind":"article","role":"article","url":"/documentation/tvml/rating_icons_new_zealand","abstract":[{"type":"text","text":"Icons that pertain to New Zealand movie ratings."}]},"Rating Icons (United Kingdom)":{"title":"Rating Icons (United Kingdom)","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/rating_icons_united_kingdom","kind":"article","role":"article","url":"/documentation/tvml/rating_icons_united_kingdom","abstract":[{"type":"text","text":"Icons that pertain to United Kingdom movie ratings."}]},"Rating Icons (Brazil)":{"title":"Rating Icons (Brazil)","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/rating_icons_brazil","kind":"article","role":"article","url":"/documentation/tvml/rating_icons_brazil","abstract":[{"type":"text","text":"Icons that pertain to Brazil movie ratings."}]},"Rotten Tomatoes Rating Icons":{"title":"Rotten Tomatoes Rating Icons","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/rotten_tomatoes_rating_icons","kind":"article","role":"article","url":"/documentation/tvml/rotten_tomatoes_rating_icons","abstract":[{"type":"text","text":"Icons pertaining to the Rotten Tomatoes rating system."}]},"Miscellaneous Icons":{"title":"Miscellaneous Icons","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvml/miscellaneous_icons","kind":"article","role":"article","url":"/documentation/tvml/miscellaneous_icons","abstract":[{"type":"text","text":"Miscellaneous icons that don't fall into a specific category."}]}}}
+{
+  "articles": {
+    "alertTemplate": {
+      "title": "alertTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/alerttemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/alerttemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays important information to the user."
+        }
+      ]
+    },
+    "catalogTemplate": {
+      "title": "catalogTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/catalogtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/catalogtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays groups of items along one side of a page and images of a group's contents on the other side."
+        }
+      ]
+    },
+    "compilationTemplate": {
+      "title": "compilationTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/compilationtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/compilationtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays information about a single media item and its components."
+        }
+      ]
+    },
+    "descriptiveAlertTemplate": {
+      "title": "descriptiveAlertTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/descriptivealerttemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/descriptivealerttemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays large amounts of important information to the user."
+        }
+      ]
+    },
+    "divTemplate": {
+      "title": "divTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/divtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/divtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provides the ability to create pages that don't conform to a layout defined by another template."
+        }
+      ]
+    },
+    "formTemplate": {
+      "title": "formTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/formtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/formtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provides the ability to gather information from the user."
+        }
+      ]
+    },
+    "listTemplate": {
+      "title": "listTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/listtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/listtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays a list of items along one side of a page and the corresponding image on the other side."
+        }
+      ]
+    },
+    "loadingTemplate": {
+      "title": "loadingTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/loadingtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/loadingtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays a spinner and description on the screen."
+        }
+      ]
+    },
+    "mainTemplate": {
+      "title": "mainTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/maintemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/maintemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays user options for a media item."
+        }
+      ]
+    },
+    "menuBarTemplate": {
+      "title": "menuBarTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/menubartemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/menubartemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Creates a page with items along the top and related information below."
+        }
+      ]
+    },
+    "oneupTemplate": {
+      "title": "oneupTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/oneuptemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/oneuptemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Creates a page that allows users to navigate between full-screen images."
+        }
+      ]
+    },
+    "paradeTemplate": {
+      "title": "paradeTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/paradetemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/paradetemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays a groups of items along one side of a page and scrolling images on the other side."
+        }
+      ]
+    },
+    "productBundleTemplate": {
+      "title": "productBundleTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/productbundletemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/productbundletemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays information for a group of related media items."
+        }
+      ]
+    },
+    "productTemplate": {
+      "title": "productTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/producttemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/producttemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays detailed information about a single product."
+        }
+      ]
+    },
+    "ratingTemplate": {
+      "title": "ratingTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/ratingtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/ratingtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays a rating for an item."
+        }
+      ]
+    },
+    "searchTemplate": {
+      "title": "searchTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/searchtemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/searchtemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Searches for a media item based on user input."
+        }
+      ]
+    },
+    "showcaseTemplate": {
+      "title": "showcaseTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/showcasetemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/showcasetemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays images the user can navigate between."
+        }
+      ]
+    },
+    "stackTemplate": {
+      "title": "stackTemplate",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/stacktemplate",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/stacktemplate",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Displays groups of products."
+        }
+      ]
+    },
+    "tv-placeholder": {
+      "type": "topic",
+      "url": "/documentation/tvml/tv-placeholder",
+      "title": "tv-placeholder",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Sets a default image for an ",
+          "type": "text"
+        },
+        {
+          "code": "img",
+          "type": "codeVoice"
+        },
+        {
+          "text": " or ",
+          "type": "text"
+        },
+        {
+          "code": "monogram",
+          "type": "codeVoice"
+        },
+        {
+          "text": " element.",
+          "type": "text"
+        }
+      ],
+      "role": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/tv-placeholder"
+    },
+    "tv-rating-style": {
+      "identifier": "doc://com.apple.TVML/documentation/TVML/tv-rating-style",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Sets the displayed image for rating a product."
+        }
+      ],
+      "type": "topic",
+      "title": "tv-rating-style",
+      "role": "article",
+      "url": "/documentation/tvml/tv-rating-style"
+    },
+    "tv-transition": {
+      "identifier": "doc://com.apple.TVML/documentation/TVML/tv-transition",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Specifies how an element transitions on and off the screen."
+        }
+      ],
+      "type": "topic",
+      "title": "tv-transition",
+      "role": "article",
+      "url": "/documentation/tvml/tv-transition"
+    },
+    "tv-text-highlight-style": {
+      "identifier": "doc://com.apple.TVML/documentation/TVML/tv-text-highlight-style",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Specifies how an element looks when it comes into focus."
+        }
+      ],
+      "type": "topic",
+      "title": "tv-text-highlight-style",
+      "role": "article",
+      "url": "/documentation/tvml/tv-text-highlight-style"
+    },
+    "tv-scrollable-bounds-inset": {
+      "title": "tv-scrollable-bounds-inset",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml/tv-scrollable-bounds-inset",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/tv-scrollable-bounds-inset",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Creates an unscrollable region of a specified size at the top and bottom of the stack template."
+        }
+      ]
+    },
+    "Adding Resource Icons": {
+      "role": "article",
+      "kind": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/adding-resource-icons",
+      "url": "/documentation/tvml/adding-resource-icons",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add Apple-provided icons to buttons and as independent images."
+        }
+      ],
+      "title": "Adding Resource Icons"
+    },
+    "Button Icons": {
+      "role": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/button-icons",
+      "title": "Button Icons",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Icons that indicate the function of a button.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "url": "/documentation/tvml/button-icons"
+    },
+    "Movie Rating Icons (United States)": {
+      "abstract": [
+        {
+          "text": "Icons that pertain to United States movie ratings.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/movie-rating-icons-united-states",
+      "type": "topic",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/movie-rating-icons-united-states",
+      "title": "Movie Rating Icons (United States)"
+    },
+    "Television Rating Icons (United States)": {
+      "abstract": [
+        {
+          "text": "Icons that pertain to United States television ratings.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/tvml/television-rating-icons-united-states",
+      "type": "topic",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/television-rating-icons-united-states",
+      "title": "Television Rating Icons (United States)"
+    },
+    "Rating Icons (New Zealand)": {
+      "role": "article",
+      "kind": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/rating-icons-new-zealand",
+      "url": "/documentation/tvml/rating-icons-new-zealand",
+      "type": "topic",
+      "title": "Rating Icons (New Zealand)",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Icons that pertain to New Zealand movie ratings."
+        }
+      ]
+    },
+    "Rating Icons (United Kingdom)": {
+      "role": "article",
+      "kind": "article",
+      "url": "/documentation/tvml/rating-icons-united-kingdom",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/rating-icons-united-kingdom",
+      "title": "Rating Icons (United Kingdom)",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Icons that pertain to United Kingdom movie ratings.",
+          "type": "text"
+        }
+      ]
+    },
+    "Rating Icons (Brazil)": {
+      "role": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/rating-icons-brazil",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Icons that pertain to Brazil movie ratings.",
+          "type": "text"
+        }
+      ],
+      "title": "Rating Icons (Brazil)",
+      "url": "/documentation/tvml/rating-icons-brazil",
+      "kind": "article"
+    },
+    "Rotten Tomatoes Rating Icons": {
+      "role": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/rotten-tomatoes-rating-icons",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Icons pertaining to the Rotten Tomatoes rating system.",
+          "type": "text"
+        }
+      ],
+      "title": "Rotten Tomatoes Rating Icons",
+      "url": "/documentation/tvml/rotten-tomatoes-rating-icons",
+      "kind": "article"
+    },
+    "Miscellaneous Icons": {
+      "role": "article",
+      "identifier": "doc://com.apple.TVML/documentation/TVML/miscellaneous-icons",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Miscellaneous icons that don’t fall into a specific category.",
+          "type": "text"
+        }
+      ],
+      "title": "Miscellaneous Icons",
+      "url": "/documentation/tvml/miscellaneous-icons",
+      "kind": "article"
+    }
+  }
+}

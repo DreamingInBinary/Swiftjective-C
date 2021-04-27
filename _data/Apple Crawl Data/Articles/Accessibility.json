@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Supporting VoiceOver in Your App": {
+      "title": "Supporting VoiceOver in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/supporting_voiceover_in_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accessibility/supporting_voiceover_in_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add VoiceOver support to make your iOS app more accessible to users who are blind or have low vision."
+        }
+      ]
+    }
+  }
+}

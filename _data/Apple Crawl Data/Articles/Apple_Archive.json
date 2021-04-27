@@ -1,1 +1,102 @@
-{"articles":{"About Apple File System":{"title":"About Apple File System","type":"topic","identifier":"doc://com.apple.documentation/documentation/foundation/file_system/about_apple_file_system","kind":"article","role":"article","url":"/documentation/foundation/file_system/about_apple_file_system","abstract":[{"type":"text","text":"Use high-level APIs to get the most out of Apple File System."}]},"Compressing Single Files":{"title":"Compressing Single Files","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/compressing_single_files","kind":"article","role":"article","url":"/documentation/accelerate/compressing_single_files","abstract":[{"type":"text","text":"Compress a single file and store the result on the file system."}]},"Decompressing Single Files":{"title":"Decompressing Single Files","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/decompressing_single_files","kind":"article","role":"article","url":"/documentation/accelerate/decompressing_single_files","abstract":[{"type":"text","text":"Recreate a single file from a compressed file."}]},"Compressing File System Directories":{"title":"Compressing File System Directories","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/compressing_file_system_directories","kind":"article","role":"article","url":"/documentation/accelerate/compressing_file_system_directories","abstract":[{"type":"text","text":"Compress the contents of an entire directory and store the result on the file system."}]},"Decompressing and Extracting an Archived Directory":{"title":"Decompressing and Extracting an Archived Directory","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/decompressing_and_extracting_an_archived_directory","kind":"article","role":"article","url":"/documentation/accelerate/decompressing_and_extracting_an_archived_directory","abstract":[{"type":"text","text":"Recreate an entire file system directory from an archive file."}]},"Compressing and Saving a String to the File System":{"title":"Compressing and Saving a String to the File System","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/compressing_and_saving_a_string_to_the_file_system","kind":"article","role":"article","url":"/documentation/accelerate/compressing_and_saving_a_string_to_the_file_system","abstract":[{"type":"text","text":"Compress the contents of a Unicode string and store the result on the file system."}]},"Decompressing and Parsing an Archived String":{"title":"Decompressing and Parsing an Archived String","type":"topic","identifier":"doc://com.apple.documentation/documentation/accelerate/decompressing_and_parsing_an_archived_string","kind":"article","role":"article","url":"/documentation/accelerate/decompressing_and_parsing_an_archived_string","abstract":[{"type":"text","text":"Recreate a string from an archive file."}]}}}
+{
+  "articles": {
+    "About Apple File System": {
+      "title": "About Apple File System",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/file_system/about_apple_file_system",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/file_system/about_apple_file_system",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use high-level APIs to get the most out of Apple File System."
+        }
+      ]
+    },
+    "Compressing Single Files": {
+      "title": "Compressing Single Files",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_single_files",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/compressing_single_files",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compress a single file and store the result on the file system."
+        }
+      ]
+    },
+    "Decompressing Single Files": {
+      "title": "Decompressing Single Files",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/decompressing_single_files",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/decompressing_single_files",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Recreate a single file from a compressed file."
+        }
+      ]
+    },
+    "Compressing File System Directories": {
+      "title": "Compressing File System Directories",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_file_system_directories",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/compressing_file_system_directories",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compress the contents of an entire directory and store the result on the file system."
+        }
+      ]
+    },
+    "Decompressing and Extracting an Archived Directory": {
+      "title": "Decompressing and Extracting an Archived Directory",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/decompressing_and_extracting_an_archived_directory",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/decompressing_and_extracting_an_archived_directory",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Recreate an entire file system directory from an archive file."
+        }
+      ]
+    },
+    "Compressing and Saving a String to the File System": {
+      "title": "Compressing and Saving a String to the File System",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/compressing_and_saving_a_string_to_the_file_system",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/compressing_and_saving_a_string_to_the_file_system",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compress the contents of a Unicode string and store the result on the file system."
+        }
+      ]
+    },
+    "Decompressing and Parsing an Archived String": {
+      "title": "Decompressing and Parsing an Archived String",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/decompressing_and_parsing_an_archived_string",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/decompressing_and_parsing_an_archived_string",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Recreate a string from an archive file."
+        }
+      ]
+    }
+  }
+}

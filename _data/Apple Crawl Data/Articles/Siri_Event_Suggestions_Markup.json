@@ -1,1 +1,32 @@
-{"articles":{"Checking Your Reservation Markup":{"title":"Checking Your Reservation Markup","type":"topic","identifier":"doc://com.apple.documentation/documentation/sirieventsuggestionsmarkup/checking_your_reservation_markup","kind":"article","role":"article","url":"/documentation/sirieventsuggestionsmarkup/checking_your_reservation_markup","abstract":[{"type":"text","text":"Preview your reservation event data before the Allow List includes your domain."}]},"Providing Trusted Data":{"title":"Providing Trusted Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/sirieventsuggestionsmarkup/providing_trusted_data","kind":"article","role":"article","url":"/documentation/sirieventsuggestionsmarkup/providing_trusted_data","abstract":[{"type":"text","text":"Sign your content and avoid sending unnecessary or inaccurate information."}]}}}
+{
+  "articles": {
+    "Checking Your Reservation Markup": {
+      "title": "Checking Your Reservation Markup",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirieventsuggestionsmarkup/checking_your_reservation_markup",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirieventsuggestionsmarkup/checking_your_reservation_markup",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Preview your reservation event data before the Allow List includes your domain."
+        }
+      ]
+    },
+    "Providing Trusted Data": {
+      "title": "Providing Trusted Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirieventsuggestionsmarkup/providing_trusted_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirieventsuggestionsmarkup/providing_trusted_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Sign your content and avoid sending unnecessary or inaccurate information."
+        }
+      ]
+    }
+  }
+}

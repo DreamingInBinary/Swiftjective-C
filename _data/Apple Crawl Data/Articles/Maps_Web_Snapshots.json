@@ -1,1 +1,26 @@
-{"articles":{"Generating a URL and Signature to Create a Maps Web Snapshot":{"title":"Generating a URL and Signature to Create a Maps Web Snapshot","type":"topic","identifier":"doc://com.apple.documentation/documentation/snapshots/generating_a_url_and_signature_to_create_a_maps_web_snapshot","kind":"article","role":"article","url":"/documentation/snapshots/generating_a_url_and_signature_to_create_a_maps_web_snapshot","abstract":[{"type":"text","text":"Create a Snapshot URL and generate a signature to validate the request. "}]},"Creating a Maps Identifier and a Private Key":{"title":"Creating a Maps Identifier and a Private Key","type":"topic","identifier":"doc://com.apple.documentation/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key","kind":"article","role":"article","url":"/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key"}}}
+{
+  "articles": {
+    "Generating a URL and Signature to Create a Maps Web Snapshot": {
+      "title": "Generating a URL and Signature to Create a Maps Web Snapshot",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/snapshots/generating_a_url_and_signature_to_create_a_maps_web_snapshot",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/snapshots/generating_a_url_and_signature_to_create_a_maps_web_snapshot",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a Snapshot URL and generate a signature to validate the request. "
+        }
+      ]
+    },
+    "Creating a Maps Identifier and a Private Key": {
+      "title": "Creating a Maps Identifier and a Private Key",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key"
+    }
+  }
+}
