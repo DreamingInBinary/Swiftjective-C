@@ -1,1 +1,54 @@
-{"code":{"Using AVKit in iOS":{"title":"Using AVKit in iOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/avkit/using_avkit_in_ios","kind":"article","role":"sampleCode","url":"/documentation/avkit/using_avkit_in_ios","abstract":[{"type":"text","text":"This sample code project demonstrates techniques for tracking AVPlayerViewController presentation state across multiple application scenarios, including being displayed fullscreen, embedded inline, or as Picture in Picture."}]},"Adopting Custom Interactive Overlays, Channel Flipping, and Parental Controls in tvOS Video Playback":{"title":"Adopting Custom Interactive Overlays, Channel Flipping, and Parental Controls in tvOS Video Playback","type":"topic","identifier":"doc://com.apple.documentation/documentation/avkit/adopting_custom_interactive_overlays_channel_flipping_and_parental_controls_in_tvos_video_playback","kind":"article","role":"sampleCode","url":"/documentation/avkit/adopting_custom_interactive_overlays_channel_flipping_and_parental_controls_in_tvos_video_playback","abstract":[{"type":"text","text":"This sample demonstrates support for custom interactive overlays, and parental controls, using "},{"type":"codeVoice","code":"AVPlayerViewController"},{"type":"text","text":"."}]},"Adopting Picture in Picture Playback in tvOS":{"title":"Adopting Picture in Picture Playback in tvOS","type":"topic","identifier":"doc://com.apple.documentation/documentation/avkit/adopting_picture_in_picture_playback_in_tvos","kind":"article","role":"sampleCode","url":"/documentation/avkit/adopting_picture_in_picture_playback_in_tvos","abstract":[{"type":"text","text":"Add advanced multitasking capabilities to your video apps by using Picture in Picture playback in tvOS."}]}}}
+{
+  "code": {
+    "Using AVKit in iOS": {
+      "title": "Using AVKit in iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/using_avkit_in_ios",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avkit/using_avkit_in_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "This sample code project demonstrates techniques for tracking AVPlayerViewController presentation state across multiple application scenarios, including being displayed fullscreen, embedded inline, or as Picture in Picture."
+        }
+      ]
+    },
+    "Adopting Custom Interactive Overlays, Channel Flipping, and Parental Controls in tvOS Video Playback": {
+      "title": "Adopting Custom Interactive Overlays, Channel Flipping, and Parental Controls in tvOS Video Playback",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/adopting_custom_interactive_overlays_channel_flipping_and_parental_controls_in_tvos_video_playback",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avkit/adopting_custom_interactive_overlays_channel_flipping_and_parental_controls_in_tvos_video_playback",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "This sample demonstrates support for custom interactive overlays, and parental controls, using "
+        },
+        {
+          "type": "codeVoice",
+          "code": "AVPlayerViewController"
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    },
+    "Adopting Picture in Picture Playback in tvOS": {
+      "title": "Adopting Picture in Picture Playback in tvOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/adopting_picture_in_picture_playback_in_tvos",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avkit/adopting_picture_in_picture_playback_in_tvos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add advanced multitasking capabilities to your video apps by using Picture in Picture playback in tvOS."
+        }
+      ]
+    }
+  }
+}

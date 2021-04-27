@@ -1,1 +1,32 @@
-{"code":{"Custom Graphics":{"title":"Custom Graphics","type":"topic","identifier":"doc://com.apple.documentation/documentation/pdfkit/custom_graphics","kind":"article","role":"sampleCode","url":"/documentation/pdfkit/custom_graphics","abstract":[{"type":"text","text":"Demonstrates adding a watermark to a PDF page."}]},"PDF Widgets":{"title":"PDF Widgets","type":"topic","identifier":"doc://com.apple.documentation/documentation/pdfkit/pdf_widgets","kind":"article","role":"sampleCode","url":"/documentation/pdfkit/pdf_widgets","abstract":[{"type":"text","text":"Demonstrates adding widgets—interactive form elements—to a PDF document."}]}}}
+{
+  "code": {
+    "Custom Graphics": {
+      "title": "Custom Graphics",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pdfkit/custom_graphics",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/pdfkit/custom_graphics",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Demonstrates adding a watermark to a PDF page."
+        }
+      ]
+    },
+    "PDF Widgets": {
+      "title": "PDF Widgets",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pdfkit/pdf_widgets",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/pdfkit/pdf_widgets",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Demonstrates adding widgets—interactive form elements—to a PDF document."
+        }
+      ]
+    }
+  }
+}

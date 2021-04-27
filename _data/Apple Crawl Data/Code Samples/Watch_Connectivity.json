@@ -1,1 +1,18 @@
-{"code":{"Using Watch Connectivity to Communicate Between Your Apple Watch App and iPhone App":{"title":"Using Watch Connectivity to Communicate Between Your Apple Watch App and iPhone App","type":"topic","identifier":"doc://com.apple.documentation/documentation/watchconnectivity/using_watch_connectivity_to_communicate_between_your_apple_watch_app_and_iphone_app","kind":"article","role":"sampleCode","url":"/documentation/watchconnectivity/using_watch_connectivity_to_communicate_between_your_apple_watch_app_and_iphone_app","abstract":[{"type":"text","text":"Implement two-way communication between your Apple Watch app and the paired iPhone app with the Watch Connectivity framework."}]}}}
+{
+  "code": {
+    "Using Watch Connectivity to Communicate Between Your Apple Watch App and iPhone App": {
+      "title": "Using Watch Connectivity to Communicate Between Your Apple Watch App and iPhone App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchconnectivity/using_watch_connectivity_to_communicate_between_your_apple_watch_app_and_iphone_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchconnectivity/using_watch_connectivity_to_communicate_between_your_apple_watch_app_and_iphone_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement two-way communication between your Apple Watch app and the paired iPhone app with the Watch Connectivity framework."
+        }
+      ]
+    }
+  }
+}

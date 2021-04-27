@@ -1,1 +1,18 @@
-{"code":{"Implementing Interactions Between Users in Close Proximity":{"title":"Implementing Interactions Between Users in Close Proximity","type":"topic","identifier":"doc://com.apple.documentation/documentation/nearbyinteraction/implementing_interactions_between_users_in_close_proximity","kind":"article","role":"sampleCode","url":"/documentation/nearbyinteraction/implementing_interactions_between_users_in_close_proximity","abstract":[{"type":"text","text":"Enable devices to access relative positioning information."}]}}}
+{
+  "code": {
+    "Implementing Interactions Between Users in Close Proximity": {
+      "title": "Implementing Interactions Between Users in Close Proximity",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/nearbyinteraction/implementing_interactions_between_users_in_close_proximity",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/nearbyinteraction/implementing_interactions_between_users_in_close_proximity",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enable devices to access relative positioning information."
+        }
+      ]
+    }
+  }
+}

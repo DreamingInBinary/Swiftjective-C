@@ -1,1 +1,18 @@
-{"code":{"Building a Simple Widget for the Today View":{"title":"Building a Simple Widget for the Today View","type":"topic","identifier":"doc://com.apple.documentation/documentation/notificationcenter/building_a_simple_widget_for_the_today_view","kind":"article","role":"sampleCode","url":"/documentation/notificationcenter/building_a_simple_widget_for_the_today_view","abstract":[{"type":"text","text":"Provide users with a glanceable look at your app’s data."}]}}}
+{
+  "code": {
+    "Building a Simple Widget for the Today View": {
+      "title": "Building a Simple Widget for the Today View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/notificationcenter/building_a_simple_widget_for_the_today_view",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/notificationcenter/building_a_simple_widget_for_the_today_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide users with a glanceable look at your app’s data."
+        }
+      ]
+    }
+  }
+}

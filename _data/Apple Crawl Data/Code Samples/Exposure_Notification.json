@@ -1,1 +1,18 @@
-{"code":{"Building an App to Notify Users of COVID-19 Exposure":{"title":"Building an App to Notify Users of COVID-19 Exposure","type":"topic","identifier":"doc://com.apple.documentation/documentation/exposurenotification/building_an_app_to_notify_users_of_covid-19_exposure","kind":"article","role":"sampleCode","url":"/documentation/exposurenotification/building_an_app_to_notify_users_of_covid-19_exposure","abstract":[{"type":"text","text":"Inform people when they may have been exposed to COVID-19."}]}}}
+{
+  "code": {
+    "Building an App to Notify Users of COVID-19 Exposure": {
+      "title": "Building an App to Notify Users of COVID-19 Exposure",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/building_an_app_to_notify_users_of_covid-19_exposure",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/exposurenotification/building_an_app_to_notify_users_of_covid-19_exposure",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inform people when they may have been exposed to COVID-19."
+        }
+      ]
+    }
+  }
+}

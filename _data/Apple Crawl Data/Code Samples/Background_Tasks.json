@@ -1,1 +1,18 @@
-{"code":{"Refreshing and Maintaining Your App Using Background Tasks":{"title":"Refreshing and Maintaining Your App Using Background Tasks","type":"topic","identifier":"doc://com.apple.documentation/documentation/backgroundtasks/refreshing_and_maintaining_your_app_using_background_tasks","kind":"article","role":"sampleCode","url":"/documentation/backgroundtasks/refreshing_and_maintaining_your_app_using_background_tasks","abstract":[{"type":"text","text":"Use scheduled background tasks for refreshing your app content and for performing maintenance."}]}}}
+{
+  "code": {
+    "Refreshing and Maintaining Your App Using Background Tasks": {
+      "title": "Refreshing and Maintaining Your App Using Background Tasks",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/backgroundtasks/refreshing_and_maintaining_your_app_using_background_tasks",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/backgroundtasks/refreshing_and_maintaining_your_app_using_background_tasks",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use scheduled background tasks for refreshing your app content and for performing maintenance."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,32 @@
-{"code":{"Integrating CarPlay with Your Music App":{"title":"Integrating CarPlay with Your Music App","type":"topic","identifier":"doc://com.apple.documentation/documentation/carplay/integrating_carplay_with_your_music_app","kind":"article","role":"sampleCode","url":"/documentation/carplay/integrating_carplay_with_your_music_app","abstract":[{"type":"text","text":"Configure your music app to work with CarPlay by displaying a custom UI."}]},"Integrating CarPlay with Your Navigation App":{"title":"Integrating CarPlay with Your Navigation App","type":"topic","identifier":"doc://com.apple.documentation/documentation/carplay/integrating_carplay_with_your_navigation_app","kind":"article","role":"sampleCode","url":"/documentation/carplay/integrating_carplay_with_your_navigation_app","abstract":[{"type":"text","text":"Configure your navigation app to work with CarPlay by displaying your custom map and directions."}]}}}
+{
+  "code": {
+    "Integrating CarPlay with Your Music App": {
+      "title": "Integrating CarPlay with Your Music App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/carplay/integrating_carplay_with_your_music_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/carplay/integrating_carplay_with_your_music_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your music app to work with CarPlay by displaying a custom UI."
+        }
+      ]
+    },
+    "Integrating CarPlay with Your Navigation App": {
+      "title": "Integrating CarPlay with Your Navigation App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/carplay/integrating_carplay_with_your_navigation_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/carplay/integrating_carplay_with_your_navigation_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your navigation app to work with CarPlay by displaying your custom map and directions."
+        }
+      ]
+    }
+  }
+}

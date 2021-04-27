@@ -1,1 +1,32 @@
-{"code":{"Developing a Safari Web Extension":{"title":"Developing a Safari Web Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/developing_a_safari_web_extension","kind":"article","role":"sampleCode","url":"/documentation/safariservices/safari_web_extensions/developing_a_safari_web_extension","abstract":[{"type":"text","text":"Customize and enhance web pages by building a Safari web extension."}]},"Messaging a Web Extension’s Native App":{"title":"Messaging a Web Extension’s Native App","type":"topic","identifier":"doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/messaging_a_web_extension_s_native_app","kind":"article","role":"sampleCode","url":"/documentation/safariservices/safari_web_extensions/messaging_a_web_extension_s_native_app","abstract":[{"type":"text","text":"Communicate between your Safari web extension and its containing app."}]}}}
+{
+  "code": {
+    "Developing a Safari Web Extension": {
+      "title": "Developing a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/developing_a_safari_web_extension",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/developing_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize and enhance web pages by building a Safari web extension."
+        }
+      ]
+    },
+    "Messaging a Web Extension’s Native App": {
+      "title": "Messaging a Web Extension’s Native App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/messaging_a_web_extension_s_native_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/messaging_a_web_extension_s_native_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Communicate between your Safari web extension and its containing app."
+        }
+      ]
+    }
+  }
+}

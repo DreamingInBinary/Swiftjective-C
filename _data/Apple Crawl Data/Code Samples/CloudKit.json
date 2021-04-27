@@ -1,1 +1,18 @@
-{"code":{"Sharing CloudKit Data with Other iCloud Users":{"title":"Sharing CloudKit Data with Other iCloud Users","type":"topic","identifier":"doc://com.apple.documentation/documentation/cloudkit/shared_records/sharing_cloudkit_data_with_other_icloud_users","kind":"article","role":"sampleCode","url":"/documentation/cloudkit/shared_records/sharing_cloudkit_data_with_other_icloud_users","abstract":[{"type":"text","text":"Create and share private CloudKit data with other users by implementing the sharing UI."}]}}}
+{
+  "code": {
+    "Sharing CloudKit Data with Other iCloud Users": {
+      "title": "Sharing CloudKit Data with Other iCloud Users",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/shared_records/sharing_cloudkit_data_with_other_icloud_users",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/cloudkit/shared_records/sharing_cloudkit_data_with_other_icloud_users",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and share private CloudKit data with other users by implementing the sharing UI."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,46 @@
-{"code":{"Filtering Network Traffic":{"title":"Filtering Network Traffic","type":"topic","identifier":"doc://com.apple.documentation/documentation/networkextension/filtering_network_traffic","kind":"article","role":"sampleCode","url":"/documentation/networkextension/filtering_network_traffic","abstract":[{"type":"text","text":"Use the Network Extension framework to allow or deny network connections."}]},"Receiving Voice and Text Communications on a Local Network":{"title":"Receiving Voice and Text Communications on a Local Network","type":"topic","identifier":"doc://com.apple.documentation/documentation/networkextension/local_push_connectivity/receiving_voice_and_text_communications_on_a_local_network","kind":"article","role":"sampleCode","url":"/documentation/networkextension/local_push_connectivity/receiving_voice_and_text_communications_on_a_local_network","abstract":[{"type":"text","text":"Provide voice and text communication on a local network isolated from Apple Push Notification service by adopting Local Push Connectivity."}]}}}
+{
+  "code": {
+    "Filtering Network Traffic": {
+      "title": "Filtering Network Traffic",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/networkextension/filtering_network_traffic",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/networkextension/filtering_network_traffic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the Network Extension framework to allow or deny network connections."
+        }
+      ]
+    },
+    "Receiving Voice and Text Communications on a Local Network": {
+      "title": "Receiving Voice and Text Communications on a Local Network",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/networkextension/local_push_connectivity/receiving_voice_and_text_communications_on_a_local_network",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/networkextension/local_push_connectivity/receiving_voice_and_text_communications_on_a_local_network",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide voice and text communication on a local network isolated from Apple Push Notification service by adopting Local Push Connectivity."
+        }
+      ]
+    },
+    "Configuring a Wi-Fi Accessory to Join the User’s Network": {
+      "title": "Configuring a Wi-Fi Accessory to Join the User’s Network",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/networkextension/configuring_a_wi-fi_accessory_to_join_the_user_s_network",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/networkextension/configuring_a_wi-fi_accessory_to_join_the_user_s_network",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Associate an iOS device with an accessory’s network to deliver network configuration information."
+        }
+      ]
+    }
+  }
+}

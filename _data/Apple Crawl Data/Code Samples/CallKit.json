@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Making and Receiving VoIP Calls with CallKit": {
+      "title": "Making and Receiving VoIP Calls with CallKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/callkit/making_and_receiving_voip_calls_with_callkit",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/callkit/making_and_receiving_voip_calls_with_callkit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the CallKit framework to integrate native VoIP calling."
+        }
+      ]
+    }
+  }
+}

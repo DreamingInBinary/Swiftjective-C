@@ -1,1 +1,18 @@
-{"code":{"Publishing and Discovering MIDI Capabilities":{"title":"Publishing and Discovering MIDI Capabilities","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremidi/midi_capability_inquiry/publishing_and_discovering_midi_capabilities","kind":"article","role":"sampleCode","url":"/documentation/coremidi/midi_capability_inquiry/publishing_and_discovering_midi_capabilities","abstract":[{"type":"text","text":"Share MIDI device capabilities to enable devices to automatically configure themselves to work together."}]}}}
+{
+  "code": {
+    "Publishing and Discovering MIDI Capabilities": {
+      "title": "Publishing and Discovering MIDI Capabilities",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremidi/midi_capability_inquiry/publishing_and_discovering_midi_capabilities",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coremidi/midi_capability_inquiry/publishing_and_discovering_midi_capabilities",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share MIDI device capabilities to enable devices to automatically configure themselves to work together."
+        }
+      ]
+    }
+  }
+}

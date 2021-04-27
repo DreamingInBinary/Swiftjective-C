@@ -511,6 +511,20 @@
           "text": "Implement a custom document file format to manage user interactions with files on different cloud storage providers."
         }
       ]
+    },
+    "Synchronizing Documents in the iCloud Environment": {
+      "title": "Synchronizing Documents in the iCloud Environment",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/documents_data_and_pasteboard/synchronizing_documents_in_the_icloud_environment",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/documents_data_and_pasteboard/synchronizing_documents_in_the_icloud_environment",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manage documents across multiple devices to create a seamless editing and collaboration experience."
+        }
+      ]
     }
   }
 }

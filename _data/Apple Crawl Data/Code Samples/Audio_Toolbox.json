@@ -1,1 +1,32 @@
-{"code":{"Creating Custom Audio Effects":{"title":"Creating Custom Audio Effects","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/creating_custom_audio_effects","kind":"article","role":"sampleCode","url":"/documentation/audiotoolbox/audio_unit_v3_plug-ins/creating_custom_audio_effects","abstract":[{"type":"text","text":"Add custom audio effect processing to apps like Logic Pro X and GarageBand by creating Audio Unit (AU) plug-ins."}]},"Incorporating Audio Effects and Instruments":{"title":"Incorporating Audio Effects and Instruments","type":"topic","identifier":"doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/incorporating_audio_effects_and_instruments","kind":"article","role":"sampleCode","url":"/documentation/audiotoolbox/audio_unit_v3_plug-ins/incorporating_audio_effects_and_instruments","abstract":[{"type":"text","text":"Add custom audio processing and MIDI instruments to your app by hosting Audio Unit (AU) plug-ins."}]}}}
+{
+  "code": {
+    "Creating Custom Audio Effects": {
+      "title": "Creating Custom Audio Effects",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/creating_custom_audio_effects",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/audiotoolbox/audio_unit_v3_plug-ins/creating_custom_audio_effects",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add custom audio effect processing to apps like Logic Pro X and GarageBand by creating Audio Unit (AU) plug-ins."
+        }
+      ]
+    },
+    "Incorporating Audio Effects and Instruments": {
+      "title": "Incorporating Audio Effects and Instruments",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiotoolbox/audio_unit_v3_plug-ins/incorporating_audio_effects_and_instruments",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/audiotoolbox/audio_unit_v3_plug-ins/incorporating_audio_effects_and_instruments",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add custom audio processing and MIDI instruments to your app by hosting Audio Unit (AU) plug-ins."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,60 @@
-{"code":{"Accessibility Design for Mac Catalyst":{"title":"Accessibility Design for Mac Catalyst","type":"topic","identifier":"doc://com.apple.documentation/documentation/accessibility/accessibility_design_for_mac_catalyst","kind":"article","role":"sampleCode","url":"/documentation/accessibility/accessibility_design_for_mac_catalyst","abstract":[{"type":"text","text":"Improve navigation in your app by using keyboard shortcuts and accessibility containers."}]}}}
+{
+  "code": {
+    "Accessibility Design for Mac Catalyst": {
+      "title": "Accessibility Design for Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/accessibility_design_for_mac_catalyst",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/accessibility_design_for_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve navigation in your app by using keyboard shortcuts and accessibility containers."
+        }
+      ]
+    },
+    "Creating Accessible Views": {
+      "title": "Creating Accessible Views",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/creating_accessible_views",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/creating_accessible_views",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your app accessible to everyone by applying accessibility modifiers to your SwiftUI views."
+        }
+      ]
+    },
+    "Delivering an Exceptional Accessibility Experience": {
+      "title": "Delivering an Exceptional Accessibility Experience",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/delivering_an_exceptional_accessibility_experience",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/delivering_an_exceptional_accessibility_experience",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make improvements to your app’s interaction model to support assistive technologies such as VoiceOver."
+        }
+      ]
+    },
+    "Integrating Accessibility into Your App": {
+      "title": "Integrating Accessibility into Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/integrating_accessibility_into_your_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/integrating_accessibility_into_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your app more accessible to users with disabilities by adding accessibility features."
+        }
+      ]
+    }
+  }
+}

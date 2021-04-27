@@ -1,1 +1,18 @@
-{"code":{"Implementing User Authentication with Sign in with Apple":{"title":"Implementing User Authentication with Sign in with Apple","type":"topic","identifier":"doc://com.apple.documentation/documentation/sign_in_with_apple/implementing_user_authentication_with_sign_in_with_apple","kind":"article","role":"sampleCode","url":"/documentation/sign_in_with_apple/implementing_user_authentication_with_sign_in_with_apple","abstract":[{"type":"text","text":"Provide a way for users of your app to set up an account and start using your services."}]}}}
+{
+  "code": {
+    "Implementing User Authentication with Sign in with Apple": {
+      "title": "Implementing User Authentication with Sign in with Apple",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sign_in_with_apple/implementing_user_authentication_with_sign_in_with_apple",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/sign_in_with_apple/implementing_user_authentication_with_sign_in_with_apple",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a way for users of your app to set up an account and start using your services."
+        }
+      ]
+    }
+  }
+}

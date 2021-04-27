@@ -1,1 +1,18 @@
-{"code":{"Communicating Between a DriverKit Extension and a Client App":{"title":"Communicating Between a DriverKit Extension and a Client App","type":"topic","identifier":"doc://com.apple.documentation/documentation/driverkit/communicating_between_a_driverkit_extension_and_a_client_app","kind":"article","role":"sampleCode","url":"/documentation/driverkit/communicating_between_a_driverkit_extension_and_a_client_app","abstract":[{"type":"text","text":"Send and receive different kinds of data securely by validating inputs and asynchronously by storing and using a callback."}]}}}
+{
+  "code": {
+    "Communicating Between a DriverKit Extension and a Client App": {
+      "title": "Communicating Between a DriverKit Extension and a Client App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/driverkit/communicating_between_a_driverkit_extension_and_a_client_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/driverkit/communicating_between_a_driverkit_extension_and_a_client_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Send and receive different kinds of data securely by validating inputs and asynchronously by storing and using a callback."
+        }
+      ]
+    }
+  }
+}

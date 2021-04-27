@@ -1,1 +1,46 @@
-{"code":{"Drawing with PencilKit":{"title":"Drawing with PencilKit","type":"topic","identifier":"doc://com.apple.documentation/documentation/pencilkit/drawing_with_pencilkit","kind":"article","role":"sampleCode","url":"/documentation/pencilkit/drawing_with_pencilkit","abstract":[{"type":"text","text":"Add expressive, low-latency drawing to your app using PencilKit."}]},"Customizing Scribble with Interactions":{"title":"Customizing Scribble with Interactions","type":"topic","identifier":"doc://com.apple.documentation/documentation/pencilkit/customizing_scribble_with_interactions","kind":"article","role":"sampleCode","url":"/documentation/pencilkit/customizing_scribble_with_interactions","abstract":[{"type":"text","text":"Enable writing on a non-text-input view by adding interactions."}]},"Inspecting, Modifying, and Constructing PencilKit Drawings":{"title":"Inspecting, Modifying, and Constructing PencilKit Drawings","type":"topic","identifier":"doc://com.apple.documentation/documentation/pencilkit/inspecting_modifying_and_constructing_pencilkit_drawings","kind":"article","role":"sampleCode","url":"/documentation/pencilkit/inspecting_modifying_and_constructing_pencilkit_drawings","abstract":[{"type":"text","text":"Score users’ ability to match PencilKit drawings generated from text, by accessing the strokes and points inside PencilKit drawings."}]}}}
+{
+  "code": {
+    "Drawing with PencilKit": {
+      "title": "Drawing with PencilKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pencilkit/drawing_with_pencilkit",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/pencilkit/drawing_with_pencilkit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add expressive, low-latency drawing to your app using PencilKit."
+        }
+      ]
+    },
+    "Customizing Scribble with Interactions": {
+      "title": "Customizing Scribble with Interactions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pencilkit/customizing_scribble_with_interactions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/pencilkit/customizing_scribble_with_interactions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enable writing on a non-text-input view by adding interactions."
+        }
+      ]
+    },
+    "Inspecting, Modifying, and Constructing PencilKit Drawings": {
+      "title": "Inspecting, Modifying, and Constructing PencilKit Drawings",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pencilkit/inspecting_modifying_and_constructing_pencilkit_drawings",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/pencilkit/inspecting_modifying_and_constructing_pencilkit_drawings",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Score users’ ability to match PencilKit drawings generated from text, by accessing the strokes and points inside PencilKit drawings."
+        }
+      ]
+    }
+  }
+}

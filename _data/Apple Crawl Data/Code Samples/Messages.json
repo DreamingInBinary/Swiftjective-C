@@ -1,1 +1,32 @@
-{"code":{"IceCreamBuilder: Building an iMessage Extension":{"title":"IceCreamBuilder: Building an iMessage Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/messages/icecreambuilder_building_an_imessage_extension","kind":"article","role":"sampleCode","url":"/documentation/messages/icecreambuilder_building_an_imessage_extension","abstract":[{"type":"text","text":"Allow users to collaborate on the design of ice cream sundae stickers."}]},"Creating a Sticker App with a Custom Layout":{"title":"Creating a Sticker App with a Custom Layout","type":"topic","identifier":"doc://com.apple.documentation/documentation/messages/creating_a_sticker_app_with_a_custom_layout","kind":"article","role":"sampleCode","url":"/documentation/messages/creating_a_sticker_app_with_a_custom_layout","abstract":[{"type":"text","text":"Expand on the Messages sticker app template to create an app with a customized user interface."}]}}}
+{
+  "code": {
+    "IceCreamBuilder: Building an iMessage Extension": {
+      "title": "IceCreamBuilder: Building an iMessage Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/messages/icecreambuilder_building_an_imessage_extension",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/messages/icecreambuilder_building_an_imessage_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to collaborate on the design of ice cream sundae stickers."
+        }
+      ]
+    },
+    "Creating a Sticker App with a Custom Layout": {
+      "title": "Creating a Sticker App with a Custom Layout",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/messages/creating_a_sticker_app_with_a_custom_layout",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/messages/creating_a_sticker_app_with_a_custom_layout",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Expand on the Messages sticker app template to create an app with a customized user interface."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,18 @@
-{"code":{"Creating Immersive Experiences Using a Fullscreen Layout":{"title":"Creating Immersive Experiences Using a Fullscreen Layout","type":"topic","identifier":"doc://com.apple.documentation/documentation/tvuikit/creating_immersive_experiences_using_a_fullscreen_layout","kind":"article","role":"sampleCode","url":"/documentation/tvuikit/creating_immersive_experiences_using_a_fullscreen_layout","abstract":[{"type":"text","text":"FullScreenLayout is a great new way to build and deliver and immersive content for tvOS apps."}]}}}
+{
+  "code": {
+    "Creating Immersive Experiences Using a Fullscreen Layout": {
+      "title": "Creating Immersive Experiences Using a Fullscreen Layout",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvuikit/creating_immersive_experiences_using_a_fullscreen_layout",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/tvuikit/creating_immersive_experiences_using_a_fullscreen_layout",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "FullScreenLayout is a great new way to build and deliver and immersive content for tvOS apps."
+        }
+      ]
+    }
+  }
+}

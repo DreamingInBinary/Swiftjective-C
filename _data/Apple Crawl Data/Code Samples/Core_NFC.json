@@ -1,1 +1,32 @@
-{"code":{"Building an NFC Tag-Reader App":{"title":"Building an NFC Tag-Reader App","type":"topic","identifier":"doc://com.apple.documentation/documentation/corenfc/building_an_nfc_tag-reader_app","kind":"article","role":"sampleCode","url":"/documentation/corenfc/building_an_nfc_tag-reader_app","abstract":[{"type":"text","text":"Read NFC tags with NDEF messages in your app."}]},"Creating NFC Tags from Your iPhone":{"title":"Creating NFC Tags from Your iPhone","type":"topic","identifier":"doc://com.apple.documentation/documentation/corenfc/creating_nfc_tags_from_your_iphone","kind":"article","role":"sampleCode","url":"/documentation/corenfc/creating_nfc_tags_from_your_iphone","abstract":[{"type":"text","text":"Save data to tags, and interact with them using native tag protocols."}]}}}
+{
+  "code": {
+    "Building an NFC Tag-Reader App": {
+      "title": "Building an NFC Tag-Reader App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corenfc/building_an_nfc_tag-reader_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corenfc/building_an_nfc_tag-reader_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Read NFC tags with NDEF messages in your app."
+        }
+      ]
+    },
+    "Creating NFC Tags from Your iPhone": {
+      "title": "Creating NFC Tags from Your iPhone",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corenfc/creating_nfc_tags_from_your_iphone",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corenfc/creating_nfc_tags_from_your_iphone",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Save data to tags, and interact with them using native tag protocols."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,18 @@
-{"code":{"Structuring Recognized Text on a Document":{"title":"Structuring Recognized Text on a Document","type":"topic","identifier":"doc://com.apple.documentation/documentation/vision/structuring_recognized_text_on_a_document","kind":"article","role":"sampleCode","url":"/documentation/vision/structuring_recognized_text_on_a_document","abstract":[{"type":"text","text":"Detect, recognize, and structure text on a business card or receipt using Vision and VisionKit."}]}}}
+{
+  "code": {
+    "Structuring Recognized Text on a Document": {
+      "title": "Structuring Recognized Text on a Document",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/structuring_recognized_text_on_a_document",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/vision/structuring_recognized_text_on_a_document",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect, recognize, and structure text on a business card or receipt using Vision and VisionKit."
+        }
+      ]
+    }
+  }
+}

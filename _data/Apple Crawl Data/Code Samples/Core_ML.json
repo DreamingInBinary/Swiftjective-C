@@ -1,1 +1,88 @@
-{"code":{"Integrating a Core ML Model into Your App":{"title":"Integrating a Core ML Model into Your App","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreml/integrating_a_core_ml_model_into_your_app","kind":"article","role":"sampleCode","url":"/documentation/coreml/integrating_a_core_ml_model_into_your_app","abstract":[{"type":"text","text":"Add a simple model to an app, pass input data to the model, and process the model’s predictions."}]},"Classifying Images with Vision and Core ML":{"title":"Classifying Images with Vision and Core ML","type":"topic","identifier":"doc://com.apple.documentation/documentation/vision/classifying_images_with_vision_and_core_ml","kind":"article","role":"sampleCode","url":"/documentation/vision/classifying_images_with_vision_and_core_ml","abstract":[{"type":"text","text":"Preprocess photos using the Vision framework and classify them with a Core ML model."}]},"Understanding a Dice Roll with Vision and Object Detection":{"title":"Understanding a Dice Roll with Vision and Object Detection","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreml/understanding_a_dice_roll_with_vision_and_object_detection","kind":"article","role":"sampleCode","url":"/documentation/coreml/understanding_a_dice_roll_with_vision_and_object_detection","abstract":[{"type":"text","text":"Detect dice position and values shown in a camera frame, and determine the end of a roll by leveraging a dice detection model."}]},"Detecting Human Body Poses in an Image":{"title":"Detecting Human Body Poses in an Image","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreml/detecting_human_body_poses_in_an_image","kind":"article","role":"sampleCode","url":"/documentation/coreml/detecting_human_body_poses_in_an_image","abstract":[{"type":"text","text":"Locate people and the stance of their bodies by analyzing an image with a PoseNet model."}]},"Finding Answers to Questions in a Text Document":{"title":"Finding Answers to Questions in a Text Document","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreml/finding_answers_to_questions_in_a_text_document","kind":"article","role":"sampleCode","url":"/documentation/coreml/finding_answers_to_questions_in_a_text_document","abstract":[{"type":"text","text":"Locate relevant passages in a document by asking the Bidirectional Encoder Representations from Transformers (BERT) model a question."}]},"Personalizing a Model with On-Device Updates":{"title":"Personalizing a Model with On-Device Updates","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreml/core_ml_api/personalizing_a_model_with_on-device_updates","kind":"article","role":"sampleCode","url":"/documentation/coreml/core_ml_api/personalizing_a_model_with_on-device_updates","abstract":[{"type":"text","text":"Modify an updatable Core ML model by running an update task with labeled data."}]}}}
+{
+  "code": {
+    "Integrating a Core ML Model into Your App": {
+      "title": "Integrating a Core ML Model into Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreml/integrating_a_core_ml_model_into_your_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreml/integrating_a_core_ml_model_into_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add a simple model to an app, pass input data to the model, and process the model’s predictions."
+        }
+      ]
+    },
+    "Classifying Images with Vision and Core ML": {
+      "title": "Classifying Images with Vision and Core ML",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/classifying_images_with_vision_and_core_ml",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/vision/classifying_images_with_vision_and_core_ml",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Preprocess photos using the Vision framework and classify them with a Core ML model."
+        }
+      ]
+    },
+    "Understanding a Dice Roll with Vision and Object Detection": {
+      "title": "Understanding a Dice Roll with Vision and Object Detection",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreml/understanding_a_dice_roll_with_vision_and_object_detection",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreml/understanding_a_dice_roll_with_vision_and_object_detection",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect dice position and values shown in a camera frame, and determine the end of a roll by leveraging a dice detection model."
+        }
+      ]
+    },
+    "Detecting Human Body Poses in an Image": {
+      "title": "Detecting Human Body Poses in an Image",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreml/detecting_human_body_poses_in_an_image",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreml/detecting_human_body_poses_in_an_image",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Locate people and the stance of their bodies by analyzing an image with a PoseNet model."
+        }
+      ]
+    },
+    "Finding Answers to Questions in a Text Document": {
+      "title": "Finding Answers to Questions in a Text Document",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreml/finding_answers_to_questions_in_a_text_document",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreml/finding_answers_to_questions_in_a_text_document",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Locate relevant passages in a document by asking the Bidirectional Encoder Representations from Transformers (BERT) model a question."
+        }
+      ]
+    },
+    "Personalizing a Model with On-Device Updates": {
+      "title": "Personalizing a Model with On-Device Updates",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreml/core_ml_api/personalizing_a_model_with_on-device_updates",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreml/core_ml_api/personalizing_a_model_with_on-device_updates",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Modify an updatable Core ML model by running an update task with labeled data."
+        }
+      ]
+    }
+  }
+}

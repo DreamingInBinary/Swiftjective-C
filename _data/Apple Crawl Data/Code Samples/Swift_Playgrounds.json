@@ -1,1 +1,18 @@
-{"code":{"Exploring Content Creation in Swift Playgrounds":{"title":"Exploring Content Creation in Swift Playgrounds","type":"topic","identifier":"doc://com.apple.documentation/documentation/swift_playgrounds/exploring_content_creation_in_swift_playgrounds","kind":"article","role":"sampleCode","url":"/documentation/swift_playgrounds/exploring_content_creation_in_swift_playgrounds","abstract":[{"type":"text","text":"Customize the hero from Swan’s Quest using an example book."}]}}}
+{
+  "code": {
+    "Exploring Content Creation in Swift Playgrounds": {
+      "title": "Exploring Content Creation in Swift Playgrounds",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift_playgrounds/exploring_content_creation_in_swift_playgrounds",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swift_playgrounds/exploring_content_creation_in_swift_playgrounds",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize the hero from Swan’s Quest using an example book."
+        }
+      ]
+    }
+  }
+}

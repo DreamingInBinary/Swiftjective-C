@@ -1,1 +1,32 @@
-{"code":{"Performing Common Cryptographic Operations":{"title":"Performing Common Cryptographic Operations","type":"topic","identifier":"doc://com.apple.documentation/documentation/cryptokit/performing_common_cryptographic_operations","kind":"article","role":"sampleCode","url":"/documentation/cryptokit/performing_common_cryptographic_operations","abstract":[{"type":"text","text":"Use CryptoKit to carry out operations like hashing, key generation, and encryption."}]},"Storing CryptoKit Keys in the Keychain":{"title":"Storing CryptoKit Keys in the Keychain","type":"topic","identifier":"doc://com.apple.documentation/documentation/cryptokit/storing_cryptokit_keys_in_the_keychain","kind":"article","role":"sampleCode","url":"/documentation/cryptokit/storing_cryptokit_keys_in_the_keychain","abstract":[{"type":"text","text":"Convert between strongly typed cryptographic keys and native keychain types."}]}}}
+{
+  "code": {
+    "Performing Common Cryptographic Operations": {
+      "title": "Performing Common Cryptographic Operations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cryptokit/performing_common_cryptographic_operations",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/cryptokit/performing_common_cryptographic_operations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use CryptoKit to carry out operations like hashing, key generation, and encryption."
+        }
+      ]
+    },
+    "Storing CryptoKit Keys in the Keychain": {
+      "title": "Storing CryptoKit Keys in the Keychain",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cryptokit/storing_cryptokit_keys_in_the_keychain",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/cryptokit/storing_cryptokit_keys_in_the_keychain",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert between strongly typed cryptographic keys and native keychain types."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "code": {
+    "Creating a Client-Server TVML App": {
+      "title": "Creating a Client-Server TVML App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvmljs/creating_a_client-server_tvml_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/tvmljs/creating_a_client-server_tvml_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display and navigate between TVML documents on Apple TV by retrieving and parsing information from a remote server."
+        }
+      ]
+    },
+    "Responding to User Interaction": {
+      "title": "Responding to User Interaction",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvmljs/responding_to_user_interaction",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/tvmljs/responding_to_user_interaction",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update onscreen information by adding event listeners to your Apple TV app."
+        }
+      ]
+    },
+    "Playing Media in a Client-Server App": {
+      "title": "Playing Media in a Client-Server App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvmljs/playing_media_in_a_client-server_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/tvmljs/playing_media_in_a_client-server_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Play media items in a client-server app using the built-in media player for TVMLKit JS."
+        }
+      ]
+    },
+    "Binding JSON Data to TVML Documents": {
+      "title": "Binding JSON Data to TVML Documents",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvmljs/binding_json_data_to_tvml_documents",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/tvmljs/binding_json_data_to_tvml_documents",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create full-fledged TVML documents by using data binding and queries on simplified TVML files."
+        }
+      ]
+    }
+  }
+}

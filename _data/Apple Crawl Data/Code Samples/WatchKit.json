@@ -1,1 +1,26 @@
-{"code":{"Developing a User Interface with SwiftUI":{"title":"Developing a User Interface with SwiftUI","type":"topic","identifier":"doc://com.apple.documentation/documentation/watchkit/developing_a_user_interface_with_swiftui","kind":"article","role":"sampleCode","url":"/documentation/watchkit/developing_a_user_interface_with_swiftui","abstract":[{"type":"text","text":"Use common SwiftUI elements and watch-specific features in a comprehensive sample app."}]},"Introducing SwiftUI":{"title":"Introducing SwiftUI","type":"topic","identifier":"doc://com.apple.documentation/tutorials/swiftui","kind":"overview","role":"overview","url":"/tutorials/swiftui"}}}
+{
+  "code": {
+    "Developing a User Interface with SwiftUI": {
+      "title": "Developing a User Interface with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/developing_a_user_interface_with_swiftui",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/developing_a_user_interface_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use common SwiftUI elements and watch-specific features in a comprehensive sample app."
+        }
+      ]
+    },
+    "Introducing SwiftUI": {
+      "title": "Introducing SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/tutorials/swiftui",
+      "kind": "overview",
+      "role": "overview",
+      "url": "/tutorials/swiftui"
+    }
+  }
+}

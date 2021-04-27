@@ -1,1 +1,32 @@
-{"code":{"Fruta: Building a Feature-Rich App with SwiftUI":{"title":"Fruta: Building a Feature-Rich App with SwiftUI","type":"topic","identifier":"doc://com.apple.documentation/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui","kind":"article","role":"sampleCode","url":"/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui","abstract":[{"type":"text","text":"Create a shared codebase to build a multiplatform app that offers widgets and an App Clip."}]}}}
+{
+  "code": {
+    "Fruta: Building a Feature-Rich App with SwiftUI": {
+      "title": "Fruta: Building a Feature-Rich App with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a shared codebase to build a multiplatform app that offers widgets and an App Clip."
+        }
+      ]
+    },
+    "Interacting with App Clip Codes in AR": {
+      "title": "Interacting with App Clip Codes in AR",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/app_clips/interacting_with_app_clip_codes_in_ar",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/app_clips/interacting_with_app_clip_codes_in_ar",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display content and provide services in an AR experience with App Clip Codes."
+        }
+      ]
+    }
+  }
+}

@@ -1,1 +1,60 @@
-{"code":{"SiriKit":{"type":"topic","identifier":"doc://com.apple.documentation/documentation/SiriKit","kind":"overview","title":"SiriKit","url":"/documentation/sirikit","role":"overview","abstract":[{"text":"Handle user requests for your app’s services that originate from Siri or Maps.","type":"text"}]},"Fruta: Building a Feature-Rich App with SwiftUI":{"role":"sampleCode","abstract":[{"type":"text","text":"Create a shared codebase to build a multiplatform app that offers widgets and an App Clip."}],"kind":"article","url":"/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui","type":"topic","identifier":"doc://com.apple.documentation/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui","title":"Fruta: Building a Feature-Rich App with SwiftUI"},"Building Widgets Using WidgetKit and SwiftUI":{"role":"sampleCode","abstract":[{"type":"text","text":"Create widgets to show your app’s content on the Home screen, with custom intents for user-customizable settings."}],"kind":"article","url":"/documentation/widgetkit/building_widgets_using_widgetkit_and_swiftui","type":"topic","identifier":"doc://com.apple.documentation/documentation/widgetkit/building_widgets_using_widgetkit_and_swiftui","title":"Building Widgets Using WidgetKit and SwiftUI"},"Introducing SwiftUI":{"role":"overview","abstract":[{"type":"text","text":"SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before."}],"kind":"overview","url":"/tutorials/SwiftUI","type":"topic","identifier":"doc://com.apple.documentation/tutorials/SwiftUI","title":"Introducing SwiftUI"}}}
+{
+  "code": {
+    "SiriKit": {
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/SiriKit",
+      "kind": "overview",
+      "title": "SiriKit",
+      "url": "/documentation/sirikit",
+      "role": "overview",
+      "abstract": [
+        {
+          "text": "Handle user requests for your app’s services that originate from Siri or Maps.",
+          "type": "text"
+        }
+      ]
+    },
+    "Fruta: Building a Feature-Rich App with SwiftUI": {
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui",
+      "role": "sampleCode",
+      "title": "Fruta: Building a Feature-Rich App with SwiftUI",
+      "type": "topic",
+      "kind": "article",
+      "url": "/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a shared codebase to build a multiplatform app that offers widgets and an App Clip."
+        }
+      ]
+    },
+    "Building Widgets Using WidgetKit and SwiftUI": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create widgets to show your app’s content on the Home screen, with custom intents for user-customizable settings."
+        }
+      ],
+      "kind": "article",
+      "identifier": "doc://com.apple.documentation/documentation/widgetkit/building_widgets_using_widgetkit_and_swiftui",
+      "title": "Building Widgets Using WidgetKit and SwiftUI",
+      "role": "sampleCode",
+      "url": "/documentation/widgetkit/building_widgets_using_widgetkit_and_swiftui",
+      "type": "topic"
+    },
+    "Introducing SwiftUI": {
+      "type": "topic",
+      "url": "/tutorials/SwiftUI",
+      "identifier": "doc://com.apple.documentation/tutorials/SwiftUI",
+      "title": "Introducing SwiftUI",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before."
+        }
+      ],
+      "kind": "overview",
+      "role": "overview"
+    }
+  }
+}

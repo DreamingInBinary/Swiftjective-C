@@ -1,1 +1,60 @@
-{"code":{"Handling Different Data Types in Core Data":{"title":"Handling Different Data Types in Core Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/coredata/handling_different_data_types_in_core_data","kind":"article","role":"sampleCode","url":"/documentation/coredata/handling_different_data_types_in_core_data","abstract":[{"type":"text","text":"Create, store, and present records for a variety of data types."}]},"Linking Data Between Two Core Data Stores":{"title":"Linking Data Between Two Core Data Stores","type":"topic","identifier":"doc://com.apple.documentation/documentation/coredata/linking_data_between_two_core_data_stores","kind":"article","role":"sampleCode","url":"/documentation/coredata/linking_data_between_two_core_data_stores","abstract":[{"type":"text","text":"Organize data in two different stores and implement a link between them."}]},"Synchronizing a Local Store to the Cloud":{"title":"Synchronizing a Local Store to the Cloud","type":"topic","identifier":"doc://com.apple.documentation/documentation/coredata/synchronizing_a_local_store_to_the_cloud","kind":"article","role":"sampleCode","url":"/documentation/coredata/synchronizing_a_local_store_to_the_cloud","abstract":[{"type":"text","text":"Share data between a user’s devices using Core Data with CloudKit."}]},"Loading and Displaying a Large Data Feed":{"title":"Loading and Displaying a Large Data Feed","type":"topic","identifier":"doc://com.apple.documentation/documentation/coredata/loading_and_displaying_a_large_data_feed","kind":"article","role":"sampleCode","url":"/documentation/coredata/loading_and_displaying_a_large_data_feed","abstract":[{"type":"text","text":"Consume data in the background, and lower memory usage by batching imports and preventing duplicate records."}]}}}
+{
+  "code": {
+    "Handling Different Data Types in Core Data": {
+      "title": "Handling Different Data Types in Core Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/handling_different_data_types_in_core_data",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coredata/handling_different_data_types_in_core_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create, store, and present records for a variety of data types."
+        }
+      ]
+    },
+    "Linking Data Between Two Core Data Stores": {
+      "title": "Linking Data Between Two Core Data Stores",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/linking_data_between_two_core_data_stores",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coredata/linking_data_between_two_core_data_stores",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Organize data in two different stores and implement a link between them."
+        }
+      ]
+    },
+    "Synchronizing a Local Store to the Cloud": {
+      "title": "Synchronizing a Local Store to the Cloud",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/synchronizing_a_local_store_to_the_cloud",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coredata/synchronizing_a_local_store_to_the_cloud",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share data between a user’s devices using Core Data with CloudKit."
+        }
+      ]
+    },
+    "Loading and Displaying a Large Data Feed": {
+      "title": "Loading and Displaying a Large Data Feed",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/loading_and_displaying_a_large_data_feed",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coredata/loading_and_displaying_a_large_data_feed",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Consume data in the background, and lower memory usage by batching imports and preventing duplicate records."
+        }
+      ]
+    }
+  }
+}

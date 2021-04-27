@@ -1,1 +1,32 @@
-{"code":{"Creating an Audio Server Driver Plug-in":{"title":"Creating an Audio Server Driver Plug-in","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreaudio/creating_an_audio_server_driver_plug-in","kind":"article","role":"sampleCode","url":"/documentation/coreaudio/creating_an_audio_server_driver_plug-in","abstract":[{"type":"text","text":"Build a virtual audio device by creating a custom driver plug-in."}]},"Building an Audio Server Plug-in and Driver Extension":{"title":"Building an Audio Server Plug-in and Driver Extension","type":"topic","identifier":"doc://com.apple.documentation/documentation/coreaudio/building_an_audio_server_plug-in_and_driver_extension","kind":"article","role":"sampleCode","url":"/documentation/coreaudio/building_an_audio_server_plug-in_and_driver_extension","abstract":[{"type":"text","text":"Create a plug-in and driver extension to support an audio device in macOS."}]}}}
+{
+  "code": {
+    "Creating an Audio Server Driver Plug-in": {
+      "title": "Creating an Audio Server Driver Plug-in",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreaudio/creating_an_audio_server_driver_plug-in",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreaudio/creating_an_audio_server_driver_plug-in",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a virtual audio device by creating a custom driver plug-in."
+        }
+      ]
+    },
+    "Building an Audio Server Plug-in and Driver Extension": {
+      "title": "Building an Audio Server Plug-in and Driver Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreaudio/building_an_audio_server_plug-in_and_driver_extension",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coreaudio/building_an_audio_server_plug-in_and_driver_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a plug-in and driver extension to support an audio device in macOS."
+        }
+      ]
+    }
+  }
+}

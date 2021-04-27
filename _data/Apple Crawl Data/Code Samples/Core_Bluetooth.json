@@ -1,1 +1,32 @@
-{"code":{"Transferring Data Between Bluetooth Low Energy Devices":{"title":"Transferring Data Between Bluetooth Low Energy Devices","type":"topic","identifier":"doc://com.apple.documentation/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices","kind":"article","role":"sampleCode","url":"/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices","abstract":[{"type":"text","text":"Create a Bluetooth low energy central and peripheral device, and allow them to discover each other and exchange data."}]},"Using Core Bluetooth Classic":{"title":"Using Core Bluetooth Classic","type":"topic","identifier":"doc://com.apple.documentation/documentation/corebluetooth/using_core_bluetooth_classic","kind":"article","role":"sampleCode","url":"/documentation/corebluetooth/using_core_bluetooth_classic","abstract":[{"type":"text","text":"Discover and communicate with a Bluetooth Classic device by using the Core Bluetooth APIs."}]}}}
+{
+  "code": {
+    "Transferring Data Between Bluetooth Low Energy Devices": {
+      "title": "Transferring Data Between Bluetooth Low Energy Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a Bluetooth low energy central and peripheral device, and allow them to discover each other and exchange data."
+        }
+      ]
+    },
+    "Using Core Bluetooth Classic": {
+      "title": "Using Core Bluetooth Classic",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corebluetooth/using_core_bluetooth_classic",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corebluetooth/using_core_bluetooth_classic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Discover and communicate with a Bluetooth Classic device by using the Core Bluetooth APIs."
+        }
+      ]
+    }
+  }
+}
