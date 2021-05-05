@@ -142,6 +142,11 @@ The five sections it covers are:
     + To handle notification routing to the right scene, you set a target content identifier on either `UNNotificationContent`, `UIApplicationShortcutItem` or `NSUserActivity`.
 - Full multitasking support.
 - Home screen quick action support.
+- If you support `PencilKit`, include your own undo and redo buttons in a [compact environment][21].
+    + Additionally, ensure the system-wide double tap gesture doesn't modify any content if it's been customized by your app.
+    + Using `UIPencilInteraction`, handle double tap actions and respect `preferredTapAction` if it's set.
+    + In compact size classes, you don't obscure content from the docked tool picker by leveraging `toolPickerFramesObscuredDidChange(_ toolPicker: PKToolPicker)`.
+    + You deliver your drawing to the screen shot service using `UIScreenshotServiceDelegate`.
 - If you offer a sign in, Sign in with Apple is included.
     + If you don't, offer [password autofill][22].
 - Spotlight search and indexing support.
@@ -243,13 +248,10 @@ The five sections it covers are:
     + You also use semantic colors in a consistent way, and don't redefine their meaning (i.e. use Link for a label color).
 - You defer from providing custom gestures towards the edge of the screen. If it's appropriate (such as for viewing media), you override [`preferredScreenEdgesDeferringSystemGestures`][24] as needed.
 - If you have user interface elements constrained by the keyboard's frame, you handle situations where it may be undocked, floating or split.
-- If you support `PencilKit`, include your own undo and redo buttons in a [compact environment][21].
-    + Additionally, ensure the system-wide double tap gesture doesn't modify any content if it's been customized by your app.
-- Navigation is clear and foolproof. You use either flat, hierarchical or content/UX driven navigation.
-    + You use a sidebar to flatten your information hierarchy if it makes sense. For example, if you app has several folders, playlists or similar collections.
-    + Using `UIPencilInteraction`, handle double tap actions.
-    + If you use a tab bar, aim for 3-5 items. If you need the "More" tab, you're likely going in the wrong direction.
+- If you use a tab bar, aim for 3-5 items. If you need the "More" tab, you're likely going in the wrong direction.
 - Modality is used sparingly, and clearly brings them back to where they were when dismissed.
+- Navigation is clear and foolproof. You use either flat, hierarchical or content/UX driven navigation.
+- You use a sidebar to flatten your information hierarchy if it makes sense. For example, if you app has several folders, playlists or similar collections.
 - Your design also considers text and your app's voice or messaging as part of the design and experience, and it stays consistent.
     + You don't mix playful error messages juxtaposed with serious ones.
     + iOS technology, or any other technical term, is made for anyone to understand (i.e. you'd use 'Scan the tag' instead of 'Activate NFC reading Session' or similar.).
