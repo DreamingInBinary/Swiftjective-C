@@ -6,7 +6,7 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "What is a best in class iOS app? How are they built, and can we quantify what makes them great?"
 image: /assets/images/bicLogo.png
-updated: "2021-02-25"
+updated: "2021-05-04"
 special: "true"
 prettyTitle: "A Best in Class App"
 ---
