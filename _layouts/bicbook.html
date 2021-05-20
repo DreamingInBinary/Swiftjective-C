@@ -1,5 +1,5 @@
 ---
-layout: bicbook
+layout: default
 title: A Best-in-Class App - The Book
 permalink: /bestinclassbook
 ---
@@ -7,342 +7,49 @@ permalink: /bestinclassbook
 <!DOCTYPE html>
 <html lang="en-US">
 {% include head.html %}
-<body class="bg-gray-50">
-<!-- Top Hero -->
-<div class="relative min-h-full bg-gray-50 overflow-hidden">
-  <!-- Patterns -->
-  <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
-    <div class="relative h-full max-w-7xl mx-auto">
-      <svg class="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
-        <defs>
-          <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-          </pattern>
-        </defs>
-        <rect width="404" height="784" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
-      </svg>
-      <svg class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
-        <defs>
-          <pattern id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-          </pattern>
-        </defs>
-        <rect width="404" height="784" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
-      </svg>
-    </div>
-  </div>
 
-  <div class="relative pt-6 pb-16 sm:pb-24">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
-        <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-          <div class="flex items-center justify-between w-full md:w-auto">
-            <span class="inline-flex rounded-md shadow">
-              <a href="/index.html" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="hidden md:flex md:space-x-10">
-          <a href="#book" class="font-medium text-gray-500 hover:text-blue-600">The Book</a>
+<style>
+  #funHeader {
+    background: linear-gradient(-45deg, #147ce5, #0a5c75, #94d2e9, #220a64);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 
-          <a href="#app" class="font-medium text-gray-500 hover:text-blue-600">The App</a>
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
 
-          <a href="#screencast" class="font-medium text-gray-500 hover:text-blue-600">The Screencasts</a>
+    50% {
+      background-position: 100% 50%;
+    }
 
-          <a href="#whoami" class="font-medium text-gray-500 hover:text-blue-600">Who Am I?</a>
-        </div>
-      </nav>
-    </div>
-    <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
-      <div class="text-center">
-        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span class="block xl:inline">A Best-in-Class App:</span>
-          <span class="block text-blue-600 xl:inline"> The Book</span>
-        </h1>
-        <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          A technical guide and proven tips on<br />
-          how to <span class="font-bold">make</span> and <span class="font-bold">design</span> the very best iOS apps.
-        </p>
-        <div class="mt-5 w-2/3 mx-auto sm:flex sm:justify-center md:mt-8">
-          <button onclick="ml_account('webforms', '4132540', 'a6w7n0', 'show')" class="rounded-md bg-blue-500 text-white px-4 py-3 font-medium hover:bg-blue-700">Join Waitlist</button>
-        </div>
-      </div>
-    </main>
-  </div>
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
+<h1 class="text-center text-5xl mt-16 md:mt-8 md:text-7xl font-bold">A Best-in-Class<br />iOS App</h1>
+<h2 class="mt-4 mb-10 text-center text-2xl md:text-4xl font-bold text-gray-700">The <span id="funHeader"
+    class="text-transparent">Complete</span> Book Series</h2>
+<div class="mt-5 w-2/3 mx-auto sm:flex sm:justify-center md:mt-8">
+  <button onclick="ml_account('webforms', '4132540', 'a6w7n0', 'show')"
+    class="rounded-md bg-blue-500 text-white px-4 py-3 font-medium hover:bg-blue-700">Join Waitlist</button>
 </div>
-<!-- Sections -->
-<div class="py-16 bg-gray-50 overflow-hidden lg:py-24">
-  <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-    <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
-      <defs>
-        <pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-          <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-        </pattern>
-      </defs>
-      <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
-    </svg>
-
-    <!-- The Book -->
-    <div id="book" class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-      <div class="relative">
-        <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">The Book</h3>
-        <p class="mt-3 text-lg text-gray-500">
-          Think the human interface guidelines and<br />
-          code samples, but combined. And on steroids.
-        </p>
-
-        <dl class="mt-10 space-y-10">
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <!-- Heroicon name: outline/globe-alt -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">Master Accessibility APIs</dt>
-              <dd class="mt-2 text-base text-gray-500">We start here, because an app should be designed for everyone. Learn how to do it right.</dd>
-            </div>
-          </div>
-
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <!-- Heroicon name: outline/scale -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">Core Technologies</dt>
-              <dd class="mt-2 text-base text-gray-500">Dynamic type, multiple windows and more. Learn how to do the things that make apps leverage the platform.</dd>
-            </div>
-          </div>
-
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <!-- Heroicon name: outline/lightning-bolt -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">Leverage iOS</dt>
-              <dd class="mt-2 text-base text-gray-500">Siri Shortcuts, App Clips, iCloud sync. Know when to use the best iOS has to offer.</dd>
-            </div>
-          </div>
-        </dl>
-      </div>
-
-      <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-        <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
-          <defs>
-            <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-            </pattern>
-          </defs>
-          <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
-        </svg>
-        <img class="relative mx-auto" width="490" src="/assets/images/bookcover.jpg" alt="Book Cover" />
-      </div>
-    </div>
-
-    <!-- Pattern -->
-    <svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
-      <defs>
-        <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-          <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-        </pattern>
-      </defs>
-      <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
-    </svg>
-
-    <!-- The App -->
-    <div id="app" class="relative mt-12 sm:mt-16 lg:mt-24">
-      <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-        <div class="lg:col-start-2">
-          <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">The App</h3>
-          <p class="mt-3 text-lg text-gray-500">A companion that shows exactly how all of these concepts work in practice.</p>
-
-          <dl class="mt-10 space-y-10">
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  <!-- Heroicon name: outline/annotation -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
-                  </svg>
-                </div>
-              </div>
-              <div class="ml-4">
-                <dt class="text-lg leading-6 font-medium text-gray-900">SwiftUI and UIKit</dt>
-                <dd class="mt-2 text-base text-gray-500">See how to use both of these frameworks to achieve a high quality app.</dd>
-              </div>
-            </div>
-
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  <!-- Heroicon name: outline/mail -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                  </svg>
-                </div>
-              </div>
-              <div class="ml-4">
-                <dt class="text-lg leading-6 font-medium text-gray-900">The Ultimate Sample Code</dt>
-                <dd class="mt-2 text-base text-gray-500">One app with several entry points to learn how to use nearly every iOS technology available.</dd>
-              </div>
-            </div>
-
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  <!-- Heroicon name: outline/mail -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-              </div>
-              <div class="ml-4">
-                <dt class="text-lg leading-6 font-medium text-gray-900">Easy Referencing</dt>
-                <dd class="mt-2 text-base text-gray-500">Jump straight into code from chapters in the book.</dd>
-              </div>
-            </div>
-          </dl>
-        </div>
-
-        <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-          <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
-            <defs>
-              <pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
-          </svg>
-          <img class="relative mx-auto" width="590" src="/assets/images/xcodeScreen.png" alt="Xcode Screenshot" />
-        </div>
-      </div>
-    </div>
-
-    <!-- The Screencasts -->
-    <div id="screencast" class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-      <div class="relative">
-        <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">The Screencasts</h3>
-        <p class="mt-3 text-lg text-gray-500">Follow along with me as I go even deeper into how to think about design and making smarter decisions on which APIs to use and which to skip.</p>
-
-        <dl class="mt-10 space-y-10">
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <!-- Heroicon name: outline/globe-alt -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">Short, Bite Sized Videos</dt>
-              <dd class="mt-2 text-base text-gray-500">Each video is less than five minutes with to-the-point information. No fluff.</dd>
-            </div>
-          </div>
-
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <!-- Heroicon name: outline/scale -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">No Rants, Just Applicable Knowledge</dt>
-              <dd class="mt-2 text-base text-gray-500">After each video, you'll have something new to consider for your designs or code to bring back to your app.</dd>
-            </div>
-          </div>
-
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <!-- Heroicon name: outline/lightning-bolt -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">At Your Own Pace</dt>
-              <dd class="mt-2 text-base text-gray-500">Videos on design, accessibility, iOS technology, and user experience.</dd>
-            </div>
-          </div>
-        </dl>
-      </div>
-
-      <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-        <img class="relative mx-auto px-4 md:px-0 rounded-md shadow-xl" width="590" src="/assets/images/screencast.png" alt="Screencast Intro Slide" />
-      </div>
-    </div>
-  </div>
-</div>
-<hr />
-<!-- Who am I? -->
-<div id="whoami" class="py-16 bg-gray-50 overflow-hidden">
-  <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-      <div class="relative">
-        <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Who am I?</h3>
-        <p class="mt-3 text-lg text-gray-500">My name is <a class="text-blue-600 hover:text-blue-800" href="https://www.twitter.com/jordanmorgan10">Jordan</a>, and I've been making award-winning apps for the iOS platform since iOS 4. My most recent app, Spend Stack, was <a class="text-blue-600 hover:text-blue-800" href="https://www.swiftjectivec.com/a-new-home-for-spend-stack/">acquired</a>.</p>
-        <p class="mt-3 text-lg text-gray-500">Before its acquisition, it won awards, was frequently covered by the <a class="text-blue-600 hover:text-blue-800" href="https://www.macstories.net/reviews/spend-stack-adds-apple-card-import-recurring-costs-per-list-currencies-ipad-improvements-and-more/">press</a>, showcased by Apple's editors since its release, featured as <a class="text-blue-600 hover:text-blue-800" href="https://twitter.com/JordanMorgan10/status/1346821003368923136?s=20">App of the Day</a> and chosen to be a <a class="text-blue-600 hover:text-blue-800" href="https://www.swiftjectivec.com/creating-a-retail-demo/">retail demo</a> in stores.</p>
-        <p class="mt-3 text-lg text-gray-500">Along the way, I've learned a lot about <a class="text-blue-600 hover:text-blue-800" href="https://www.swiftjectivec.com/can-you-learn-design/">design</a> and what it means to be a great platform citizen. I keep a running list of how to make your apps <a class="text-blue-600 hover:text-blue-800" href="https://www.swiftjectivec.com/a-best-in-class-app/">best-in-class here</a>, and it's the inspiration for this book.</p>
-      </div>
-
-      <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-        <svg class="hidden lg:block absolute left-1/2 transform -translate-x-1/2 translate-y-16" width="684" height="404" fill="none" viewBox="0 0 784 404">
-          <defs>
-            <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-            </pattern>
-          </defs>
-          <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
-        </svg>
-        <img class="relative mx-auto w-max h-auto px-4 rounded-md md:px-0 md:w-auto md:h-80 md:rounded-3xl" width="490" src="/assets/images/confCandid.png" alt="Jordan at Try! Swift" />
-      </div>
-    </div>
-  </div>
-  <!-- Last Call -->
-  <div class="mt-36 flex-row items-center">
-    <h3 class="text-2xl text-center font-extrabold text-gray-900 tracking-tight sm:text-3xl">Ready to get started?</h3>
-    <div class="mt-5 px-8 max-w-sm mx-auto md:mt-8">
-      <div class="rounded-md shadow">
-        <script async data-uid="8f9a5dc169" src="https://swiftjectivec.ck.page/8f9a5dc169/index.js"></script>
-        </div>
-    </div>
-  </div>
-</div>
-
-</body>
-</html>
 
 <!-- MailerLite Universal -->
 <script>
-  (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-  var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-  f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-  var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-  _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-  
+  (function (m, a, i, l, e, r) {
+    m['MailerLiteObject'] = e; function f() {
+      var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+    }
+    f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+    var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+    _.parentNode.insertBefore(r, _);
+  })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
   var ml_account = ml('accounts', '3170860', 'x0d8s4w3z7', 'load');
 </script>
 <!-- End MailerLite Universal -->
