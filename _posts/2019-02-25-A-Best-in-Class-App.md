@@ -11,7 +11,7 @@ special: "true"
 prettyTitle: "A Best in Class App"
 ---
 
-{% include prettyBlockquote.html text="<b>A Best-in-Class App: The Book is coming!</b> Complete with code samples, screencasts, an in-depth .pdf guide and more, get notified when it's ready <a href=\"/bestinclassbook.html\">here</a>!" %}
+{% include prettyBlockquote.html text="<b>A Best-in-Class App: The Book is coming!</b> Five, complete books packaged together in .mobi, .epub and .pdf plus more - get notified when it's ready <a href=\"/bestinclassbook.html\">here</a>!" %}
 
 * Make a project using this list in [Things][35].
 * You can get the public Github Issue version of this list <a href="https://gist.github.com/DreamingInBinary/0ccd49e3578c5ae1ebb20632c6c3af73">here</a>.
@@ -94,7 +94,9 @@ The five sections it covers are:
 - You respect videos automatically playing or not based off of [`isVideoAutoplayEnabled`][36] settings.
 - You only request permissions from iOS until you truly need them. From the HIG:
 > When your request is clearly related to the current context, you help people understand your app’s intentions.
-- At the end of the day, you're considering and building for all of these accessibility technologies (some of these deal with Mac Catalyst):
+    + You also use straightforward and easy to understand prompts for permission dialogs.
+- At the end of the day, you're considering and building for all of these accessibility technologies (some of these deal with 
+Mac Catalyst):
     + Alternate pointer actions
     + Slow keys
     + Larger text
@@ -147,6 +149,7 @@ The five sections it covers are:
     + Using `UIPencilInteraction`, handle double tap actions and respect `preferredTapAction` if it's set.
     + In compact size classes, you don't obscure content from the docked tool picker by leveraging `toolPickerFramesObscuredDidChange(_ toolPicker: PKToolPicker)`.
     + You deliver your drawing to the screen shot service using `UIScreenshotServiceDelegate`.
+    + If you use your own drawing engine, then on iPad you respect the `UIPencilInteraction.prefersPencilOnlyDrawing` setting and ignore finger input if it's set to true.
 - If you offer a sign in, Sign in with Apple is included.
     + If you don't, offer [password autofill][22].
 - Spotlight search and indexing support.
@@ -214,6 +217,12 @@ The five sections it covers are:
 - Handles the keyboard being undocked on the iPad, if views are constrained to it via an `inputAccessoryView`.
 - If data is quantifiable while data transfer is occurring, a progress indicator is used over an activity indicator.
 - It's localized for all territories it's released in.
+    + Right-to-left locales work phenomenally:
+    +   Text properly aligns. For example, a paragraph (defined as three or more sentences) still left align, but headings and other text properly right align.
+    + If you have progress indicators, rating systems or any elements that associate text with a numerical meaning, then those digits and text properly order right-to-left as well.
+    + Controls that require lateral movement for input (i.e. a `UISlider`) also work right-to-left.
+    + If necessary, balance out Arabic and Hebrew text with a higher font size if it's next to Latin text that's capitalized. Hebrew and Arabic text don't have upppercase letters, so the visual and semantic meaning may not flow naturally next to Latin text.
+    + Flip any glyphs that help promote navigational meaning, forward or backward directions or reading directions.
 - Text tends to not truncate and it *never* clips but rather it's always readable.
 - All tappable interface elements are at least 44 by 44 points.
 - The entire app binary is under 30 megabytes. (_No source here, this is based off a multitude of data points._)

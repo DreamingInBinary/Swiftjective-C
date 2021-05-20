@@ -13,4 +13,4 @@ More than anything, I dig developing **tightly focused apps** on iOS. I'm slight
 
 My close second love is **writing and teaching**. I'm currently working on a <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="/bestinclassbook.html">new book over making best-in-class apps</a>. 
 
-Want to know more? An F.A.Q. is below or you can <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="/ama.html">ask me anything</a>.
+Want to know more? An F.A.Q. is below, you can email me at jordan@swiftjectivec(dot)com or <a class="hover:text-blue-500 border-blue-500 cursor-pointer"  href="/ama.html">ask me anything</a>.
