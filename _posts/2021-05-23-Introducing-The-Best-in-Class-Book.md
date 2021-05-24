@@ -7,7 +7,6 @@ writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "My next big project is ready for beta launch. One, gigantic book covering everything I know about iOS."
 image: /assets/images/bicog.jpg
 ---
-CHANGE DATE
 
 The next passion project of mine is ready to see the light of day. The Best-in-Class iOS App: The Book Series will be ready to buy in beta form **Thursday, May 27th**!
 
