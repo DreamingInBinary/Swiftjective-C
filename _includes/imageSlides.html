@@ -1,6 +1,9 @@
 <div class="relative">
     <img src="{{ include.img1 }}" class="w-full mySlides">
     <img src="{{ include.img2 }}" class="w-full mySlides">
+    {% if include.img3 %}
+    <img src="{{ include.img3 }}" class="w-full mySlides">
+    {% endif %}
     <div class="absolute bottom-1/2 w-full flex justify-between">
         <button type="button" onclick="plusDivs(-1)"
             class="ml-4 inline-flex items-center p-1.5 border border-transparent rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
