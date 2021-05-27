@@ -8,6 +8,7 @@ description: "My next big project is ready for beta launch. One, gigantic book c
 image: /assets/images/bicog.jpg
 ---
 
+**Update:** It's here! You can buy [the beta now!][4]<br /><br />
 The next passion project of mine is ready to see the light of day. The Best-in-Class iOS App: The Book Series will be ready to buy in beta form **Thursday, May 27th**!
 
 I've never released a book, or really anything other than an app. So, I have absolutely no idea what to expect. And I can't wait.
@@ -76,3 +77,4 @@ Until next time ✌️
 [1]: {{ site.url | append:"/a-new-home-for-spend-stack" }}
 [2]: {{ site.url | append:"/a-best-in-class-app" }}
 [3]: {{ site.url | append:"/bestinclassbook" }}
+[4]: https://bestinclassiosapp.com

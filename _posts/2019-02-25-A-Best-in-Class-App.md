@@ -8,10 +8,10 @@ description: "What is a best in class iOS app? How are they built, and can we qu
 image: /assets/images/bicLogo.png
 updated: "2021-05-04"
 special: "true"
-prettyTitle: "A Best in Class App"
+prettyTitle: "A Best-in-Class App"
 ---
 
-{% include prettyBlockquote.html text="<b>A Best-in-Class App: The Book is coming!</b> Five, complete books packaged together in .mobi, .epub and .pdf plus more - get notified when it's ready <a href=\"/bestinclassbook.html\">here</a>!" %}
+{% include prettyBlockquote.html text="<b>A Best-in-Class App: The Book is in beta!</b> Five, complete books packaged together in .mobi, .epub and .pdf plus more - go grab it at a 20% discount <a href=\"https://www.bestinclassiosapp.com\">here</a>!" %}
 
 * Make a project using this list in [Things][35].
 * You can get the public Github Issue version of this list <a href="https://gist.github.com/DreamingInBinary/0ccd49e3578c5ae1ebb20632c6c3af73">here</a>.
