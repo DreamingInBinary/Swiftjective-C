@@ -37,7 +37,7 @@ The last question of each round is an optional wildcard question. Get it right, 
 While the first iPhone was still a mystery to the rest of the world, even to those inside Apple, what was the codename it was known under internally at Apple?
 
 **Question 2:** <br /> 
-The iPhone actually _wasn't_ the first mobile phone to have iTunes on it. In fact, Apple collaborated another cell carrier to develop the ROKR E1, which had iTunes but was limited to 100 songs. Which carrier was it? 
+The iPhone actually _wasn't_ the first mobile phone to have iTunes on it. In fact, Apple collaborated another cell manufacturer to develop the ROKR E1, which had iTunes but was limited to 100 songs. Which carrier was it? 
 
 **Question 3:** <br />
 Before we had an official SDK for iPhoneOS, Jobs infamously promoted the use of web apps as a means to getting third party applications on the iPhone. What was the name of one of the very first of these apps (which was a shopping list)?
