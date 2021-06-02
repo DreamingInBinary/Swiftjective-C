@@ -70,7 +70,7 @@ Regardless, to get this out I jotted down what I would need at a minimum:
 - Get a landing page up
 - Launch it
 
-I could, and probably will, write a whole entire post over the landing page - it's something I think is absolutely critical for these kinds of things, but for now I'll just mention the payments part. I landed on Gumroad, which is hilarous because it was something I initially decided I _wouldn't_ use because I couldn't control the look of the checkout page. 
+I could, and probably will, write a whole entire post over the landing page - it's something I think is absolutely critical for these kinds of things, but for now I'll just mention the payments part. I landed on Gumroad, which is hilarious because it was something I initially decided I _wouldn't_ use because I couldn't control the look of the checkout page. 
 
 I burned what was essentially a "full day" of my indie dev time evaluating seemingly every option out there. Even just last week, Stripe launched their "payments URL" which I looked at. That payments page - such eye candy! No surprise if you've checked out their documentation pages. If they can make _that_ pretty, it's not surprising their main product offering looks nice. Plus, it has Apple Pay, my preferred payment method.
 
