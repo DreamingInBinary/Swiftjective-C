@@ -6,7 +6,7 @@ writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
 description: "What is a best in class iOS app? How are they built, and can we quantify what makes them great?"
 image: /assets/images/bicLogo.png
-updated: "2021-05-04"
+updated: "2021-06-03"
 special: "true"
 prettyTitle: "A Best-in-Class App"
 ---
@@ -76,6 +76,7 @@ The five sections it covers are:
 - Color blind support and a 7:1 color contrast ratio.
 - Smart Invert Color Support and the app responds well to color inversion.
 - All bar buttons have their landscapeImagePhone and largeContentSizeImage properties set.
+- Any custom views that would benefit from the Large Content Viewer provide their own via [UILargeContentViewerInteraction][37].
 - Controls are grouped in a way that makes navigation trivial with `shouldGroupAccessibilityChildren` if they aren't already.
 - You use system vended items for common bar buttons, quick actions, tab and navigation bar items (i.e. such as save, done, etc.).
 - All glyphs have their accessibility images set (i.e. `adjustsImageSizeForAccessibilityContentSizeCategory`).
@@ -363,3 +364,4 @@ Until next time ✌️.
 [34]: https://developer.apple.com/documentation/uikit/uiaccessibilityelement
 [35]: things:///add-project?title=Best%20In%20Class%20iOS%20App&notes=https%3A%2F%2Fwww.swiftjectivec.com%2Fa-best-in-class-app%2F&to-dos=%23%23%20iOS%20Core%20Technology%0AiCloud%20Sync%0ACore%20Spotlight%0AWidgets%0ASystem%20extensions%0ASticker%20Pack%0AiMessage%20App%0ASiri%20Shortcuts%0AAirdrop%0ARich%20Notifications%0A%23%23%20iOS%20APIs%0ATwo%20finger%20drag%20to%20edit%0AUndo%20and%20Redo%0ADark%20Mode%0AiPadOS%20Cursor%20Support%0AContextual%20Actions%0APull%20down%20menus%0AHome%20screen%20quick%20action%0AUIActivity%20and%20UIActivityController%0AFull%20Keyboard%20support%0ASF%20Symbols%0ARobust%20drag%20and%20drop%20(internal%20and%20external%20support)%0AFull%20Full%20multitasking%20and%20UIScene%20support.%0ADynamic%20Type%0AMultiple%20icons%0AScribble%20support%20for%20Apple%20Pencil%0ASearch%20token%20support%20in%20search%20bars.%0ALive%20Photos%20Support%0ACallback%20URL%20support%0AState%20Restoration%0A%23%23%20Accessibility%20and%20Internationalization%0AVoice%20Over%2FVoice%20Control%0ASupport%20RTL%20settings.%20%0AFullly%20pass%20accessibility%20inspector.%0A%23%23%20Misc%0AHIG%20advice%20is%20followed%20for%20navigation%2C%20stock%20control%20usage%20and%20more.%20Refer%20to%20the%20linked%20post%20for%20more.%0A%23%23%20Contextual%20Technology%0AApple%20watch%20app%0AHandoff%20between%20iPhone%20and%20iPad%20(Mac%2C%20if%20applicable)%0ASign%20in%20with%20Apple%0ACore%20ML%20support%0AAR%20Kit%0ALocal%20Authentication%0AApple%20Pencil%20Support%0AAirplay%0ABusiness%20Chat%0AHealthKit%0AResearchKit%0ACareKit%0AHomekit%0AApp%20clips
 [36]: https://developer.apple.com/documentation/uikit/uiaccessibility/3238036-isvideoautoplayenabled
+[37]: https://developer.apple.com/documentation/uikit/uilargecontentviewerinteraction
