@@ -4,7 +4,7 @@ tags: ["UIKit"]
 title: "iOS 15: Notable UIKit Additions"
 writtenBy: Jordan Morgan
 writtenByTwitter: "https://www.twitter.com/jordanmorgan10"
-description: FILL OUT"
+description: "iOS 15 is coming in hot! Check out new ways to decode images, present sheets and more."
 image: /assets/images/logo.png
 ---
 
