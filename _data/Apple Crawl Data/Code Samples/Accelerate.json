@@ -371,6 +371,20 @@
           "text": "Perform compression for all files and decompression for files with supported extension types."
         }
       ]
+    },
+    "Applying Biquadratic Filters to a Music Loop": {
+      "title": "Applying Biquadratic Filters to a Music Loop",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/applying_biquadratic_filters_to_a_music_loop",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accelerate/applying_biquadratic_filters_to_a_music_loop",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Change the frequency response of an audio signal using a cascaded biquadratic filter."
+        }
+      ]
     }
   }
 }

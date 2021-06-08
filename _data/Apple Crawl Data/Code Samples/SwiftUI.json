@@ -15,6 +15,9 @@
       ]
     },
     "Building Widgets Using WidgetKit and SwiftUI": {
+      "role": "sampleCode",
+      "url": "/documentation/widgetkit/building_widgets_using_widgetkit_and_swiftui",
+      "identifier": "doc://com.apple.documentation/documentation/WidgetKit/building_widgets_using_widgetkit_and_swiftui",
       "abstract": [
         {
           "type": "text",
@@ -23,10 +26,7 @@
       ],
       "type": "topic",
       "title": "Building Widgets Using WidgetKit and SwiftUI",
-      "identifier": "doc://com.apple.documentation/documentation/WidgetKit/building_widgets_using_widgetkit_and_swiftui",
-      "url": "/documentation/widgetkit/building_widgets_using_widgetkit_and_swiftui",
-      "kind": "article",
-      "role": "sampleCode"
+      "kind": "article"
     },
     "Building Custom Views in SwiftUI": {
       "title": "Building Custom Views in SwiftUI",
@@ -44,31 +44,31 @@
     },
     "Restoring Your App’s State with SwiftUI": {
       "url": "/documentation/uikit/view_controllers/restoring_your_app_s_state_with_swiftui",
+      "type": "topic",
       "title": "Restoring Your App’s State with SwiftUI",
+      "role": "sampleCode",
+      "kind": "article",
       "abstract": [
         {
           "text": "Provide app continuity for users by preserving their current activities.",
           "type": "text"
         }
       ],
-      "identifier": "doc://com.apple.documentation/documentation/UIKit/view_controllers/restoring_your_app_s_state_with_swiftui",
-      "role": "sampleCode",
-      "kind": "article",
-      "type": "topic"
+      "identifier": "doc://com.apple.documentation/documentation/UIKit/view_controllers/restoring_your_app_s_state_with_swiftui"
     },
     "Introducing SwiftUI": {
-      "abstract": [
-        {
-          "text": "SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before.",
-          "type": "text"
-        }
-      ],
+      "url": "/tutorials/SwiftUI",
       "title": "Introducing SwiftUI",
       "role": "overview",
-      "url": "/tutorials/SwiftUI",
-      "identifier": "doc://com.apple.documentation/tutorials/SwiftUI",
       "type": "topic",
-      "kind": "overview"
+      "abstract": [
+        {
+          "type": "text",
+          "text": "SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before."
+        }
+      ],
+      "kind": "overview",
+      "identifier": "doc://com.apple.documentation/tutorials/SwiftUI"
     },
     "Building a Document-Based App with SwiftUI": {
       "title": "Building a Document-Based App with SwiftUI",
@@ -83,6 +83,48 @@
           "text": "Create, save, and open documents in a SwiftUI multiplatform app."
         }
       ]
+    },
+    "Add Rich Graphics to Your SwiftUI App": {
+      "title": "Add Rich Graphics to Your SwiftUI App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/add_rich_graphics_to_your_swiftui_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swiftui/add_rich_graphics_to_your_swiftui_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your apps stand out by adding background materials, vibrancy, custom graphics, and animations."
+        }
+      ]
+    },
+    "Building a Great Mac App with SwiftUI": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create engaging SwiftUI Mac apps by incorporating side bars, tables, toolbars, and several other popular user interface elements."
+        }
+      ],
+      "kind": "article",
+      "identifier": "doc://com.apple.documentation/documentation/SwiftUI/building_a_great_mac_app_with_swiftui",
+      "role": "sampleCode",
+      "url": "/documentation/swiftui/building_a_great_mac_app_with_swiftui",
+      "title": "Building a Great Mac App with SwiftUI",
+      "type": "topic"
+    },
+    "Loading and Displaying a Large Data Feed": {
+      "kind": "article",
+      "title": "Loading and Displaying a Large Data Feed",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/CoreData/loading_and_displaying_a_large_data_feed",
+      "role": "sampleCode",
+      "abstract": [
+        {
+          "text": "Consume data in the background, and lower memory use by batching imports and preventing duplicate records.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/coredata/loading_and_displaying_a_large_data_feed"
     }
   }
 }

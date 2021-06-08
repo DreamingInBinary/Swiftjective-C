@@ -126,13 +126,7 @@
       "identifier": "doc://com.apple.documentation/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Learn the order that your custom code executes at launch time."
-        }
-      ]
+      "url": "/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app/about_the_app_launch_sequence"
     },
     "Preserving Your App's UI Across Launches": {
       "title": "Preserving Your App's UI Across Launches",
@@ -140,13 +134,7 @@
       "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Return your app to its previous state after the system terminates it."
-        }
-      ]
+      "url": "/documentation/uikit/view_controllers/preserving_your_app_s_ui_across_launches"
     },
     "About the UI Preservation Process": {
       "title": "About the UI Preservation Process",
@@ -263,10 +251,10 @@
     "Creating a Mac Version of Your iPad App": {
       "title": "Creating a Mac Version of Your iPad App",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/creating_a_mac_version_of_your_ipad_app",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/creating_a_mac_version_of_your_ipad_app",
+      "url": "/documentation/uikit/mac_catalyst/creating_a_mac_version_of_your_ipad_app",
       "abstract": [
         {
           "type": "text",
@@ -461,10 +449,10 @@
     "Supporting Dark Mode in Your Interface": {
       "title": "Supporting Dark Mode in Your Interface",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/appearance_customization/supporting_dark_mode_in_your_interface",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "url": "/documentation/uikit/appearance_customization/supporting_dark_mode_in_your_interface",
       "abstract": [
         {
           "type": "text",
@@ -534,7 +522,13 @@
       "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events"
+      "url": "/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to handle events that propagate through your app. "
+        }
+      ]
     },
     "Handling UIKit Gestures": {
       "title": "Handling UIKit Gestures",
@@ -542,7 +536,13 @@
       "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures"
+      "url": "/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use gesture recognizers to simplify touch handling and create a consistent user experience."
+        }
+      ]
     },
     "Handling Tap Gestures": {
       "title": "Handling Tap Gestures",
@@ -835,14 +835,14 @@
     "Supporting VoiceOver in Your App": {
       "title": "Supporting VoiceOver in Your App",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/uikit/accessibility_for_ios_and_tvos/supporting_voiceover_in_your_app",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/supporting_voiceover_in_your_app",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/uikit/accessibility_for_ios_and_tvos/supporting_voiceover_in_your_app",
+      "url": "/documentation/accessibility/supporting_voiceover_in_your_app",
       "abstract": [
         {
           "type": "text",
-          "text": "Learn how to make your iOS app more accessible to users who are blind or have low vision by adding VoiceOver support."
+          "text": "Add VoiceOver support to make your iOS app more accessible to users who are blind or have low vision."
         }
       ]
     },
@@ -936,13 +936,7 @@
       "identifier": "doc://com.apple.documentation/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Discover when and how to build your own gesture recognizers"
-        }
-      ]
+      "url": "/documentation/uikit/touches_presses_and_gestures/implementing_a_custom_gesture_recognizer"
     },
     "About the Gesture Recognizer State Machine": {
       "title": "About the Gesture Recognizer State Machine",
@@ -1367,6 +1361,14 @@
           "text": "Learn how to create a simple app that incorporates predicted touches into its drawing code."
         }
       ]
+    },
+    "Accessibility": {
+      "title": "Accessibility",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/view-accessibility",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swiftui/view-accessibility"
     }
   }
 }

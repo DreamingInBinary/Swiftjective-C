@@ -1,0 +1,172 @@
+{
+  "articles": {
+    "Connecting Xcode Cloud to Slack": {
+      "title": "Connecting Xcode Cloud to Slack",
+      "role": "article",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Connecting-Xcode-Cloud-to-Slack",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Connect Xcode Cloud to Slack to keep your team informed about the latest Xcode Cloud builds."
+        }
+      ],
+      "url": "/documentation/xcode/connecting-xcode-cloud-to-slack",
+      "kind": "article"
+    },
+    "Environment Variable Reference": {
+      "title": "Environment Variable Reference",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Environment-Variable-Reference",
+      "role": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review predefined environment variables you use in custom build scripts."
+        }
+      ],
+      "url": "/documentation/xcode/environment-variable-reference",
+      "kind": "article"
+    },
+    "Configuring Xcode Cloud for Your Team": {
+      "role": "article",
+      "type": "topic",
+      "kind": "article",
+      "title": "Configuring Xcode Cloud for Your Team",
+      "url": "/documentation/xcode/configuring-xcode-cloud-for-your-team",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Configuring-Xcode-Cloud-for-Your-Team",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Start using continuous integration and delivery with Xcode Cloud as a team."
+        }
+      ]
+    },
+    "Resolving Common Configuration and Build Issues": {
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Resolving-Common-Configuration-and-Build-Issues",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review common configuration and build issues and learn how you can resolve them."
+        }
+      ],
+      "role": "article",
+      "kind": "article",
+      "url": "/documentation/xcode/resolving-common-configuration-and-build-issues",
+      "title": "Resolving Common Configuration and Build Issues",
+      "type": "topic"
+    },
+    "Configuring Your First Xcode Cloud Workflow": {
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Configuring-Your-First-Xcode-Cloud-Workflow",
+      "kind": "article",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your project or workspace to use Xcode Cloud and adopt continuous integration and delivery."
+        }
+      ],
+      "type": "topic",
+      "url": "/documentation/xcode/configuring-your-first-xcode-cloud-workflow",
+      "title": "Configuring Your First Xcode Cloud Workflow"
+    },
+    "Writing Custom Build Scripts": {
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Writing-Custom-Build-Scripts",
+      "url": "/documentation/xcode/writing-custom-build-scripts",
+      "kind": "article",
+      "title": "Writing Custom Build Scripts",
+      "role": "article",
+      "abstract": [
+        {
+          "text": "Extend your Xcode Cloud workflows with custom build scripts that perform custom tasks or install additional tools.",
+          "type": "text"
+        }
+      ],
+      "type": "topic"
+    },
+    "About Continuous Integration and Delivery with Xcode Cloud": {
+      "url": "/documentation/xcode/about-continuous-integration-and-delivery-with-xcode-cloud",
+      "abstract": [
+        {
+          "text": "Learn how continuous integration and delivery with Xcode Cloud helps you create high-quality apps and frameworks.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/About-Continuous-Integration-and-Delivery-with-Xcode-Cloud",
+      "title": "About Continuous Integration and Delivery with Xcode Cloud",
+      "kind": "article"
+    },
+    "Requirements for Using Xcode Cloud": {
+      "kind": "article",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Requirements-for-Using-Xcode-Cloud",
+      "abstract": [
+        {
+          "text": "Review account, project, and source control requirements before configuring your project or workspace to use Xcode Cloud.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/xcode/requirements-for-using-xcode-cloud",
+      "title": "Requirements for Using Xcode Cloud",
+      "role": "article",
+      "type": "topic"
+    },
+    "Making Dependencies Available to Xcode Cloud": {
+      "kind": "article",
+      "role": "article",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Making-Dependencies-Available-to-Xcode-Cloud",
+      "abstract": [
+        {
+          "text": "Review dependencies and make them available to Xcode Cloud before you configure your project to use Xcode Cloud.",
+          "type": "text"
+        }
+      ],
+      "title": "Making Dependencies Available to Xcode Cloud",
+      "type": "topic",
+      "url": "/documentation/xcode/making-dependencies-available-to-xcode-cloud"
+    },
+    "Developing a Workflow Strategy for Xcode Cloud": {
+      "role": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Developing-a-Workflow-Strategy-for-Xcode-Cloud",
+      "url": "/documentation/xcode/developing-a-workflow-strategy-for-xcode-cloud",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review how you can best create custom Xcode Cloud workflows to refine your continuous integration and delivery practice."
+        }
+      ],
+      "kind": "article",
+      "title": "Developing a Workflow Strategy for Xcode Cloud"
+    },
+    "Removing Your Project from Xcode Cloud": {
+      "type": "topic",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Remove your project from Xcode Cloud to delete app and workflow data, disconnect your Git repository, and remove the Slack integration.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/xcode/removing-your-project-from-xcode-cloud",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Removing-Your-Project-from-Xcode-Cloud",
+      "title": "Removing Your Project from Xcode Cloud"
+    },
+    "Configuring Webhooks in Xcode Cloud": {
+      "title": "Configuring Webhooks in Xcode Cloud",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Configuring-Webhooks-in-Xcode-Cloud",
+      "role": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure webhooks that connect Xcode Cloud to other services and tools."
+        }
+      ],
+      "url": "/documentation/xcode/configuring-webhooks-in-xcode-cloud",
+      "kind": "article"
+    }
+  }
+}

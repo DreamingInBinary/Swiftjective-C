@@ -38,7 +38,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Share data between a user’s devices using Core Data with CloudKit."
+          "text": "Share data between a user’s devices and other iCloud users."
         }
       ]
     },
@@ -52,7 +52,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Consume data in the background, and lower memory usage by batching imports and preventing duplicate records."
+          "text": "Consume data in the background, and lower memory use by batching imports and preventing duplicate records."
         }
       ]
     }

@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "Inviting Participants to Share an Activity": {
+      "url": "/documentation/groupactivities/inviting-participants-to-share-an-activity",
+      "title": "Inviting Participants to Share an Activity",
+      "kind": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.GroupActivities/documentation/GroupActivities/inviting-participants-to-share-an-activity",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Support group activities, and present them at specific times from your UI."
+        }
+      ],
+      "role": "article"
+    },
+    "Joining and Managing a Shared Activity": {
+      "type": "topic",
+      "identifier": "doc://com.apple.GroupActivities/documentation/GroupActivities/joining-your-app-to-a-shared-activity",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Join an activity and synchronize your app’s behavior using the system-provided group session object.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/groupactivities/joining-your-app-to-a-shared-activity",
+      "title": "Joining and Managing a Shared Activity"
+    }
+  }
+}

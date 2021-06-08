@@ -45,14 +45,14 @@
     "Inspecting and Editing an iCloud Container’s Schema": {
       "title": "Inspecting and Editing an iCloud Container’s Schema",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/inspecting_and_editing_an_icloud_container_s_schema",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/inspecting_and_editing_an_icloud_container_s_schema",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/inspecting_and_editing_an_icloud_container_s_schema",
+      "url": "/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/inspecting_and_editing_an_icloud_container_s_schema",
       "abstract": [
         {
           "type": "text",
-          "text": "Check and edit the schema for your app’s container using CloudKit Dashboard."
+          "text": "Review and edit the schema for your app’s container using the CloudKit Database app."
         }
       ]
     },
@@ -73,24 +73,24 @@
     "Handling an iCloud Container’s Data": {
       "title": "Handling an iCloud Container’s Data",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/handling_an_icloud_container_s_data",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/handling_an_icloud_container_s_data",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/handling_an_icloud_container_s_data",
+      "url": "/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/handling_an_icloud_container_s_data",
       "abstract": [
         {
           "type": "text",
-          "text": "Inspect and manage your app’s iCloud container data using CloudKit Dashboard."
+          "text": "Inspect and manage your app’s iCloud container data using the CloudKit Database app."
         }
       ]
     },
     "Deploying an iCloud Container’s Schema": {
       "title": "Deploying an iCloud Container’s Schema",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/deploying_an_icloud_container_s_schema",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/deploying_an_icloud_container_s_schema",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/deploying_an_icloud_container_s_schema",
+      "url": "/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/deploying_an_icloud_container_s_schema",
       "abstract": [
         {
           "type": "text",
@@ -101,10 +101,10 @@
     "Obtaining an API Token for an iCloud Container": {
       "title": "Obtaining an API Token for an iCloud Container",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/obtaining_an_api_token_for_an_icloud_container",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/obtaining_an_api_token_for_an_icloud_container",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/cloudkit/managing_icloud_containers_with_cloudkit_dashboard/obtaining_an_api_token_for_an_icloud_container",
+      "url": "/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app/obtaining_an_api_token_for_an_icloud_container",
       "abstract": [
         {
           "type": "text",
@@ -182,6 +182,48 @@
         {
           "type": "text",
           "text": "Provide options for users to delete their CloudKit data from your app."
+        }
+      ]
+    },
+    "Managing iCloud Containers with the CloudKit Database App": {
+      "title": "Managing iCloud Containers with the CloudKit Database App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inspect and modify the schema and data for your app's iCloud container."
+        }
+      ]
+    },
+    "Integrating a Text-Based Schema into Your Workflow": {
+      "title": "Integrating a Text-Based Schema into Your Workflow",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/integrating_a_text-based_schema_into_your_workflow",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/cloudkit/integrating_a_text-based_schema_into_your_workflow",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Define and update your schema with the CloudKit Schema Language."
+        }
+      ]
+    },
+    "Encrypting User Data": {
+      "title": "Encrypting User Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/encrypting_user_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/cloudkit/encrypting_user_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Deploy industry-standard security technologies using CloudKit encryption."
         }
       ]
     }

@@ -1,12 +1,34 @@
 {
   "articles": {
     "Making a Configurable Widget": {
+      "url": "/documentation/widgetkit/making-a-configurable-widget",
+      "title": "Making a Configurable Widget",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Making-a-Configurable-Widget",
       "type": "topic",
-      "kind": "article",
       "abstract": [
         {
-          "text": "Give users the option to customize their widgets, by adding a custom SiriKit",
+          "type": "text",
+          "text": "Give users the option to customize their widgets, by adding a custom SiriKit"
+        },
+        {
+          "text": " ",
           "type": "text"
+        },
+        {
+          "text": "intent definition to your project.",
+          "type": "text"
+        }
+      ],
+      "role": "article",
+      "kind": "article"
+    },
+    "Keeping a Widget Up To Date": {
+      "role": "article",
+      "title": "Keeping a Widget Up To Date",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Plan your widget’s timeline to show timely, relevant information using"
         },
         {
           "type": "text",
@@ -14,66 +36,42 @@
         },
         {
           "type": "text",
-          "text": "intent definition to your project."
+          "text": "dynamic views, and update the timeline when things change."
         }
       ],
-      "title": "Making a Configurable Widget",
-      "role": "article",
-      "url": "/documentation/widgetkit/making-a-configurable-widget",
-      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Making-a-Configurable-Widget"
-    },
-    "Keeping a Widget Up To Date": {
-      "type": "topic",
-      "url": "/documentation/widgetkit/keeping-a-widget-up-to-date",
-      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date",
-      "title": "Keeping a Widget Up To Date",
-      "role": "article",
       "kind": "article",
-      "abstract": [
-        {
-          "text": "Plan your widget’s timeline to show timely, relevant information using",
-          "type": "text"
-        },
-        {
-          "text": " ",
-          "type": "text"
-        },
-        {
-          "text": "dynamic views, and update the timeline when things change.",
-          "type": "text"
-        }
-      ]
+      "url": "/documentation/widgetkit/keeping-a-widget-up-to-date",
+      "type": "topic",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date"
     },
     "Accessing Location Information in Widgets": {
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Accessing-Location-Information-in-Widgets",
+      "type": "topic",
+      "title": "Accessing Location Information in Widgets",
+      "role": "article",
+      "kind": "article",
       "abstract": [
         {
-          "type": "text",
-          "text": "Incorporate location information into your widget presentation to make it"
+          "text": "Incorporate location information into your widget presentation to make it",
+          "type": "text"
         },
         {
           "text": " ",
           "type": "text"
         },
         {
-          "type": "text",
-          "text": "more relevant and contextual."
+          "text": "more relevant and contextual.",
+          "type": "text"
         }
       ],
-      "kind": "article",
-      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Accessing-Location-Information-in-Widgets",
-      "title": "Accessing Location Information in Widgets",
-      "role": "article",
-      "url": "/documentation/widgetkit/accessing-location-information-in-widgets",
-      "type": "topic"
+      "url": "/documentation/widgetkit/accessing-location-information-in-widgets"
     },
     "Creating a Widget Extension": {
-      "title": "Creating a Widget Extension",
-      "type": "topic",
-      "url": "/documentation/widgetkit/creating-a-widget-extension",
+      "kind": "article",
       "abstract": [
         {
-          "text": "Add and configure an extension to show your app’s content on the Home screen,",
-          "type": "text"
+          "type": "text",
+          "text": "Add and configure an extension to show your app’s content on the Home screen,"
         },
         {
           "text": " ",
@@ -84,48 +82,49 @@
           "type": "text"
         }
       ],
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Creating-a-Widget-Extension",
       "role": "article",
-      "kind": "article",
-      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Creating-a-Widget-Extension"
+      "url": "/documentation/widgetkit/creating-a-widget-extension",
+      "title": "Creating a Widget Extension",
+      "type": "topic"
     },
     "Displaying Dynamic Dates in Widgets": {
-      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Displaying-Dynamic-Dates",
-      "type": "topic",
-      "url": "/documentation/widgetkit/displaying-dynamic-dates",
       "kind": "article",
-      "role": "article",
-      "title": "Displaying Dynamic Dates in Widgets",
       "abstract": [
         {
           "type": "text",
           "text": "Show up-to-date, time-based information in your widget even when it"
         },
         {
-          "text": " ",
-          "type": "text"
+          "type": "text",
+          "text": " "
         },
         {
-          "text": "isn’t running.",
-          "type": "text"
+          "type": "text",
+          "text": "isn’t running."
         }
-      ]
+      ],
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Displaying-Dynamic-Dates",
+      "url": "/documentation/widgetkit/displaying-dynamic-dates",
+      "title": "Displaying Dynamic Dates in Widgets",
+      "type": "topic",
+      "role": "article"
     },
     "Requesting Authorization for Location Services": {
-      "title": "Requesting Authorization for Location Services",
-      "kind": "article",
-      "url": "/documentation/corelocation/requesting_authorization_for_location_services",
       "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corelocation/requesting_authorization_for_location_services",
+      "role": "article",
+      "url": "/documentation/corelocation/requesting_authorization_for_location_services",
       "abstract": [
         {
           "type": "text",
           "text": "Ask the user for permission to access their location."
         }
       ],
-      "role": "article",
-      "identifier": "doc://com.apple.documentation/documentation/corelocation/requesting_authorization_for_location_services"
+      "title": "Requesting Authorization for Location Services",
+      "kind": "article"
     },
     "Choosing the  Location Services Authorization to Request": {
-      "title": "Choosing the  Location Services Authorization to Request",
       "kind": "article",
       "url": "/documentation/corelocation/choosing_the_location_services_authorization_to_request",
       "type": "topic",
@@ -136,12 +135,13 @@
         }
       ],
       "role": "article",
-      "identifier": "doc://com.apple.documentation/documentation/corelocation/choosing_the_location_services_authorization_to_request"
+      "identifier": "doc://com.apple.documentation/documentation/corelocation/choosing_the_location_services_authorization_to_request",
+      "title": "Choosing the  Location Services Authorization to Request"
     },
     "Downloading Files in the Background": {
-      "title": "Downloading Files in the Background",
-      "kind": "article",
       "identifier": "doc://com.apple.documentation/documentation/foundation/url_loading_system/downloading_files_in_the_background",
+      "kind": "article",
+      "role": "article",
       "url": "/documentation/foundation/url_loading_system/downloading_files_in_the_background",
       "abstract": [
         {
@@ -149,19 +149,15 @@
           "text": "Create tasks that download files while your app is inactive."
         }
       ],
-      "role": "article",
-      "type": "topic"
+      "type": "topic",
+      "title": "Downloading Files in the Background"
     },
     "Debugging Widgets": {
       "kind": "article",
-      "role": "article",
-      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Debugging-Widgets",
-      "url": "/documentation/widgetkit/debugging-widgets",
-      "title": "Debugging Widgets",
       "abstract": [
         {
-          "type": "text",
-          "text": "Set environment variables in Xcode to control your widget’s configuration in"
+          "text": "Set environment variables in Xcode to control your widget’s configuration in",
+          "type": "text"
         },
         {
           "text": " ",
@@ -172,7 +168,53 @@
           "type": "text"
         }
       ],
-      "type": "topic"
+      "type": "topic",
+      "role": "article",
+      "title": "Debugging Widgets",
+      "url": "/documentation/widgetkit/debugging-widgets",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Debugging-Widgets"
+    },
+    "Increasing the Visibility of Widgets in Smart Stacks": {
+      "title": "Increasing the Visibility of Widgets in Smart Stacks",
+      "url": "/documentation/widgetkit/widget-suggestions-in-smart-stacks",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Widget-Suggestions-In-Smart-Stacks",
+      "kind": "article",
+      "type": "topic",
+      "role": "article",
+      "abstract": [
+        {
+          "text": "Donate intents and indicate relevance to automatically show your widget in Smart Stacks when it has useful information to display.",
+          "type": "text"
+        }
+      ]
+    },
+    "Defining Relevant Shortcuts for the Siri Watch Face": {
+      "type": "topic",
+      "kind": "article",
+      "title": "Defining Relevant Shortcuts for the Siri Watch Face",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/relevant_shortcuts_for_the_siri_watch_face/defining_relevant_shortcuts_for_your_app",
+      "role": "article",
+      "url": "/documentation/sirikit/watch_and_widget_support/defining_relevant_shortcuts_for_the_siri_watch_face",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inform Siri when your app’s shortcuts may be useful to the user."
+        }
+      ]
+    },
+    "Donating Shortcuts": {
+      "role": "article",
+      "title": "Donating Shortcuts",
+      "kind": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/donating_shortcuts",
+      "url": "/documentation/sirikit/donating_shortcuts",
+      "abstract": [
+        {
+          "text": "Tell Siri about shortcuts to actions that the user performed in your app.",
+          "type": "text"
+        }
+      ]
     }
   }
 }

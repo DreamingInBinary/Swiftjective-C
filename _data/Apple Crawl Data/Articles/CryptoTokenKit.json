@@ -28,7 +28,13 @@
       "identifier": "doc://com.apple.documentation/documentation/cryptotokenkit/authenticating_users_with_a_cryptographic_token",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/cryptotokenkit/authenticating_users_with_a_cryptographic_token"
+      "url": "/documentation/cryptotokenkit/authenticating_users_with_a_cryptographic_token",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Grant access to user accounts and the keychain by creating a smart card app extension."
+        }
+      ]
     },
     "Configuring Smart Card Authentication": {
       "title": "Configuring Smart Card Authentication",

@@ -17,10 +17,10 @@
     "Supporting Associated Domains": {
       "title": "Supporting Associated Domains",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting-associated-domains",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/safariservices/supporting_associated_domains"
+      "url": "/documentation/xcode/supporting-associated-domains"
     },
     "Customizing Password AutoFill Rules": {
       "title": "Customizing Password AutoFill Rules",
@@ -55,6 +55,48 @@
         {
           "type": "text",
           "text": "Extend your web browser app to handle web authentication requests from other apps."
+        }
+      ]
+    },
+    "Securing Logins with iCloud Keychain Verification Codes": {
+      "title": "Securing Logins with iCloud Keychain Verification Codes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/securing_logins_with_icloud_keychain_verification_codes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/authenticationservices/securing_logins_with_icloud_keychain_verification_codes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use time-based codes generated on-device for a secure authentication experience."
+        }
+      ]
+    },
+    "Supporting Platform Authentication Using iCloud Keychain": {
+      "title": "Supporting Platform Authentication Using iCloud Keychain",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/public-private_key_authentication/supporting_platform_authentication_using_icloud_keychain",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/authenticationservices/public-private_key_authentication/supporting_platform_authentication_using_icloud_keychain",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Eliminate passwords for your users when they sign in to apps and websites."
+        }
+      ]
+    },
+    "Supporting Security Key Authentication Using Physical Keys": {
+      "title": "Supporting Security Key Authentication Using Physical Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/public-private_key_authentication/supporting_security_key_authentication_using_physical_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/authenticationservices/public-private_key_authentication/supporting_security_key_authentication_using_physical_keys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to authenticate using NFC, USB, and Lightning security keys in your app or service."
         }
       ]
     }

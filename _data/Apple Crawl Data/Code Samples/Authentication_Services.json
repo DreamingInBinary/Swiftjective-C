@@ -7,6 +7,34 @@
       "kind": "article",
       "role": "sampleCode",
       "url": "/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple"
+    },
+    "Simplifying User Authentication in a tvOS App": {
+      "title": "Simplifying User Authentication in a tvOS App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/simplifying_user_authentication_in_a_tvos_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/authenticationservices/simplifying_user_authentication_in_a_tvos_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a fluid sign-in experience for your tvOS apps using AuthenticationServices."
+        }
+      ]
+    },
+    "Connecting to a Service with Passkeys": {
+      "title": "Connecting to a Service with Passkeys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/connecting_to_a_service_with_passkeys",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/authenticationservices/connecting_to_a_service_with_passkeys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to sign in to a service without typing a password."
+        }
+      ]
     }
   }
 }

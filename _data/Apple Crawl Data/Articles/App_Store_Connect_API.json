@@ -129,10 +129,10 @@
     "Improving Your App's Performance": {
       "title": "Improving Your App's Performance",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance",
+      "identifier": "doc://com.apple.documentation/documentation/metrickit/improving_your_app_s_performance",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/improving_your_app_s_performance"
+      "url": "/documentation/metrickit/improving_your_app_s_performance"
     }
   }
 }

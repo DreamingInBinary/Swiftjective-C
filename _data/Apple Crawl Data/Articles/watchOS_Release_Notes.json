@@ -1,7 +1,6 @@
 {
   "articles": {
     "watchOS 6.2 Release Notes": {
-      "type": "topic",
       "title": "watchOS 6.2 Release Notes",
       "url": "/documentation/watchos-release-notes/watchos-6_2-release-notes",
       "abstract": [
@@ -10,110 +9,114 @@
           "text": "Update your apps to use new features, and test your apps against API changes."
         }
       ],
-      "kind": "article",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_2-release-notes",
       "role": "article",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_2-release-notes"
+      "kind": "article",
+      "type": "topic"
     },
     "watchOS 6.1 Release Notes": {
-      "url": "/documentation/watchos-release-notes/watchos-6_1-release-notes",
-      "role": "article",
-      "kind": "article",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_1-release-notes",
       "type": "topic",
+      "kind": "article",
+      "url": "/documentation/watchos-release-notes/watchos-6_1-release-notes",
+      "title": "watchOS 6.1 Release Notes",
       "abstract": [
         {
           "text": "Update your apps to use new features, and test your apps against API changes.",
           "type": "text"
         }
       ],
-      "title": "watchOS 6.1 Release Notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_1-release-notes"
+      "role": "article"
     },
     "watchOS 6.2.8 Release Notes": {
-      "role": "article",
-      "title": "watchOS 6.2.8 Release Notes",
       "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_2_8-release-notes",
       "type": "topic",
       "kind": "article",
+      "url": "/documentation/watchos-release-notes/watchos-6_2_8-release-notes",
+      "title": "watchOS 6.2.8 Release Notes",
       "abstract": [
         {
           "text": "Update your apps to use new features, and test your apps against API changes.",
           "type": "text"
         }
       ],
-      "url": "/documentation/watchos-release-notes/watchos-6_2_8-release-notes"
+      "role": "article"
     },
     "watchOS 7 Release Notes": {
       "title": "watchOS 7 Release Notes",
-      "kind": "article",
       "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7-release-notes",
-      "role": "article",
       "url": "/documentation/watchos-release-notes/watchos-7-release-notes",
+      "role": "article",
+      "kind": "article",
       "abstract": [
         {
-          "text": "Update your apps to use new features, and test your apps against API changes.",
-          "type": "text"
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
         }
       ],
       "type": "topic"
     },
     "watchOS 5.1.3 Release Notes": {
-      "type": "topic",
       "url": "/documentation/watchos-release-notes/watchos-5_1_3-release-notes",
+      "role": "article",
       "kind": "article",
       "title": "watchOS 5.1.3 Release Notes",
-      "role": "article",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5_1_3-release-notes",
       "abstract": [
         {
           "type": "text",
           "text": "Update your apps to use new features, and test your apps against API changes."
         }
       ],
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5_1_3-release-notes"
+      "type": "topic"
     },
     "watchOS 6.1.1 Release Notes": {
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Update your apps to use new features, and test your apps against API changes."
-        }
-      ],
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_1_1-release-notes",
       "type": "topic",
-      "role": "article",
+      "kind": "article",
       "url": "/documentation/watchos-release-notes/watchos-6_1_1-release-notes",
-      "kind": "article",
       "title": "watchOS 6.1.1 Release Notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_1_1-release-notes"
-    },
-    "watchOS 5 Release Notes": {
-      "role": "article",
-      "kind": "article",
-      "title": "watchOS 5 Release Notes",
-      "type": "topic",
-      "url": "/documentation/watchos-release-notes/watchos-5-release-notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5-release-notes",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Update your apps to use new features, and test your apps against API changes."
-        }
-      ]
-    },
-    "watchOS 6.1.2 Release Notes": {
-      "type": "topic",
-      "role": "article",
-      "title": "watchOS 6.1.2 Release Notes",
-      "url": "/documentation/watchos-release-notes/watchos-6_1_2-release-notes",
       "abstract": [
         {
           "text": "Update your apps to use new features, and test your apps against API changes.",
           "type": "text"
         }
       ],
+      "role": "article"
+    },
+    "watchOS 5 Release Notes": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5-release-notes",
+      "url": "/documentation/watchos-release-notes/watchos-5-release-notes",
+      "role": "article",
+      "kind": "article",
+      "title": "watchOS 5 Release Notes",
+      "type": "topic"
+    },
+    "watchOS 6.1.2 Release Notes": {
       "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_1_2-release-notes",
-      "kind": "article"
+      "type": "topic",
+      "kind": "article",
+      "url": "/documentation/watchos-release-notes/watchos-6_1_2-release-notes",
+      "title": "watchOS 6.1.2 Release Notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "role": "article"
     },
     "watchOS 6 Release Notes": {
       "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6-release-notes",
+      "type": "topic",
+      "kind": "article",
+      "url": "/documentation/watchos-release-notes/watchos-6-release-notes",
       "title": "watchOS 6 Release Notes",
       "abstract": [
         {
@@ -121,10 +124,7 @@
           "type": "text"
         }
       ],
-      "kind": "article",
-      "role": "article",
-      "type": "topic",
-      "url": "/documentation/watchos-release-notes/watchos-6-release-notes"
+      "role": "article"
     },
     "watchOS 7.4 Beta 3 Release Notes": {
       "title": "watchOS 7.4 Beta 3 Release Notes",
@@ -141,25 +141,25 @@
       "role": "article"
     },
     "watchOS 7.2 Release Notes": {
+      "title": "watchOS 7.2 Release Notes",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_2-release-notes",
+      "url": "/documentation/watchos-release-notes/watchos-7_2-release-notes",
       "role": "article",
+      "kind": "article",
       "abstract": [
         {
-          "type": "text",
-          "text": "Update your apps to use new features, and test your apps against API changes."
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
         }
       ],
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_2-release-notes",
-      "title": "watchOS 7.2 Release Notes",
-      "type": "topic",
-      "kind": "article",
-      "url": "/documentation/watchos-release-notes/watchos-7_2-release-notes"
+      "type": "topic"
     },
     "watchOS 7.1 Release Notes": {
       "title": "watchOS 7.1 Release Notes",
-      "kind": "article",
       "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_1-release-notes",
-      "role": "article",
       "url": "/documentation/watchos-release-notes/watchos-7_1-release-notes",
+      "role": "article",
+      "kind": "article",
       "abstract": [
         {
           "text": "Update your apps to use new features, and test your apps against API changes.",
@@ -169,74 +169,74 @@
       "type": "topic"
     },
     "watchOS 5.3 Release Notes": {
-      "role": "article",
-      "kind": "article",
-      "title": "watchOS 5.3 Release Notes",
-      "type": "topic",
       "url": "/documentation/watchos-release-notes/watchos-5_3-release-notes",
+      "title": "watchOS 5.3 Release Notes",
       "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5_3-release-notes",
+      "kind": "article",
+      "type": "topic",
       "abstract": [
         {
           "type": "text",
           "text": "Update your apps to use new features, and test your apps against API changes."
         }
-      ]
+      ],
+      "role": "article"
     },
     "watchOS 5.1 Release Notes": {
-      "role": "article",
       "url": "/documentation/watchos-release-notes/watchos-5_1-release-notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5_1-release-notes",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Update your apps to use new features, and test your apps against API changes."
-        }
-      ],
-      "title": "watchOS 5.1 Release Notes",
-      "kind": "article",
-      "type": "topic"
-    },
-    "watchOS 7.3 Release Notes": {
       "role": "article",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Update your apps to use new features, and test your apps against API changes."
-        }
-      ],
-      "title": "watchOS 7.3 Release Notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_3-release-notes",
-      "type": "topic",
       "kind": "article",
-      "url": "/documentation/watchos-release-notes/watchos-7_3-release-notes"
-    },
-    "watchOS 6.2.5 Release Notes": {
-      "title": "watchOS 6.2.5 Release Notes",
-      "kind": "article",
+      "title": "watchOS 5.1 Release Notes",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-5_1-release-notes",
       "abstract": [
         {
           "text": "Update your apps to use new features, and test your apps against API changes.",
           "type": "text"
         }
       ],
-      "type": "topic",
-      "role": "article",
-      "url": "/documentation/watchos-release-notes/watchos-6_2_5-release-notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_2_5-release-notes"
+      "type": "topic"
     },
-    "watchOS 7.4 Release Notes": {
+    "watchOS 7.3 Release Notes": {
+      "title": "watchOS 7.3 Release Notes",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_3-release-notes",
+      "url": "/documentation/watchos-release-notes/watchos-7_3-release-notes",
       "role": "article",
+      "kind": "article",
       "abstract": [
         {
           "type": "text",
           "text": "Update your apps to use new features, and test your apps against API changes."
         }
       ],
-      "title": "watchOS 7.4 Release Notes",
-      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_4-release-notes",
+      "type": "topic"
+    },
+    "watchOS 6.2.5 Release Notes": {
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-6_2_5-release-notes",
       "type": "topic",
       "kind": "article",
-      "url": "/documentation/watchos-release-notes/watchos-7_4-release-notes"
+      "url": "/documentation/watchos-release-notes/watchos-6_2_5-release-notes",
+      "title": "watchOS 6.2.5 Release Notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "role": "article"
+    },
+    "watchOS 7.4 Release Notes": {
+      "title": "watchOS 7.4 Release Notes",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_4-release-notes",
+      "url": "/documentation/watchos-release-notes/watchos-7_4-release-notes",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "type": "topic"
     },
     "watchOS 7.5 Beta Release Notes": {
       "role": "article",
@@ -251,6 +251,48 @@
           "type": "text"
         }
       ]
+    },
+    "watchOS 7.6 Beta 2 Release Notes": {
+      "url": "/documentation/watchos-release-notes/watchos-7_6-beta-release-notes",
+      "title": "watchOS 7.6 Beta 2 Release Notes",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_6-beta-release-notes"
+    },
+    "watchOS 8 Beta Release Notes": {
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-8-beta-release-notes",
+      "url": "/documentation/watchos-release-notes/watchos-8-beta-release-notes",
+      "role": "article",
+      "kind": "article",
+      "type": "topic",
+      "title": "watchOS 8 Beta Release Notes"
+    },
+    "watchOS 7.5 Release Notes": {
+      "title": "watchOS 7.5 Release Notes",
+      "identifier": "doc://com.apple.watchOS-Release-Notes/documentation/watchOS-Release-Notes/watchos-7_5-release-notes",
+      "url": "/documentation/watchos-release-notes/watchos-7_5-release-notes",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "type": "topic"
     }
   }
 }

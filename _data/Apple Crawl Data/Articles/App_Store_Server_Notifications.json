@@ -10,7 +10,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Use server notifications from the App Store to monitor and respond to users' subscription status changes."
+          "text": "Configure your server and provide a URL to receive App Store server notifications about changes in users' subscription status and in-app purchase refunds."
         }
       ]
     }

@@ -102,7 +102,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Create and schedule notifications from your app when you want to get the user's attention. "
+          "text": "Create and schedule notifications from your app when you want to get the user’s attention."
         }
       ]
     },
@@ -116,7 +116,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Respond to user interactions with the system’s notification interfaces, including handling your app's custom actions."
+          "text": "Respond to user interactions with the system’s notification interfaces, including handling your app’s custom actions."
         }
       ]
     },
@@ -130,7 +130,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Differentiate your notifications and add action buttons to the notification interface.  "
+          "text": "Differentiate your notifications and add action buttons to the notification interface."
         }
       ]
     },
@@ -144,7 +144,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Modify the payload of a remote notification before it's displayed on the user’s iOS device."
+          "text": "Modify the payload of a remote notification before it’s displayed on the user’s iOS device."
         }
       ]
     },

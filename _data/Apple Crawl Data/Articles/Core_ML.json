@@ -153,6 +153,20 @@
           "text": "Add models with custom neural-network layers to your app."
         }
       ]
+    },
+    "Updating a Model File to a Model Package": {
+      "title": "Updating a Model File to a Model Package",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coreml/core_ml_api/updating_a_model_file_to_a_model_package",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coreml/core_ml_api/updating_a_model_file_to_a_model_package",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert a Core ML model file into a model package in Xcode."
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,102 @@
+{
+  "articles": {
+    "Documenting a Swift Framework or Package": {
+      "role": "article",
+      "kind": "article",
+      "type": "topic",
+      "title": "Documenting a Swift Framework or Package",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create rich and engaging documentation from your in-source comments, and add a documentation catalog to your project to provide additional content."
+        }
+      ],
+      "identifier": "doc://com.apple.documentation/xcode/documenting-a-swift-framework-or-package",
+      "url": "/documentation/Xcode/documenting-a-swift-framework-or-package"
+    },
+    "Building an Interactive Tutorial": {
+      "role": "article",
+      "kind": "article",
+      "url": "/documentation/docc/building-an-interactive-tutorial",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Construct a step-by-step guided learning experience for your Swift framework or package."
+        }
+      ],
+      "title": "Building an Interactive Tutorial",
+      "type": "topic",
+      "identifier": "doc://com.swift.docc/documentation/DocC/building-an-interactive-tutorial"
+    },
+    "Distributing Documentation to External Developers": {
+      "role": "article",
+      "title": "Distributing Documentation to External Developers",
+      "identifier": "doc://com.apple.documentation/xcode/distributing-documentation-to-external-developers",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share your documentation directly with Xcode users or host it on a web server."
+        }
+      ],
+      "url": "/documentation/Xcode/distributing-documentation-to-external-developers",
+      "type": "topic"
+    },
+    "Adding Supplemental Content to a Documentation Catalog": {
+      "identifier": "doc://com.apple.documentation/xcode/adding-supplemental-content-to-a-documentation-catalog",
+      "url": "/documentation/Xcode/adding-supplemental-content-to-a-documentation-catalog",
+      "type": "topic",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Include articles and extension files to extend your source documentation comments or provide supporting conceptual content."
+        }
+      ],
+      "title": "Adding Supplemental Content to a Documentation Catalog",
+      "kind": "article"
+    },
+    "Formatting Your Documentation Content": {
+      "url": "/documentation/Xcode/formatting-your-documentation-content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enhance your content’s presentation with special formatting and styling for text, links, and other page elements."
+        }
+      ],
+      "role": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/xcode/formatting-your-documentation-content",
+      "title": "Formatting Your Documentation Content",
+      "kind": "article"
+    },
+    "Writing Symbol Documentation in Your Source Files": {
+      "url": "/documentation/Xcode/writing-symbol-documentation-in-your-source-files",
+      "identifier": "doc://com.apple.documentation/xcode/writing-symbol-documentation-in-your-source-files",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add reference documentation to your symbols that explains how to use them."
+        }
+      ],
+      "title": "Writing Symbol Documentation in Your Source Files",
+      "role": "article",
+      "kind": "article"
+    },
+    "Adding Structure to Your Documentation Pages": {
+      "role": "article",
+      "title": "Adding Structure to Your Documentation Pages",
+      "abstract": [
+        {
+          "text": "Arrange symbols into groups and collections that make them easy to find.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "identifier": "doc://com.apple.documentation/xcode/adding-structure-to-your-documentation-pages",
+      "type": "topic",
+      "url": "/documentation/Xcode/adding-structure-to-your-documentation-pages"
+    }
+  }
+}

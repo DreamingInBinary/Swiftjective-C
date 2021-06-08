@@ -31,16 +31,10 @@
     "Structuring Your Code to Support App Extensions": {
       "title": "Structuring Your Code to Support App Extensions",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/sirikit/structuring_your_code_to_support_app_extensions",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/intent_handling_infrastructure/structuring_your_code_to_support_app_extensions",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/sirikit/structuring_your_code_to_support_app_extensions",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Move your back-end services to a private framework so your app and app extensions can use them."
-        }
-      ]
+      "url": "/documentation/sirikit/intent_handling_infrastructure/structuring_your_code_to_support_app_extensions"
     },
     "Dispatching Intents to Handler Objects": {
       "title": "Dispatching Intents to Handler Objects",
@@ -137,6 +131,34 @@
         {
           "type": "text",
           "text": "Register your app’s custom terminology, and provide sample phrases for how to use your app with Siri."
+        }
+      ]
+    },
+    "Dispatching Intents to Handlers": {
+      "title": "Dispatching Intents to Handlers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/dispatching_intents_to_handlers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/dispatching_intents_to_handlers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide SiriKit with an intent handler capable of handling a given intent."
+        }
+      ]
+    },
+    "Offering Actions in the Shortcuts App": {
+      "title": "Offering Actions in the Shortcuts App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/offering_actions_in_the_shortcuts_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/offering_actions_in_the_shortcuts_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Suggest shortcuts users may want to add to Siri or combine with other actions in their own shortcuts."
         }
       ]
     }

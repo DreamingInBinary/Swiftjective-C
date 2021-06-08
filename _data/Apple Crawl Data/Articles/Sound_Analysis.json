@@ -13,6 +13,34 @@
           "text": "Use the SoundAnalysis framework and Core ML to analyze audio."
         }
       ]
+    },
+    "Classifying Sounds in an Audio File": {
+      "title": "Classifying Sounds in an Audio File",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/soundanalysis/classifying_sounds_in_an_audio_file",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/soundanalysis/classifying_sounds_in_an_audio_file",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Identify individual sounds in a file, such as a recording, with an audio file analyzer."
+        }
+      ]
+    },
+    "Classifying Sounds in an Audio Stream": {
+      "title": "Classifying Sounds in an Audio Stream",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/soundanalysis/classifying_sounds_in_an_audio_stream",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/soundanalysis/classifying_sounds_in_an_audio_stream",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Identify individual sounds in an audio data stream, such as from a microphone, with an audio stream analyzer."
+        }
+      ]
     }
   }
 }

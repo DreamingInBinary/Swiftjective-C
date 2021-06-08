@@ -55,6 +55,48 @@
           "text": "Make your app more accessible to users with disabilities by adding accessibility features."
         }
       ]
+    },
+    "WWDC21 Challenge: Large Text Challenge": {
+      "title": "WWDC21 Challenge: Large Text Challenge",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/wwdc21_challenge_large_text_challenge",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/wwdc21_challenge_large_text_challenge",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Design for large text sizes by modifying the user interface."
+        }
+      ]
+    },
+    "WWDC21 Challenge: Speech Synthesizer Simulator": {
+      "title": "WWDC21 Challenge: Speech Synthesizer Simulator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/wwdc21_challenge_speech_synthesizer_simulator",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/wwdc21_challenge_speech_synthesizer_simulator",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Simulate a conversation using speech synthesis."
+        }
+      ]
+    },
+    "WWDC21 Challenge: VoiceOver Maze": {
+      "title": "WWDC21 Challenge: VoiceOver Maze",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/wwdc21_challenge_voiceover_maze",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/accessibility/wwdc21_challenge_voiceover_maze",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Navigate to the end of a dark maze using VoiceOver as your guide."
+        }
+      ]
     }
   }
 }

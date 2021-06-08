@@ -105,6 +105,20 @@
           "text": "Use selectors and key paths to interact with dynamic Objective-C APIs."
         }
       ]
+    },
+    "Calling Objective-C APIs Asynchronously": {
+      "title": "Calling Objective-C APIs Asynchronously",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/calling_objective-c_apis_asynchronously",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/calling_objective-c_apis_asynchronously",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how functions and methods that take a completion handler are converted to Swift asynchronous functions."
+        }
+      ]
     }
   }
 }

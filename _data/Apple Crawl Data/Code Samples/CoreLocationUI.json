@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Sharing Your Location to Find a Park": {
+      "title": "Sharing Your Location to Find a Park",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corelocationui/sharing_your_location_to_find_a_park",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corelocationui/sharing_your_location_to_find_a_park",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ask for location access using a customizable location button."
+        }
+      ]
+    }
+  }
+}

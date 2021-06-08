@@ -3,10 +3,10 @@
     "Adding Package Dependencies to Your App": {
       "title": "Adding Package Dependencies to Your App",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/adding_package_dependencies_to_your_app",
+      "identifier": "doc://com.apple.documentation/documentation/swift_packages/adding_package_dependencies_to_your_app",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/adding_package_dependencies_to_your_app",
+      "url": "/documentation/swift_packages/adding_package_dependencies_to_your_app",
       "abstract": [
         {
           "type": "text",

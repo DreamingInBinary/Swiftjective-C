@@ -13,6 +13,84 @@
           "text": "Assemble assets into a dynamic 3D composition that you can add to a scene in your app, or share with AR Quick Look."
         }
       ]
+    },
+    "Implementing Systems for Entities in a Scene": {
+      "title": "Implementing Systems for Entities in a Scene",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/implementing_systems_for_entities_in_a_scene",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/implementing_systems_for_entities_in_a_scene",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Apply behaviors and physical effects to the objects and characters in a RealityKit scene with the Entity Component System (ECS)."
+        }
+      ]
+    },
+    "Designing Scene Hierarchies for Efficient Physics Simulation": {
+      "title": "Designing Scene Hierarchies for Efficient Physics Simulation",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/designing_scene_hierarchies_for_efficient_physics_simulation",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/designing_scene_hierarchies_for_efficient_physics_simulation",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your RealityKit scenes to avoid performance bottlenecks."
+        }
+      ]
+    },
+    "Handling Different-Sized Objects in Physics Simulations": {
+      "title": "Handling Different-Sized Objects in Physics Simulations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/handling_different-sized_objects_in_physics_simulations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/handling_different-sized_objects_in_physics_simulations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up a scene hierarchy for accurate physics simulations."
+        }
+      ]
+    },
+    "Capturing Photographs for RealityKit Object Capture": {
+      "title": "Capturing Photographs for RealityKit Object Capture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/capturing_photographs_for_realitykit_object_capture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/capturing_photographs_for_realitykit_object_capture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Take high-quality images of objects to generate 3D models. "
+        }
+      ]
+    },
+    "Capturing Photos with Depth": {
+      "title": "Capturing Photos with Depth",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/capturing_photos_with_depth",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/capturing_photos_with_depth"
+    },
+    "Creating 3D Objects from Photographs": {
+      "title": "Creating 3D Objects from Photographs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/creating_3d_objects_from_photographs",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/creating_3d_objects_from_photographs",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Construct virtual objects to use in your AR experiences. "
+        }
+      ]
     }
   }
 }

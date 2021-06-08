@@ -10,17 +10,17 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Create a Content Blocker for Safari in Xcode."
+          "text": "Create a content blocker for Safari in Xcode."
         }
       ]
     },
     "Supporting Associated Domains": {
       "title": "Supporting Associated Domains",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting-associated-domains",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/safariservices/supporting_associated_domains",
+      "url": "/documentation/xcode/supporting-associated-domains",
       "abstract": [
         {
           "type": "text",
@@ -48,7 +48,13 @@
       "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension"
+      "url": "/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add, build, and enable a Safari App Extension."
+        }
+      ]
     },
     "Troubleshooting Your Safari App Extension": {
       "title": "Troubleshooting Your Safari App Extension",
@@ -224,7 +230,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Build and deploy a Safari web extension using an Xcode project."
+          "text": "Build a Safari web extension in Xcode."
         }
       ]
     },
@@ -287,10 +293,10 @@
     "Distributing Your App for Beta Testing and Releases": {
       "title": "Distributing Your App for Beta Testing and Releases",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/distributing_your_app_for_beta_testing_and_releases",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/distributing-your-app-for-beta-testing-and-releases",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/distributing_your_app_for_beta_testing_and_releases"
+      "url": "/documentation/xcode/distributing-your-app-for-beta-testing-and-releases"
     },
     "Managing Safari Web Extension Permissions": {
       "title": "Managing Safari Web Extension Permissions",
@@ -316,7 +322,115 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Communicate about events and share data between the app and JavaScript by using native messaging and app groups."
+          "text": "Communicate about events and share data between the containing app and JavaScript by using native messaging and app groups."
+        }
+      ]
+    },
+    "Running Your Safari Web Extension": {
+      "title": "Running Your Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Install and update your extension in Safari as you make changes in development."
+        }
+      ]
+    },
+    "Troubleshooting Your Safari Web Extension": {
+      "title": "Troubleshooting Your Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/troubleshooting_your_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/troubleshooting_your_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use developer resources to investigate and resolve common problems with Safari web extensions."
+        }
+      ]
+    },
+    "Diagnosing and Resolving Bugs in Your Running App": {
+      "title": "Diagnosing and Resolving Bugs in Your Running App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app"
+    },
+    "Optimizing Your Web Extension for Safari": {
+      "title": "Optimizing Your Web Extension for Safari",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/optimizing_your_web_extension_for_safari",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/optimizing_your_web_extension_for_safari",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Support dark mode, reduce memory and power usage, and ensure feature compatibility to improve users’ experience with your web extension in Safari."
+        }
+      ]
+    },
+    "Distributing Your Safari Web Extension": {
+      "title": "Distributing Your Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/distributing_your_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/distributing_your_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Get feedback on your extension from beta testers, then share your extension with customers in the App Store."
+        }
+      ]
+    },
+    "Distributing Your App to Registered Devices": {
+      "title": "Distributing Your App to Registered Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/distributing-your-app-to-registered-devices",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/distributing-your-app-to-registered-devices"
+    },
+    "Updating a Safari Web Extension": {
+      "title": "Updating a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/updating_a_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/updating_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add new features and fix bugs in your Safari web extension using Xcode tools."
+        }
+      ]
+    },
+    "Creating, Organizing, and Editing Source Files": {
+      "title": "Creating, Organizing, and Editing Source Files",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/creating-organizing-and-editing-source-files",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/creating-organizing-and-editing-source-files"
+    },
+    "Blocking Content with Your Safari Web Extension": {
+      "title": "Blocking Content with Your Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/blocking_content_with_your_safari_web_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/safariservices/safari_web_extensions/blocking_content_with_your_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build content blocking with declarative net request into your Safari web extension."
         }
       ]
     }

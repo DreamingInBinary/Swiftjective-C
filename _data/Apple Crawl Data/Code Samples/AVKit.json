@@ -49,6 +49,34 @@
           "text": "Add advanced multitasking capabilities to your video apps by using Picture in Picture playback in tvOS."
         }
       ]
+    },
+    "Playing Video Content in a Standard User Interface": {
+      "title": "Playing Video Content in a Standard User Interface",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/playing_video_content_in_a_standard_user_interface",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avkit/playing_video_content_in_a_standard_user_interface",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Play media fullscreen, embedded inline, or in a floating picture-in-picture window using a player view controller."
+        }
+      ]
+    },
+    "Working with Overlays and Parental Controls in tvOS": {
+      "title": "Working with Overlays and Parental Controls in tvOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/working_with_overlays_and_parental_controls_in_tvos",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avkit/working_with_overlays_and_parental_controls_in_tvos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add interactive overlays, parental controls, and livestream channel flipping using a player view controller."
+        }
+      ]
     }
   }
 }

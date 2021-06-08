@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Manage Settings on Devices in a Family Sharing Group": {
+      "title": "Manage Settings on Devices in a Family Sharing Group",
+      "type": "topic",
+      "url": "/documentation/managedsettings/connectionwithframeworks",
+      "identifier": "doc://com.apple.ManagedSettings/documentation/ManagedSettings/ConnectionWithFrameworks",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Empower parents and guardians to configure constraints on other devices while preserving the group’s privacy."
+        }
+      ]
+    }
+  }
+}

@@ -61,10 +61,10 @@
     "Presenting Metadata in the tvOS Info Panel": {
       "title": "Presenting Metadata in the tvOS Info Panel",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/avkit/adding_information_to_the_info_panel_tvos/presenting_metadata_in_the_tvos_info_panel",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/presenting_metadata_in_the_tvos_info_panel",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/avkit/adding_information_to_the_info_panel_tvos/presenting_metadata_in_the_tvos_info_panel",
+      "url": "/documentation/avkit/presenting_metadata_in_the_tvos_info_panel",
       "abstract": [
         {
           "type": "text",
@@ -97,6 +97,62 @@
         {
           "type": "text",
           "text": "Display a preview of an upcoming media item at the conclusion of the currently playing media item."
+        }
+      ]
+    },
+    "Customizing the tvOS Playback Experience": {
+      "title": "Customizing the tvOS Playback Experience",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/customizing_the_tvos_playback_experience",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avkit/customizing_the_tvos_playback_experience",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Adopt the latest features of the redesigned tvOS player user interface to provide a more streamlined way to watch your content."
+        }
+      ]
+    },
+    "Presenting Navigation Markers": {
+      "title": "Presenting Navigation Markers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/presenting_navigation_markers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avkit/presenting_navigation_markers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Present navigation markers in the Info panel to help users quickly navigate your content."
+        }
+      ]
+    },
+    "Working with Interstitial Content": {
+      "title": "Working with Interstitial Content",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/working_with_interstitial_content",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avkit/working_with_interstitial_content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Present additional content, such as legal text, content warnings, or advertisements, alongside your main media presentation."
+        }
+      ]
+    },
+    "Implementing Trimming in a macOS Player": {
+      "title": "Implementing Trimming in a macOS Player",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/implementing_trimming_in_a_macos_player",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avkit/implementing_trimming_in_a_macos_player",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide a QuickTime media-trimming experience in your macOS app."
         }
       ]
     }

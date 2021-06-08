@@ -17,8 +17,6 @@ prettyTitle: "A Best-in-Class App"
 * You can get the public Github Issue version of this list <a href="https://gist.github.com/DreamingInBinary/0ccd49e3578c5ae1ebb20632c6c3af73">here</a>.
 * This post has been updated to reflect <b>iOS 14</b>.
 
-<hr />
-
 For as long as I've been a part of this industry, I've watched incredible, well-deserving apps take home an Apple Design Award. And _that's_ my endgame. 
 
 So, years ago, I set out to create a list that succinctly answers only one question:

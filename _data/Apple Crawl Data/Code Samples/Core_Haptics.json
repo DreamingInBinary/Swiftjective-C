@@ -55,6 +55,20 @@
           "text": "Add haptic feedback to supported game controllers by using Core Haptics."
         }
       ]
+    },
+    "Delivering Rich App Experiences with Haptics": {
+      "title": "Delivering Rich App Experiences with Haptics",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/delivering_rich_app_experiences_with_haptics",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corehaptics/delivering_rich_app_experiences_with_haptics",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enhance your app’s experience by incorporating haptic and sound feedback into key interactive moments."
+        }
+      ]
     }
   }
 }

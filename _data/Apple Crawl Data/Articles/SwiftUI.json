@@ -30,106 +30,105 @@
     },
     "Creating a Widget Extension": {
       "type": "topic",
-      "role": "article",
-      "kind": "article",
       "identifier": "doc://com.apple.documentation/documentation/WidgetKit/Creating-a-Widget-Extension",
-      "title": "Creating a Widget Extension",
       "url": "/documentation/WidgetKit/Creating-a-Widget-Extension",
       "abstract": [
         {
           "type": "text",
           "text": "Add and configure an extension to show your app’s content on the Home screen, Today View, or Notification Center."
         }
-      ]
+      ],
+      "role": "article",
+      "kind": "article",
+      "title": "Creating a Widget Extension"
     },
     "Keeping a Widget Up To Date": {
-      "title": "Keeping a Widget Up To Date",
       "identifier": "doc://com.apple.documentation/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date",
-      "type": "topic",
-      "role": "article",
       "url": "/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date",
+      "title": "Keeping a Widget Up To Date",
       "kind": "article",
       "abstract": [
         {
-          "text": "Plan your widget’s timeline to show timely, relevant information using dynamic views, and update the timeline when things change.",
-          "type": "text"
+          "type": "text",
+          "text": "Plan your widget’s timeline to show timely, relevant information using dynamic views, and update the timeline when things change."
         }
-      ]
+      ],
+      "role": "article",
+      "type": "topic"
     },
     "Making a Configurable Widget": {
-      "kind": "article",
       "role": "article",
+      "url": "/documentation/WidgetKit/Making-a-Configurable-Widget",
       "identifier": "doc://com.apple.documentation/documentation/WidgetKit/Making-a-Configurable-Widget",
-      "title": "Making a Configurable Widget",
-      "type": "topic",
       "abstract": [
         {
           "text": "Give users the option to customize their widgets, by adding a custom SiriKit intent definition to your project.",
           "type": "text"
         }
       ],
-      "url": "/documentation/WidgetKit/Making-a-Configurable-Widget"
+      "type": "topic",
+      "title": "Making a Configurable Widget",
+      "kind": "article"
     },
     "Building Layouts with Stack Views": {
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Building-Layouts-with-Stack-Views",
+      "role": "article",
+      "type": "topic",
+      "url": "/documentation/swiftui/building-layouts-with-stack-views",
+      "title": "Building Layouts with Stack Views",
+      "kind": "article",
       "abstract": [
         {
           "text": "Compose complex layouts from primitive container views.",
           "type": "text"
         }
-      ],
-      "title": "Building Layouts with Stack Views",
-      "type": "topic",
-      "kind": "article",
-      "url": "/documentation/swiftui/building-layouts-with-stack-views",
-      "role": "article",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Building-Layouts-with-Stack-Views"
+      ]
     },
     "Making Fine Adjustments to a View’s Position": {
+      "kind": "article",
+      "title": "Making Fine Adjustments to a View’s Position",
       "role": "article",
-      "type": "topic",
       "abstract": [
         {
           "text": "Shift the position of a view by applying the offset or position modifier.",
           "type": "text"
         }
       ],
-      "title": "Making Fine Adjustments to a View’s Position",
-      "kind": "article",
       "url": "/documentation/swiftui/making-fine-adjustments-to-a-view-s-position",
+      "type": "topic",
       "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Making-Fine-Adjustments-to-a-View-s-Position"
     },
     "Adding a Background to Your View": {
-      "type": "topic",
-      "kind": "article",
-      "url": "/documentation/swiftui/adding-a-background-to-your-view",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Compose a background behind your view and extend it beyond the safe area insets."
-        }
-      ],
       "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Adding-a-Background-to-Your-View",
-      "title": "Adding a Background to Your View",
-      "role": "article"
-    },
-    "Aligning Views Across Stacks": {
-      "title": "Aligning Views Across Stacks",
+      "url": "/documentation/swiftui/adding-a-background-to-your-view",
       "type": "topic",
-      "url": "/documentation/swiftui/aligning-views-across-stacks",
       "role": "article",
       "abstract": [
         {
-          "text": "Create a custom alignment and use it to align views across multiple stacks.",
+          "text": "Compose a background behind your view and extend it beyond the safe area insets.",
           "type": "text"
         }
       ],
       "kind": "article",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Aligning-Views-Across-Stacks"
+      "title": "Adding a Background to Your View"
+    },
+    "Aligning Views Across Stacks": {
+      "role": "article",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Aligning-Views-Across-Stacks",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a custom alignment and use it to align views across multiple stacks."
+        }
+      ],
+      "kind": "article",
+      "title": "Aligning Views Across Stacks",
+      "type": "topic",
+      "url": "/documentation/swiftui/aligning-views-across-stacks"
     },
     "Aligning Views Within a Stack": {
       "url": "/documentation/swiftui/aligning-views-within-a-stack",
-      "title": "Aligning Views Within a Stack",
-      "type": "topic",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Aligning-Views-Within-a-Stack",
       "role": "article",
       "abstract": [
         {
@@ -138,49 +137,19 @@
         }
       ],
       "kind": "article",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Aligning-Views-Within-a-Stack"
+      "type": "topic",
+      "title": "Aligning Views Within a Stack"
     },
     "Inspecting View Layout": {
-      "abstract": [
-        {
-          "text": "Determine the position and extent of a view using Xcode previews or",
-          "type": "text"
-        },
-        {
-          "text": " ",
-          "type": "text"
-        },
-        {
-          "text": "by adding temporary borders.",
-          "type": "text"
-        }
-      ],
-      "url": "/documentation/swiftui/inspecting-view-layout",
-      "type": "topic",
-      "kind": "article",
-      "title": "Inspecting View Layout",
       "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Inspecting-View-Layout",
-      "role": "article"
-    },
-    "Picking Container Views for Your Content": {
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Picking-Container-Views-for-Your-Content",
-      "type": "topic",
-      "title": "Picking Container Views for Your Content",
+      "title": "Inspecting View Layout",
       "kind": "article",
-      "url": "/documentation/swiftui/picking-container-views-for-your-content",
-      "abstract": [
-        {
-          "text": "Build flexible user interfaces by using stacks, grids, lists, and forms.",
-          "type": "text"
-        }
-      ],
-      "role": "article"
-    },
-    "Creating Performant Scrollable Stacks": {
+      "type": "topic",
+      "role": "article",
       "abstract": [
         {
           "type": "text",
-          "text": "Display large numbers of repeated views efficiently with scroll views, stack"
+          "text": "Determine the position and extent of a view using Xcode previews or"
         },
         {
           "type": "text",
@@ -188,43 +157,74 @@
         },
         {
           "type": "text",
-          "text": "views, and lazy stacks."
+          "text": "by adding temporary borders."
         }
       ],
-      "url": "/documentation/swiftui/creating-performant-scrollable-stacks",
+      "url": "/documentation/swiftui/inspecting-view-layout"
+    },
+    "Picking Container Views for Your Content": {
+      "url": "/documentation/swiftui/picking-container-views-for-your-content",
+      "abstract": [
+        {
+          "text": "Build flexible user interfaces by using stacks, grids, lists, and forms.",
+          "type": "text"
+        }
+      ],
       "type": "topic",
+      "kind": "article",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Picking-Container-Views-for-Your-Content",
+      "title": "Picking Container Views for Your Content",
+      "role": "article"
+    },
+    "Creating Performant Scrollable Stacks": {
+      "role": "article",
+      "url": "/documentation/swiftui/creating-performant-scrollable-stacks",
       "title": "Creating Performant Scrollable Stacks",
       "kind": "article",
+      "type": "topic",
       "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Creating-Performant-Scrollable-Stacks",
-      "role": "article"
+      "abstract": [
+        {
+          "text": "Display large numbers of repeated views efficiently with scroll views, stack",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "views, and lazy stacks.",
+          "type": "text"
+        }
+      ]
     },
     "Improving Your App's Performance": {
       "kind": "article",
-      "url": "/documentation/xcode/improving_your_app_s_performance",
-      "title": "Improving Your App's Performance",
-      "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance",
-      "role": "article",
+      "url": "/documentation/metrickit/improving_your_app_s_performance",
       "abstract": [
         {
           "text": "Model, measure, and boost the performance of your app by using a continuous-improvement cycle.",
           "type": "text"
         }
-      ]
+      ],
+      "title": "Improving Your App's Performance",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance",
+      "role": "article",
+      "type": "topic"
     },
     "Grouping Data with Lazy Stack Views": {
-      "kind": "article",
-      "type": "topic",
       "url": "/documentation/swiftui/grouping-data-with-lazy-stack-views",
+      "kind": "article",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Grouping-Data-with-Lazy-Stack-Views",
+      "title": "Grouping Data with Lazy Stack Views",
       "abstract": [
         {
           "type": "text",
           "text": "Split content into logical sections inside lazy stack views."
         }
       ],
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Grouping-Data-with-Lazy-Stack-Views",
       "role": "article",
-      "title": "Grouping Data with Lazy Stack Views"
+      "type": "topic"
     },
     "Managing Model Data in Your App": {
       "abstract": [
@@ -233,62 +233,62 @@
           "text": "Create connections between your app’s data model and views."
         }
       ],
+      "title": "Managing Model Data in Your App",
       "url": "/documentation/swiftui/managing-model-data-in-your-app",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Managing-Model-Data-in-Your-App",
       "role": "article",
       "kind": "article",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Managing-Model-Data-in-Your-App",
-      "title": "Managing Model Data in Your App",
       "type": "topic"
     },
     "Managing User Interface State": {
       "kind": "article",
-      "role": "article",
-      "type": "topic",
       "title": "Managing User Interface State",
+      "type": "topic",
+      "role": "article",
       "abstract": [
         {
-          "type": "text",
-          "text": "Encapsulate view-specific data within your app’s view hierarchy to make your"
+          "text": "Encapsulate view-specific data within your app’s view hierarchy to make your",
+          "type": "text"
         },
         {
           "type": "text",
           "text": " "
         },
         {
-          "type": "text",
-          "text": "views reusable."
+          "text": "views reusable.",
+          "type": "text"
         }
       ],
-      "url": "/documentation/swiftui/managing-user-interface-state",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Managing-User-Interface-State"
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Managing-User-Interface-State",
+      "url": "/documentation/swiftui/managing-user-interface-state"
     },
     "Adding Interactivity with Gestures": {
-      "type": "topic",
       "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Adding-Interactivity-with-Gestures",
-      "kind": "article",
-      "title": "Adding Interactivity with Gestures",
       "role": "article",
+      "type": "topic",
+      "kind": "article",
+      "url": "/documentation/swiftui/adding-interactivity-with-gestures",
       "abstract": [
         {
-          "type": "text",
-          "text": "Use gesture modifiers to add interactivity to your app."
+          "text": "Use gesture modifiers to add interactivity to your app.",
+          "type": "text"
         }
       ],
-      "url": "/documentation/swiftui/adding-interactivity-with-gestures"
+      "title": "Adding Interactivity with Gestures"
     },
     "Composing SwiftUI Gestures": {
+      "url": "/documentation/swiftui/composing-swiftui-gestures",
       "abstract": [
         {
-          "type": "text",
-          "text": "Combine gestures to create complex interactions."
+          "text": "Combine gestures to create complex interactions.",
+          "type": "text"
         }
       ],
-      "url": "/documentation/swiftui/composing-swiftui-gestures",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Composing-SwiftUI-Gestures",
-      "role": "article",
-      "kind": "article",
       "type": "topic",
-      "title": "Composing SwiftUI Gestures"
+      "kind": "article",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Composing-SwiftUI-Gestures",
+      "title": "Composing SwiftUI Gestures",
+      "role": "article"
     },
     "Fitting Images into Available Space": {
       "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Fitting-Images-into-Available-Space",
@@ -319,18 +319,18 @@
       "kind": "article"
     },
     "Displaying Data in Lists": {
-      "url": "/documentation/swiftui/displaying-data-in-lists",
-      "kind": "article",
-      "role": "article",
       "type": "topic",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Displaying-Data-in-Lists",
+      "title": "Displaying Data in Lists",
+      "role": "article",
+      "kind": "article",
+      "url": "/documentation/swiftui/displaying-data-in-lists",
       "abstract": [
         {
-          "type": "text",
-          "text": "Visualize collections of data with platform-appropriate appearance."
+          "text": "Visualize collections of data with platform-appropriate appearance.",
+          "type": "text"
         }
       ],
-      "title": "Displaying Data in Lists"
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Displaying-Data-in-Lists"
     },
     "Editing XLIFF and Strings Files": {
       "role": "article",
@@ -347,18 +347,60 @@
       "title": "Editing XLIFF and Strings Files"
     },
     "Laying Out a Simple View": {
-      "kind": "article",
-      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Laying-Out-a-Simple-View",
-      "role": "article",
       "url": "/documentation/swiftui/laying-out-a-simple-view",
+      "type": "topic",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Laying-Out-a-Simple-View",
       "title": "Laying Out a Simple View",
+      "role": "article",
       "abstract": [
         {
           "text": "Create a view layout by adjusting the size of views.",
           "type": "text"
         }
       ],
+      "kind": "article"
+    },
+    "Updating watchOS Apps with Timelines": {
+      "title": "Updating watchOS Apps with Timelines",
+      "url": "/documentation/watchkit/updating_watchos_apps_with_timelines",
+      "identifier": "doc://com.apple.documentation/documentation/WatchKit/updating_watchos_apps_with_timelines",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Seamlessly schedule updates to your user interface, even while it’s inactive."
+        }
+      ],
       "type": "topic"
+    },
+    "UILaunchScreens": {
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The user interfaces to show while an app launches in response to different URL schemes."
+        }
+      ],
+      "url": "/documentation/bundleresources/information_property_list/uilaunchscreens",
+      "role": "article",
+      "kind": "article",
+      "identifier": "doc://com.apple.documentation/documentation/BundleResources/Information_Property_List/UILaunchScreens",
+      "title": "UILaunchScreens"
+    },
+    "UILaunchScreen": {
+      "identifier": "doc://com.apple.documentation/documentation/BundleResources/Information_Property_List/UILaunchScreen",
+      "type": "topic",
+      "url": "/documentation/bundleresources/information_property_list/uilaunchscreen",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The user interface to show while an app launches."
+        }
+      ],
+      "role": "article",
+      "title": "UILaunchScreen",
+      "kind": "article"
     }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Handling Keyboard Events from a Human Interface Device": {
+      "title": "Handling Keyboard Events from a Human Interface Device",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/hiddriverkit/handling_keyboard_events_from_a_human_interface_device",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/hiddriverkit/handling_keyboard_events_from_a_human_interface_device",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Process keyboard-related data from a human interface device and dispatch events to the system."
+        }
+      ]
+    },
+    "Handling Stylus Input from a Human Interface Device": {
+      "title": "Handling Stylus Input from a Human Interface Device",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/hiddriverkit/handling_stylus_input_from_a_human_interface_device",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/hiddriverkit/handling_stylus_input_from_a_human_interface_device",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Process stylus-related input from a human interface device and dispatch events to the system."
+        }
+      ]
+    }
+  }
+}

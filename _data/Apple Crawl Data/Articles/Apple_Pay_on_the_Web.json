@@ -119,6 +119,34 @@
           "text": "Learn about features in each Apple Pay version."
         }
       ]
+    },
+    "Displaying Apple Pay Buttons Using JavaScript": {
+      "title": "Displaying Apple Pay Buttons Using JavaScript",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_javascript",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_javascript",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Load and configure the JavaScript Apple Pay button."
+        }
+      ]
+    },
+    "Displaying Apple Pay Buttons Using CSS": {
+      "title": "Displaying Apple Pay Buttons Using CSS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use CSS templates to display Apple Pay buttons in Safari."
+        }
+      ]
     }
   }
 }

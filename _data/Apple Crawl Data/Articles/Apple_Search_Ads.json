@@ -24,7 +24,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Call endpoints by using CRUD methods. "
+          "text": "Call endpoints using CRUD methods. "
         }
       ]
     },
@@ -53,6 +53,78 @@
         {
           "type": "text",
           "text": "Choose standard invoicing or budget orders."
+        }
+      ]
+    },
+    "Implementing OAuth for the Apple Search Ads API": {
+      "title": "Implementing OAuth for the Apple Search Ads API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/implementing_oauth_for_the_apple_search_ads_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/implementing_oauth_for_the_apple_search_ads_api"
+    },
+    "Call the Apple Search Ads API": {
+      "title": "Call the Apple Search Ads API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/call_the_apple_search_ads_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/call_the_apple_search_ads_api"
+    },
+    "Apple Search Ads Campaign Management API 4": {
+      "title": "Apple Search Ads Campaign Management API 4",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/apple_search_ads_campaign_management_api_4",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/apple_search_ads_campaign_management_api_4",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add OAuth to your API implementation."
+        }
+      ]
+    },
+    "Apple Search Ads Campaign Management API 3": {
+      "title": "Apple Search Ads Campaign Management API 3",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/apple_search_ads_campaign_management_api_3",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/apple_search_ads_campaign_management_api_3",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about changes to Apple Search Ads Campaign Management API 3."
+        }
+      ]
+    },
+    "Apple Search Ads Campaign Management API 2": {
+      "title": "Apple Search Ads Campaign Management API 2",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/apple_search_ads_campaign_management_api_2",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/apple_search_ads_campaign_management_api_2",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Apple no longer supports this API."
+        }
+      ]
+    },
+    "Apple Search Ads Campaign Management API 1": {
+      "title": "Apple Search Ads Campaign Management API 1",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/apple_search_ads/apple_search_ads_campaign_management_api_1",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/apple_search_ads/apple_search_ads_campaign_management_api_1",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Apple no longer supports this API."
         }
       ]
     }

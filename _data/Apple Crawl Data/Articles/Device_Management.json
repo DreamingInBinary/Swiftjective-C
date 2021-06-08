@@ -213,10 +213,10 @@
     "Interpreting Error Codes": {
       "title": "Interpreting Error Codes",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/interpreting_error_codes",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/interpreting_error_codes",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/devicemanagement/app_and_book_management/interpreting_error_codes",
+      "url": "/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/interpreting_error_codes",
       "abstract": [
         {
           "type": "text",
@@ -241,10 +241,10 @@
     "Managing Apps and Books Through Web Services": {
       "title": "Managing Apps and Books Through Web Services",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services",
+      "url": "/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services",
       "abstract": [
         {
           "type": "text",
@@ -255,10 +255,10 @@
     "Upgrading to Apple School Manager (ASM) and Apple Business Manager (ABM)": {
       "title": "Upgrading to Apple School Manager (ASM) and Apple Business Manager (ABM)",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/upgrading_to_apple_school_manager_asm_and_apple_business_manager_abm",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/upgrading_to_apple_school_manager_asm_and_apple_business_manager_abm",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/devicemanagement/app_and_book_management/upgrading_to_apple_school_manager_asm_and_apple_business_manager_abm",
+      "url": "/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/upgrading_to_apple_school_manager_asm_and_apple_business_manager_abm",
       "abstract": [
         {
           "type": "text",
@@ -269,10 +269,10 @@
     "Associating an Apple ID with a Volume Purchase Program (VPP) User": {
       "title": "Associating an Apple ID with a Volume Purchase Program (VPP) User",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services/associating_an_apple_id_with_a_volume_purchase_program_vpp_user",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services/associating_an_apple_id_with_a_volume_purchase_program_vpp_user",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services/associating_an_apple_id_with_a_volume_purchase_program_vpp_user",
+      "url": "/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services/associating_an_apple_id_with_a_volume_purchase_program_vpp_user",
       "abstract": [
         {
           "type": "text",
@@ -283,10 +283,10 @@
     "Retrieving a Large Record Set": {
       "title": "Retrieving a Large Record Set",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services/retrieving_a_large_record_set",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services/retrieving_a_large_record_set",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services/retrieving_a_large_record_set",
+      "url": "/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services/retrieving_a_large_record_set",
       "abstract": [
         {
           "type": "text",
@@ -297,14 +297,98 @@
     "Protecting Your VPP Account": {
       "title": "Protecting Your VPP Account",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services/protecting_your_vpp_account",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services/protecting_your_vpp_account",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/devicemanagement/app_and_book_management/managing_apps_and_books_through_web_services/protecting_your_vpp_account",
+      "url": "/documentation/devicemanagement/app_and_book_management/app_and_book_management_legacy/managing_apps_and_books_through_web_services/protecting_your_vpp_account",
       "abstract": [
         {
           "type": "text",
           "text": "Ensure a Volume Purchase Program (VPP) account is not managed or reset by another product."
+        }
+      ]
+    },
+    "Getting App and Book Information": {
+      "title": "Getting App and Book Information",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/getting_app_and_book_information",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicemanagement/app_and_book_management/getting_app_and_book_information",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a web service to find details about apps and books to show to your users."
+        }
+      ]
+    },
+    "Managing Assets": {
+      "title": "Managing Assets",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/managing_assets",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicemanagement/app_and_book_management/managing_assets",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Retrieve key information to effectively manage assets across an organization's users and devices."
+        }
+      ]
+    },
+    "Using Paginated Endpoints": {
+      "title": "Using Paginated Endpoints",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/using_paginated_endpoints",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicemanagement/app_and_book_management/using_paginated_endpoints",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Manage paginated endpoints to efficiently work with large record sets."
+        }
+      ]
+    },
+    "Managing Users": {
+      "title": "Managing Users",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/managing_users",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicemanagement/app_and_book_management/managing_users",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Retrieve key information to effectively manage users across an organization. "
+        }
+      ]
+    },
+    "Subscribing to Notifications": {
+      "title": "Subscribing to Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/subscribing_to_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicemanagement/app_and_book_management/subscribing_to_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Listen to notifications to keep track of the latest events for an organization."
+        }
+      ]
+    },
+    "Handling Error Responses": {
+      "title": "Handling Error Responses",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/devicemanagement/app_and_book_management/handling_error_responses",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/devicemanagement/app_and_book_management/handling_error_responses",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Investigate service request errors and troubleshoot solutions."
         }
       ]
     }

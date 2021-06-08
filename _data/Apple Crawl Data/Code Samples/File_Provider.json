@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Syncing Files on macOS": {
+      "title": "Syncing Files on macOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/macos_support/syncing_files_on_macos",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/fileprovider/macos_support/syncing_files_on_macos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create an extension to sync files to the cloud."
+        }
+      ]
+    }
+  }
+}

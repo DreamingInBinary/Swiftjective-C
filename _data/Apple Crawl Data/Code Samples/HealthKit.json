@@ -55,6 +55,34 @@
           "text": "Create a health app that allows a clinical care team to send and receive mobility data."
         }
       ]
+    },
+    "Build a Workout App for Apple Watch": {
+      "title": "Build a Workout App for Apple Watch",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/workouts_and_activity_rings/build_a_workout_app_for_apple_watch",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/healthkit/workouts_and_activity_rings/build_a_workout_app_for_apple_watch",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create your own workout app, quickly and easily, with HealthKit and SwiftUI."
+        }
+      ]
+    },
+    "Accessing Data from a SMART Health Card": {
+      "title": "Accessing Data from a SMART Health Card",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_data_from_a_smart_health_card",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/healthkit/samples/accessing_data_from_a_smart_health_card",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Query for and validate a verifiable clinical record."
+        }
+      ]
     }
   }
 }

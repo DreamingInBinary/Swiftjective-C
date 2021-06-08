@@ -27,6 +27,34 @@
           "text": "Communicate between your Safari web extension and its containing app."
         }
       ]
+    },
+    "Adopting New Safari Web Extension APIs": {
+      "title": "Adopting New Safari Web Extension APIs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/adopting_new_safari_web_extension_apis",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/adopting_new_safari_web_extension_apis",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve your web extension in Safari with a non-persistent background page and new tab-override customization."
+        }
+      ]
+    },
+    "Adopting Declarative Content Blocking in Safari Web Extensions": {
+      "title": "Adopting Declarative Content Blocking in Safari Web Extensions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/adopting_declarative_content_blocking_in_safari_web_extensions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/adopting_declarative_content_blocking_in_safari_web_extensions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Block web content with your web extension using the declarative net request API."
+        }
+      ]
     }
   }
 }

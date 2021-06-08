@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Bring an iPad App to the Mac with Mac Catalyst": {
+      "role": "overview",
+      "title": "Bring an iPad App to the Mac with Mac Catalyst",
+      "identifier": "doc://com.apple.documentation/tutorials/Mac-Catalyst",
+      "kind": "overview",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build a native Mac app from the same codebase as your iPad app."
+        }
+      ],
+      "url": "/tutorials/Mac-Catalyst",
+      "type": "topic"
+    },
+    "Introducing SwiftUI": {
+      "role": "overview",
+      "title": "Introducing SwiftUI",
+      "identifier": "doc://com.apple.documentation/tutorials/SwiftUI",
+      "kind": "overview",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before."
+        }
+      ],
+      "url": "/tutorials/SwiftUI",
+      "type": "topic"
+    }
+  }
+}

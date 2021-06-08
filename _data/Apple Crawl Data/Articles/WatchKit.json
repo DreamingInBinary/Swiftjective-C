@@ -11,10 +11,10 @@
     "Creating an Intents App Extension": {
       "title": "Creating an Intents App Extension",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/sirikit/creating_an_intents_app_extension",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/intent_handling_infrastructure/creating_an_intents_app_extension",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/sirikit/creating_an_intents_app_extension"
+      "url": "/documentation/sirikit/intent_handling_infrastructure/creating_an_intents_app_extension"
     },
     "Defining Relevant Shortcuts for Your App": {
       "title": "Defining Relevant Shortcuts for Your App",
@@ -171,10 +171,10 @@
     "Supporting Associated Domains": {
       "title": "Supporting Associated Domains",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/safariservices/supporting_associated_domains",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting-associated-domains",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/safariservices/supporting_associated_domains"
+      "url": "/documentation/xcode/supporting-associated-domains"
     },
     "Keeping Your watchOS Content Up to Date": {
       "title": "Keeping Your watchOS Content Up to Date",
@@ -485,6 +485,42 @@
         {
           "type": "text",
           "text": "Configure your watch-only project with unit tests and user interface tests."
+        }
+      ]
+    },
+    "Defining Relevant Shortcuts for the Siri Watch Face": {
+      "title": "Defining Relevant Shortcuts for the Siri Watch Face",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/watch_and_widget_support/defining_relevant_shortcuts_for_the_siri_watch_face",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/watch_and_widget_support/defining_relevant_shortcuts_for_the_siri_watch_face"
+    },
+    "Designing Your App for the Always On State": {
+      "title": "Designing Your App for the Always On State",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/designing_your_app_for_the_always_on_state",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/designing_your_app_for_the_always_on_state",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize your watchOS app’s user interface for continuous display."
+        }
+      ]
+    },
+    "Updating watchOS Apps with Timelines": {
+      "title": "Updating watchOS Apps with Timelines",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/updating_watchos_apps_with_timelines",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/updating_watchos_apps_with_timelines",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Seamlessly schedule updates to your user interface, even while it’s inactive."
         }
       ]
     }

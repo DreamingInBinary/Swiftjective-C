@@ -1,1 +1,90 @@
-{"articles":{"Getting Processed Device-Motion Data":{"title":"Getting Processed Device-Motion Data","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremotion/getting_processed_device-motion_data","kind":"article","role":"article","url":"/documentation/coremotion/getting_processed_device-motion_data"},"Understanding Reference Frames and Device Attitude":{"title":"Understanding Reference Frames and Device Attitude","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremotion/getting_processed_device-motion_data/understanding_reference_frames_and_device_attitude","kind":"article","role":"article","url":"/documentation/coremotion/getting_processed_device-motion_data/understanding_reference_frames_and_device_attitude","abstract":[{"type":"text","text":"Learn about the initial frame of reference used to report rotation and attitude values.  "}]},"Getting Raw Accelerometer Events":{"title":"Getting Raw Accelerometer Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremotion/getting_raw_accelerometer_events","kind":"article","role":"article","url":"/documentation/coremotion/getting_raw_accelerometer_events","abstract":[{"type":"text","text":"Retrieve data from the onboard accelerometers."}]},"Getting Raw Gyroscope Events":{"title":"Getting Raw Gyroscope Events","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremotion/getting_raw_gyroscope_events","kind":"article","role":"article","url":"/documentation/coremotion/getting_raw_gyroscope_events","abstract":[{"type":"text","text":"Retrieve data from the onboard gyroscopes."}]},"Monitoring Movement Disorders":{"title":"Monitoring Movement Disorders","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremotion/monitoring_movement_disorders","kind":"article","role":"article","url":"/documentation/coremotion/monitoring_movement_disorders","abstract":[{"type":"text","text":"Use Apple Watch’s movement disorder manager to monitor symptoms."}]},"Adhering to the Movement Disorder Data Collection Requirements":{"title":"Adhering to the Movement Disorder Data Collection Requirements","type":"topic","identifier":"doc://com.apple.documentation/documentation/coremotion/adhering_to_the_movement_disorder_data_collection_requirements","kind":"article","role":"article","url":"/documentation/coremotion/adhering_to_the_movement_disorder_data_collection_requirements","abstract":[{"type":"text","text":"Ensure that your users understand and have control over the data your app collects."}]},"Protecting User Privacy":{"title":"Protecting User Privacy","type":"topic","identifier":"doc://com.apple.documentation/documentation/healthkit/protecting_user_privacy","kind":"article","role":"article","url":"/documentation/healthkit/protecting_user_privacy"}}}
+{
+  "articles": {
+    "Getting Processed Device-Motion Data": {
+      "title": "Getting Processed Device-Motion Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremotion/getting_processed_device-motion_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coremotion/getting_processed_device-motion_data"
+    },
+    "Understanding Reference Frames and Device Attitude": {
+      "title": "Understanding Reference Frames and Device Attitude",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremotion/getting_processed_device-motion_data/understanding_reference_frames_and_device_attitude",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coremotion/getting_processed_device-motion_data/understanding_reference_frames_and_device_attitude",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about the initial frame of reference used to report rotation and attitude values.  "
+        }
+      ]
+    },
+    "Getting Raw Accelerometer Events": {
+      "title": "Getting Raw Accelerometer Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremotion/getting_raw_accelerometer_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coremotion/getting_raw_accelerometer_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Retrieve data from the onboard accelerometers."
+        }
+      ]
+    },
+    "Getting Raw Gyroscope Events": {
+      "title": "Getting Raw Gyroscope Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremotion/getting_raw_gyroscope_events",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coremotion/getting_raw_gyroscope_events",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Retrieve data from the onboard gyroscopes."
+        }
+      ]
+    },
+    "Monitoring Movement Disorders": {
+      "title": "Monitoring Movement Disorders",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremotion/monitoring_movement_disorders",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coremotion/monitoring_movement_disorders",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use Apple Watch’s movement disorder manager to monitor symptoms."
+        }
+      ]
+    },
+    "Adhering to the Movement Disorder Data Collection Requirements": {
+      "title": "Adhering to the Movement Disorder Data Collection Requirements",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coremotion/adhering_to_the_movement_disorder_data_collection_requirements",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coremotion/adhering_to_the_movement_disorder_data_collection_requirements",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that your users understand and have control over the data your app collects."
+        }
+      ]
+    },
+    "Protecting User Privacy": {
+      "title": "Protecting User Privacy",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/protecting_user_privacy",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/protecting_user_privacy"
+    }
+  }
+}

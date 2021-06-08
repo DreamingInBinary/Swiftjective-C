@@ -24,7 +24,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Demonstrate that requests sent to your server come from legitimate instances of your app."
+          "text": "Ensure that requests your server receives come from legitimate instances of your app."
         }
       ]
     },
@@ -77,6 +77,22 @@
           "text": "Test your implementation in a development environment and onboard users gradually."
         }
       ]
+    },
+    "Making Data Available to the App Clip’s Corresponding App": {
+      "title": "Making Data Available to the App Clip’s Corresponding App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/app_clips/making_data_available_to_the_app_clip_s_corresponding_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/app_clips/making_data_available_to_the_app_clip_s_corresponding_app"
+    },
+    "Creating an App Clip with Xcode": {
+      "title": "Creating an App Clip with Xcode",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/app_clips/creating_an_app_clip_with_xcode",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/app_clips/creating_an_app_clip_with_xcode"
     }
   }
 }

@@ -161,6 +161,34 @@
           "text": "Implement Action Extensions to provide quick access to commonly used features of your app."
         }
       ]
+    },
+    "Build Mail App Extensions": {
+      "title": "Build Mail App Extensions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mailkit/build_mail_app_extensions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/mailkit/build_mail_app_extensions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create app extensions that block content, perform message and composing actions, and help message security."
+        }
+      ]
+    },
+    "Using TextKit 2 to Interact with Text": {
+      "title": "Using TextKit 2 to Interact with Text",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appkit/textkit/using_textkit_2_to_interact_with_text",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/appkit/textkit/using_textkit_2_to_interact_with_text",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Interact with text by managing text selection and inserting custom text elements."
+        }
+      ]
     }
   }
 }

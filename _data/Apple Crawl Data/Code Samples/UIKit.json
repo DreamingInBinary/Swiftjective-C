@@ -249,10 +249,10 @@
     "Asynchronously Loading Images into Table and Collection Views": {
       "title": "Asynchronously Loading Images into Table and Collection Views",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/uikit/uiimage/asynchronously_loading_images_into_table_and_collection_views",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/table_views/asynchronously_loading_images_into_table_and_collection_views",
       "kind": "article",
       "role": "sampleCode",
-      "url": "/documentation/uikit/uiimage/asynchronously_loading_images_into_table_and_collection_views",
+      "url": "/documentation/uikit/views_and_controls/table_views/asynchronously_loading_images_into_table_and_collection_views",
       "abstract": [
         {
           "type": "text",
@@ -523,6 +523,48 @@
         {
           "type": "text",
           "text": "Manage documents across multiple devices to create a seamless editing and collaboration experience."
+        }
+      ]
+    },
+    "Adjust Your Layout with Keyboard Layout Guide": {
+      "title": "Adjust Your Layout with Keyboard Layout Guide",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/adjust_your_layout_with_keyboard_layout_guide",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/keyboards_and_input/adjust_your_layout_with_keyboard_layout_guide",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Dynamically respond to keyboard movement by using the tracking features of the keyboard layout guide."
+        }
+      ]
+    },
+    "Navigating an App’s User Interface Using a Keyboard": {
+      "title": "Navigating an App’s User Interface Using a Keyboard",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/uikeycommand/navigating_an_app_s_user_interface_using_a_keyboard",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/uikeycommand/navigating_an_app_s_user_interface_using_a_keyboard",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Navigate between user interface elements using a keyboard and focusable UI elements in iPad apps and apps built with Mac Catalyst."
+        }
+      ]
+    },
+    "Building and Improving Your App with Mac Catalyst": {
+      "title": "Building and Improving Your App with Mac Catalyst",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/printing/building_and_improving_your_app_with_mac_catalyst",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/printing/building_and_improving_your_app_with_mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve your iPadOS app with Mac Catalyst by supporting native controls, multiple windows, sharing, printing, menus and keyboard shortcuts."
         }
       ]
     }

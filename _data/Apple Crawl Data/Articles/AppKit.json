@@ -59,10 +59,10 @@
     "Supporting Dark Mode in Your Interface": {
       "title": "Supporting Dark Mode in Your Interface",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/appearance_customization/supporting_dark_mode_in_your_interface",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/supporting_dark_mode_in_your_interface",
+      "url": "/documentation/uikit/appearance_customization/supporting_dark_mode_in_your_interface",
       "abstract": [
         {
           "type": "text",
@@ -87,10 +87,10 @@
     "Choosing a Specific Interface Style for Your iOS App": {
       "title": "Choosing a Specific Interface Style for Your iOS App",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting_dark_mode_in_your_interface/choosing_a_specific_interface_style_for_your_ios_app",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/appearance_customization/supporting_dark_mode_in_your_interface/choosing_a_specific_interface_style_for_your_ios_app",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/supporting_dark_mode_in_your_interface/choosing_a_specific_interface_style_for_your_ios_app",
+      "url": "/documentation/uikit/appearance_customization/supporting_dark_mode_in_your_interface/choosing_a_specific_interface_style_for_your_ios_app",
       "abstract": [
         {
           "type": "text",

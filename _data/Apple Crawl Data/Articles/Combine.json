@@ -2,20 +2,22 @@
   "articles": {
     "Processing Published Elements with Subscribers": {
       "type": "topic",
-      "role": "article",
+      "url": "/documentation/combine/processing-published-elements-with-subscribers",
       "abstract": [
         {
-          "type": "text",
-          "text": "Apply back pressure to precisely control when publishers produce elements."
+          "text": "Apply back pressure to precisely control when publishers produce elements.",
+          "type": "text"
         }
       ],
+      "identifier": "doc://com.apple.Combine/documentation/Combine/processing-published-elements-with-subscribers",
       "title": "Processing Published Elements with Subscribers",
-      "url": "/documentation/combine/processing-published-elements-with-subscribers",
-      "kind": "article",
-      "identifier": "doc://com.apple.Combine/documentation/Combine/processing-published-elements-with-subscribers"
+      "role": "article",
+      "kind": "article"
     },
     "Using Combine for Your App’s Asynchronous Code": {
-      "type": "topic",
+      "url": "/documentation/combine/using-combine-for-your-app-s-asynchronous-code",
+      "title": "Using Combine for Your App’s Asynchronous Code",
+      "identifier": "doc://com.apple.Combine/documentation/Combine/using-combine-for-your-app-s-asynchronous-code",
       "role": "article",
       "abstract": [
         {
@@ -23,94 +25,92 @@
           "text": "Apply common patterns to migrate your closure-based, event-handling code."
         }
       ],
-      "title": "Using Combine for Your App’s Asynchronous Code",
-      "url": "/documentation/combine/using-combine-for-your-app-s-asynchronous-code",
-      "kind": "article",
-      "identifier": "doc://com.apple.Combine/documentation/Combine/using-combine-for-your-app-s-asynchronous-code"
+      "type": "topic",
+      "kind": "article"
     },
     "Replacing Foundation Timers with Timer Publishers": {
+      "kind": "article",
       "type": "topic",
-      "role": "article",
+      "title": "Replacing Foundation Timers with Timer Publishers",
       "abstract": [
         {
           "type": "text",
           "text": "Publish elements periodically by using a timer."
         }
       ],
-      "title": "Replacing Foundation Timers with Timer Publishers",
+      "role": "article",
       "url": "/documentation/combine/replacing-foundation-timers-with-timer-publishers",
-      "kind": "article",
       "identifier": "doc://com.apple.Combine/documentation/Combine/replacing-foundation-timers-with-timer-publishers"
     },
     "Performing Key-Value Observing with Combine": {
+      "url": "/documentation/combine/performing-key-value-observing-with-combine",
       "type": "topic",
-      "role": "article",
+      "identifier": "doc://com.apple.Combine/documentation/Combine/performing-key-value-observing-with-combine",
+      "title": "Performing Key-Value Observing with Combine",
+      "kind": "article",
       "abstract": [
         {
           "type": "text",
           "text": "Expose KVO changes with a Combine publisher."
         }
       ],
-      "title": "Performing Key-Value Observing with Combine",
-      "url": "/documentation/combine/performing-key-value-observing-with-combine",
-      "kind": "article",
-      "identifier": "doc://com.apple.Combine/documentation/Combine/performing-key-value-observing-with-combine"
+      "role": "article"
     },
     "Using Key-Value Observing in Swift": {
-      "role": "article",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Notify objects about changes to the properties of other objects."
-        }
-      ],
+      "kind": "article",
       "url": "/documentation/swift/cocoa_design_patterns/using_key-value_observing_in_swift",
       "type": "topic",
+      "role": "article",
       "identifier": "doc://com.apple.documentation/documentation/Swift/cocoa_design_patterns/using_key-value_observing_in_swift",
-      "kind": "article",
-      "title": "Using Key-Value Observing in Swift"
+      "title": "Using Key-Value Observing in Swift",
+      "abstract": [
+        {
+          "text": "Notify objects about changes to the properties of other objects.",
+          "type": "text"
+        }
+      ]
     },
     "Routing Notifications to Combine Subscribers": {
+      "title": "Routing Notifications to Combine Subscribers",
       "type": "topic",
+      "identifier": "doc://com.apple.Combine/documentation/Combine/routing-notifications-to-combine-subscribers",
+      "url": "/documentation/combine/routing-notifications-to-combine-subscribers",
       "role": "article",
+      "kind": "article",
       "abstract": [
         {
           "type": "text",
           "text": "Deliver notifications to subscribers by using notification centers’ publishers."
         }
-      ],
-      "title": "Routing Notifications to Combine Subscribers",
-      "url": "/documentation/combine/routing-notifications-to-combine-subscribers",
-      "kind": "article",
-      "identifier": "doc://com.apple.Combine/documentation/Combine/routing-notifications-to-combine-subscribers"
+      ]
     },
     "Controlling Publishing with Connectable Publishers": {
-      "type": "topic",
-      "role": "article",
+      "title": "Controlling Publishing with Connectable Publishers",
       "abstract": [
         {
           "type": "text",
           "text": "Coordinate when publishers start sending elements to subscribers."
         }
       ],
-      "title": "Controlling Publishing with Connectable Publishers",
-      "url": "/documentation/combine/controlling-publishing-with-connectable-publishers",
+      "identifier": "doc://com.apple.Combine/documentation/Combine/controlling-publishing-with-connectable-publishers",
       "kind": "article",
-      "identifier": "doc://com.apple.Combine/documentation/Combine/controlling-publishing-with-connectable-publishers"
+      "role": "article",
+      "url": "/documentation/combine/controlling-publishing-with-connectable-publishers",
+      "type": "topic"
     },
     "Receiving and Handling Events with Combine": {
-      "type": "topic",
-      "role": "article",
+      "title": "Receiving and Handling Events with Combine",
       "abstract": [
         {
           "type": "text",
           "text": "Customize and receive events from asynchronous sources."
         }
       ],
-      "title": "Receiving and Handling Events with Combine",
-      "url": "/documentation/combine/receiving-and-handling-events-with-combine",
+      "identifier": "doc://com.apple.Combine/documentation/Combine/receiving-and-handling-events-with-combine",
       "kind": "article",
-      "identifier": "doc://com.apple.Combine/documentation/Combine/receiving-and-handling-events-with-combine"
+      "role": "article",
+      "url": "/documentation/combine/receiving-and-handling-events-with-combine",
+      "type": "topic"
     }
   }
 }

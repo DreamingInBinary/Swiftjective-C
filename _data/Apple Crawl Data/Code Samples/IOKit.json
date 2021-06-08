@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Communicating with a Modem on a Serial Port": {
+      "title": "Communicating with a Modem on a Serial Port",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/iokit/communicating_with_a_modem_on_a_serial_port",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/iokit/communicating_with_a_modem_on_a_serial_port",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Find and connect to a modem attached to a serial port using IOKit."
+        }
+      ]
+    }
+  }
+}

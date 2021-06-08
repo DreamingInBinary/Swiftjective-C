@@ -10,7 +10,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Enhance how people interact with your game by supporting controllers that respond with haptics, lighting, and motion sensing."
+          "text": "Add a virtual controller to your game that is an onscreen software emulation of a physical controller."
         }
       ]
     }

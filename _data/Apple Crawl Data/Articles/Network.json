@@ -125,6 +125,20 @@
           "text": "Record traces of Wi-Fi traffic and traffic management."
         }
       ]
+    },
+    "Inspecting App Activity Data": {
+      "title": "Inspecting App Activity Data",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/urlrequest/inspecting_app_activity_data",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/foundation/urlrequest/inspecting_app_activity_data",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Verify that your app accesses only the user data and network resources that you expect it to access."
+        }
+      ]
     }
   }
 }

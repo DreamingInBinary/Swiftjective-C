@@ -315,10 +315,10 @@
     "Gathering Information About Memory Use": {
       "title": "Gathering Information About Memory Use",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_memory_use/gathering_information_about_memory_use",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/gathering-information-about-memory-use",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_memory_use/gathering_information_about_memory_use"
+      "url": "/documentation/xcode/gathering-information-about-memory-use"
     },
     "Enabling Frame Capture": {
       "title": "Enabling Frame Capture",
@@ -905,10 +905,10 @@
     "Diagnosing Memory, Thread, and Crash Issues Early": {
       "title": "Diagnosing Memory, Thread, and Crash Issues Early",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing-memory-thread-and-crash-issues-early",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/diagnosing_memory_thread_and_crash_issues_early"
+      "url": "/documentation/xcode/diagnosing-memory-thread-and-crash-issues-early"
     },
     "Developing Metal Apps that Run in Simulator": {
       "title": "Developing Metal Apps that Run in Simulator",

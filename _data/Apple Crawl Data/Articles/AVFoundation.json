@@ -88,7 +88,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Create a simple video playback app with built-in controls."
+          "text": "Build a simple video playback app with built-in controls by using minimal code and effort."
         }
       ]
     },
@@ -200,7 +200,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Respond to changes in a player's playback state."
+          "text": "Respond to changes in a player’s playback state."
         }
       ]
     },
@@ -214,7 +214,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Observe the playback time for an asset in order to update the player's state."
+          "text": "Observe the playback time for an asset in order to update the player’s state."
         }
       ]
     },
@@ -341,6 +341,20 @@
         {
           "type": "text",
           "text": "Measure front-of-screen luminance by using test pattern files with a spectroradiometer or colorimeter."
+        }
+      ]
+    },
+    "Loading Media Data Asynchronously": {
+      "title": "Loading Media Data Asynchronously",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/media_assets_and_metadata/loading_media_data_asynchronously",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/media_assets_and_metadata/loading_media_data_asynchronously",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Simplify asynchronous property loading using language-level concurrency features."
         }
       ]
     }

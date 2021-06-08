@@ -17,10 +17,10 @@
     "Identifying High-Memory Use with Jetsam Event Reports": {
       "title": "Identifying High-Memory Use with Jetsam Event Reports",
       "type": "topic",
-      "identifier": "doc://com.apple.documentation/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/identifying_high-memory_use_with_jetsam_event_reports",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/identifying-high-memory-use-with-jetsam-event-reports",
       "kind": "article",
       "role": "article",
-      "url": "/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/identifying_high-memory_use_with_jetsam_event_reports"
+      "url": "/documentation/xcode/identifying-high-memory-use-with-jetsam-event-reports"
     },
     "Maintaining a Reliable Network Connection": {
       "title": "Maintaining a Reliable Network Connection",

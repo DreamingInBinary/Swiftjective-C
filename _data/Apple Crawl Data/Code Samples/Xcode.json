@@ -1,12 +1,12 @@
 {
   "code": {
     "Autosizing Views for Localization in iOS": {
-      "type": "topic",
       "kind": "article",
       "role": "sampleCode",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/autosizing_views_for_localization_in_ios",
+      "type": "topic",
       "url": "/documentation/xcode/autosizing_views_for_localization_in_ios",
       "title": "Autosizing Views for Localization in iOS",
-      "identifier": "doc://com.apple.documentation/documentation/uikit/views_and_controls/autosizing_views_for_localization_in_ios",
       "abstract": [
         {
           "text": "Add auto layout constraints to your app to achieve localizable views.",
@@ -15,26 +15,40 @@
       ]
     },
     "Localization-Friendly Layouts in macOS": {
-      "identifier": "doc://com.apple.documentation/documentation/appkit/views_and_controls/localization-friendly_layouts_in_macos",
       "kind": "article",
+      "role": "sampleCode",
+      "identifier": "doc://com.apple.documentation/documentation/appkit/views_and_controls/localization-friendly_layouts_in_macos",
+      "type": "topic",
+      "url": "/documentation/xcode/localization-friendly_layouts_in_macos",
+      "title": "Localization-Friendly Layouts in macOS",
       "abstract": [
         {
-          "text": "This project demonstrates localization-friendly auto layout constraints. It uses ",
-          "type": "text"
-        },
-        {
-          "type": "codeVoice",
-          "code": "NSGridView"
-        },
-        {
           "type": "text",
-          "text": " as a container view to achieve localized layouts."
+          "text": "This project demonstrates localization-friendly auto layout constraints. It uses "
+        },
+        {
+          "code": "NSGridView",
+          "type": "codeVoice"
+        },
+        {
+          "text": " as a container view to achieve localized layouts.",
+          "type": "text"
+        }
+      ]
+    },
+    "SlothCreator: Building DocC Documentation in Xcode": {
+      "identifier": "doc://com.apple.documentation/documentation/xcode/slothcreator_building_docc_documentation_in_xcode",
+      "abstract": [
+        {
+          "text": "Build DocC documentation for a Swift package that contains a DocC Catalog.",
+          "type": "text"
         }
       ],
       "role": "sampleCode",
-      "title": "Localization-Friendly Layouts in macOS",
+      "title": "SlothCreator: Building DocC Documentation in Xcode",
       "type": "topic",
-      "url": "/documentation/xcode/localization-friendly_layouts_in_macos"
+      "url": "/documentation/xcode/slothcreator_building_docc_documentation_in_xcode",
+      "kind": "article"
     }
   }
 }

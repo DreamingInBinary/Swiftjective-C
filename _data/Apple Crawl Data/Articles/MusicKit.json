@@ -1,0 +1,26 @@
+{
+  "articles": {
+    "Using Automatic Developer Token Generation for Apple Music API": {
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.MusicKit/documentation/MusicKit/Using-Automatic-Token-Generation-for-Apple-Music-API",
+      "kind": "article",
+      "title": "Using Automatic Developer Token Generation for Apple Music API",
+      "url": "/documentation/musickit/using-automatic-token-generation-for-apple-music-api",
+      "abstract": [
+        {
+          "text": "Enable your app’s integration with the MusicKit App Service in",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "the developer portal.",
+          "type": "text"
+        }
+      ]
+    }
+  }
+}

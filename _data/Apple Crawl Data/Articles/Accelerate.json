@@ -418,7 +418,7 @@
       "abstract": [
         {
           "type": "text",
-          "text": "Optimize fast Fourier transform (FFT) performance with vDSP’s fixed-length interleaved FFT routines."
+          "text": "Optimize discrete Fourier transform (DFT) performance with vDSP’s interleaved DFT routines."
         }
       ]
     },
@@ -587,6 +587,20 @@
         {
           "type": "text",
           "text": "Use iterative methods to solve large problems faster and with a lower memory overhead than with direct methods.  "
+        }
+      ]
+    },
+    "Using vDSP for Vector-Based Arithmetic": {
+      "title": "Using vDSP for Vector-Based Arithmetic",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/using_vdsp_for_vector-based_arithmetic",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accelerate/using_vdsp_for_vector-based_arithmetic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Increase the performance of common mathematical tasks with vDSP vector-vector and vector-scalar operations."
         }
       ]
     }

@@ -21,6 +21,48 @@
       "kind": "overview",
       "role": "overview",
       "url": "/tutorials/swiftui"
+    },
+    "Implementing Proximity-Based Interactions Between Devices": {
+      "title": "Implementing Proximity-Based Interactions Between Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/implementing_proximity-based_interactions_between_devices",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/implementing_proximity-based_interactions_between_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to interact with a nearby device by measuring the distance between a watch and a paired iPhone."
+        }
+      ]
+    },
+    "Interacting with Bluetooth Peripherals During Background App Refresh": {
+      "title": "Interacting with Bluetooth Peripherals During Background App Refresh",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/interacting_with_bluetooth_peripherals_during_background_app_refresh",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/interacting_with_bluetooth_peripherals_during_background_app_refresh",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Keep your complications up-to-date by reading values from a Bluetooth peripheral while your app is running in the background."
+        }
+      ]
+    },
+    "Create Accessible Experiences for watchOS": {
+      "title": "Create Accessible Experiences for watchOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/create_accessible_experiences_for_watchos",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/create_accessible_experiences_for_watchos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to make your watchOS app more accessible."
+        }
+      ]
     }
   }
 }
