@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Applying Matte Effects to People in Images and Video": {
+      "title": "Applying Matte Effects to People in Images and Video",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/vision/applying_matte_effects_to_people_in_images_and_video",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/vision/applying_matte_effects_to_people_in_images_and_video",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Generate image masks for people automatically by using semantic person-segmentation."
+        }
+      ]
+    }
+  }
+}

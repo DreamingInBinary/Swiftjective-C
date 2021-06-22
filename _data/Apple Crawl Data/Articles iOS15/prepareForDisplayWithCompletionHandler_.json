@@ -1,0 +1,12 @@
+{
+  "articles": {
+    "Calling Objective-C APIs Asynchronously": {
+      "title": "Calling Objective-C APIs Asynchronously",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/calling_objective-c_apis_asynchronously",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/calling_objective-c_apis_asynchronously"
+    }
+  }
+}

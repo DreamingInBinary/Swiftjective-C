@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Using TextKit 2 to Interact with Text": {
+      "title": "Using TextKit 2 to Interact with Text",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appkit/textkit/using_textkit_2_to_interact_with_text",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/appkit/textkit/using_textkit_2_to_interact_with_text",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Interact with text by managing text selection and inserting custom text elements."
+        }
+      ]
+    }
+  }
+}

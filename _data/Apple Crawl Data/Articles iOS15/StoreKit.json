@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "Choosing a StoreKit API for In-App Purchase": {
+      "title": "Choosing a StoreKit API for In-App Purchase",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/storekit/choosing_a_storekit_api_for_in-app_purchase",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/storekit/choosing_a_storekit_api_for_in-app_purchase",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use the latest API to support in-app purchases in your new or existing app, or the original API for an existing app."
+        }
+      ]
+    },
+    "Handling Errors": {
+      "title": "Handling Errors",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/storekit/handling_errors",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/storekit/handling_errors",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Handle errors resulting from StoreKit requests."
+        }
+      ]
+    }
+  }
+}

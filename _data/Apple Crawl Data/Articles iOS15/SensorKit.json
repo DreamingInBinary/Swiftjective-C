@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Configuring Your Project for Sensor Reading": {
+      "title": "Configuring Your Project for Sensor Reading",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sensorkit/configuring_your_project_for_sensor_reading",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sensorkit/configuring_your_project_for_sensor_reading",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add metadata to your app to attain system and user permission to access sensor data."
+        }
+      ]
+    }
+  }
+}

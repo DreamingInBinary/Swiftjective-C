@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Implementing Alert Push Notifications": {
+      "title": "Implementing Alert Push Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/implementing_alert_push_notifications",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/usernotifications/implementing_alert_push_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add visible alert notifications to your app by using the UserNotifications framework."
+        }
+      ]
+    },
+    "Implementing Background Push Notifications": {
+      "title": "Implementing Background Push Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/implementing_background_push_notifications",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/usernotifications/implementing_background_push_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add background notifications to your app by using the UserNotifications framework."
+        }
+      ]
+    }
+  }
+}

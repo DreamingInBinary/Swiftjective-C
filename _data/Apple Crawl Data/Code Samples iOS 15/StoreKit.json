@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Offering Media for Sale in Your App": {
+      "title": "Offering Media for Sale in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/storekit/offering_media_for_sale_in_your_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/storekit/offering_media_for_sale_in_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to purchase media in the App Store from within your app."
+        }
+      ]
+    },
+    "Requesting App Store Reviews": {
+      "title": "Requesting App Store Reviews",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/storekit/requesting_app_store_reviews",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/storekit/requesting_app_store_reviews",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use best practices for prompting users to leave a review for your app in the App Store."
+        }
+      ]
+    }
+  }
+}

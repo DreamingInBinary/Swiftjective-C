@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "Setting Up a Capture Session": {
+      "title": "Setting Up a Capture Session",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/setting_up_a_capture_session",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/setting_up_a_capture_session",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure input devices, output media, preview views, and basic settings before capturing photos or video."
+        }
+      ]
+    },
+    "Accessing the Camera While Multitasking": {
+      "title": "Accessing the Camera While Multitasking",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/accessing_the_camera_while_multitasking",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/accessing_the_camera_while_multitasking",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Operate the camera in Split View, Slide Over, or Picture in Picture mode."
+        }
+      ]
+    }
+  }
+}

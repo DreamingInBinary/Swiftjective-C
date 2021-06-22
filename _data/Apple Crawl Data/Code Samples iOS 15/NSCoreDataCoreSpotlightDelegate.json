@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Showcase App Data in Spotlight": {
+      "title": "Showcase App Data in Spotlight",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/nspersistentstorecoordinator/showcase_app_data_in_spotlight",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coredata/nspersistentstorecoordinator/showcase_app_data_in_spotlight",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "​ ​Index app data so users can find it by using Spotlight search. ​​"
+        }
+      ]
+    }
+  }
+}

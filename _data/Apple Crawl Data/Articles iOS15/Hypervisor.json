@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Extending vCPU Capabilities Using Model-Specific Registers": {
+      "title": "Extending vCPU Capabilities Using Model-Specific Registers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/hypervisor/intel-based_mac/vcpu_management/extending_vcpu_capabilities_using_model-specific_registers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/hypervisor/intel-based_mac/vcpu_management/extending_vcpu_capabilities_using_model-specific_registers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure specific client performance monitoring and enable other vCPU capabilities using Model-Specific Registers."
+        }
+      ]
+    }
+  }
+}

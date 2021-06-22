@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Restoring Your App’s State with SwiftUI": {
+      "title": "Restoring Your App’s State with SwiftUI",
+      "role": "sampleCode",
+      "kind": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide app continuity for users by preserving their current activities."
+        }
+      ],
+      "url": "/documentation/uikit/view_controllers/restoring_your_app_s_state_with_swiftui",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/UIKit/view_controllers/restoring_your_app_s_state_with_swiftui"
+    },
+    "Loading and Displaying a Large Data Feed": {
+      "title": "Loading and Displaying a Large Data Feed",
+      "role": "sampleCode",
+      "abstract": [
+        {
+          "text": "Consume data in the background, and lower memory use by batching imports and preventing duplicate records.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/CoreData/loading_and_displaying_a_large_data_feed",
+      "url": "/documentation/coredata/loading_and_displaying_a_large_data_feed"
+    }
+  }
+}

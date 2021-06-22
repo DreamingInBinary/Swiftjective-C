@@ -1,0 +1,40 @@
+{
+  "articles": {
+    "Managing Model Data in Your App": {
+      "kind": "article",
+      "url": "/documentation/swiftui/managing-model-data-in-your-app",
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Managing-Model-Data-in-Your-App",
+      "title": "Managing Model Data in Your App",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create connections between your app’s data model and views."
+        }
+      ]
+    },
+    "Managing User Interface State": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Encapsulate view-specific data within your app’s view hierarchy to make your"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "views reusable."
+        }
+      ],
+      "kind": "article",
+      "url": "/documentation/swiftui/managing-user-interface-state",
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Managing-User-Interface-State",
+      "title": "Managing User Interface State"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Operator Declarations": {
+      "title": "Operator Declarations",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/swift_standard_library/operator_declarations",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swift/swift_standard_library/operator_declarations",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Work with prefix, postfix, and infix operators. "
+        }
+      ]
+    }
+  }
+}

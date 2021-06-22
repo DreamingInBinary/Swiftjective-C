@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Fitting Images into Available Space": {
+      "identifier": "doc://com.apple.SwiftUI/documentation/SwiftUI/Fitting-Images-into-Available-Space",
+      "role": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Adjust the size and shape of images in your app’s user interface by applying view modifiers.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "url": "/documentation/swiftui/fitting-images-into-available-space",
+      "title": "Fitting Images into Available Space"
+    }
+  }
+}

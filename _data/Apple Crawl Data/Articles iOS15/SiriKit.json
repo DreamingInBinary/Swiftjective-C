@@ -1,0 +1,124 @@
+{
+  "articles": {
+    "Adding User Interactivity with Siri Shortcuts and the Shortcuts App": {
+      "title": "Adding User Interactivity with Siri Shortcuts and the Shortcuts App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/adding_user_interactivity_with_siri_shortcuts_and_the_shortcuts_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/adding_user_interactivity_with_siri_shortcuts_and_the_shortcuts_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add custom intents and parameters to help users interact more quickly and effectively with Siri and the Shortcuts app."
+        }
+      ]
+    },
+    "Structuring Your Code to Support App Extensions": {
+      "title": "Structuring Your Code to Support App Extensions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/intent_handling_infrastructure/structuring_your_code_to_support_app_extensions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/intent_handling_infrastructure/structuring_your_code_to_support_app_extensions"
+    },
+    "Creating an Intents UI Extension": {
+      "title": "Creating an Intents UI Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/creating_an_intents_ui_extension",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/creating_an_intents_ui_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create an Intents UI app extension to customize the interfaces displayed by Siri and Maps."
+        }
+      ]
+    },
+    "Dispatching Intents to Handlers": {
+      "title": "Dispatching Intents to Handlers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/dispatching_intents_to_handlers",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/dispatching_intents_to_handlers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Provide SiriKit with an intent handler capable of handling a given intent."
+        }
+      ]
+    },
+    "Resolving and Handling Intents": {
+      "title": "Resolving and Handling Intents",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/resolving_and_handling_intents",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/resolving_and_handling_intents",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Resolve, confirm, and handle user requests for your app’s services."
+        }
+      ]
+    },
+    "Offering Actions in the Shortcuts App": {
+      "title": "Offering Actions in the Shortcuts App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/offering_actions_in_the_shortcuts_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/offering_actions_in_the_shortcuts_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Suggest shortcuts users may want to add to Siri or combine with other actions in their own shortcuts."
+        }
+      ]
+    },
+    "Donating Shortcuts": {
+      "title": "Donating Shortcuts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/donating_shortcuts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/donating_shortcuts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Tell Siri about shortcuts to actions that the user performed in your app."
+        }
+      ]
+    },
+    "Deleting Donated Shortcuts": {
+      "title": "Deleting Donated Shortcuts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/deleting_donated_shortcuts",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/deleting_donated_shortcuts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Remove your donations from Siri."
+        }
+      ]
+    },
+    "Registering Custom Vocabulary with SiriKit": {
+      "title": "Registering Custom Vocabulary with SiriKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/registering_custom_vocabulary_with_sirikit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/sirikit/registering_custom_vocabulary_with_sirikit",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Register your app’s custom terminology, and provide sample phrases for how to use your app with Siri."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Supporting Game Controllers": {
+      "title": "Supporting Game Controllers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/gamecontroller/supporting_game_controllers",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/gamecontroller/supporting_game_controllers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Support a physical controller or add a virtual controller to enhance how people interact with your game through haptics, lighting, and motion sensing."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "code": {
+    "Developing a Safari Web Extension": {
+      "title": "Developing a Safari Web Extension",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/developing_a_safari_web_extension",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/developing_a_safari_web_extension",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize and enhance web pages by building a Safari web extension."
+        }
+      ]
+    },
+    "Messaging a Web Extension’s Native App": {
+      "title": "Messaging a Web Extension’s Native App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/messaging_a_web_extension_s_native_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/messaging_a_web_extension_s_native_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Communicate between your Safari web extension and its containing app."
+        }
+      ]
+    },
+    "Adopting Declarative Content Blocking in Safari Web Extensions": {
+      "title": "Adopting Declarative Content Blocking in Safari Web Extensions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/adopting_declarative_content_blocking_in_safari_web_extensions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/adopting_declarative_content_blocking_in_safari_web_extensions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Block web content with your web extension using the declarative net request API."
+        }
+      ]
+    },
+    "Adopting New Safari Web Extension APIs": {
+      "title": "Adopting New Safari Web Extension APIs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/safariservices/safari_web_extensions/adopting_new_safari_web_extension_apis",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/safariservices/safari_web_extensions/adopting_new_safari_web_extension_apis",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve your web extension in Safari with a non-persistent background page and new tab-override customization."
+        }
+      ]
+    }
+  }
+}

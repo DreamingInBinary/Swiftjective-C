@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Using MusicKit to Integrate with Apple Music": {
+      "title": "Using MusicKit to Integrate with Apple Music",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/musickit/using_musickit_to_integrate_with_apple_music",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/musickit/using_musickit_to_integrate_with_apple_music",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Find an album in Apple Music that corresponds to a CD in a user’s collection, and present the information associated with the album."
+        }
+      ]
+    }
+  }
+}

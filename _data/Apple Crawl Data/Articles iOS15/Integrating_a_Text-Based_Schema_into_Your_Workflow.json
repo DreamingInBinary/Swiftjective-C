@@ -1,0 +1,46 @@
+{
+  "articles": {
+    "Designing and Creating a CloudKit Database": {
+      "title": "Designing and Creating a CloudKit Database",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/designing_and_creating_a_cloudkit_database",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/cloudkit/designing_and_creating_a_cloudkit_database",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a schema to store your app’s objects as records in iCloud using CloudKit."
+        }
+      ]
+    },
+    "Managing iCloud Containers with the CloudKit Database App": {
+      "title": "Managing iCloud Containers with the CloudKit Database App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/cloudkit/managing_icloud_containers_with_the_cloudkit_database_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inspect and modify the schema and data for your app's iCloud container."
+        }
+      ]
+    },
+    "Integrating a Text-Based Schema into Your Workflow": {
+      "title": "Integrating a Text-Based Schema into Your Workflow",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/cloudkit/integrating_a_text-based_schema_into_your_workflow",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/cloudkit/integrating_a_text-based_schema_into_your_workflow",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Define and update your schema with the CloudKit Schema Language."
+        }
+      ]
+    }
+  }
+}

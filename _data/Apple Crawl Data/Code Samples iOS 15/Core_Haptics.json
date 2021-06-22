@@ -1,0 +1,74 @@
+{
+  "code": {
+    "Playing a Custom Haptic Pattern from a File": {
+      "title": "Playing a Custom Haptic Pattern from a File",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/playing_a_custom_haptic_pattern_from_a_file",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corehaptics/playing_a_custom_haptic_pattern_from_a_file",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Sample predesigned Apple Haptic Audio Pattern files, and learn how to play your own."
+        }
+      ]
+    },
+    "Playing Collision-Based Haptic Patterns": {
+      "title": "Playing Collision-Based Haptic Patterns",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/playing_collision-based_haptic_patterns",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corehaptics/playing_collision-based_haptic_patterns",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Play a custom haptic pattern whose strength depends on an object’s collision speed."
+        }
+      ]
+    },
+    "Delivering Rich App Experiences with Haptics": {
+      "title": "Delivering Rich App Experiences with Haptics",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/delivering_rich_app_experiences_with_haptics",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corehaptics/delivering_rich_app_experiences_with_haptics",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enhance your app’s experience by incorporating haptic and sound feedback into key interactive moments."
+        }
+      ]
+    },
+    "Updating Continuous and Transient Haptic Parameters in Real Time": {
+      "title": "Updating Continuous and Transient Haptic Parameters in Real Time",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/updating_continuous_and_transient_haptic_parameters_in_real_time",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corehaptics/updating_continuous_and_transient_haptic_parameters_in_real_time",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Generate continuous and transient haptic patterns in response to user touch."
+        }
+      ]
+    },
+    "Playing Haptics on Game Controllers": {
+      "title": "Playing Haptics on Game Controllers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/corehaptics/playing_haptics_on_game_controllers",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/corehaptics/playing_haptics_on_game_controllers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add haptic feedback to supported game controllers by using Core Haptics."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Displaying Human-Friendly Content": {
+      "title": "Displaying Human-Friendly Content",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/foundation/formatter/displaying_human-friendly_content",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/foundation/formatter/displaying_human-friendly_content",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Convert data into readable strings or Swift objects using formatters."
+        }
+      ]
+    }
+  }
+}

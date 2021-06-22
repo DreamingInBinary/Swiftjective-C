@@ -1,0 +1,46 @@
+{
+  "code": {
+    "Implementing Interactions Between Users in Close Proximity": {
+      "title": "Implementing Interactions Between Users in Close Proximity",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/nearbyinteraction/implementing_interactions_between_users_in_close_proximity",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/nearbyinteraction/implementing_interactions_between_users_in_close_proximity",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Enable devices to access relative positioning information."
+        }
+      ]
+    },
+    "Implementing Proximity-Based Interactions Between Devices": {
+      "title": "Implementing Proximity-Based Interactions Between Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/implementing_proximity-based_interactions_between_devices",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/implementing_proximity-based_interactions_between_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to interact with a nearby device by measuring the distance between a watch and a paired iPhone."
+        }
+      ]
+    },
+    "Implementing Spatial Interactions with Third-Party Accessories": {
+      "title": "Implementing Spatial Interactions with Third-Party Accessories",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/nearbyinteraction/implementing_spatial_interactions_with_third-party_accessories",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/nearbyinteraction/implementing_spatial_interactions_with_third-party_accessories",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Establish a connection with a nearby accessory to receive periodic measurements of its distance from the user."
+        }
+      ]
+    }
+  }
+}

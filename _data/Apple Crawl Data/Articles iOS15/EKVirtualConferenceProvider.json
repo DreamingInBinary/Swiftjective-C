@@ -1,0 +1,12 @@
+{
+  "articles": {
+    "Supporting Universal Links in Your App": {
+      "title": "Supporting Universal Links in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/supporting-universal-links-in-your-app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/xcode/supporting-universal-links-in-your-app"
+    }
+  }
+}

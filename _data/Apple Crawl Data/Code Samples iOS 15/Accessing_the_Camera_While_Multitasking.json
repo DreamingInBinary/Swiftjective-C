@@ -1,0 +1,46 @@
+{
+  "code": {
+    "AVMultiCamPiP: Capturing from Multiple Cameras": {
+      "title": "AVMultiCamPiP: Capturing from Multiple Cameras",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/avmulticampip_capturing_from_multiple_cameras",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/avmulticampip_capturing_from_multiple_cameras",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Simultaneously record the output from the front and back cameras into a single movie file by using a multi-camera capture session."
+        }
+      ]
+    },
+    "AVCam: Building a Camera App": {
+      "title": "AVCam: Building a Camera App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/avcam_building_a_camera_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/avcam_building_a_camera_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Capture photos with depth data and record video using the front and rear iPhone and iPad cameras."
+        }
+      ]
+    },
+    "AVCamBarcode: Detecting Barcodes and Faces": {
+      "title": "AVCamBarcode: Detecting Barcodes and Faces",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/avcambarcode_detecting_barcodes_and_faces",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/avcambarcode_detecting_barcodes_and_faces",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Identify machine readable codes or faces by using the camera."
+        }
+      ]
+    }
+  }
+}

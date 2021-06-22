@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Becoming a Now Playable App": {
+      "title": "Becoming a Now Playable App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mediaplayer/becoming_a_now_playable_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/mediaplayer/becoming_a_now_playable_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure your app is eligible to become the “Now Playing” app by adopting best practices for providing Now Playing Info and registering for Remote Command Center actions."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Building a Custom Catalog and Matching Audio": {
+      "title": "Building a Custom Catalog and Matching Audio",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/shazamkit/building_a_custom_catalog_and_matching_audio",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/shazamkit/building_a_custom_catalog_and_matching_audio",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Display lesson content that’s synchronized to a learning video by matching the audio to a custom reference signature and associated metadata."
+        }
+      ]
+    }
+  }
+}

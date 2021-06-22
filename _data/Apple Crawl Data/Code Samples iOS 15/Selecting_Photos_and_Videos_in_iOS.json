@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Selecting Photos and Videos in iOS": {
+      "title": "Selecting Photos and Videos in iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/selecting_photos_and_videos_in_ios",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/photokit/selecting_photos_and_videos_in_ios",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve the user experience of finding and selecting assets by using the Photos picker."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "articles": {
+    "Supporting Exposure Notifications Express": {
+      "title": "Supporting Exposure Notifications Express",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/supporting_exposure_notifications_express",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/supporting_exposure_notifications_express",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure servers to notify users of potential exposures to COVID-19 without an app."
+        }
+      ]
+    },
+    "Setting Up an Exposure Notifications Express Test Verification Server": {
+      "title": "Setting Up an Exposure Notifications Express Test Verification Server",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/supporting_exposure_notifications_express/setting_up_an_exposure_notifications_express_test_verification_server",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/supporting_exposure_notifications_express/setting_up_an_exposure_notifications_express_test_verification_server",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Validate positive diagnoses for app-less exposure notifications."
+        }
+      ]
+    },
+    "Configuring Exposure Notifications": {
+      "title": "Configuring Exposure Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/configuring_exposure_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/configuring_exposure_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Define how Exposure Notifications work for a region by assigning server-based key-value pairs."
+        }
+      ]
+    },
+    "Changing Configuration Values Using the Server‑to‑Server API": {
+      "title": "Changing Configuration Values Using the Server‑to‑Server API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/changing_configuration_values_using_the_server_to_server_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/changing_configuration_values_using_the_server_to_server_api",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update Exposure Notifications configuration values from a Public Health Authority’s server."
+        }
+      ]
+    },
+    "Setting Up a Key Server": {
+      "title": "Setting Up a Key Server",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/setting_up_a_key_server",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/setting_up_a_key_server",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that your server meets the requirements for supporting Exposure Notifications."
+        }
+      ]
+    },
+    "Configuring a Key Server for Exposure Notifications Express": {
+      "title": "Configuring a Key Server for Exposure Notifications Express",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/supporting_exposure_notifications_express/configuring_a_key_server_for_exposure_notifications_express",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/supporting_exposure_notifications_express/configuring_a_key_server_for_exposure_notifications_express",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Support exposure key upload and download for app-less exposure notifications."
+        }
+      ]
+    },
+    "Testing Exposure Notifications Apps in iOS 13.7 and Later": {
+      "title": "Testing Exposure Notifications Apps in iOS 13.7 and Later",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/testing_exposure_notifications_apps_in_ios_13_7_and_later",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/testing_exposure_notifications_apps_in_ios_13_7_and_later",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Perform end-to-end validation of Exposure Notifications apps on a device by manually loading configuration files."
+        }
+      ]
+    },
+    "Supporting Exposure Notifications in iOS 12.5": {
+      "title": "Supporting Exposure Notifications in iOS 12.5",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/exposurenotification/supporting_exposure_notifications_in_ios_12_5",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/exposurenotification/supporting_exposure_notifications_in_ios_12_5",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Prepare your Exposure Notifications app to run on a previous version of iOS."
+        }
+      ]
+    }
+  }
+}

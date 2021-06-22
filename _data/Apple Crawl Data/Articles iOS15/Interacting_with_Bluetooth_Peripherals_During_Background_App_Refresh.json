@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Using Extended Runtime Sessions": {
+      "title": "Using Extended Runtime Sessions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/using_extended_runtime_sessions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/using_extended_runtime_sessions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create an extended runtime session that continues running your app after the user stops interacting with it."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Classifying Live Audio Input with a Built-in Sound Classifier": {
+      "title": "Classifying Live Audio Input with a Built-in Sound Classifier",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/soundanalysis/classifying_live_audio_input_with_a_built-in_sound_classifier",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/soundanalysis/classifying_live_audio_input_with_a_built-in_sound_classifier",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Detect and identify hundreds of sounds by using a trained classifier."
+        }
+      ]
+    }
+  }
+}

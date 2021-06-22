@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Xcode 13 Beta Release Notes": {
+      "url": "/documentation/Xcode-Release-Notes/xcode-13-beta-release-notes",
+      "kind": "article",
+      "title": "Xcode 13 Beta Release Notes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/xcode-release-notes/xcode-13-beta-release-notes",
+      "abstract": [
+        {
+          "text": "Update your apps to use new features, and test your apps against API changes.",
+          "type": "text"
+        }
+      ],
+      "role": "article"
+    }
+  }
+}

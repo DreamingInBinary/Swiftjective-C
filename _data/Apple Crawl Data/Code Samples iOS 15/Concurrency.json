@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Updating an App to Use Swift Concurrency": {
+      "title": "Updating an App to Use Swift Concurrency",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swift/swift_standard_library/concurrency/updating_an_app_to_use_swift_concurrency",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swift/swift_standard_library/concurrency/updating_an_app_to_use_swift_concurrency",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Improve your app’s performance by refactoring your code to take advantage of asynchronous functions in Swift."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "App Structure and Behavior": {
+      "title": "App Structure and Behavior",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/app-structure-and-behavior",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/swiftui/app-structure-and-behavior",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Define the entry point and top-level organization of your app."
+        }
+      ]
+    }
+  }
+}

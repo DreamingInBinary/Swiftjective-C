@@ -1,0 +1,466 @@
+{
+  "code": {
+    "Selecting Device Objects for Graphics Rendering": {
+      "title": "Selecting Device Objects for Graphics Rendering",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/selecting_device_objects_for_graphics_rendering",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/gpu_selection_in_macos/selecting_device_objects_for_graphics_rendering"
+    },
+    "Selecting Device Objects for Compute Processing": {
+      "title": "Selecting Device Objects for Compute Processing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/gpu_selection_in_macos/selecting_device_objects_for_compute_processing",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/gpu_selection_in_macos/selecting_device_objects_for_compute_processing"
+    },
+    "Synchronizing CPU and GPU Work": {
+      "title": "Synchronizing CPU and GPU Work",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronization/synchronizing_cpu_and_gpu_work",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/synchronization/synchronizing_cpu_and_gpu_work"
+    },
+    "Performing Calculations on a GPU": {
+      "title": "Performing Calculations on a GPU",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/basic_tasks_and_concepts/performing_calculations_on_a_gpu",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/basic_tasks_and_concepts/performing_calculations_on_a_gpu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use Metal to find GPUs and perform calculations on them."
+        }
+      ]
+    },
+    "Using a Render Pipeline to Render Primitives": {
+      "title": "Using a Render Pipeline to Render Primitives",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/using_a_render_pipeline_to_render_primitives",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/using_a_render_pipeline_to_render_primitives"
+    },
+    "Using Metal to Draw a View’s Contents": {
+      "title": "Using Metal to Draw a View’s Contents",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/basic_tasks_and_concepts/using_metal_to_draw_a_view_s_contents",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/basic_tasks_and_concepts/using_metal_to_draw_a_view_s_contents"
+    },
+    "Creating and Sampling Textures": {
+      "title": "Creating and Sampling Textures",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/creating_and_sampling_textures",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/creating_and_sampling_textures",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Load image data into a texture and apply it to a quadrangle."
+        }
+      ]
+    },
+    "Using Function Specialization to Build Pipeline Variants": {
+      "title": "Using Function Specialization to Build Pipeline Variants",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/using_function_specialization_to_build_pipeline_variants",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/using_function_specialization_to_build_pipeline_variants",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create pipelines for different levels of detail from a common shader source."
+        }
+      ]
+    },
+    "Rendering a Scene with Forward Plus Lighting Using Tile Shaders": {
+      "title": "Rendering a Scene with Forward Plus Lighting Using Tile Shaders",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_a_scene_with_forward_plus_lighting_using_tile_shaders",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_a_scene_with_forward_plus_lighting_using_tile_shaders",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement a forward plus renderer using the latest features on Apple GPUs."
+        }
+      ]
+    },
+    "Rendering a Scene with Deferred Lighting in Objective-C": {
+      "title": "Rendering a Scene with Deferred Lighting in Objective-C",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_a_scene_with_deferred_lighting_in_objective-c",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_a_scene_with_deferred_lighting_in_objective-c",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Avoid expensive lighting calculations by implementing a deferred lighting renderer optimized for immediate mode and tile-based deferred renderer GPUs."
+        }
+      ]
+    },
+    "Rendering a Scene with Deferred Lighting in Swift": {
+      "title": "Rendering a Scene with Deferred Lighting in Swift",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_a_scene_with_deferred_lighting_in_swift",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_a_scene_with_deferred_lighting_in_swift",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Avoid expensive lighting calculations by implementing a deferred lighting renderer optimized for immediate mode and tile-based deferred renderer GPUs."
+        }
+      ]
+    },
+    "Rendering a Scene with Deferred Lighting in C++": {
+      "title": "Rendering a Scene with Deferred Lighting in C++",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_a_scene_with_deferred_lighting_in_c",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_a_scene_with_deferred_lighting_in_c",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Avoid expensive lighting calculations by implementing a deferred lighting renderer optimized for immediate mode and tile-based deferred renderer GPUs."
+        }
+      ]
+    },
+    "Rendering Reflections with Fewer Render Passes": {
+      "title": "Rendering Reflections with Fewer Render Passes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_reflections_with_fewer_render_passes",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_reflections_with_fewer_render_passes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use layer selection to reduce the number of render passes needed to generate an environment map."
+        }
+      ]
+    },
+    "Rendering Terrain Dynamically with Argument Buffers": {
+      "title": "Rendering Terrain Dynamically with Argument Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_terrain_dynamically_with_argument_buffers",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_terrain_dynamically_with_argument_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use argument buffers to render terrain in real time with a GPU-driven pipeline."
+        }
+      ]
+    },
+    "Managing Groups of Resources with Argument Buffers": {
+      "title": "Managing Groups of Resources with Argument Buffers",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/buffers/managing_groups_of_resources_with_argument_buffers",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/buffers/managing_groups_of_resources_with_argument_buffers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create argument buffers to organize related resources."
+        }
+      ]
+    },
+    "Using Argument Buffers with Resource Heaps": {
+      "title": "Using Argument Buffers with Resource Heaps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/buffers/using_argument_buffers_with_resource_heaps",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/buffers/using_argument_buffers_with_resource_heaps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Reduce CPU overhead by using arrays inside argument buffers and combining them with resource heaps."
+        }
+      ]
+    },
+    "Encoding Argument Buffers on the GPU": {
+      "title": "Encoding Argument Buffers on the GPU",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/buffers/encoding_argument_buffers_on_the_gpu",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/buffers/encoding_argument_buffers_on_the_gpu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use a compute pass to encode an argument buffer and access its arguments in a subsequent render pass."
+        }
+      ]
+    },
+    "Capturing Metal Commands Programmatically": {
+      "title": "Capturing Metal Commands Programmatically",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/frame_capture_debugging_tools/capturing_metal_commands_programmatically",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/frame_capture_debugging_tools/capturing_metal_commands_programmatically",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Invoke Metal’s frame capture from your app, then save the resulting GPU trace to a file or view it in Xcode."
+        }
+      ]
+    },
+    "Calculating Primitive Visibility Using Depth Testing": {
+      "title": "Calculating Primitive Visibility Using Depth Testing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/calculating_primitive_visibility_using_depth_testing",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/calculating_primitive_visibility_using_depth_testing",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Determine which pixels are visible in a scene by using a depth texture."
+        }
+      ]
+    },
+    "Customizing Render Pass Setup": {
+      "title": "Customizing Render Pass Setup",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/customizing_render_pass_setup",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/customizing_render_pass_setup",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Render into an offscreen texture by creating a custom render pass."
+        }
+      ]
+    },
+    "Creating a Metal Dynamic Library": {
+      "title": "Creating a Metal Dynamic Library",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/libraries/creating_a_metal_dynamic_library",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/libraries/creating_a_metal_dynamic_library",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Compile a library of shaders and write it to a file as a dynamically linked library."
+        }
+      ]
+    },
+    "Supporting Simulator in a Metal App": {
+      "title": "Supporting Simulator in a Metal App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/supporting_simulator_in_a_metal_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/supporting_simulator_in_a_metal_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Modify Metal Apps to Run in Simulator."
+        }
+      ]
+    },
+    "Encoding Indirect Command Buffers on the GPU": {
+      "title": "Encoding Indirect Command Buffers on the GPU",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/indirect_command_buffers/encoding_indirect_command_buffers_on_the_gpu",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/indirect_command_buffers/encoding_indirect_command_buffers_on_the_gpu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Maximize CPU to GPU parallelization by generating render commands on the GPU."
+        }
+      ]
+    },
+    "Encoding Indirect Command Buffers on the CPU": {
+      "title": "Encoding Indirect Command Buffers on the CPU",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/indirect_command_buffers/encoding_indirect_command_buffers_on_the_cpu",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/indirect_command_buffers/encoding_indirect_command_buffers_on_the_cpu",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Reduce CPU overhead and simplify your command execution by reusing commands."
+        }
+      ]
+    },
+    "Implementing a Multistage Image Filter Using Heaps and Fences": {
+      "title": "Implementing a Multistage Image Filter Using Heaps and Fences",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/heaps/implementing_a_multistage_image_filter_using_heaps_and_fences",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/heaps/implementing_a_multistage_image_filter_using_heaps_and_fences"
+    },
+    "Mixing Metal and OpenGL Rendering in a View": {
+      "title": "Mixing Metal and OpenGL Rendering in a View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/mixing_metal_and_opengl_rendering_in_a_view",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/mixing_metal_and_opengl_rendering_in_a_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Draw with Metal and OpenGL in the same view using an interoperable texture."
+        }
+      ]
+    },
+    "Modern Rendering with Metal": {
+      "title": "Modern Rendering with Metal",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/modern_rendering_with_metal",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/modern_rendering_with_metal",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use advanced Metal features such as Indirect Command Buffers, Sparse Textures, and Variable Rate Rasterization to implement modern rendering algorithms."
+        }
+      ]
+    },
+    "Processing HDR Images with Metal": {
+      "title": "Processing HDR Images with Metal",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/processing_hdr_images_with_metal",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/processing_hdr_images_with_metal",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement a post-processing pipeline using the latest features on Apple GPUs."
+        }
+      ]
+    },
+    "Migrating OpenGL Code to Metal": {
+      "title": "Migrating OpenGL Code to Metal",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/migrating_opengl_code_to_metal",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/migrating_opengl_code_to_metal",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Replace your app’s deprecated OpenGL code with Metal."
+        }
+      ]
+    },
+    "Implementing a Multistage Image Filter Using Heaps and Events": {
+      "title": "Implementing a Multistage Image Filter Using Heaps and Events",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/synchronization/implementing_a_multistage_image_filter_using_heaps_and_events",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/synchronization/implementing_a_multistage_image_filter_using_heaps_and_events"
+    },
+    "Transferring Data with Infinity Fabric Link": {
+      "title": "Transferring Data with Infinity Fabric Link",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/transferring_data_between_connected_gpus/transferring_data_with_infinity_fabric_link",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/transferring_data_between_connected_gpus/transferring_data_with_infinity_fabric_link",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Efficiently execute and visualize a compute-intensive simulation using multiple GPUs with a peer-to-peer connection."
+        }
+      ]
+    },
+    "Processing a Texture in a Compute Function": {
+      "title": "Processing a Texture in a Compute Function",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/processing_a_texture_in_a_compute_function",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/processing_a_texture_in_a_compute_function",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Perform parallel calculations on structured data by placing the data in textures."
+        }
+      ]
+    },
+    "Accelerating Ray Tracing Using Metal": {
+      "title": "Accelerating Ray Tracing Using Metal",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/accelerating_ray_tracing_using_metal",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/accelerating_ray_tracing_using_metal",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement ray-traced rendering using GPU-based parallel processing."
+        }
+      ]
+    },
+    "Control the Ray Tracing Process Using Intersection Queries": {
+      "title": "Control the Ray Tracing Process Using Intersection Queries",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/control_the_ray_tracing_process_using_intersection_queries",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/control_the_ray_tracing_process_using_intersection_queries",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Explicitly enumerate a ray’s intersections with acceleration structures by creating an intersection query object."
+        }
+      ]
+    },
+    "Rendering Reflections in Real Time Using Ray-Tracing": {
+      "title": "Rendering Reflections in Real Time Using Ray-Tracing",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/rendering_reflections_in_real_time_using_ray-tracing",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/rendering_reflections_in_real_time_using_ray-tracing",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Render realistic real-time lighting by dynamically generating reflection maps using a ray-tracing compute pass."
+        }
+      ]
+    },
+    "Creating a Custom Metal View": {
+      "title": "Creating a Custom Metal View",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metal/drawable_objects/creating_a_custom_metal_view",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/metal/drawable_objects/creating_a_custom_metal_view",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Implement a lightweight view for Metal rendering that’s customized to your app’s needs."
+        }
+      ]
+    }
+  }
+}

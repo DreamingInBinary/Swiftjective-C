@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Offering, Completing, and Restoring In-App Purchases": {
+      "title": "Offering, Completing, and Restoring In-App Purchases",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/storekit/original_api_for_in-app_purchase/offering_completing_and_restoring_in-app_purchases",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/storekit/original_api_for_in-app_purchase/offering_completing_and_restoring_in-app_purchases",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Fetch, complete, and restore transactions in your app."
+        }
+      ]
+    }
+  }
+}

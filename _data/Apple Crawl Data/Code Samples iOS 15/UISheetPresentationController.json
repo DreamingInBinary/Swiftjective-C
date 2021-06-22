@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Disabling the Pull-Down Gesture for a Sheet": {
+      "title": "Disabling the Pull-Down Gesture for a Sheet",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/view_controllers/disabling_the_pull-down_gesture_for_a_sheet",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/view_controllers/disabling_the_pull-down_gesture_for_a_sheet",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure a positive user experience when presenting a view controller as a sheet."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "articles": {
+    "Debugging Widgets": {
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Set environment variables in Xcode to control your widget’s configuration in",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "the debugger.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "role": "article",
+      "title": "Debugging Widgets",
+      "url": "/documentation/widgetkit/debugging-widgets",
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Debugging-Widgets"
+    },
+    "Defining Relevant Shortcuts for the Siri Watch Face": {
+      "type": "topic",
+      "kind": "article",
+      "title": "Defining Relevant Shortcuts for the Siri Watch Face",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/relevant_shortcuts_for_the_siri_watch_face/defining_relevant_shortcuts_for_your_app",
+      "role": "article",
+      "url": "/documentation/sirikit/watch_and_widget_support/defining_relevant_shortcuts_for_the_siri_watch_face",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Inform Siri when your app’s shortcuts may be useful to the user."
+        }
+      ]
+    },
+    "Accessing Location Information in Widgets": {
+      "identifier": "doc://com.apple.WidgetKit/documentation/WidgetKit/Accessing-Location-Information-in-Widgets",
+      "type": "topic",
+      "title": "Accessing Location Information in Widgets",
+      "role": "article",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Incorporate location information into your widget presentation to make it",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "more relevant and contextual.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/widgetkit/accessing-location-information-in-widgets"
+    },
+    "Donating Shortcuts": {
+      "role": "article",
+      "title": "Donating Shortcuts",
+      "kind": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/donating_shortcuts",
+      "url": "/documentation/sirikit/donating_shortcuts",
+      "abstract": [
+        {
+          "text": "Tell Siri about shortcuts to actions that the user performed in your app.",
+          "type": "text"
+        }
+      ]
+    }
+  }
+}

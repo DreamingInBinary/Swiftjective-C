@@ -1,0 +1,12 @@
+{
+  "articles": {
+    "Choosing a User Interface Idiom for Your Mac App": {
+      "title": "Choosing a User Interface Idiom for Your Mac App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/uikit/mac_catalyst/choosing_a_user_interface_idiom_for_your_mac_app"
+    }
+  }
+}

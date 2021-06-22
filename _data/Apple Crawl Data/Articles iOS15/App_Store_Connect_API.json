@@ -1,0 +1,138 @@
+{
+  "articles": {
+    "Creating API Keys for App Store Connect API": {
+      "title": "Creating API Keys for App Store Connect API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create API keys you use to sign JWTs and authorize API requests."
+        }
+      ]
+    },
+    "Revoking API Keys": {
+      "title": "Revoking API Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/revoking_api_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/revoking_api_keys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Revoke unused, lost, or compromised private keys."
+        }
+      ]
+    },
+    "Generating Tokens for API Requests": {
+      "title": "Generating Tokens for API Requests",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/generating_tokens_for_api_requests",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/generating_tokens_for_api_requests",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create JSON Web Tokens signed with your private key to authorize API requests."
+        }
+      ]
+    },
+    "Identifying Rate Limits": {
+      "title": "Identifying Rate Limits",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/identifying_rate_limits",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/identifying_rate_limits",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Recognize the rate limits that REST API responses provide and handle them in your code."
+        }
+      ]
+    },
+    "About the HTTP Status Code": {
+      "title": "About the HTTP Status Code",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/interpreting_and_handling_errors/about_the_http_status_code",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/interpreting_and_handling_errors/about_the_http_status_code",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how the status code helps you determine if an App Store Connect  API request succeeded or why it failed."
+        }
+      ]
+    },
+    "Interpreting and Handling Errors": {
+      "title": "Interpreting and Handling Errors",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/interpreting_and_handling_errors",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/interpreting_and_handling_errors",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how the App Store Connect API returns errors and handle them in your code."
+        }
+      ]
+    },
+    "Parsing the Error Response Code": {
+      "title": "Parsing the Error Response Code",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/interpreting_and_handling_errors/parsing_the_error_response_code",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/interpreting_and_handling_errors/parsing_the_error_response_code",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Interpret the error details to troubleshoot API requests and perform programmatic error handling."
+        }
+      ]
+    },
+    "Pinpointing the Location of Errors": {
+      "title": "Pinpointing the Location of Errors",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/interpreting_and_handling_errors/pinpointing_the_location_of_errors",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/interpreting_and_handling_errors/pinpointing_the_location_of_errors",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Locate the specific source of the error."
+        }
+      ]
+    },
+    "Uploading Assets to App Store Connect": {
+      "title": "Uploading Assets to App Store Connect",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/uploading_assets_to_app_store_connect",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/uploading_assets_to_app_store_connect",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Upload screenshots, app previews, attachments for App Review, and routing app coverage files to App Store Connect."
+        }
+      ]
+    },
+    "Improving Your App's Performance": {
+      "title": "Improving Your App's Performance",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/metrickit/improving_your_app_s_performance",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/metrickit/improving_your_app_s_performance"
+    }
+  }
+}

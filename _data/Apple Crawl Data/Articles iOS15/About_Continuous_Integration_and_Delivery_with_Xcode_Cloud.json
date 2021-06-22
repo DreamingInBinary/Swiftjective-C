@@ -1,0 +1,88 @@
+{
+  "articles": {
+    "Organizing and Tracking Code Changes with Source Control": {
+      "url": "/documentation/Xcode/organizing-and-tracking-code-changes-with-source-control",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/organizing_and_tracking_code_changes_with_source_control",
+      "abstract": [
+        {
+          "text": "Manage and document source code changes with Xcode’s support for Git.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "title": "Organizing and Tracking Code Changes with Source Control",
+      "role": "article",
+      "kind": "article"
+    },
+    "Configuring Your First Xcode Cloud Workflow": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your project or workspace to use Xcode Cloud and adopt continuous integration and delivery."
+        }
+      ],
+      "title": "Configuring Your First Xcode Cloud Workflow",
+      "role": "article",
+      "url": "/documentation/xcode/configuring-your-first-xcode-cloud-workflow",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Configuring-Your-First-Xcode-Cloud-Workflow",
+      "type": "topic",
+      "kind": "article"
+    },
+    "Adding Unit Tests to Your Existing Project": {
+      "role": "article",
+      "url": "/documentation/Xcode/adding-unit-tests-to-your-existing-project",
+      "title": "Adding Unit Tests to Your Existing Project",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/adding-unit-tests-to-your-existing-project",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Remove coupling between components to increase test coverage and reliability.",
+          "type": "text"
+        }
+      ],
+      "type": "topic"
+    },
+    "Testing Your Apps in Xcode": {
+      "role": "article",
+      "url": "/documentation/Xcode/testing-your-apps-in-xcode",
+      "title": "Testing Your Apps in Xcode",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/testing-your-apps-in-xcode",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Detect logic failures, UI problems, and performance regressions with XCTest.",
+          "type": "text"
+        }
+      ],
+      "type": "topic"
+    },
+    "Coordinating and Syncing Code Changes": {
+      "role": "article",
+      "url": "/documentation/Xcode/coordinating-and-syncing-code-changes",
+      "title": "Coordinating and Syncing Code Changes",
+      "identifier": "doc://com.apple.documentation/documentation/xcode/coordinating_and_syncing_code_changes",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Sync code changes between team members and development computers with Xcode’s support for Git.",
+          "type": "text"
+        }
+      ],
+      "type": "topic"
+    },
+    "Requirements for Using Xcode Cloud": {
+      "url": "/documentation/xcode/requirements-for-using-xcode-cloud",
+      "kind": "article",
+      "title": "Requirements for Using Xcode Cloud",
+      "type": "topic",
+      "role": "article",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Requirements-for-Using-Xcode-Cloud",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Review account, project, and source control requirements before configuring your project or workspace to use Xcode Cloud."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "articles": {
+    "Notarizing macOS Software Before Distribution": {
+      "title": "Notarizing macOS Software Before Distribution",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/notarizing_macos_software_before_distribution",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/notarizing_macos_software_before_distribution"
+    },
+    "Customizing the Xcode Archive Process": {
+      "title": "Customizing the Xcode Archive Process",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Archive, export, and notarize your app in one step using Xcode post-action build scripts. "
+        }
+      ]
+    },
+    "Notarizing Apps from the Command Line with Xcode 12 and Earlier": {
+      "title": "Notarizing Apps from the Command Line with Xcode 12 and Earlier",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/notarizing_apps_from_the_command_line_with_xcode_12_and_earlier",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/notarizing_apps_from_the_command_line_with_xcode_12_and_earlier",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Upload your app to the Notary service and check the status of the notarization using an older version of Xcode."
+        }
+      ]
+    },
+    "Resolving Common Notarization Issues": {
+      "title": "Resolving Common Notarization Issues",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/notarizing_macos_software_before_distribution/resolving_common_notarization_issues",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/notarizing_macos_software_before_distribution/resolving_common_notarization_issues",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Handle common problems reported in the notarization log file, or that arise during ticket stapling."
+        }
+      ]
+    },
+    "Customizing the Notarization Workflow": {
+      "title": "Customizing the Notarization Workflow",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Notarize your app from the command line to handle special distribution cases."
+        }
+      ]
+    }
+  }
+}
