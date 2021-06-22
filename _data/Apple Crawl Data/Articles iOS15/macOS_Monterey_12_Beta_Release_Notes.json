@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "AppKit Release Notes for macOS Monterey 12 Beta": {
+      "role": "article",
+      "identifier": "doc://com.apple.macOS-Release-Notes/documentation/macOS-Release-Notes/appkit-release-notes-for-macos-12",
+      "kind": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "title": "AppKit Release Notes for macOS Monterey 12 Beta",
+      "url": "/documentation/macos-release-notes/appkit-release-notes-for-macos-12"
+    },
+    "Xcode 13 Beta Release Notes": {
+      "identifier": "doc://com.apple.documentation/documentation/xcode-release-notes/xcode-13-beta-release-notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Update your apps to use new features, and test your apps against API changes."
+        }
+      ],
+      "type": "topic",
+      "kind": "article",
+      "title": "Xcode 13 Beta Release Notes",
+      "url": "/documentation/Xcode-Release-Notes/xcode-13-beta-release-notes",
+      "role": "article"
+    }
+  }
+}

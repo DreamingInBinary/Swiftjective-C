@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "Accessing Health Records": {
+      "title": "Accessing Health Records",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_health_records",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/samples/accessing_health_records",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Read clinical record data from the HealthKit store."
+        }
+      ]
+    },
+    "Accessing Sample Data in the Simulator": {
+      "title": "Accessing Sample Data in the Simulator",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_sample_data_in_the_simulator",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/healthkit/samples/accessing_sample_data_in_the_simulator",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up sample accounts to build and test your app."
+        }
+      ]
+    }
+  }
+}

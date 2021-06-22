@@ -1,0 +1,46 @@
+{
+  "code": {
+    "SlothCreator: Building DocC Documentation in Xcode": {
+      "identifier": "doc://com.apple.documentation/xcode/slothcreator_building_docc_documentation_in_xcode",
+      "url": "/documentation/xcode/slothcreator_building_docc_documentation_in_xcode",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build DocC documentation for a Swift package that contains a DocC Catalog."
+        }
+      ],
+      "title": "SlothCreator: Building DocC Documentation in Xcode",
+      "role": "sampleCode",
+      "kind": "article"
+    },
+    "Bring an iPad App to the Mac with Mac Catalyst": {
+      "type": "topic",
+      "role": "overview",
+      "abstract": [
+        {
+          "text": "Build a native Mac app from the same codebase as your iPad app.",
+          "type": "text"
+        }
+      ],
+      "url": "/tutorials/Mac-Catalyst",
+      "identifier": "doc://com.apple.documentation/tutorials/Mac-Catalyst",
+      "kind": "overview",
+      "title": "Bring an iPad App to the Mac with Mac Catalyst"
+    },
+    "Introducing SwiftUI": {
+      "kind": "overview",
+      "role": "overview",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before."
+        }
+      ],
+      "title": "Introducing SwiftUI",
+      "url": "/tutorials/SwiftUI",
+      "identifier": "doc://com.apple.documentation/tutorials/SwiftUI",
+      "type": "topic"
+    }
+  }
+}

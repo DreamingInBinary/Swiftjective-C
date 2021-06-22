@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Taking Pictures for 3D Object Capture": {
+      "title": "Taking Pictures for 3D Object Capture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/taking_pictures_for_3d_object_capture",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/realitykit/taking_pictures_for_3d_object_capture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Capture high-quality images with depth and gravity data to use with RealityKit Object Capture."
+        }
+      ]
+    },
+    "Creating a Photogrammetry Command-Line App": {
+      "title": "Creating a Photogrammetry Command-Line App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/creating_a_photogrammetry_command-line_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/realitykit/creating_a_photogrammetry_command-line_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Generate 3D objects from images using RealityKit Object Capture."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Browsing and Modifying Photo Albums": {
+      "title": "Browsing and Modifying Photo Albums",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/browsing_and_modifying_photo_albums",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/photokit/browsing_and_modifying_photo_albums",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Help users organize their photos into albums and browse photo collections in a grid-based layout using PhotoKit."
+        }
+      ]
+    }
+  }
+}

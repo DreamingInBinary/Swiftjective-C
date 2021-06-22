@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Representing Chart Data as an Audio Graph": {
+      "title": "Representing Chart Data as an Audio Graph",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/accessibility/audio_graphs/representing_chart_data_as_an_audio_graph",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/accessibility/audio_graphs/representing_chart_data_as_an_audio_graph",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Define accessible representations of your chart's components for VoiceOver to construct an audible representation of the data."
+        }
+      ]
+    }
+  }
+}

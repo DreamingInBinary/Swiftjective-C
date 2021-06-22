@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "Supporting Platform Authentication Using iCloud Keychain": {
+      "title": "Supporting Platform Authentication Using iCloud Keychain",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/public-private_key_authentication/supporting_platform_authentication_using_icloud_keychain",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/authenticationservices/public-private_key_authentication/supporting_platform_authentication_using_icloud_keychain",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Eliminate passwords for your users when they sign in to apps and websites."
+        }
+      ]
+    },
+    "Supporting Security Key Authentication Using Physical Keys": {
+      "title": "Supporting Security Key Authentication Using Physical Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/public-private_key_authentication/supporting_security_key_authentication_using_physical_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/authenticationservices/public-private_key_authentication/supporting_security_key_authentication_using_physical_keys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to authenticate using NFC, USB, and Lightning security keys in your app or service."
+        }
+      ]
+    }
+  }
+}

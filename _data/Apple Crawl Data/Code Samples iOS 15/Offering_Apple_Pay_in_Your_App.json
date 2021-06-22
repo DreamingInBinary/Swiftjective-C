@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Offering Apple Pay in Your App": {
+      "title": "Offering Apple Pay in Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/passkit/apple_pay/offering_apple_pay_in_your_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/passkit/apple_pay/offering_apple_pay_in_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Collect payments with iPhone and Apple Watch using Apple Pay."
+        }
+      ]
+    }
+  }
+}

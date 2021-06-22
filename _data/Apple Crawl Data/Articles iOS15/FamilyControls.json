@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Adding Capabilities to Your App": {
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add capabilities to configure app services from Apple, such as push notifications, or Apple Pay."
+        }
+      ],
+      "identifier": "doc://com.apple.documentation/documentation/xcode/adding-capabilities-to-your-app/",
+      "kind": "article",
+      "url": "/documentation/Xcode/adding-capabilities-to-your-app",
+      "title": "Adding Capabilities to Your App",
+      "type": "topic"
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "articles": {
+    "Asking Permission to Use Notifications": {
+      "title": "Asking Permission to Use Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/asking_permission_to_use_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/asking_permission_to_use_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request permission to display alerts, play sounds, or badge the app’s icon in response to a notification."
+        }
+      ]
+    },
+    "Setting Up a Remote Notification Server": {
+      "title": "Setting Up a Remote Notification Server",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Generate notifications and push them to user devices."
+        }
+      ]
+    },
+    "Registering Your App with APNs": {
+      "title": "Registering Your App with APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/registering_your_app_with_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/registering_your_app_with_apns",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Communicate with Apple Push Notification service (APNs) and receive a unique device token that identifies your app."
+        }
+      ]
+    },
+    "Sending Notification Requests to APNs": {
+      "title": "Sending Notification Requests to APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Transmit your remote notification payload and device token information to Apple Push Notification service (APNs)."
+        }
+      ]
+    },
+    "Establishing a Token-Based Connection to APNs": {
+      "title": "Establishing a Token-Based Connection to APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Secure your communications with Apple Push Notification service (APNs) by using stateless authentication tokens. "
+        }
+      ]
+    },
+    "Establishing a Certificate-Based Connection to APNs": {
+      "title": "Establishing a Certificate-Based Connection to APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Secure your communications with Apple Push Notification service (APNs) by installing a certificate on your provider server. "
+        }
+      ]
+    },
+    "Generating a Remote Notification": {
+      "title": "Generating a Remote Notification",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/generating_a_remote_notification",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/generating_a_remote_notification",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Send notifications to the user’s device with a JSON payload."
+        }
+      ]
+    },
+    "Pushing Background Updates to Your App": {
+      "title": "Pushing Background Updates to Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Deliver notifications that wake your app and update it in the background."
+        }
+      ]
+    },
+    "Handling Notifications and Notification-Related Actions": {
+      "title": "Handling Notifications and Notification-Related Actions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/handling_notifications_and_notification-related_actions",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/handling_notifications_and_notification-related_actions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Respond to user interactions with the system’s notification interfaces, including handling your app’s custom actions."
+        }
+      ]
+    },
+    "Scheduling a Notification Locally from Your App": {
+      "title": "Scheduling a Notification Locally from Your App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/scheduling_a_notification_locally_from_your_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/scheduling_a_notification_locally_from_your_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create and schedule notifications from your app when you want to get the user’s attention."
+        }
+      ]
+    },
+    "Declaring Your Actionable Notification Types": {
+      "title": "Declaring Your Actionable Notification Types",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/declaring_your_actionable_notification_types",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/declaring_your_actionable_notification_types",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Differentiate your notifications and add action buttons to the notification interface."
+        }
+      ]
+    },
+    "Modifying Content in Newly Delivered Notifications": {
+      "title": "Modifying Content in Newly Delivered Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/modifying_content_in_newly_delivered_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/modifying_content_in_newly_delivered_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Modify the payload of a remote notification before it’s displayed on the user’s iOS device."
+        }
+      ]
+    },
+    "Customizing the Appearance of Notifications": {
+      "title": "Customizing the Appearance of Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotificationsui/customizing_the_appearance_of_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotificationsui/customizing_the_appearance_of_notifications"
+    },
+    "Handling Notification Responses from APNs": {
+      "title": "Handling Notification Responses from APNs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/setting_up_a_remote_notification_server/handling_notification_responses_from_apns",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/setting_up_a_remote_notification_server/handling_notification_responses_from_apns",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Respond to the status codes that the APNs servers return."
+        }
+      ]
+    },
+    "Responding to VoIP Notifications from PushKit": {
+      "title": "Responding to VoIP Notifications from PushKit",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/pushkit/responding_to_voip_notifications_from_pushkit",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/pushkit/responding_to_voip_notifications_from_pushkit"
+    },
+    "Keeping Your Complications Up to Date": {
+      "title": "Keeping Your Complications Up to Date",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/clockkit/keeping_your_complications_up_to_date",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/clockkit/keeping_your_complications_up_to_date"
+    },
+    "Using Push Notifications to Signal Changes": {
+      "title": "Using Push Notifications to Signal Changes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/using_push_notifications_to_signal_changes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/fileprovider/content_and_change_tracking/tracking_your_file_provider_s_changes/using_push_notifications_to_signal_changes"
+    },
+    "Sending Push Notifications Using Command-Line Tools": {
+      "title": "Sending Push Notifications Using Command-Line Tools",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/usernotifications/sending_push_notifications_using_command-line_tools",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/usernotifications/sending_push_notifications_using_command-line_tools",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use basic macOS command-line tools to send push notifications to Apple Push Notification service (APNs)."
+        }
+      ]
+    }
+  }
+}

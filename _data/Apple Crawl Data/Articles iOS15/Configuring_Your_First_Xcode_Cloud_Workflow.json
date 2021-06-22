@@ -1,0 +1,102 @@
+{
+  "articles": {
+    "Writing Custom Build Scripts": {
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Writing-Custom-Build-Scripts",
+      "kind": "article",
+      "title": "Writing Custom Build Scripts",
+      "role": "article",
+      "url": "/documentation/xcode/writing-custom-build-scripts",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Extend your Xcode Cloud workflows with custom build scripts that perform custom tasks or install additional tools.",
+          "type": "text"
+        }
+      ]
+    },
+    "Removing Your Project from Xcode Cloud": {
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Removing-Your-Project-from-Xcode-Cloud",
+      "abstract": [
+        {
+          "text": "Remove your project from Xcode Cloud to delete app and workflow data, disconnect your Git repository, and remove the Slack integration.",
+          "type": "text"
+        }
+      ],
+      "title": "Removing Your Project from Xcode Cloud",
+      "role": "article",
+      "type": "topic",
+      "url": "/documentation/xcode/removing-your-project-from-xcode-cloud",
+      "kind": "article"
+    },
+    "Developing a Workflow Strategy for Xcode Cloud": {
+      "title": "Developing a Workflow Strategy for Xcode Cloud",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Developing-a-Workflow-Strategy-for-Xcode-Cloud",
+      "kind": "article",
+      "role": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Review how you can best create custom Xcode Cloud workflows to refine your continuous integration and delivery practice.",
+          "type": "text"
+        }
+      ],
+      "url": "/documentation/xcode/developing-a-workflow-strategy-for-xcode-cloud"
+    },
+    "Organizing Your Code with Local Packages": {
+      "kind": "article",
+      "role": "article",
+      "type": "topic",
+      "url": "/documentation/swift_packages/organizing_your_code_with_local_packages",
+      "title": "Organizing Your Code with Local Packages",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Simplify maintenance, promote modularity, and encourage reuse by organizing your app’s code into local Swift packages."
+        }
+      ],
+      "identifier": "doc://com.apple.documentation/documentation/swift_packages/organizing_your_code_with_local_packages"
+    },
+    "Resolving Common Configuration and Build Issues": {
+      "url": "/documentation/xcode/resolving-common-configuration-and-build-issues",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Resolving-Common-Configuration-and-Build-Issues",
+      "abstract": [
+        {
+          "text": "Review common configuration and build issues and learn how you can resolve them.",
+          "type": "text"
+        }
+      ],
+      "title": "Resolving Common Configuration and Build Issues",
+      "type": "topic",
+      "kind": "article",
+      "role": "article"
+    },
+    "Configuring Xcode Cloud for Your Team": {
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Configuring-Xcode-Cloud-for-Your-Team",
+      "abstract": [
+        {
+          "text": "Start using continuous integration and delivery with Xcode Cloud as a team.",
+          "type": "text"
+        }
+      ],
+      "role": "article",
+      "title": "Configuring Xcode Cloud for Your Team",
+      "type": "topic",
+      "url": "/documentation/xcode/configuring-xcode-cloud-for-your-team",
+      "kind": "article"
+    },
+    "Making Dependencies Available to Xcode Cloud": {
+      "abstract": [
+        {
+          "text": "Review dependencies and make them available to Xcode Cloud before you configure your project to use Xcode Cloud.",
+          "type": "text"
+        }
+      ],
+      "title": "Making Dependencies Available to Xcode Cloud",
+      "role": "article",
+      "url": "/documentation/xcode/making-dependencies-available-to-xcode-cloud",
+      "identifier": "doc://com.apple.Xcode/documentation/Xcode/Making-Dependencies-Available-to-Xcode-Cloud",
+      "type": "topic",
+      "kind": "article"
+    }
+  }
+}

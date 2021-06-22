@@ -1,0 +1,46 @@
+{
+  "code": {
+    "Providing Hands-Free App Control with Intents": {
+      "title": "Providing Hands-Free App Control with Intents",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/providing_hands-free_app_control_with_intents",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/sirikit/providing_hands-free_app_control_with_intents",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Resolve, confirm, and handle intents without an extension."
+        }
+      ]
+    },
+    "Soup Chef: Accelerating App Interactions with Shortcuts": {
+      "title": "Soup Chef: Accelerating App Interactions with Shortcuts",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/soup_chef_accelerating_app_interactions_with_shortcuts",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/sirikit/soup_chef_accelerating_app_interactions_with_shortcuts",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make it easy for people to use Siri with your app by providing shortcuts to your app’s actions."
+        }
+      ]
+    },
+    "Adding Shortcuts for Wind Down": {
+      "title": "Adding Shortcuts for Wind Down",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/sirikit/adding_shortcuts_for_wind_down",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/sirikit/adding_shortcuts_for_wind_down",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Reveal your app’s shortcuts inside the Health app."
+        }
+      ]
+    }
+  }
+}

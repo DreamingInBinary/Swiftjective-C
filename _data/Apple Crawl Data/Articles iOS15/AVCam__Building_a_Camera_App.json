@@ -1,0 +1,72 @@
+{
+  "articles": {
+    "Setting Up a Capture Session": {
+      "title": "Setting Up a Capture Session",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/setting_up_a_capture_session",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/setting_up_a_capture_session",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure input devices, output media, preview views, and basic settings before capturing photos or video."
+        }
+      ]
+    },
+    "Requesting Authorization for Media Capture on iOS": {
+      "title": "Requesting Authorization for Media Capture on iOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_ios",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_ios"
+    },
+    "Tracking Photo Capture Progress": {
+      "title": "Tracking Photo Capture Progress",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/capturing_still_and_live_photos/tracking_photo_capture_progress",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/capturing_still_and_live_photos/tracking_photo_capture_progress"
+    },
+    "Capturing Still and Live Photos": {
+      "title": "Capturing Still and Live Photos",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/capturing_still_and_live_photos",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/capturing_still_and_live_photos"
+    },
+    "Capturing Photos with Depth": {
+      "title": "Capturing Photos with Depth",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/capturing_photos_with_depth",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/capturing_photos_with_depth"
+    },
+    "Delivering an Enhanced Privacy Experience in Your Photos App": {
+      "title": "Delivering an Enhanced Privacy Experience in Your Photos App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/photokit/delivering_an_enhanced_privacy_experience_in_your_photos_app",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/photokit/delivering_an_enhanced_privacy_experience_in_your_photos_app"
+    },
+    "Accessing the Camera While Multitasking": {
+      "title": "Accessing the Camera While Multitasking",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/accessing_the_camera_while_multitasking",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/accessing_the_camera_while_multitasking",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Operate the camera in Split View, Slide Over, or Picture in Picture mode."
+        }
+      ]
+    }
+  }
+}

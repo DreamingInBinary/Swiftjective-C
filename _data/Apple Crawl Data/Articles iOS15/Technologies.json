@@ -1,0 +1,172 @@
+{
+  "articles": {
+    "simd": {
+      "url": "/documentation/accelerate/simd",
+      "type": "topic",
+      "kind": "article",
+      "role": "article",
+      "title": "simd",
+      "identifier": "doc://com.apple.documentation/documentation/accelerate/simd",
+      "abstract": [
+        {
+          "text": "Perform computations on small vectors and matrices.",
+          "type": "text"
+        }
+      ]
+    },
+    "watchOS Release Notes": {
+      "title": "watchOS Release Notes",
+      "url": "/documentation/watchos-release-notes",
+      "role": "article",
+      "identifier": "doc://com.apple.documentation/documentation/watchos-release-notes",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about changes to the watchOS SDK."
+        }
+      ],
+      "kind": "article"
+    },
+    "tvOS Release Notes": {
+      "identifier": "doc://com.apple.documentation/documentation/tvos-release-notes",
+      "title": "tvOS Release Notes",
+      "type": "topic",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about changes to the tvOS SDK."
+        }
+      ],
+      "url": "/documentation/tvos-release-notes",
+      "kind": "article"
+    },
+    "Xcode Release Notes": {
+      "role": "article",
+      "identifier": "doc://com.apple.documentation/documentation/xcode-release-notes",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about changes to Xcode."
+        }
+      ],
+      "url": "/documentation/Xcode-Release-Notes",
+      "title": "Xcode Release Notes",
+      "kind": "article",
+      "type": "topic"
+    },
+    "TVML": {
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/tvml",
+      "title": "TVML",
+      "role": "article",
+      "abstract": [
+        {
+          "text": "Use Apple TV Markup Language to create individual pages inside of a client-server app.",
+          "type": "text"
+        }
+      ],
+      "kind": "article",
+      "url": "/documentation/TVML"
+    },
+    "iOS & iPadOS Release Notes": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about changes to the iOS & iPadOS SDK."
+        }
+      ],
+      "kind": "article",
+      "role": "article",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/ios-ipados-release-notes",
+      "url": "/documentation/ios-ipados-release-notes",
+      "title": "iOS & iPadOS Release Notes"
+    },
+    "Mac Catalyst": {
+      "type": "topic",
+      "kind": "article",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/mac_catalyst",
+      "url": "/documentation/uikit/mac_catalyst",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a version of your iPad app that users can run on a Mac device."
+        }
+      ],
+      "title": "Mac Catalyst",
+      "role": "article"
+    },
+    "Xcode": {
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Build, test, and submit your app with Apple’s integrated development environment."
+        }
+      ],
+      "type": "topic",
+      "role": "article",
+      "kind": "article",
+      "title": "Xcode",
+      "identifier": "doc://com.apple.documentation/documentation/xcode",
+      "url": "/documentation/Xcode"
+    },
+    "macOS Release Notes": {
+      "identifier": "doc://com.apple.documentation/documentation/macos-release-notes",
+      "title": "macOS Release Notes",
+      "url": "/documentation/macos-release-notes",
+      "type": "topic",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn about changes to the macOS SDK."
+        }
+      ],
+      "kind": "article",
+      "role": "article"
+    },
+    "Safari Release Notes": {
+      "title": "Safari Release Notes",
+      "role": "article",
+      "abstract": [
+        {
+          "text": "Learn about changes for Safari for iOS and macOS, Web Inspector, WebKit view for iOS and macOS, and Safari view for iOS.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://com.apple.documentation/documentation/safari-release-notes",
+      "kind": "article",
+      "url": "/documentation/safari-release-notes",
+      "type": "topic"
+    },
+    "Apple Silicon": {
+      "identifier": "doc://com.apple.documentation/documentation/apple-silicon",
+      "kind": "article",
+      "title": "Apple Silicon",
+      "type": "topic",
+      "url": "/documentation/apple-silicon",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Get the resources you need to create software for Macs with Apple silicon."
+        }
+      ],
+      "role": "article"
+    },
+    "Xcode Cloud": {
+      "identifier": "doc://com.apple.documentation/documentation/xcode/xcode-cloud",
+      "kind": "article",
+      "title": "Xcode Cloud",
+      "type": "topic",
+      "url": "/documentation/Xcode/Xcode-Cloud",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Automatically build, test, and distribute your apps with Xcode Cloud to verify changes and create high-quality apps."
+        }
+      ],
+      "role": "article"
+    }
+  }
+}

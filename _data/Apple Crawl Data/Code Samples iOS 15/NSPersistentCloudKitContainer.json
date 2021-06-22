@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Synchronizing a Local Store to the Cloud": {
+      "title": "Synchronizing a Local Store to the Cloud",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/synchronizing_a_local_store_to_the_cloud",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/coredata/synchronizing_a_local_store_to_the_cloud",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share data between a user’s devices and other iCloud users."
+        }
+      ]
+    }
+  }
+}

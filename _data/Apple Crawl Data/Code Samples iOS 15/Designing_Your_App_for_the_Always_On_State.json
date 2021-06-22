@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Developing a User Interface with SwiftUI": {
+      "title": "Developing a User Interface with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/developing_a_user_interface_with_swiftui",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/developing_a_user_interface_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Use common SwiftUI elements and watch-specific features in a comprehensive sample app."
+        }
+      ]
+    },
+    "Implementing Proximity-Based Interactions Between Devices": {
+      "title": "Implementing Proximity-Based Interactions Between Devices",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/implementing_proximity-based_interactions_between_devices",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/implementing_proximity-based_interactions_between_devices",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Learn how to interact with a nearby device by measuring the distance between a watch and a paired iPhone."
+        }
+      ]
+    }
+  }
+}

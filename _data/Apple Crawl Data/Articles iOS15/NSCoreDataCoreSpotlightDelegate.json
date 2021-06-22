@@ -1,0 +1,12 @@
+{
+  "articles": {
+    "Consuming Relevant Store Changes": {
+      "title": "Consuming Relevant Store Changes",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/coredata/consuming_relevant_store_changes",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/coredata/consuming_relevant_store_changes"
+    }
+  }
+}

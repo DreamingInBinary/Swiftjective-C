@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Adding Recurring Leaderboards to Your Game": {
+      "title": "Adding Recurring Leaderboards to Your Game",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/gamekit/adding_recurring_leaderboards_to_your_game",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/gamekit/adding_recurring_leaderboards_to_your_game",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Encourage competition in your games by adding leaderboards that have a duration and repeat."
+        }
+      ]
+    }
+  }
+}

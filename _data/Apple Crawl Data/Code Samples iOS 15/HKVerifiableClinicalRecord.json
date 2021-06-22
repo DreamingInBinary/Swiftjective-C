@@ -1,0 +1,32 @@
+{
+  "code": {
+    "Accessing a User’s Clinical Records": {
+      "title": "Accessing a User’s Clinical Records",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_a_user_s_clinical_records",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/healthkit/samples/accessing_a_user_s_clinical_records",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Request authorization to query HealthKit for a user’s clinical records and display them in your app."
+        }
+      ]
+    },
+    "Accessing Data from a SMART Health Card": {
+      "title": "Accessing Data from a SMART Health Card",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/healthkit/samples/accessing_data_from_a_smart_health_card",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/healthkit/samples/accessing_data_from_a_smart_health_card",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Query for and validate a verifiable clinical record."
+        }
+      ]
+    }
+  }
+}

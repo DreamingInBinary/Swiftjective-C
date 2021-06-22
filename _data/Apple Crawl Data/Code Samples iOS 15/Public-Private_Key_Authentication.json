@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Connecting to a Service with Passkeys": {
+      "title": "Connecting to a Service with Passkeys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/authenticationservices/connecting_to_a_service_with_passkeys",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/authenticationservices/connecting_to_a_service_with_passkeys",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Allow users to sign in to a service without typing a password."
+        }
+      ]
+    }
+  }
+}

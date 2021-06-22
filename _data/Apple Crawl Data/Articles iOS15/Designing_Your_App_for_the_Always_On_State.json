@@ -1,0 +1,88 @@
+{
+  "articles": {
+    "Updating watchOS Apps with Timelines": {
+      "title": "Updating watchOS Apps with Timelines",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/updating_watchos_apps_with_timelines",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/updating_watchos_apps_with_timelines",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Seamlessly schedule updates to your user interface, even while it’s inactive."
+        }
+      ]
+    },
+    "Creating Independent watchOS Apps": {
+      "title": "Creating Independent watchOS Apps",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/creating_independent_watchos_apps",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/creating_independent_watchos_apps",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set up a watchOS app that installs and runs without an iOS companion app."
+        }
+      ]
+    },
+    "Keeping Your watchOS Content Up to Date": {
+      "title": "Keeping Your watchOS Content Up to Date",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/keeping_your_watchos_content_up_to_date",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/keeping_your_watchos_content_up_to_date",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Ensure that your watchOS content is relevant and up to date."
+        }
+      ]
+    },
+    "Designing Your App for the Always On State": {
+      "title": "Designing Your App for the Always On State",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/designing_your_app_for_the_always_on_state",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/designing_your_app_for_the_always_on_state",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Customize your watchOS app’s user interface for continuous display."
+        }
+      ]
+    },
+    "Authenticating Users on Apple Watch": {
+      "title": "Authenticating Users on Apple Watch",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/authenticating_users_on_apple_watch",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/authenticating_users_on_apple_watch",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create an account sign-up and sign-in strategy for Apple Watch."
+        }
+      ]
+    },
+    "Setting the App’s Tint Color": {
+      "title": "Setting the App’s Tint Color",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/setting_the_app_s_tint_color",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/watchkit/setting_the_app_s_tint_color",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Set your app’s tint color using the storyboard’s Global Tint property."
+        }
+      ]
+    }
+  }
+}

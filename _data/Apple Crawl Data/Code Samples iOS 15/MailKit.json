@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Build Mail App Extensions": {
+      "title": "Build Mail App Extensions",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/mailkit/build_mail_app_extensions",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/mailkit/build_mail_app_extensions",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create app extensions that block content, perform message and composing actions, and help message security."
+        }
+      ]
+    }
+  }
+}

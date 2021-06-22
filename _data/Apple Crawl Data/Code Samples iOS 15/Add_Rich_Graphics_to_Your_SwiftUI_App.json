@@ -1,0 +1,46 @@
+{
+  "code": {
+    "Add Rich Graphics to Your SwiftUI App": {
+      "title": "Add Rich Graphics to Your SwiftUI App",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/add_rich_graphics_to_your_swiftui_app",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swiftui/add_rich_graphics_to_your_swiftui_app",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Make your apps stand out by adding background materials, vibrancy, custom graphics, and animations."
+        }
+      ]
+    },
+    "Fruta: Building a Feature-Rich App with SwiftUI": {
+      "title": "Fruta: Building a Feature-Rich App with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swiftui/fruta_building_a_feature-rich_app_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a shared codebase to build a multiplatform app that offers widgets and an App Clip."
+        }
+      ]
+    },
+    "Building a Document-Based App with SwiftUI": {
+      "title": "Building a Document-Based App with SwiftUI",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/swiftui/building_a_document-based_app_with_swiftui",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/swiftui/building_a_document-based_app_with_swiftui",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create, save, and open documents in a SwiftUI multiplatform app."
+        }
+      ]
+    }
+  }
+}

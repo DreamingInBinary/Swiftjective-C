@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Enabling App Store Server Notifications": {
+      "title": "Enabling App Store Server Notifications",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreservernotifications/enabling_app_store_server_notifications",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreservernotifications/enabling_app_store_server_notifications",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Configure your server and provide a URL to receive App Store server notifications about changes in users' subscription status and in-app purchase refunds."
+        }
+      ]
+    }
+  }
+}

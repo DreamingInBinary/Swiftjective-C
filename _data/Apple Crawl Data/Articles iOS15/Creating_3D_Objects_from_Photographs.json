@@ -1,0 +1,32 @@
+{
+  "articles": {
+    "Capturing Photographs for RealityKit Object Capture": {
+      "title": "Capturing Photographs for RealityKit Object Capture",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/capturing_photographs_for_realitykit_object_capture",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/capturing_photographs_for_realitykit_object_capture",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Take high-quality images of objects to generate 3D models. "
+        }
+      ]
+    },
+    "Creating 3D Objects from Photographs": {
+      "title": "Creating 3D Objects from Photographs",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/realitykit/creating_3d_objects_from_photographs",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/realitykit/creating_3d_objects_from_photographs",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Construct virtual objects to use in your AR experiences. "
+        }
+      ]
+    }
+  }
+}

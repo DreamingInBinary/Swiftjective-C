@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Supporting Coordinated Media Playback": {
+      "title": "Supporting Coordinated Media Playback",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/media_playback_and_selection/supporting_coordinated_media_playback",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avfoundation/media_playback_and_selection/supporting_coordinated_media_playback",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create synchronized media experiences that enable users to watch and listen across devices."
+        }
+      ]
+    }
+  }
+}

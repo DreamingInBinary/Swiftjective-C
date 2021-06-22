@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Creating an Audio Device Driver": {
+      "title": "Creating an Audio Device Driver",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/audiodriverkit/creating_an_audio_device_driver",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/audiodriverkit/creating_an_audio_device_driver",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create a configurable audio input source as a driver extension that runs in user space."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "articles": {
+    "Documenting a Swift Framework or Package": {
+      "identifier": "doc://com.apple.documentation/xcode/documenting-a-swift-framework-or-package",
+      "kind": "article",
+      "type": "topic",
+      "role": "article",
+      "url": "/documentation/Xcode/documenting-a-swift-framework-or-package",
+      "title": "Documenting a Swift Framework or Package",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create rich and engaging documentation from your in-source comments, and add a documentation catalog to your project to provide additional content."
+        }
+      ]
+    },
+    "Distributing Documentation to External Developers": {
+      "role": "article",
+      "kind": "article",
+      "type": "topic",
+      "url": "/documentation/Xcode/distributing-documentation-to-external-developers",
+      "identifier": "doc://com.apple.documentation/xcode/distributing-documentation-to-external-developers",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Share your documentation directly with Xcode users or host it on a web server."
+        }
+      ],
+      "title": "Distributing Documentation to External Developers"
+    },
+    "Formatting Your Documentation Content": {
+      "title": "Formatting Your Documentation Content",
+      "url": "/documentation/Xcode/formatting-your-documentation-content",
+      "identifier": "doc://com.apple.documentation/xcode/formatting-your-documentation-content",
+      "kind": "article",
+      "abstract": [
+        {
+          "text": "Enhance your content’s presentation with special formatting and styling for text, links, and other page elements.",
+          "type": "text"
+        }
+      ],
+      "type": "topic",
+      "role": "article"
+    },
+    "Adding Supplemental Content to a Documentation Catalog": {
+      "title": "Adding Supplemental Content to a Documentation Catalog",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Include articles and extension files to extend your source documentation comments or provide supporting conceptual content."
+        }
+      ],
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/Xcode/adding-supplemental-content-to-a-documentation-catalog",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/xcode/adding-supplemental-content-to-a-documentation-catalog"
+    },
+    "Writing Symbol Documentation in Your Source Files": {
+      "kind": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Add reference documentation to your symbols that explains how to use them.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://com.apple.documentation/xcode/writing-symbol-documentation-in-your-source-files",
+      "role": "article",
+      "url": "/documentation/Xcode/writing-symbol-documentation-in-your-source-files",
+      "title": "Writing Symbol Documentation in Your Source Files"
+    },
+    "Adding Structure to Your Documentation Pages": {
+      "kind": "article",
+      "type": "topic",
+      "abstract": [
+        {
+          "text": "Arrange symbols into groups and collections that make them easy to find.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://com.apple.documentation/xcode/adding-structure-to-your-documentation-pages",
+      "role": "article",
+      "url": "/documentation/Xcode/adding-structure-to-your-documentation-pages",
+      "title": "Adding Structure to Your Documentation Pages"
+    },
+    "Building an Interactive Tutorial": {
+      "url": "/documentation/docc/building-an-interactive-tutorial",
+      "type": "topic",
+      "role": "article",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Construct a step-by-step guided learning experience for your Swift framework or package."
+        }
+      ],
+      "title": "Building an Interactive Tutorial",
+      "identifier": "doc://com.swift.docc/documentation/DocC/building-an-interactive-tutorial",
+      "kind": "article"
+    }
+  }
+}

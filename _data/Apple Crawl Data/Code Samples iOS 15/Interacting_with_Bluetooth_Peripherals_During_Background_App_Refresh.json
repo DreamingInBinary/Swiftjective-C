@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Interacting with Bluetooth Peripherals During Background App Refresh": {
+      "title": "Interacting with Bluetooth Peripherals During Background App Refresh",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/watchkit/interacting_with_bluetooth_peripherals_during_background_app_refresh",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/watchkit/interacting_with_bluetooth_peripherals_during_background_app_refresh",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Keep your complications up-to-date by reading values from a Bluetooth peripheral while your app is running in the background."
+        }
+      ]
+    }
+  }
+}

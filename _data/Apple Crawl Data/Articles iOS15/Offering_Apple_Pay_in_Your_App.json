@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Setting Up Apple Pay Requirements": {
+      "title": "Setting Up Apple Pay Requirements",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/passkit/apple_pay/setting_up_apple_pay_requirements",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/passkit/apple_pay/setting_up_apple_pay_requirements",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Complete the requirements needed to use Apple Pay in your apps."
+        }
+      ]
+    }
+  }
+}

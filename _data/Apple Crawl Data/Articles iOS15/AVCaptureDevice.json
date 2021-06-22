@@ -1,0 +1,18 @@
+{
+  "articles": {
+    "Choosing a Capture Device": {
+      "title": "Choosing a Capture Device",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avfoundation/cameras_and_media_capture/choosing_a_capture_device",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/avfoundation/cameras_and_media_capture/choosing_a_capture_device",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Select the front or back camera, or use advanced features like the TrueDepth camera or dual camera."
+        }
+      ]
+    }
+  }
+}

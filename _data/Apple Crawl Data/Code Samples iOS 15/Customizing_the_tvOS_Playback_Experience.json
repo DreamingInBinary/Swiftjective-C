@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Working with Overlays and Parental Controls in tvOS": {
+      "title": "Working with Overlays and Parental Controls in tvOS",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/avkit/working_with_overlays_and_parental_controls_in_tvos",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/avkit/working_with_overlays_and_parental_controls_in_tvos",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Add interactive overlays, parental controls, and livestream channel flipping using a player view controller."
+        }
+      ]
+    }
+  }
+}

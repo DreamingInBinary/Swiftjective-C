@@ -1,0 +1,40 @@
+{
+  "articles": {
+    "Creating API Keys to Use With the App Store Server API": {
+      "title": "Creating API Keys to Use With the App Store Server API",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreserverapi/creating_api_keys_to_use_with_the_app_store_server_api",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreserverapi/creating_api_keys_to_use_with_the_app_store_server_api",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create API keys you use to sign JSON Web Tokens and authorize API requests."
+        }
+      ]
+    },
+    "Generating Tokens for API Requests": {
+      "title": "Generating Tokens for API Requests",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreserverapi/generating_tokens_for_api_requests",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreserverapi/generating_tokens_for_api_requests",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Create JSON Web Tokens signed with your private key to authorize App Store Server API requests."
+        }
+      ]
+    },
+    "Revoking API Keys": {
+      "title": "Revoking API Keys",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/appstoreconnectapi/revoking_api_keys",
+      "kind": "article",
+      "role": "article",
+      "url": "/documentation/appstoreconnectapi/revoking_api_keys"
+    }
+  }
+}

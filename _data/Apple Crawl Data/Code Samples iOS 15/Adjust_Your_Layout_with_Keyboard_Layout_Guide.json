@@ -1,0 +1,18 @@
+{
+  "code": {
+    "Adjust Your Layout with Keyboard Layout Guide": {
+      "title": "Adjust Your Layout with Keyboard Layout Guide",
+      "type": "topic",
+      "identifier": "doc://com.apple.documentation/documentation/uikit/keyboards_and_input/adjust_your_layout_with_keyboard_layout_guide",
+      "kind": "article",
+      "role": "sampleCode",
+      "url": "/documentation/uikit/keyboards_and_input/adjust_your_layout_with_keyboard_layout_guide",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "Dynamically respond to keyboard movement by using the tracking features of the keyboard layout guide."
+        }
+      ]
+    }
+  }
+}
