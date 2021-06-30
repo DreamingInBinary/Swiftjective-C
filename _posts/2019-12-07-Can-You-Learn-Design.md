@@ -123,7 +123,7 @@ If you've got a mission statement, you can hunt down a persona for the app. Pers
 
 Developing a persona for your app is simply the process of mapping who your user might be. And if you know who your use might be, you can surmise all sorts of important things:
 
-**1)** What do you they value? <br />
+**1)** What do they value? <br />
 **2)** Where do they hang out, and what do they do? <br />
 **3)** Most importantly, does my mission statement solve problems that they currently have? <br />
 
