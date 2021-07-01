@@ -143,7 +143,9 @@ However, I’d invite you not to be intimidated by this approach. Apple supplied
 When you assign to the `accessibilityCustomRotors` - make sure you do it as the right place. Any `UIView` can have these custom rotors, so when you assign some to any particular view, those are activated and used when that particular view is in focus.
 
 If you need it makes sense to aggregate several rotors into one view’s rotor array, you certainly can:
+```swift
 self.view.acceessibilityCustomRotors = [view1.accessibilityCustomRotors, view2.accessibilityCustomRotors, view3.accessibilityCustomRotors].flatMap { $0 }
+```
 
 ##### Using the Correct Traits and System Types
 The rotor, in a sense, identifies where to go next categorically. For example, in most interfaces when the rotor is activated you’ll likely see “Heading” as an option. As I pointed out above in “How it Works”, that means you need heading level elements to have that accessibility trait so it’ll be exposed to the rotor control.
