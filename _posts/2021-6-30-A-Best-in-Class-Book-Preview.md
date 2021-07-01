@@ -262,7 +262,6 @@ textView.text.count), options: []) { valueAttribute, matchedRange, stop in
 If you find yourself making a custom rotor, assigning to an object’s custom rotor property and it _doesn’t_ show up it’s likely because the item you're returning isn’t an accessible item by default. 
 
 If this happens, be sure to check that the object has `isAccessibilityItem` set as `true` and that the accessibility traits it has lend itself to navigational purposes. For example, `.staticText` isn’t a navigational item so it wouldn’t do anything for a rotor. Always remember - the rotor is there to make navigation snappy. As such, it stands to reason that the items we vend to it help accomplish that goal.
----- 
 
 #### Three Key Takeaways
 1. The Rotor Control helps VoiceOver users navigate their device efficiently.
