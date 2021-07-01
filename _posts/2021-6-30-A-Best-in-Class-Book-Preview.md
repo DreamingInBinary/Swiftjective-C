@@ -19,11 +19,16 @@ The rotor control helps make navigation quicker. That’s what it does at its ve
 {% include lazyLoadImage.html image="../assets/images/bicp1.png" altText="Rotor Control example." %}
 Visually, we get the benefit of context fairly quickly. We can pick out a few main headings, reason about content sections and generally get a feel for how we want to navigate the view. For example, we may not be interested in the top “Next Five Days” section since we intended to revisit the “Last Five Days” section right away.
 We can do that because we can see it. And when we can see it, we reason about where we want to go. In this case, we’ve seen that there are two main categories here, and based off of that - we chose to “navigate” to the second one.
+
 The Rotor Control can give VoiceOver users that same affordance. One of its many benefits is that it can tell VoiceOver to only navigate by, or to, certain elements (such as headers). In our example above, that would allow VoiceOver users to navigate with the same efficiency as users who aren’t visually impaired might.
 {% include lazyLoadImage.html image="../assets/images/bicp2.png" altText="Rotor Control example." %}
+
 The Rotor Control has several ways to help with navigation. In fact, its capabilities shift with the context. There are options to change the speaking rate of VoiceOver, move to only misspelled words in text, change input methods and more.
+
 So, how do developers fit into the Rotor Control? Primarily, two ways. 
+
 **First**, we can create our own rotors to hand off to the system’s Rotor Control to make custom categorical navigation possible for VoiceOver users. This is what we focus on in this chapter. If you find yourself in a situation where you’ve got an interface that would make sense to navigate to categorically, and the system’s default rotors don’t cover it - then you’ve found a great opportunity to supply your own custom rotor to fill that gap.
+
 **Secondly**, we can make sure we’re using the correct `accessibilityTraits` in our apps to make sure the system provided rotor controls behave as users expect. If we’ve built a custom header-like element but we haven’t indicated to the system that _it is_ a header-like element, then we’re essentially taking away functionality from VoiceOver users.
 
 ### How it Works
@@ -42,8 +47,10 @@ To vend that information, you’ll be dealing with three classes and one type al
 4. `public typealias Search = (UIAccessibilityCustomRotorSearchPredicate) -> UIAccessibilityCustomRotorItemResult?`
 
 The **rotor** houses all of the information. The **result** is returned by us to let the active rotor know _which_ element to go to next. The **search predicate** exposes what element is focused and which direction the user is navigating (in Rotor Control terms, either up (`.previous`) or down (`.next`). Finally, the **search closure** gives you the last active predicate while returning the next rotor item. 
+
 Let’s look at an end-to-end example. Consider a row that has four square views in it, and that a view controller is showing three of these rows. Each row has a different color, and each square within the row has a `.button` accessibility trait and the user can swipe through each one. 
 {% include lazyLoadImage.html image="../assets/images/bicp3.png" altText="Rotor Control example." %}
+
 Without doing anything, if they want to see the colors in the last row, they’d have to swipe towards it several times to get there.
 
 With a custom rotor, we could simplify things two ways:
@@ -135,6 +142,7 @@ private func versionReleaseRotor() -> UIAccessibilityCustomRotor {
 }
 ```
 Notice that the logic and flow is extremely similar, but now we’re dealing with where in _text_ the rotor should go along with the text control that contains it instead of in terms of a simple object(fn). This implementation requires a bit more tact that the one above, so if you can reconfigure your view setup to support the previous way of supporting a rotor control - by all means, do so. 
+
 However, I’d invite you not to be intimidated by this approach. Apple supplied it for a reason, and it’s built specifically for text-based navigation. It’s mostly a matter of translating a range of text into one  `UITextPostition` object, so be sure to comb through the sample code to get a feel for it.
 
 ### Tips
