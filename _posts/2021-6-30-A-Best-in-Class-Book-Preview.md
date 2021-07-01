@@ -230,9 +230,11 @@ case .previous:
 
 ##### Custom Attributed String Keys
 Since rotor results can be used in tandem with one or more text views you’ll be dealing with ranges of matched text quite often. Working with a text range is tricky enough, but you can make your life a bit easier in those situations by extending the attributed string API’s key type:
+```swift
 extension NSAttributedString.Key {
     static let versionHeader = NSAttributedString.Key.init("versionHeader")
 }
+```
 
 Why do this? You can tack that key into your attributed text to later find its range in a trivial fashion when you’re creating custom rotors dealing with text:
 
