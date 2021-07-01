@@ -14,7 +14,7 @@ All fair questions, so today I thought I'd include a sample chapter right here i
 
 <hr />
 
-##The Rotor Control
+## The Rotor Control
 The rotor control helps make navigation quicker. That’s what it does at its very core. Consider the user interface below:
 {% include lazyLoadImage.html image="../assets/images/bicp1.png" altText="Rotor Control example." %}
 Visually, we get the benefit of context fairly quickly. We can pick out a few main headings, reason about content sections and generally get a feel for how we want to navigate the view. For example, we may not be interested in the top “Next Five Days” section since we intended to revisit the “Last Five Days” section right away.
@@ -26,7 +26,7 @@ So, how do developers fit into the Rotor Control? Primarily, two ways.
 **First**, we can create our own rotors to hand off to the system’s Rotor Control to make custom categorical navigation possible for VoiceOver users. This is what we focus on in this chapter. If you find yourself in a situation where you’ve got an interface that would make sense to navigate to categorically, and the system’s default rotors don’t cover it - then you’ve found a great opportunity to supply your own custom rotor to fill that gap.
 **Secondly**, we can make sure we’re using the correct `accessibilityTraits` in our apps to make sure the system provided rotor controls behave as users expect. If we’ve built a custom header-like element but we haven’t indicated to the system that _it is_ a header-like element, then we’re essentially taking away functionality from VoiceOver users.
 
-###How it Works
+### How it Works
 Any `NSObject` has a custom rotors property we can assign to:
 open var accessibilityCustomRotors:[UIAccessibilityCustomRotor]?
 When we assign to it, those rotors become available to VoiceOver. Each rotor needs to know a few things:
@@ -137,15 +137,15 @@ private func versionReleaseRotor() -> UIAccessibilityCustomRotor {
 Notice that the logic and flow is extremely similar, but now we’re dealing with where in _text_ the rotor should go along with the text control that contains it instead of in terms of a simple object(fn). This implementation requires a bit more tact that the one above, so if you can reconfigure your view setup to support the previous way of supporting a rotor control - by all means, do so. 
 However, I’d invite you not to be intimidated by this approach. Apple supplied it for a reason, and it’s built specifically for text-based navigation. It’s mostly a matter of translating a range of text into one  `UITextPostition` object, so be sure to comb through the sample code to get a feel for it.
 
-###Tips
+### Tips
 
-#####Know Where to Assign Rotors
+##### Know Where to Assign Rotors
 When you assign to the `accessibilityCustomRotors` - make sure you do it as the right place. Any `UIView` can have these custom rotors, so when you assign some to any particular view, those are activated and used when that particular view is in focus.
 
 If you need it makes sense to aggregate several rotors into one view’s rotor array, you certainly can:
 self.view.acceessibilityCustomRotors = [view1.accessibilityCustomRotors, view2.accessibilityCustomRotors, view3.accessibilityCustomRotors].flatMap { $0 }
 
-#####Using the Correct Traits and System Types
+##### Using the Correct Traits and System Types
 The rotor, in a sense, identifies where to go next categorically. For example, in most interfaces when the rotor is activated you’ll likely see “Heading” as an option. As I pointed out above in “How it Works”, that means you need heading level elements to have that accessibility trait so it’ll be exposed to the rotor control.
 
 Conceptually, thinking in header level elements is quite trivial. But consider all of the other types of rotors available:
@@ -203,14 +203,14 @@ private func imageRotor() -> UIAccessibilityCustomRotor {
 ```
 And now, activating the rotor control will show an “Images” option that will cycle through just the images within the interface. Notice that the initializer for the custom rotor takes in the `SystemRotorType` instead of a string, and we passed in `.image`.
 
-#####Returning Results
+##### Returning Results
 Since we leverage `UIAccessibilityCustomRotorItemResult` to return the next item to select a rotor, it helps to know all of the ways you can package them up to the system. There are really only two simple responsibilities to remember:
 
 1. You’ll _always_ return an item, or put differently - an object that the accessibility engine can select. If your logic dictates that you don’t have one, then you’d return nil from the rotor and not deliver a `UIAccessibilityCustomRotorItemResult` instance. Recall that the block you use to build a custom rotor asks you to return a nullable instance of that class - so indicating that you don’t have one is fine and in many cases the right call. It indicates to VoiceOver users that they’ve reached some sort of beginning or end.
 2. Once you’ve got an object, you can also return a text range if you’re dealing with text.
 That’s really all VoiceOver needs from your custom rotor to navigate. On the other hand, you’ll also receive one of these objects from the search predicate (more on that directly below) when constructing custom rotors. This proves useful as you’ll be able to inspect the last focused item or text range to help you vend the next accessible item to that the rotor should navigate to.
 
-#####Search Predicates
+##### Search Predicates
 Leveraging the search predicate appears intimidating at first, but I’ve found it helps to rename it in your head to something like “Previous Rotor Item” since that’s what it often represents. Hearing the word predicate may have you draw comparisons to `NSPredicate` which isn’t accurate in this case. This is simply an object with some useful information to help you decide what to do next.
 
 You’ll typically use two critical pieces of information from the predicate:
@@ -228,7 +228,7 @@ case .previous:
 }
 ```
 
-#####Custom Attributed String Keys
+##### Custom Attributed String Keys
 Since rotor results can be used in tandem with one or more text views you’ll be dealing with ranges of matched text quite often. Working with a text range is tricky enough, but you can make your life a bit easier in those situations by extending the attributed string API’s key type:
 extension NSAttributedString.Key {
     static let versionHeader = NSAttributedString.Key.init("versionHeader")
@@ -256,13 +256,13 @@ textView.text.count), options: []) { valueAttribute, matchedRange, stop in
 }
 ```
 
-#####Avoiding Dead Rotors
+##### Avoiding Dead Rotors
 If you find yourself making a custom rotor, assigning to an object’s custom rotor property and it _doesn’t _ show up it’s likely because the item you're returning isn’t an accessible item by default. 
 
 If this happens, be sure to check that the object has `isAccessibilityItem` set as `true` and that the accessibility traits it has lend itself to navigational purposes. For example, `.staticText` isn’t a navigational item so it wouldn’t do anything for a rotor. Always remember - the rotor is there to make navigation snappy. As such, it stands to reason that the items we vend to it help accomplish that goal.
 ---- 
 
-####Three Key Takeaways
+#### Three Key Takeaways
 1. The Rotor Control helps VoiceOver users navigate their device efficiently.
 2. We can extend the system rotor controls and provide our own.
 3. Be sure to use the correct accessibility traits to ensure your existing interface works great with the system-provided rotors.
