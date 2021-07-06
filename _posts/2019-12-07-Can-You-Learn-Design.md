@@ -121,7 +121,7 @@ It's helped me cut features, know when to add features and so much more. You sim
 ### Lesson 3: Who's It For? {#wif}
 If you've got a mission statement, you can hunt down a persona for the app. Personas are awesome. Straight up. I'll be the first to admit I found them a bit cheesy, only suitable for corporate board room exercises. But I just didn't see their value, and now that I have it's hard to think about skipping out on them.
 
-Developing a persona for your app is simply the process of mapping who your user might be. And if you know who your use might be, you can surmise all sorts of important things:
+Developing a persona for your app is simply the process of mapping who your user might be. And if you know who your user might be, you can surmise all sorts of important things:
 
 **1)** What do they value? <br />
 **2)** Where do they hang out, and what do they do? <br />
